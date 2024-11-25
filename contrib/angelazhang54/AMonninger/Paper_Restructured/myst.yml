@@ -1,0 +1,14 @@
+version: 1
+site:
+  template: article-theme
+  title: Adrian Monninger - Research Paper
+  subtitle: This is just a template
+  short_title: template
+  authors:
+    - name: Adrian Monninger
+project:
+  title: Research Paper
+  authors:
+    - name: Adrian Monninger
+  bibliography:
+    - references.bib

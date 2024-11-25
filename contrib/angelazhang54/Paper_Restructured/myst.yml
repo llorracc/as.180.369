@@ -1,0 +1,13 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+site:
+  template: article-theme
+  title: Angela Zhang - Research Paper
+  authors:
+    - name: Angela Zhang
+project:
+  title: Research Paper
+  authors:
+    - name: Angela Zhang
+  bibliography:
+    - references.bib

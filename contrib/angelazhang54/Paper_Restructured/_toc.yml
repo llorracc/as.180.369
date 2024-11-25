@@ -1,0 +1,11 @@
+format: jb-book
+root: 00_paper_root
+parts:
+  - caption: Content
+    chapters:
+      - file: Paper_angelazhang54
+      - file: method
+      - file: analysis
+      - file: results
+      - file: conclusion
+ 

@@ -1,0 +1,196 @@
+🌎 Building MyST site
+BASE_URL environment overwrite is set
+Building the site with a baseurl of "/dockervm22/eb66eb67-9af1-11ef-8c58-5254001d4703/proxy/3000"
+📖 Built Paper_angelazhang54.ipynb in 1.01 s.
+📖 Built method.ipynb in 1.01 s.
+📖 Built results.ipynb in 1.1 s.
+📖 Built conclusion.ipynb in 1.1 s.
+📖 Built analysis.ipynb in 1.11 s.
+📖 Built 00_paper_root.md in 2.31 s.
+📚 Built 6 pages for project in 2.73 s.
+
+
+	✨✨✨  Starting Article Theme  ✨✨✨
+
+
+
+🔌 Server started on port 3001!  🥳 🎉
+
+
+	👉  http://localhost:3001  👈
+
+
+
+   ╭────────────────────────────────────────────╮
+   │                                            │
+   │    Update available! v1.3.16 ≫ v1.3.17     │
+   │                                            │
+   │   Run `pip install -U mystmd` to update.   │
+   │                                            │
+   │     Follow @MystMarkdown for updates!      │
+   │      https://twitter.com/MystMarkdown      │
+   │                                            │
+   ╰────────────────────────────────────────────╯
+
+💌 GET  /paper-angelazhang54 200 - - 317.475 ms
+GET /method 200 - - 321.705 ms
+💌 GET  /paper-root 200 - - 331.354 ms
+GET /analysis 200 - - 352.136 ms
+GET /paper-angelazhang54.json 200 - - 302.130 ms
+GET /conclusion 200 - - 367.534 ms
+💌 GET  /results 200 - - 392.749 ms
+GET /method.json 200 - - 322.705 ms
+GET /robots.txt 200 - - 4.563 ms
+GET /paper-root.json 200 - - 399.833 ms
+GET /analysis.json 200 - - 325.899 ms
+GET /results.json 200 - - 117.729 ms
+💌 GET  /conclusion.json 200 - - 181.400 ms
+GET /myst-theme.css 200 - - 122.678 ms
+💌 GET  /favicon.ico 200 - - 205.664 ms
+🌎 Building MyST site
+BASE_URL environment overwrite is set
+Building the site with a baseurl of "/dockervm22/eb66eb67-9af1-11ef-8c58-5254001d4703/proxy/3000"
+📖 Built Paper_angelazhang54.ipynb in 1.06 s.
+📖 Built method.ipynb in 1.06 s.
+📖 Built results.ipynb in 1.15 s.
+📖 Built conclusion.ipynb in 1.15 s.
+📖 Built analysis.ipynb in 1.16 s.
+📖 Built 00_paper_root.md in 2.3 s.
+📚 Built 6 pages for project in 2.75 s.
+
+
+	✨✨✨  Starting Article Theme  ✨✨✨
+
+
+
+🔌 Server started on port 3001!  🥳 🎉
+
+
+	👉  http://localhost:3001  👈
+
+
+
+   ╭────────────────────────────────────────────╮
+   │                                            │
+   │    Update available! v1.3.16 ≫ v1.3.17     │
+   │                                            │
+   │   Run `pip install -U mystmd` to update.   │
+   │                                            │
+   │     Follow @MystMarkdown for updates!      │
+   │      https://twitter.com/MystMarkdown      │
+   │                                            │
+   ╰────────────────────────────────────────────╯
+
+💌 GET  /paper-angelazhang54 200 - - 303.728 ms
+GET /method 200 - - 308.302 ms
+💌 GET  /paper-root 200 - - 319.042 ms
+GET /analysis 200 - - 335.757 ms
+GET /paper-angelazhang54.json 200 - - 286.204 ms
+GET /results 200 - - 359.496 ms
+GET /method.json 200 - - 294.959 ms
+💌 GET  /robots.txt 200 - - 3.464 ms
+GET /paper-root.json 200 - - 363.502 ms
+GET /analysis.json 200 - - 297.804 ms
+GET /conclusion 200 - - 396.169 ms
+GET /results.json 200 - - 107.945 ms
+💌 GET  /conclusion.json 200 - - 180.812 ms
+GET /myst-theme.css 200 - - 153.336 ms
+💌 GET  /favicon.ico 200 - - 249.358 ms
+🌎 Building MyST site
+BASE_URL environment overwrite is set
+Building the site with a baseurl of "/dockervm22/eb66eb67-9af1-11ef-8c58-5254001d4703/proxy/3000"
+📖 Built Paper_angelazhang54.ipynb in 1.02 s.
+📖 Built method.ipynb in 1.02 s.
+📖 Built results.ipynb in 1.12 s.
+📖 Built conclusion.ipynb in 1.12 s.
+📖 Built analysis.ipynb in 1.14 s.
+📖 Built 00_paper_root.md in 2.25 s.
+📚 Built 6 pages for project in 2.67 s.
+
+
+	✨✨✨  Starting Article Theme  ✨✨✨
+
+
+
+🔌 Server started on port 3001!  🥳 🎉
+
+
+	👉  http://localhost:3001  👈
+
+
+
+   ╭────────────────────────────────────────────╮
+   │                                            │
+   │    Update available! v1.3.16 ≫ v1.3.17     │
+   │                                            │
+   │   Run `pip install -U mystmd` to update.   │
+   │                                            │
+   │     Follow @MystMarkdown for updates!      │
+   │      https://twitter.com/MystMarkdown      │
+   │                                            │
+   ╰────────────────────────────────────────────╯
+
+💌 GET  /paper-angelazhang54 200 - - 316.071 ms
+GET /method 200 - - 321.844 ms
+GET /paper-root 200 - - 328.192 ms
+GET /analysis 200 - - 349.647 ms
+GET /method.json 200 - - 292.626 ms
+💌 GET  /robots.txt 200 - - 3.655 ms
+GET /conclusion 200 - - 359.685 ms
+GET /paper-root.json 200 - - 357.417 ms
+GET /analysis.json 200 - - 298.299 ms
+GET /results 200 - - 392.486 ms
+GET /paper-angelazhang54.json 200 - - 381.545 ms
+GET /results.json 200 - - 311.890 ms
+GET /conclusion.json 200 - - 110.841 ms
+💌 GET  /myst-theme.css 200 - - 122.721 ms
+💌 GET  /favicon.ico 200 - - 249.352 ms
+🌎 Building MyST site
+BASE_URL environment overwrite is set
+Building the site with a baseurl of "/dockervm22/eb66eb67-9af1-11ef-8c58-5254001d4703/proxy/3000"
+📖 Built Paper_angelazhang54.ipynb in 1.02 s.
+📖 Built method.ipynb in 1.02 s.
+📖 Built results.ipynb in 1.11 s.
+📖 Built conclusion.ipynb in 1.11 s.
+📖 Built analysis.ipynb in 1.13 s.
+📖 Built 00_paper_root.md in 2.46 s.
+📚 Built 6 pages for project in 2.91 s.
+
+
+	✨✨✨  Starting Article Theme  ✨✨✨
+
+
+
+🔌 Server started on port 3001!  🥳 🎉
+
+
+	👉  http://localhost:3001  👈
+
+
+
+   ╭────────────────────────────────────────────╮
+   │                                            │
+   │    Update available! v1.3.16 ≫ v1.3.17     │
+   │                                            │
+   │   Run `pip install -U mystmd` to update.   │
+   │                                            │
+   │     Follow @MystMarkdown for updates!      │
+   │      https://twitter.com/MystMarkdown      │
+   │                                            │
+   ╰────────────────────────────────────────────╯
+
+💌 GET  /paper-root.json 200 - - 110.321 ms
+GET /results.json 200 - - 60.210 ms
+GET /results 200 - - 225.823 ms
+GET /conclusion 200 - - 232.190 ms
+GET /robots.txt 200 - - 3.827 ms
+GET /analysis.json 200 - - 204.020 ms
+GET /paper-angelazhang54 200 - - 381.156 ms
+GET /method 200 - - 386.063 ms
+GET /analysis 200 - - 398.638 ms
+GET /paper-angelazhang54.json 200 - - 370.296 ms
+GET /myst-theme.css 200 - - 146.676 ms
+GET /paper-root 200 - - 413.170 ms
+GET /conclusion.json 200 - - 312.667 ms
+GET /method.json 200 - - 379.787 ms
+💌 GET  /favicon.ico 200 - - 189.787 ms
