@@ -1,0 +1,12 @@
+Returning to the research question: “How does the labor force participation rate from the 1976 until 2020 in the United States vary with political party governance" the results suggest that there is little evidence to support a strong or reliable relationship between political party governance and labor force participation rates. This was found to be the case when observing both national political party governance (through the president's party affiliation and state labor force participation rates) as well on the state level (through the governor's party affiliation and state labor force participation rates)
+
+While statistically insignificant the results indicated a slightly higher labor force participation rate during democratic leadership for both when the governor's party varied and when the president's party varied, but both were not significant. 
+
+The WLS regression results indicate a very weak relationship between the independent variable (party) and the dependent variable (labor force participation rate), with an R-squared value of 0.002, suggesting that only 0.2% of the variance in the dependent variable is explained by the model. The F-statistic of 3.544 and a p-value of 0.0599 indicate that the relationship is marginally significant at the 0.06 level, but it does not reach the conventional 0.05 threshold.
+
+The coefficient for the political party variable is -0.2979, implying that as the independent variable increases, the dependent variable decreases, but this effect is weak and not statistically significant. The constant term indicates that when the political party variable is zero, the expected value of the dependent variable is approximately 65.49.
+
+Overall, these results suggest that there is little evidence to support a strong or reliable relationship between the variables studied.
+
+I am writing an economics research paper. List out bullets of way I can improve the flow of this results section and its adherence to typical results sections:
+
