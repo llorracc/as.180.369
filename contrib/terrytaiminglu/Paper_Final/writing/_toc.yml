@@ -1,0 +1,2 @@
+format: jb-book
+root: literature  # This is your main document (literature.ipynb or literature.md)

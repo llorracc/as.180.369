@@ -1,0 +1,761 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Abstract &#8212; Literature Review</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'literature';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Literature Review</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Abstract
+                </a>
+            </li>
+        </ul>
+        
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/literature.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Abstract</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Abstract</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-leakage-in-llms">Privacy Leakage in LLMs</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-formulation">Problem Formulation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#method">Method</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-collection">1. Data Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">2. Data Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-leakage-evaluation">3. Privacy Leakage Evaluation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-preserving-techniques">4. Privacy-Preserving Techniques</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-on-llms">5. Impact on LLMs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#metrics">6. Metrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-setup">6. Experimental Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset">6.1 Dataset</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#token-generation-analysis">6.2 Token Generation Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-metrics">6.3 Measurement Metrics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#results">Results</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis">Analysis</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-privacy-leakage-distribution">Data Privacy Leakage Distribution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pii-type-distribution">1. PII Type Distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pii-occurrence-rate-per-document">2. PII Occurrence Rate per Document</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-analysis-of-person-entities">3. Detailed Analysis of “PERSON” Entities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-of-ip-address-entities">4. Analysis of “IP_ADDRESS” Entities</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effect-of-data-privacy-leakage-on-llms">Effect of Data Privacy Leakage on LLMs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#regression-analysis-and-statistical-significance">1.Regression Analysis and Statistical Significance</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-of-the-findings">2. Implications of the Findings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliography">Bibliography</a></li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <hr class="docutils" />
+<p>title: Literature Review
+date: 2024-10-07
+authors:</p>
+<ul class="simple">
+<li><p>name: Terry Taiming Lu</p></li>
+</ul>
+<hr class="docutils" />
+<section id="abstract">
+<h1>Abstract<a class="headerlink" href="#abstract" title="Link to this heading">#</a></h1>
+<p>As artificial intelligence (AI) continues to expand across various sectors, concerns about privacy leaks from training data are becoming increasingly critical. This paper examines the economic impact of privacy breaches during the training of AI models, especially large language models (LLMs) and other deep learning systems. By processing sensitive data—from personal consumer information to government-held datasets—AI models may unintentionally expose confidential information, leading to significant financial and reputational harm to firms and organizations. This study explores the direct economic costs of such privacy leaks, including regulatory fines, loss of consumer trust, and litigation expenses. Additionally, it considers the broader effects on innovation and market efficiency, questioning whether the economic risks of privacy violations outweigh the benefits of rapid AI development. The analysis underscores the importance of privacy-preserving technologies and the creation of regulatory frameworks that safeguard data without hindering AI-driven economic growth.</p>
+</section>
+<section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h1>
+<p>Imagine a world where the very technology that powers our daily lives—answering our questions, assisting in our work, and even entertaining us—becomes a potential threat to our privacy. As large language models (LLMs) continue to evolve, trained on enormous amounts of data, including sensitive personal details, the risk of unintentional privacy leaks grows. Understanding these risks requires a closer examination of how LLMs operate and the potential vulnerabilities inherent in their design, particularly when handling sensitive information.</p>
+<p>By processing vast amounts of sensitive data, ranging from personal consumer details to government-held records, LLMs and other deep learning systems can unintentionally expose confidential information, leading to significant financial and reputational harm. These privacy leaks pose not only a direct economic cost—such as regulatory fines, litigation expenses, and erosion of consumer trust—but also broader impacts on innovation and market efficiency.</p>
+<p>In this paper, we aim to understand the mechanisms behind privacy leaks in LLMs and their potential impacts. We investigate how these models inadvertently expose sensitive information and examine the conditions under which such leaks occur. Specifically, we explore the nature of data extraction vulnerabilities that arise during training, considering factors such as model architecture, training data characteristics, and deployment scenarios. Our analysis includes a comprehensive review of the different types of information that can be unintentionally revealed, from individual data points to aggregated insights, and the specific technical and operational factors that contribute to these leaks. By identifying the key mechanisms of privacy leakage, we aim to establish a foundational understanding that will inform the development of more secure LLMs.</p>
+<p>To understand the economic significance of privacy leaks, we assess both direct financial impacts—such as regulatory fines, litigation costs, and resource allocation for breach mitigation—and indirect consequences, including erosion of consumer trust, reduced willingness to share data, and diminished brand reputation. Privacy leaks can lead to significant financial repercussions beyond immediate penalties, as organizations may face long-term costs associated with rebuilding their reputation and regaining consumer confidence. Moreover, privacy breaches can deter potential business partnerships, limit access to valuable datasets, and hinder collaborations that are critical for innovation. The economic fallout extends to a reduction in market competitiveness, particularly for smaller enterprises that may lack the resources to manage privacy risks effectively. These combined effects highlight the far-reaching implications of privacy leaks, not just for individual organizations but for the overall economic landscape, potentially stifling growth and innovation in the AI sector.</p>
+<p>Our contribution is two-fold:</p>
+<ol class="arabic simple">
+<li><p>We provided quatitative analysis on privacy leakage in internal snapshots popular for training large language models.</p></li>
+<li><p>We analyze the specific vulnerabilities within LLMs that lead to privacy leaks, providing a technical overview of how private information may be inadvertently exposed.</p></li>
+</ol>
+</section>
+<section id="background">
+<h1>Background<a class="headerlink" href="#background" title="Link to this heading">#</a></h1>
+<p><strong>Large Language Models.</strong> Large Language Models (LLMs) have emerged as transformative technologies in artificial intelligence, capable of performing various tasks such as natural language understanding, text generation, and translation <span id="id1">[<a class="reference internal" href="#id21" title="A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin. Attention is all you need. In Advances in Neural Information Processing Systems (NeurIPS). 2017.">Vaswani <em>et al.</em>, 2017</a>, <a class="reference internal" href="#id22" title="A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever. Language models are unsupervised multitask learners. OpenAI Blog, 2019.">Radford <em>et al.</em>, 2019</a>, <a class="reference internal" href="#id23" title="C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou, W. Li, and P. J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. Journal of Machine Learning Research, 2020.">Raffel <em>et al.</em>, 2020</a>]</span>. These models, such as GPT-3 <span id="id2">[<a class="reference internal" href="#id24" title="T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. M. Ziegler, J. Wu, C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D. Amodei. Language models are few-shot learners. In Advances in Neural Information Processing Systems (NeurIPS). 2020.">Brown <em>et al.</em>, 2020</a>]</span> and BERT <span id="id3">[<a class="reference internal" href="#id25" title="J. Devlin, M. W. Chang, K. Lee, and K. Toutanova. Bert: pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL). 2019.">Devlin <em>et al.</em>, 2019</a>]</span>, are trained on massive datasets from diverse sources, including books, articles, and websites, enabling them to generate coherent and contextually appropriate text. Their capabilities make LLMs valuable across domains such as customer service, content creation, research assistance, healthcare <span id="id4">[<a class="reference internal" href="#id26" title="A. Esteva, A. Robicquet, B. Ramsundar, V. Kuleshov, M. DePristo, K. Chou, C. Cui, G. Corrado, S. Thrun, and J. Dean. A guide to deep learning in healthcare. Nature Medicine, 2019.">Esteva <em>et al.</em>, 2019</a>]</span>, and legal document processing <span id="id5">[<a class="reference internal" href="#id27" title="M. J. Bommarito and D. M. Katz. A study of artificial intelligence in legal document analysis. Journal of Artificial Intelligence Research, 2018.">Bommarito and Katz, 2018</a>]</span>. However, LLMs also present significant privacy challenges. During training, these models can inadvertently memorize sensitive or personally identifiable information, potentially exposing it during inference <span id="id6">[<a class="reference internal" href="#id28" title="N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert-Voss, K. Lee, A. Roberts, T. Brown, D. Song, U. Erlingsson, A. Oprea, and C. Raffel. Extracting training data from large language models. In USENIX Security Symposium. 2021.">Carlini <em>et al.</em>, 2021</a>]</span>. Such privacy leaks have raised concerns about their use in real-world applications, where the risk of exposing confidential information could have serious legal and economic repercussions <span id="id7">[<a class="reference internal" href="#id29" title="R. Shokri, M. Stronati, C. Song, and V. Shmatikov. Membership inference attacks against machine learning models. In Proceedings of the 2017 IEEE Symposium on Security and Privacy. 2017.">Shokri <em>et al.</em>, 2017</a>, <a class="reference internal" href="#id30" title="B. Jayaraman and D. Evans. Evaluating differentially private machine learning in practice. In Proceedings of the 28th USENIX Security Symposium. 2019.">Jayaraman and Evans, 2019</a>]</span>. Addressing these risks requires the development of privacy-preserving techniques such as differential privacy <span id="id8">[<a class="reference internal" href="#id31" title="M. Abadi, A. Chu, I. Goodfellow, H. B. McMahan, I. Mironov, K. Talwar, and L. Zhang. Deep learning with differential privacy. In Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security. 2016.">Abadi <em>et al.</em>, 2016</a>]</span> and data anonymization, as well as robust regulatory frameworks to protect data while fostering innovation <span id="id9">[<a class="reference internal" href="#id32" title="M. Brundage, S. Avin, J. Clark, H. Toner, P. Eckersley, B. Garfinkel, A. Dafoe, P. Scharre, T. Zeitzoff, B. Filar, H. Anderson, H. Roff, R. Crootof, O. Evans, M. Page, J. Bryson, R. Yampolskiy, and D. Amodei. The malicious use of artificial intelligence: forecasting, prevention, and mitigation. arXiv preprint arXiv:1802.07228, 2018.">Brundage <em>et al.</em>, 2018</a>]</span>.</p>
+<p><strong>Data Privacy and Utility in AI Models.</strong> The balance between data privacy and utility is a crucial issue, particularly in the context of large-scale AI models. Differential privacy has emerged as a popular solution to protect sensitive information in datasets, but it often introduces significant noise, leading to reduced data accuracy and economic inefficiencies <span id="id10">[<a class="reference internal" href="#id16" title="S. Ruggles. When privacy protection goes wrong: how and why the 2020 census confidentiality program failed. Journal of Economic Perspectives, 2024. URL: https://doi.org/10.1257/JEP.38.2.201, doi:10.1257/JEP.38.2.201.">Ruggles, 2024</a>]</span>. This trade-off has been further examined in the context of health disparities, where privacy measures disproportionately distort data for smaller populations, raising concerns about fairness and resource allocation <span id="id11">[<a class="reference internal" href="#id17" title="A. R. Santos-Lozada, J. T. Howard, and A. M. Verdery. How differential privacy will affect our understanding of health disparities in the united states. Proceedings of the National Academy of Sciences, 2020. URL: https://doi.org/10.1073/PNAS.2003714117, doi:10.1073/PNAS.2003714117.">Santos-Lozada <em>et al.</em>, 2020</a>]</span>.
+Traditional statistical disclosure methods have been defended as viable alternatives, suggesting that newer techniques like differential privacy may not always offer superior protection without substantial economic costs <span id="id12">[<a class="reference internal" href="#id18" title="K. Muralidhar and J. Domingo-Ferrer. A rejoinder to garfinkel (2023) – legacy statistical disclosure limitation techniques for protecting 2020 decennial us census: still a viable option. Journal of Official Statistics, 2023. URL: https://doi.org/10.2478/JOS-2023-0019, doi:10.2478/JOS-2023-0019.">Muralidhar and Domingo-Ferrer, 2023</a>]</span>. In response, optimization frameworks have been proposed to find a middle ground, allowing for both privacy and data utility, though they require careful balancing to avoid significant losses in either area <span id="id13">[<a class="reference internal" href="#id19" title="V. J. Hotz, C. Bollinger, T. Komarova, C. Manski, R. Moffitt, D. Nekipelov, A. J. Sojourner, and B. Spencer. Balancing data privacy and usability in the federal statistical system. Proceedings of the National Academy of Sciences, 2022. URL: https://doi.org/10.1073/PNAS.2104906119, doi:10.1073/PNAS.2104906119.">Hotz <em>et al.</em>, 2022</a>]</span>.
+The risks associated with privacy leakage from AI models, particularly in high-stakes sectors like healthcare and finance, underscore the need for better privacy-preserving techniques. Misuse of privacy mechanisms can lead to economic losses through reduced data reliability and non-compliance with regulations, making this a critical area for future research <span id="id14">[<a class="reference internal" href="#id20" title="J. Domingo-Ferrer, D. Sánchez, and A. Blanco-Justicia. The limits of differential privacy (and its misuse in data release and machine learning). Communications of the ACM, 2021. URL: https://doi.org/10.1145/3433638, doi:10.1145/3433638.">Domingo-Ferrer <em>et al.</em>, 2021</a>]</span>.</p>
+</section>
+<section id="privacy-leakage-in-llms">
+<h1>Privacy Leakage in LLMs<a class="headerlink" href="#privacy-leakage-in-llms" title="Link to this heading">#</a></h1>
+<section id="problem-formulation">
+<h2>Problem Formulation<a class="headerlink" href="#problem-formulation" title="Link to this heading">#</a></h2>
+<p>The primary objective of this study is to investigate the potential privacy risks associated with large language models (LLMs). Specifically, we aim to understand how and under what conditions LLMs memorize sensitive information from their training data and how likely it is that such information can be exposed during inference. We focus on answering the following key questions:</p>
+<ol class="arabic simple">
+<li><p><strong>To what extent do LLMs memorize sensitive information during training?</strong></p></li>
+<li><p><strong>What factors influence the likelihood of privacy leakage in LLMs?</strong></p></li>
+</ol>
+<p>The goal is to quantify the trade-off between model utility and privacy risk, providing insight into how to train LLMs while minimizing the potential for privacy breaches.</p>
+</section>
+<section id="method">
+<h2>Method<a class="headerlink" href="#method" title="Link to this heading">#</a></h2>
+<p>The method used in this study aims to analyze privacy leakage risks in LLMs through simple data analysis and visualization techniques.</p>
+<section id="data-collection">
+<h3>1. Data Collection<a class="headerlink" href="#data-collection" title="Link to this heading">#</a></h3>
+<p>We used the FineWeb dataset (Penedo et al., 2024), which is designed to provide high-quality text data from the web at scale. This dataset was selected due to its diverse content, which allowed us to analyze potential privacy risks associated with LLMs. In addition, we generated synthetic data that included specific sensitive information, such as randomly generated names and addresses. This allowed us to evaluate whether LLMs could potentially memorize and expose sensitive information.</p>
+</section>
+<section id="data-analysis">
+<h3>2. Data Analysis<a class="headerlink" href="#data-analysis" title="Link to this heading">#</a></h3>
+<p>We analyzed the dataset to identify patterns that could lead to privacy risks. Specifically, we looked at the frequency of sensitive information, such as names and addresses, and explored whether these data points are repeated across different parts of the dataset. This analysis helped us understand the characteristics of the data that could contribute to privacy leakage.</p>
+</section>
+<section id="privacy-leakage-evaluation">
+<h3>3. Privacy Leakage Evaluation<a class="headerlink" href="#privacy-leakage-evaluation" title="Link to this heading">#</a></h3>
+<p>To evaluate privacy leakage, we used a simple visualization approach:</p>
+<ul class="simple">
+<li><p><strong>Data Visualization</strong>: We visualized the frequency and distribution of sensitive information in the dataset using bar charts and histograms. This helped us identify which types of sensitive information were most at risk of being memorized by LLMs.</p></li>
+</ul>
+</section>
+<section id="privacy-preserving-techniques">
+<h3>4. Privacy-Preserving Techniques<a class="headerlink" href="#privacy-preserving-techniques" title="Link to this heading">#</a></h3>
+<p>We explored privacy-preserving techniques, such as differential privacy, by simulating the effect of adding noise to the dataset. This allowed us to visualize how privacy-preserving methods could alter the data distribution and reduce the likelihood of sensitive information being memorized.</p>
+</section>
+<section id="impact-on-llms">
+<h3>5. Impact on LLMs<a class="headerlink" href="#impact-on-llms" title="Link to this heading">#</a></h3>
+<p>We also analyze the generation of the state-of-the-art AI model, GPT4-o, to determine if it is influenced by privacy leakage. Specifically, we examine the correlation between the frequency of specific privacy information occurrences in the training data and the probability of GPT4-o generating such data. In this work, we measure how privacy exposure impacts the model’s outputs by quantifying and comparing instances where private data appears in the generated text. Our approach involves detailed analysis of training data samples and generated outputs, aiming to identify patterns that reveal potential privacy vulnerabilities.</p>
+</section>
+<section id="metrics">
+<h3>6. Metrics<a class="headerlink" href="#metrics" title="Link to this heading">#</a></h3>
+<p>We used the following metrics for evaluation:</p>
+<ul class="simple">
+<li><p><strong>Frequency of Sensitive Information</strong>: The occurrence of specific sensitive data points within the dataset.</p></li>
+<li><p><strong>Impact of Noise Addition</strong>: A comparison of the dataset before and after applying differential privacy techniques to evaluate changes in data distribution.</p></li>
+</ul>
+</section>
+</section>
+<section id="experimental-setup">
+<h2>6. Experimental Setup<a class="headerlink" href="#experimental-setup" title="Link to this heading">#</a></h2>
+<p>To analyze privacy leakage patterns in large language models, we conduct experiments using two primary components: (1) the FineWeb dataset for analyzing sensitive information distribution patterns, and (2) GPT-4’s token generation behavior when encountering privacy-related information.</p>
+<section id="dataset">
+<h3>6.1 Dataset<a class="headerlink" href="#dataset" title="Link to this heading">#</a></h3>
+<p>We utilize the FineWeb dataset, which consists of web snapshots containing internal organizational content. For our analysis, we extract documents containing potential privacy-sensitive information such as personal identifiers, internal codes, and organizational metadata. The dataset preprocessing involves:</p>
+<ol class="arabic simple">
+<li><p>Filtering documents containing privacy-sensitive information using regular expression patterns</p></li>
+<li><p>Extracting relevant metadata including timestamp and document context</p></li>
+<li><p>Tokenizing the documents using the same tokenizer as GPT-4 to ensure consistency in token-level analysis</p></li>
+</ol>
+</section>
+<section id="token-generation-analysis">
+<h3>6.2 Token Generation Analysis<a class="headerlink" href="#token-generation-analysis" title="Link to this heading">#</a></h3>
+<p>To understand how privacy-sensitive information influences token generation probabilities, we analyze GPT-4’s behavior through the following steps:</p>
+<ol class="arabic simple">
+<li><p>We identify sequences containing privacy-sensitive information in our dataset</p></li>
+<li><p>For each sequence S = {t₁, t₂, …, tₙ} where tᵢ represents tokens:</p>
+<ul class="simple">
+<li><p>We calculate P(tᵢ|t₁…tᵢ₋₁), the conditional probability of generating the next token</p></li>
+<li><p>We measure the model’s perplexity on privacy-sensitive sequences</p></li>
+<li><p>We track the frequency of privacy-sensitive token generation in different contexts</p></li>
+</ul>
+</li>
+</ol>
+<p>The probability of generating privacy-sensitive information is calculated as:</p>
+<p>P(sensitive|context) = ∏ᵢ P(tᵢ|t₁…tᵢ₋₁)</p>
+<p>where tᵢ belongs to the identified privacy-sensitive sequence.</p>
+</section>
+<section id="measurement-metrics">
+<h3>6.3 Measurement Metrics<a class="headerlink" href="#measurement-metrics" title="Link to this heading">#</a></h3>
+<p>We employ the following metrics to quantify privacy leakage:</p>
+<ol class="arabic simple">
+<li><p>Token Generation Probability (TGP):</p>
+<ul class="simple">
+<li><p>Measures the likelihood of generating privacy-sensitive tokens</p></li>
+<li><p>Calculated across different context lengths and types</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="results">
+<h1>Results<a class="headerlink" href="#results" title="Link to this heading">#</a></h1>
+<p><img alt="image info" src="_images/analysis_regression.png" />
+<img alt="image info" src="_images/pii_count_by_type.png" />
+<img alt="image info" src="_images/pii_rate_per_document.png" />
+<img alt="image info" src="_images/top_entities_person.png" />
+<img alt="image info" src="_images/top_entities_email.png" />
+<img alt="image info" src="_images/top_entities_ip_address.png" /></p>
+</section>
+<section id="analysis">
+<h1>Analysis<a class="headerlink" href="#analysis" title="Link to this heading">#</a></h1>
+<section id="data-privacy-leakage-distribution">
+<h2>Data Privacy Leakage Distribution<a class="headerlink" href="#data-privacy-leakage-distribution" title="Link to this heading">#</a></h2>
+<section id="pii-type-distribution">
+<h3>1. PII Type Distribution<a class="headerlink" href="#pii-type-distribution" title="Link to this heading">#</a></h3>
+<p>The bar chart in Figure 2 shows the total count of various PII (Personally Identifiable Information) types detected across the dataset. The data indicates that “PERSON” entities are the most frequent, followed by “GPE” (Geopolitical Entities). Other PII types such as phone numbers and email addresses have significantly lower frequencies. This distribution emphasizes the potential risk areas for privacy leakage, particularly in the context of models trained on extensive text sources that may contain personal or organizational data.</p>
+</section>
+<section id="pii-occurrence-rate-per-document">
+<h3>2. PII Occurrence Rate per Document<a class="headerlink" href="#pii-occurrence-rate-per-document" title="Link to this heading">#</a></h3>
+<p>Figure 3 presents the rate of each PII type’s occurrence per document, showcasing how prevalent each type of sensitive information is within individual documents. The analysis points out that both “PERSON” and “GPE” entities are present in over 50% of documents, making them the most common types of sensitive information. This high occurrence rate poses a notable risk for privacy exposure in model outputs.</p>
+</section>
+<section id="detailed-analysis-of-person-entities">
+<h3>3. Detailed Analysis of “PERSON” Entities<a class="headerlink" href="#detailed-analysis-of-person-entities" title="Link to this heading">#</a></h3>
+<p>Figure 4 highlights the top 50 most frequent “PERSON” entities in the dataset, with “Obama” appearing most frequently, followed by “Jesus” and other common names. This breakdown underscores the memorization risk associated with high-frequency names, which are more likely to be generated by LLMs when prompted, potentially exposing sensitive or context-specific information.</p>
+</section>
+<section id="analysis-of-ip-address-entities">
+<h3>4. Analysis of “IP_ADDRESS” Entities<a class="headerlink" href="#analysis-of-ip-address-entities" title="Link to this heading">#</a></h3>
+<p>Figure 5 showcases the top 50 most frequent “IP_ADDRESS” entities detected in the dataset. The results indicate a range of public and private IP addresses, with some appearing more than 15 times. Although the presence of public or commonly used IP addresses may not always pose privacy risks, the repeated appearance of certain private IP addresses or those associated with internal networks highlights a potential source of unintended privacy exposure.</p>
+</section>
+</section>
+<section id="effect-of-data-privacy-leakage-on-llms">
+<h2>Effect of Data Privacy Leakage on LLMs<a class="headerlink" href="#effect-of-data-privacy-leakage-on-llms" title="Link to this heading">#</a></h2>
+<section id="regression-analysis-and-statistical-significance">
+<h3>1.Regression Analysis and Statistical Significance<a class="headerlink" href="#regression-analysis-and-statistical-significance" title="Link to this heading">#</a></h3>
+<p>The linear regression analysis provides further insights into the relationship between occurrences and generation probabilities. The fitted regression line has a <strong>slope</strong> of approximately 0.0004, indicating a positive but modest increase in generation probability as occurrences rise. The <strong>intercept</strong> of approximately -0.0899 suggests that when occurrences approach zero, the baseline generation probability is slightly negative, though this value mainly serves as a reference point within the context of the model.</p>
+<p>The <strong>R-squared</strong> value of approximately 0.3442 demonstrates that around 34.4% of the variability in generation probability can be explained by the normalized occurrences in training data. While this indicates a moderate relationship, the unexplained variability suggests other contributing factors, such as specific model biases or data context.</p>
+<p>The <strong>p-value</strong> for the slope, approximately (1.17 \times 10^{-5}), indicates strong statistical significance at conventional thresholds (e.g., 0.05). This result supports the hypothesis that there is a meaningful linear relationship between occurrences in training data and generation probability. The <strong>standard error</strong> of approximately 0.0000844 provides an estimate of the precision of the slope, suggesting that while there is variability, the estimate is reliable.</p>
+</section>
+<section id="implications-of-the-findings">
+<h3>2. Implications of the Findings<a class="headerlink" href="#implications-of-the-findings" title="Link to this heading">#</a></h3>
+<p>These results emphasize that while there is a statistically significant positive correlation between data occurrences and generation probabilities, the strength of this correlation is moderate. This aligns with the observed trend where more frequently occurring data points in the training set tend to appear more often during inference.</p>
+<p>Understanding these dynamics can be crucial for evaluating the robustness and privacy implications of LLMs. For instance, an elevated generation probability for rare training examples could expose memorized content, raising concerns about the model’s handling of sensitive or proprietary information. This confirms that data leakage can trickle down to LLM behavior, where even rare or isolated data points, if memorized, can surface during inference, posing privacy risks. As highlighted in the analysis, the presence of outliers in the data suggests that LLMs might retain specific details that extend beyond their intended training distribution, leading to potential inadvertent disclosures. This underscores the importance of scrutinizing LLMs not just for overall performance but also for vulnerabilities in handling sensitive or infrequent data.</p>
+</section>
+</section>
+</section>
+<section id="conclusion">
+<h1>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h1>
+<p>This study underscores the critical need for privacy-preserving strategies in large language models (LLMs), revealing that sensitive information exists in the training data of our AI chatbot and can impact generation, making privacy-sensitive content more likely to appear. Specific entities, such as “PERSON” and “GPE,” are particularly prone to reoccurrence in outputs due to their frequency in training data, while even unique data points, like names and IP addresses, may be memorized and generated. Addressing these risks is essential for regulatory compliance, user trust, and sustainable AI development. Privacy-preserving techniques, such as differential privacy and data anonymization, can mitigate these risks, and comprehensive regulatory frameworks will be crucial to balancing privacy, data utility, and innovation, fostering responsible AI. This study provides foundational insights into privacy leaks in LLMs and emphasizes the importance of ongoing research to ensure safe and ethical AI deployment.</p>
+</section>
+<section id="bibliography">
+<h1>Bibliography<a class="headerlink" href="#bibliography" title="Link to this heading">#</a></h1>
+<div class="docutils container" id="id15">
+<div role="list" class="citation-list">
+<div class="citation" id="id21" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>A. Vaswani, N. Shazeer, N. Parmar, J. Uszkoreit, L. Jones, A. N. Gomez, Ł. Kaiser, and I. Polosukhin. Attention is all you need. In <em>Advances in Neural Information Processing Systems (NeurIPS)</em>. 2017.</p>
+</div>
+<div class="citation" id="id22" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">2</a><span class="fn-bracket">]</span></span>
+<p>A. Radford, J. Wu, R. Child, D. Luan, D. Amodei, and I. Sutskever. Language models are unsupervised multitask learners. OpenAI Blog, 2019.</p>
+</div>
+<div class="citation" id="id23" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">3</a><span class="fn-bracket">]</span></span>
+<p>C. Raffel, N. Shazeer, A. Roberts, K. Lee, S. Narang, M. Matena, Y. Zhou, W. Li, and P. J. Liu. Exploring the limits of transfer learning with a unified text-to-text transformer. <em>Journal of Machine Learning Research</em>, 2020.</p>
+</div>
+<div class="citation" id="id24" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id2">4</a><span class="fn-bracket">]</span></span>
+<p>T. B. Brown, B. Mann, N. Ryder, M. Subbiah, J. Kaplan, P. Dhariwal, A. Neelakantan, P. Shyam, G. Sastry, A. Askell, S. Agarwal, A. Herbert-Voss, G. Krueger, T. Henighan, R. Child, A. Ramesh, D. M. Ziegler, J. Wu, C. Winter, C. Hesse, M. Chen, E. Sigler, M. Litwin, S. Gray, B. Chess, J. Clark, C. Berner, S. McCandlish, A. Radford, I. Sutskever, and D. Amodei. Language models are few-shot learners. In <em>Advances in Neural Information Processing Systems (NeurIPS)</em>. 2020.</p>
+</div>
+<div class="citation" id="id25" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id3">5</a><span class="fn-bracket">]</span></span>
+<p>J. Devlin, M. W. Chang, K. Lee, and K. Toutanova. Bert: pre-training of deep bidirectional transformers for language understanding. In <em>Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)</em>. 2019.</p>
+</div>
+<div class="citation" id="id26" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id4">6</a><span class="fn-bracket">]</span></span>
+<p>A. Esteva, A. Robicquet, B. Ramsundar, V. Kuleshov, M. DePristo, K. Chou, C. Cui, G. Corrado, S. Thrun, and J. Dean. A guide to deep learning in healthcare. <em>Nature Medicine</em>, 2019.</p>
+</div>
+<div class="citation" id="id27" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id5">7</a><span class="fn-bracket">]</span></span>
+<p>M. J. Bommarito and D. M. Katz. A study of artificial intelligence in legal document analysis. <em>Journal of Artificial Intelligence Research</em>, 2018.</p>
+</div>
+<div class="citation" id="id28" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id6">8</a><span class="fn-bracket">]</span></span>
+<p>N. Carlini, F. Tramer, E. Wallace, M. Jagielski, A. Herbert-Voss, K. Lee, A. Roberts, T. Brown, D. Song, U. Erlingsson, A. Oprea, and C. Raffel. Extracting training data from large language models. In <em>USENIX Security Symposium</em>. 2021.</p>
+</div>
+<div class="citation" id="id29" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">9</a><span class="fn-bracket">]</span></span>
+<p>R. Shokri, M. Stronati, C. Song, and V. Shmatikov. Membership inference attacks against machine learning models. In <em>Proceedings of the 2017 IEEE Symposium on Security and Privacy</em>. 2017.</p>
+</div>
+<div class="citation" id="id30" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id7">10</a><span class="fn-bracket">]</span></span>
+<p>B. Jayaraman and D. Evans. Evaluating differentially private machine learning in practice. In <em>Proceedings of the 28th USENIX Security Symposium</em>. 2019.</p>
+</div>
+<div class="citation" id="id31" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id8">11</a><span class="fn-bracket">]</span></span>
+<p>M. Abadi, A. Chu, I. Goodfellow, H. B. McMahan, I. Mironov, K. Talwar, and L. Zhang. Deep learning with differential privacy. In <em>Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security</em>. 2016.</p>
+</div>
+<div class="citation" id="id32" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">12</a><span class="fn-bracket">]</span></span>
+<p>M. Brundage, S. Avin, J. Clark, H. Toner, P. Eckersley, B. Garfinkel, A. Dafoe, P. Scharre, T. Zeitzoff, B. Filar, H. Anderson, H. Roff, R. Crootof, O. Evans, M. Page, J. Bryson, R. Yampolskiy, and D. Amodei. The malicious use of artificial intelligence: forecasting, prevention, and mitigation. arXiv preprint arXiv:1802.07228, 2018.</p>
+</div>
+<div class="citation" id="id16" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id10">13</a><span class="fn-bracket">]</span></span>
+<p>S. Ruggles. When privacy protection goes wrong: how and why the 2020 census confidentiality program failed. <em>Journal of Economic Perspectives</em>, 2024. URL: <a class="reference external" href="https://doi.org/10.1257/JEP.38.2.201">https://doi.org/10.1257/JEP.38.2.201</a>, <a class="reference external" href="https://doi.org/10.1257/JEP.38.2.201">doi:10.1257/JEP.38.2.201</a>.</p>
+</div>
+<div class="citation" id="id17" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id11">14</a><span class="fn-bracket">]</span></span>
+<p>A. R. Santos-Lozada, J. T. Howard, and A. M. Verdery. How differential privacy will affect our understanding of health disparities in the united states. <em>Proceedings of the National Academy of Sciences</em>, 2020. URL: <a class="reference external" href="https://doi.org/10.1073/PNAS.2003714117">https://doi.org/10.1073/PNAS.2003714117</a>, <a class="reference external" href="https://doi.org/10.1073/PNAS.2003714117">doi:10.1073/PNAS.2003714117</a>.</p>
+</div>
+<div class="citation" id="id18" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id12">15</a><span class="fn-bracket">]</span></span>
+<p>K. Muralidhar and J. Domingo-Ferrer. A rejoinder to garfinkel (2023) – legacy statistical disclosure limitation techniques for protecting 2020 decennial us census: still a viable option. <em>Journal of Official Statistics</em>, 2023. URL: <a class="reference external" href="https://doi.org/10.2478/JOS-2023-0019">https://doi.org/10.2478/JOS-2023-0019</a>, <a class="reference external" href="https://doi.org/10.2478/JOS-2023-0019">doi:10.2478/JOS-2023-0019</a>.</p>
+</div>
+<div class="citation" id="id19" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id13">16</a><span class="fn-bracket">]</span></span>
+<p>V. J. Hotz, C. Bollinger, T. Komarova, C. Manski, R. Moffitt, D. Nekipelov, A. J. Sojourner, and B. Spencer. Balancing data privacy and usability in the federal statistical system. <em>Proceedings of the National Academy of Sciences</em>, 2022. URL: <a class="reference external" href="https://doi.org/10.1073/PNAS.2104906119">https://doi.org/10.1073/PNAS.2104906119</a>, <a class="reference external" href="https://doi.org/10.1073/PNAS.2104906119">doi:10.1073/PNAS.2104906119</a>.</p>
+</div>
+<div class="citation" id="id20" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id14">17</a><span class="fn-bracket">]</span></span>
+<p>J. Domingo-Ferrer, D. Sánchez, and A. Blanco-Justicia. The limits of differential privacy (and its misuse in data release and machine learning). <em>Communications of the ACM</em>, 2021. URL: <a class="reference external" href="https://doi.org/10.1145/3433638">https://doi.org/10.1145/3433638</a>, <a class="reference external" href="https://doi.org/10.1145/3433638">doi:10.1145/3433638</a>.</p>
+</div>
+</div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Abstract</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#background">Background</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-leakage-in-llms">Privacy Leakage in LLMs</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-formulation">Problem Formulation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#method">Method</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-collection">1. Data Collection</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-analysis">2. Data Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-leakage-evaluation">3. Privacy Leakage Evaluation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#privacy-preserving-techniques">4. Privacy-Preserving Techniques</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-on-llms">5. Impact on LLMs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#metrics">6. Metrics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#experimental-setup">6. Experimental Setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dataset">6.1 Dataset</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#token-generation-analysis">6.2 Token Generation Analysis</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measurement-metrics">6.3 Measurement Metrics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#results">Results</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis">Analysis</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-privacy-leakage-distribution">Data Privacy Leakage Distribution</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pii-type-distribution">1. PII Type Distribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pii-occurrence-rate-per-document">2. PII Occurrence Rate per Document</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-analysis-of-person-entities">3. Detailed Analysis of “PERSON” Entities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analysis-of-ip-address-entities">4. Analysis of “IP_ADDRESS” Entities</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#effect-of-data-privacy-leakage-on-llms">Effect of Data Privacy Leakage on LLMs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#regression-analysis-and-statistical-significance">1.Regression Analysis and Statistical Significance</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implications-of-the-findings">2. Implications of the Findings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliography">Bibliography</a></li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Terry Taiming Lu
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+title: Literature Review
+author: Terry Taiming Lu
+execute:
+  execute_notebooks: auto
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.bibtex   # Load the BibTeX extension
+  config:
+    bibtex_bibfiles: ["references.bib"]  # Path to your BibTeX file
+    bibtex_reference_style: author_year  # Citation style
