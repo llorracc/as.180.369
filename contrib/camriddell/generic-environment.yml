@@ -1,0 +1,13 @@
+name: as.180.369
+channels:
+- conda-forge
+dependencies:
+- python=3.10
+- gh
+- matplotlib=3.7.2
+- pandas=2.0.2
+- statsmodels=0.14
+- seaborn=0.12
+- pip
+- pip:
+  - fredapi==0.5.1

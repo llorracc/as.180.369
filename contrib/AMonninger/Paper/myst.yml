@@ -1,0 +1,12 @@
+version: 1
+project:
+  title: First Jupyter Book
+  authors:
+    - name: Cameron Riddell
+  bibliography:
+    - references.bib
+  toc:
+    - file: Paper_AMonninger.ipynb
+site:
+  options: {}
+  template: book-theme
