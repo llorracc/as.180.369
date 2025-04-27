@@ -1,61 +1,57 @@
-# Syllabus: AS.180.369 “Tools for Writing a Research Paper in Economics” (Fall 2024)
+# Syllabus: ECOG 315/ECON 181 "Advanced Research Methods and Statistical Programming" (Summer 2025)
 
-**This repository contains all of the course materials for AS.180.369 “Tools for Writing a Research Paper in Economics.” (Fall 2024)**
+**This repository contains all of the course materials for ECOG 315/ECON 181 "Advanced Research Methods and Statistical Programming." (Summer 2025)**
 
 **NOTE**: This syllabus is a live document. It will be periodically updated as the course progresses!
 
 ## Contents
 
-* [Overview](#overview)
-* [Useful Resources](#Useful-Resources)
-* [Instructor—Chris Carroll](#instructorchris-carroll)
-  * [Office Hours](#office-hours)
-* [Teaching Assistant—Adrian Monninger](#teaching-assistantadrian-monninger)
-* [Teaching Assistant—Ethan Murinson](#teaching-assistantethan-murinson)
-* [Course Materials](#course-materials)
-* [Course Description](#course-description)
-* [Course Requirements](#course-requirements)
-* [Schedule](#schedule)
-* [Grading](#grading)
-* [Policies](#policies)
-  * [Extensions & Late Work](#extensions-&-late-work)
-  * [Absences](#absences)
-  * [Accommodations](#accommodations)
-  * [Mental Health](#mental-health)
-  * [Technology](#technology)
-  * [Communications](#communications)
-  * [Academic Ethics](#academic-ethics)
+- [Overview](#overview)
+- [Useful Resources](#Useful-Resources)
+- [Instructor—Chris Carroll](#instructorchris-carroll)
+  - [Office Hours](#office-hours)
+- [Instructor—Matt White](#instructormatt-white)
+  - [Office Hours](#office-hours-1)
+- [Instructor—Alan Lujan](#instructoralan-lujan)
+  - [Office Hours](#office-hours-2)
+- [Course Materials](#course-materials)
+- [Course Description](#course-description)
+- [Course Requirements](#course-requirements)
+- [Schedule](#schedule)
+- [Grading](#grading)
+- [Policies](#policies)
+  - [Extensions & Late Work](#extensions-&-late-work)
+  - [Absences](#absences)
+  - [Accommodations](#accommodations)
+  - [Mental Health](#mental-health)
+  - [Technology](#technology)
+  - [Communications](#communications)
+  - [Academic Ethics](#academic-ethics)
 
 ---
 
 ## Overview
 
-This is an in-person course, held on the Johns Hopkins Homewood Campus:
+This is an in-person course, held on the Howard University Campus:
 
-| -        | -                                                                                                     |
-|:-------- | ----------------------------------------------------------------------------------------------------- |
-| Title    | [AS.180.369 “Tools for Writing a Research Paper in Economics”](#)                                     |
-| Hours    | Monday 3:00 PM US/Eastern ~ 5:30 PM US/Eastern                                                        |
-| Dates    | Aug 26, 2024 ~ Dec 6, 2024 (See [below](#schedule) for schedule.)                                             |
-| Location | [Hodson 311 (Homewood Campus)](https://www.google.com/maps/dir/Current+Location/39.327538,-76.622306) |
-|Office Hours| Students are welcome to schedule office hours with TA's on an ad-hoc basis                          |
+| -            | -                                                                                                     |
+| :----------- | ----------------------------------------------------------------------------------------------------- |
+| Title        | [ECOG 315/ECON 181 "Advanced Research Methods and Statistical Programming"](#)                         |
+| Hours        | Fridays 10:00am-11:30am & 1:00pm-3:30pm (plus weekly 1-hr mentor meeting)                             |
+| Dates        | May 30, 2025 ~ July 18, 2025 (See [below](#schedule) for schedule.)                                   |
+| Location     | TBD                                                                                                   |
+| Office Hours | TBD                                                                                                   |
 
-This course will be conducted by your instructor a graduate teaching assistant, supported by an undergraduate teaching assistant:
+This course will be conducted by your instructors:
 
 - Instructor: [Chris Carroll <ccarroll@jhu.edu>](https://econ.jhu.edu/directory/christopher-carroll/)
-
-- Graduate Teaching Assistant: [Adrian Monninger <amonnin1@jhu.edu>]
-- Undergraduate Teaching Assistant: [Ethan Murinson <emurins1@jhu.edu>]
+- Instructor: Matt White <mnwhite@gmail.com>
+- Instructor: Alan Lujan <alujan@jhu.edu>
 
 ## Useful Resources
+
 - Duke Writing in Economics: Economics Research Paper Writing Guide: [Here](https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/econ.original.pdf)
 - Github Cheat Sheet: [Here](https://education.github.com/git-cheat-sheet-education.pdf)
-
-
-
-
-
-
 
 ## Instructor—Chris Carroll
 
@@ -70,16 +66,13 @@ My Github handle is [llorracc](https://github.com/llorracc/).
 
 ### Office Hours
 
-My office is located at Wyman Park Building 590.
-I hold Zoom office hours on Friday between 2:00 - 5:00 PM US/Eastern.
-You must book in advance via the following link [[http://www.econ2.jhu.edu/people/ccarroll/](http://www.econ2.jhu.edu/people/ccarroll/)](https://github.com/ccarrollATjhuecon/Teaching/blob/master/Logistics/Office-Hours-Rules.md)
-
-If you need to meet with me outside of these times, please e-mail me.
+<!-- Virtual Office hours Tuesdays, 3-5pm (Zoom links TBD). -->
+Office hours TBD.
 
 ### Bio
 
 > I am a professor of economics at JHU and co-chair of the National
-> Bureau of Economic Research’s working group on the Aggregate
+> Bureau of Economic Research's working group on the Aggregate
 > Implications of Microeconomic Consumption Behavior. Originally from
 > Knoxville, Tennessee, I received my A.B. in Economics from Harvard
 > University in 1986 and a Ph.D. from the Massachusetts Institute of
@@ -94,43 +87,49 @@ If you need to meet with me outside of these times, please e-mail me.
 > Statistics, (JBES) and the Berkeley Electronic Journal of
 > Macroeconomics (BEJM).
 
+## Instructor—Matt White
 
-## Teaching Assistant—Adrian Monninger
-
-
-<img src="media/adrian-monninger.jpg?raw=true" alt="Adrian Monninger" width="300"/>
-
+<!-- Placeholder for instructor image -->
 
 ### Contact
 
-Please contact me about this course at my e-mail address: [amonnin1@jhu.edu](mailto:amonnin1@jhu.edu).
-For assignments in this course, course attendees are also encouraged to communicate by @-tagging me on Github.
-My Github handle is [AMonninger](https://github.com/AMonninger).
-
+Please contact Matt about this course at his e-mail address: mnwhite@gmail.com.
+For assignments in this course, course attendees are also encouraged to communicate by @-tagging instructors on Github.
+My Github handle is [mnwhite](https://github.com/mnwhite).
 (Also, see [below](#communications) for the communications policy for this course.)
+
+### Office Hours
+
+<!-- Placeholder for office location -->
+<!-- Virtual Office hours Tuesdays, 3-5pm (Zoom links TBD). -->
+Office hours TBD.
+<!-- Placeholder for booking link/info -->
 
 ### Bio
 
-> I am a Ph.D. candidate in the Economics Department at Johns Hopkins
-> University.  My research focuses on macroeconomics with emphasis on
-> heterogeneous agent. For this, I am using and developing [Econ-ARK](https://econ-ark.org/).
+> I am an economist at Econ-ARK, a non-profit developer of open source computing tools for structural economic research. After growing up in New Hampshire, I did my undergraduate studies at Cornell University, and then pursued graduate study in economics at Johns Hopkins University. After receiving my PhD, I was an Assistant Professor of Economics at the University of Delaware from 2013 to 2023, and held a Visiting Scholar position at the Consumer Financial Protection Bureau in 2015-16. My research spans heterogeneous agents macroeconomics and health economics, with projects examining the distributional impact of health insurance reform policies. I also develop new methods for solving dynamic stochastic optimization problems, and for efficiently representing them numerically. This work includes being the original designer and programmer for HARK, the Heterogeneous Agents Resources and toolKit.
 
+## Instructor—Alan Lujan
 
-## Undergraduate TA—Ethan Murinson
+![Alan Lujan](media/alan-lujan.jpg?raw=true)
 
 ### Contact
 
-If you have any issues or questions with assignments in this course, ask me by @-tagging me on Github in a Github Issue.
-My Github handle is [emurinson](https://github.com/emurinson).If you have any questions you'd like addressed by email, please contact me at: [emurins1@jhu.edu](mailto:emurins1@jhu.edu).
-
+Please contact Alan about this course at his e-mail address: alujan@jhu.edu.
+For assignments in this course, course attendees are also encouraged to communicate by @-tagging instructors on Github.
+My Github handle is [alanlujan91](https://github.com/alanlujan91).
 (Also, see [below](#communications) for the communications policy for this course.)
+
+### Office Hours
+
+<!-- Placeholder for office location -->
+<!-- Virtual Office hours Tuesdays, 3-5pm (Zoom links TBD). -->
+Office hours TBD.
+<!-- Placeholder for booking link/info -->
 
 ### Bio
 
-> I'm excited to be your TA for this course. I am a senior studying Math and Economics at Johns Hopkins
-> University. I took this course last semester and loved it, so I'm excited to be a part of it again! 
-
-
+> At Johns Hopkins University, Alan Lujan is a Program Coordinator and lecturer for the MS in Applied Economics program. He is a computational economist specializing in quantitative macroeconomics and structural econometrics, with particular interests in household finance and inequality. Lujan received his PhD in Economics from The Ohio State University in 2023 and subsequently joined the JHU Department of Economics as a Visiting Assistant Research Professor before his current role. His research integrates economic theory and computational techniques to better understand household financial behavior and its implications for inequality.
 
 ## Course Materials
 
@@ -138,21 +137,14 @@ Location for all course materials & guidance for how they will be distributed.
 
 ## Course Description
 
-This course will introduce students to the components involved in writing a research
-paper in economics or other quantitative disciplines, by spending the semester having
-them writing such a paper. Early in the semester, each student will pick a topic for
-their paper, which will consist just of a brief description of the question (probably
-a topic they have studied in a previous course). As the semester progresses, the
-student will learn how to flesh out this germ of a topic into a full-length paper
-using many of the internet and other tools that are used by scholars in their own
-research. These include tools for exploring a topic (Google Scholar; ChatGPT; Wikipedia);
-compiling a bibliography of references to your subject (LitMaps; PaperPile); creating a
-document with appropriate content (Jupyter notebooks); project management and
-collaboration via GitHub; generation and incorporation of figures and tables;
-and the preparation of slide presentations. This will be a hands-on course: Students
-will bring their laptops to the lecture and the use of the tools will be taught live
-and interactively. Writing assignments will take the form of Jupyter notebooks (or,
-for any graduate student enrollees, LaTeX documents).
+This course combines two essential components for modern economic research: advanced research methods and statistical programming, applied towards the completion of a substantive term paper.
+
+1.  **Econometrics and Machine Learning with Python (Mornings, 10:00am - 11:30am):** This part focuses on the practical implementation of econometric techniques and machine learning tools using Python, essential for rigorous empirical analysis. **This session will be held virtually via Zoom (link TBD).**
+2.  **Tools for Writing a Research Paper in Economics (Afternoons, 1:00pm - 3:30pm):** Building on a topic selected early in the semester (likely from a previous course), this part guides students through the entire research process live and interactively. We will cover formulating a question, exploring relevant tools (like Google Scholar, ChatGPT, Wikipedia, LitMaps, PaperPile), structuring the paper, creating content (using Jupyter notebooks), managing the project (with GitHub), generating and incorporating figures and tables, and preparing slide presentations for presenting findings. **This session will be held in-person.**
+
+Throughout the semester, each student (or student pair) will develop a research paper on their chosen topic. The course is hands-on, requiring laptops for interactive sessions (both virtual and in-person). Writing assignments will primarily take the form of Jupyter notebooks (or LaTeX for graduate students).
+
+**Mandatory Mentoring:** In addition to class time, each student is required to schedule and attend a **one-hour meeting each week** with an assigned economist mentor to discuss their term paper progress. It is the student's responsibility to arrange this meeting at a mutually convenient time during the week.
 
 ## Course Requirements
 
@@ -161,52 +153,52 @@ languages (though having taken a formal course in such a language is not require
 
 ## Schedule
 
-| #  | Date                                 | Phase               |                 Due                             |
-|:--:|--------------------------------------|---------------------|:-----------------------------------------------:|
-| 1  | [Mon Aug 26](materials/setup)        | 0. the setup        |               see this class' agenda            |
-| 2  | [Mon Sep 9](materials/pitch)         | 1. the pitch        |     Dennett Summary; signup for NASA workshop   |
-| 3  | [Mon Sep 16](materials/pitch)        | 1. the pitch        |                   see this class' agenda        |
-| 4  | [Mon Sep 23](materials/pitch)        | 1. the pitch        |  2×3-min Research Pitches (presented in-class)  |
-| 5  | [Mon Sep 30](materials/draft)        | 2. the draft        |      Watch 2nd NASA Workshop                    |
-| 6  | [Mon Oct 7](materials/draft)         | 2. the draft        |                  see this class' agenda         |
-| 7  | [Mon Oct 14](materials/draft)        | 2. the draft        |                 see this class' agenda          |
-| 8  | [Mon Oct 21](materials/draft)        | 2. the draft        |            see this class' agenda               |
-| 9  | [Mon Oct 28](materials/draft)        | 2. the draft        |                  see this class' agenda         |
-| 10 | [Mon Nov 4](materials/draft)         | 2. the draft        |      First Draft of Paper (submitted online)    |
-| 11 | [Mon Nov 11](materials/submission)   | 3. the submission   |             see this class' agenda              |
-| 12 | [Mon Nov 18](materials/presentation) | 4. the presentation |     Final Draft of Paper (submitted online)     |
-| 13 | [Mon Dec 2](materials/presentation)  | 4. the presentation | Final (15-min) Presentation (presented in-class)|
+_Note: Class times/days vary. Please check carefully._
+
+|  #  | Date                                 | Phase                        |                    Due                    |
+| :-: | ------------------------------------ | ---------------------------- | :---------------------------------------: |
+|  1  | [Fri May 30](materials/setup)        | 0. the setup                 |          see this class' agenda           |
+|  2  | [Fri Jun 6](materials/pitch)         | 1. the pitch                 |          see this class' agenda           |
+|  3  | [Tue Jun 10](materials/pitch)        | 1. the pitch                 |   Research Pitches (presented in-class)   |
+|  4  | [Fri Jun 13](materials/draft)        | 2. the draft                 |          see this class' agenda           |
+|  5  | [Fri Jun 20](materials/draft)        | 2. the draft                 |          see this class' agenda           |
+|  6  | [Fri Jun 27](materials/draft)        | 2. the draft                 |          see this class' agenda           |
+|  7  | [Thu Jul 3](materials/submission)    | 2. the draft                 |          see this class' agenda           |
+|  8  | [Fri Jul 11](materials/presentation) | 3. the submission            |          see this class' agenda           |
+|  9  | [Fri Jul 18](materials/presentation) | 4. the presentation          | Final Paper & Presentation (due in-class) |
 
 This course is split into five main phases:
-- the setup: students will get set up with all of the tools necessary
-  for writing a research paper in a quantitative discipline
-- the pitch: students will craft a compelling, challenging research
-  pitch for their term paper
-- the draft: students will learn about and explore common tools
-  for research paper writing as they prepare the draft for their term paper
-- the submission: students will get direct feedback for completing
-  their term paper and readying it for publication or submission to a journal
-- the presentation: students will craft a compelling presentation detailing
-  the research done in process of writing their term paper
 
-Note that the schedule above may shift as we progress through the course. Updates to due dates will be communicated to you by your instructor or TA.
+- the setup: students will get set up with all of the tools necessary for writing a research paper in a quantitative discipline
+- the pitch: students will craft a compelling, challenging research pitch for their term paper
+- the draft: students will learn about and explore common tools for research paper writing as they prepare the draft for their term paper
+- the submission: students will get direct feedback for completing their term paper and readying it for publication or submission to a journal
+- the presentation: students will craft a compelling presentation detailing the research done in process of writing their term paper
+
+Note that the schedule above may shift as we progress through the course. Updates to due dates will be communicated to you by your instructor.
 
 **This is a live document. Please refresh this page periodically to check for updates.**
 
 ## Grading
 
 Your grade in this course will consist of four components:
-- Research pitch (10%—due Mon Sep 23)
-- Term paper:
-    - Draft submission (25%—due Mon. Nov 4th)
-    - Final submission (25%—due Mon. Nov. 18thst)
-- Research presentation (10%—due Mon Dec 2)
+
+- Research pitch (15%—due Tue Jun 10)
+- Term paper submission (25%—due Fri Jul 18)
+- Research presentation (30%—due Fri Jul 18)
 - Course participation (30%—assessed overall)
 
-The last component (“course participation”) will be assessed by your instructor and TA based on the following factors:
+Grading scale:
+90 to 100   "A"
+75 to 89     "B"
+60 to 74     "C"
+
+The last component ("course participation") will be assessed by your instructor based on the following factors:
+
 - course attendance
 - participation in course discussions
-- regular check-ins & incremental deliverables (as directed by your TA)
+- regular check-ins & incremental deliverables (as directed by your instructor)
+- **Completion of required weekly 1-hour mentor meetings**
 
 ## Policies
 
@@ -218,7 +210,7 @@ bring them to the attention of the course instructor.
 ### Extensions & Late Work
 
 Due dates for assignments will be communicated to you in advances by
-your course instructor or TA. If you have questions or confusion about
+your course instructor. If you have questions or confusion about
 due dates or grading policy, please contact your instructor promptly.
 
 Your instructor is the final word on matters governing this course (where
@@ -243,19 +235,19 @@ in-person, unless you have requested and been granted accommodations (see [below
 
 In general, absences are excused for illness, religious observation,
 participation in certain university activities, or there circumstances
-described in university's policy.  Since we expect the core work of what you do in this class to
+described in university's policy. Since we expect the core work of what you do in this class to
 be performed live in class, with your between-class assignments being about
 how to improve what you have done in class, participation during course
 sessions is essential to your performing well and getting the most out
-of the class.  As a result, if you miss more than one class that
+of the class. As a result, if you miss more than one class that
 not covered in one of the explicitly allowed reasons for excused absences,
 your grade for the class will be reduced.
 
-It is your responsibility to inform the instructor or TA beforehand if
-you will miss a class.  Students MUST communicate with their instructor or TA
+It is your responsibility to inform the instructor beforehand if
+you will miss a class. Students MUST communicate with their instructor
 regarding expected or unexpected absences.
 
-Note that JHU policy states:
+Note that Howard University policy states:
 
 > Students should consult with their instructors and/or TAs when they
 > have missed classes to explain the reasons for their absence and to
@@ -267,12 +259,12 @@ Note that JHU policy states:
 > Instructors in these courses may lower a student's grade for unexcused
 > absences.
 
-— [JHU First Year Academic Guide 2023 ~ 2024](https://engineering.jhu.edu/advising/wp-content/uploads/2023/04/JHU-First-Year-Academic-Guide-2023-2024.pdf)
+— [Howard University Academic Guide - Placeholder Link]
 
 If you have any questions about this or any other policy, please contact
 your instructor.
 
-Having emphasized the importance of in-person participation, we recognize that it may occassionally happen that a student has COVID or other very extenuating circumstances (based on Instructor/TA approval) that prevent them from attending in-person. For these cases, this is our class's Zoom link (which will be the same for every class): [Zoom Meeting](https://zoom.us/j/94375507370)
+Having emphasized the importance of in-person participation, we recognize that it may occassionally happen that a student has COVID or other very extenuating circumstances (based on Instructor approval) that prevent them from attending in-person. For these cases, this is our class's Zoom link (which will be the same for every class): [Zoom Meeting](https://zoom.us/j/94375507370)
 
 ### Accommodations
 
@@ -282,96 +274,76 @@ environment for all students.
 Accommodations to course policy or procedure can be made for students on
 an individual basis, in accordance with university policy.
 
-Please communicate with your instructor early in the semester to discuss
-any requests for accommodations to course policy or procedure. These will
-be assessed on a case-by-case basis. In some cases, you may be asked to
-provide an accommodation letter from Student Disability Services, 385
-Garland, (410) 516-4720, [studentdisabilityservices@jhu.edu](mailto:studentdisabilityservices@jhu.edu)
+The American with Disabilities (ADA) Procedures: Howard University is committed to
+creating an accessible, inclusive, and safe learning environment for all students and providing
+equal access to students with documented disabilities. Students seeking reasonable
+accommodations must first register with the Office of Student Services (OSS). There you can
+engage in a confidential conversation about the process for requesting reasonable
+accommodations in the classroom and clinical settings, which the Office of Student Services
+(OSS) determines. Accommodations must be requested each semester. Accommodations are not
+provided retroactively. If you want to request accommodations, please contact OSS via email at
+oss.disabilityservices@howard.edu or visit https://howard.edu/disability-services.
 
 If you have any questions about this or any other policy, please contact
 your instructor.
 
-
 ### Mental Health
 
-Johns Hopkins provides a university-wide website for information on a
-wide variety of services to support student
-wellness—[wellness.jhu.edu](http://wellness.jhu.edu)
-
-These include resources for anxiety, stress, depression, and other
-mental health related concerns. The university provides resources such
-as the [JHU Counseling Center](http://studentaffairs.jhu.edu/counselingcenter/)
-at 3003 North Charles Street in Suite S-200 (phone # 410-516-8278) for
-students struggling with issues related to mental health.
+Howard University provides resources to support student wellness. These include resources for anxiety, stress, depression, and other mental health related concerns via the University Counseling Service (202-806-7540). For confidential support related to interpersonal violence, contact the Interpersonal Violence Prevention Program (202-836-1401).
 
 ### Technology
 
 Unlike many other courses you may have taken, this course strongly encourages
 the use of technology tools, including AI-based writing assistants such as ChatGPT.
 
-**You are encouraged to use such tools as directed by your instructor and TA.**
+**You are encouraged to use such tools as directed by your instructor.**
 
 However, there may be circumstances where the use of these tools may constitute
 violations of this course's or the university's academic integrity policy.
 
-Please confer with your instructor or TA if you have questions or are
+Please confer with your instructor if you have questions or are
 unsure about the use of a tool in the completion of your course work.
 
 **This course requires the use of a computer to complete course assignments.**
 
 **You will be asked to bring a laptop computer with you to each class session.**
 
-If you do not have access to a laptop computer, please contact your instructor or TA
+If you do not have access to a laptop computer, please contact your instructor
 for additional guidance.
 
 ### Communications
 
-Your instructor and teaching assistants will be
-responsive over email during regular business hours (9 AM ~ 5 PM
-US/Eastern) during the school week (Monday ~ Friday.)
+Course information and announcements will primarily be communicated via Howard University's Canvas and your HU email. Please check Canvas and your email frequently.
 
-We may take up to 24 hours or more to respond to your e-mails; you
-should not expect a prompt response outside of the times above (e.g., on
-the weekend.)
+Your instructors will be responsive over email during regular business hours (9 AM ~ 5 PM US/Eastern) during the school week (Monday ~ Friday.) Instructors will use their primary email addresses (listed above) for communication, not necessarily HU email accounts.
 
-In addition to Github, we will use e-mail to communicate with you about
-this course. Please ensure that you regularly check your e-mail and
-ensure that you can see notifications from Github.
+We may take up to 48 hours or more to respond to your e-mails; you should not expect a prompt response outside of the times above (e.g., on the weekend.)
 
-Do note that your instructor has research and instructional obligations
-that necessitate out-of-town travel and may not be respond promptly to
-your e-mails.
+In addition to Canvas/email, we will use Github for assignment submission and discussion. Please ensure that you regularly check your e-mail and ensure that you can see notifications from Github.
 
-If you need to contact your instructor or teaching assistant about
-assignments, absences, or grade-related matters, please e-mail us well
-in advance.
+Do note that your instructors have research and instructional obligations that necessitate out-of-town travel and may not be respond promptly to your e-mails.
 
-
+If you need to contact your instructor about assignments, absences, or grade-related matters, please e-mail us well in advance.
 
 ### Academic Ethics
 
-In this course, you must abide by the university's policy on academic
-ethics: [Homewood Undergraduate Academic Ethics
-Policy](https://studentaffairs.jhu.edu/policies-guidelines/undergrad-ethics/)
+All graded work must be completed in accordance with Howard University's Academic Code of Student Conduct. In particular, plagiarism in any form is a violation of this code. Examples of plagiarism include:
+- buying or borrowing a paper,
+- copying a paper entirely or in part from any source,
+- summarizing a source without adequate citation,
+- using ChatGPT or other AI for writing graded work, and
+- using thoughts (including wording) belonging to someone else without citation.
 
-> Undergraduate students … assume a duty to conduct
-> themselves in a manner appropriate to the University’s mission as an
-> institution of higher learning. Students are obliged to refrain from
-> acts which they know, or under circumstances have reason to know,
-> violate the academic integrity of the University.
+It is also a violation of the honor code if the research paper has been used in its entirety in another class. A previous paper of yours may be the basis for further research for the current course, but you must discuss this with and receive written approval from the instructors in advance. The Academic Code specifies consequences for violations. Prior to commencing this course, each student must read the university's Academic Code, which is available on university's website.
 
-> Academic misconduct is prohibited by this policy. Academic misconduct is
-> any action or attempted action that may result in creating an unfair
-> academic advantage for oneself or an unfair academic advantage or
-> disadvantage for any other member or members of the academic community.
-> This includes a wide variety of behaviors such as cheating, plagiarism,
-> altering academic documents or transcripts, gaining access to materials
-> before they are meant to be available, and helping another individual to
-> gain an unfair academic advantage.
+### Digital Etiquette
 
-University policy dictates procedures for suspected violates of academic
-integrity. Potential sanctions include formal warnings, lowering of
-course grade, university probation, or suspension from university.
+During class-time, please use digital devices such as cellphones, laptops, and tablets for only activities directly involving this class. Other uses (including email, texting, and web browsing) are distracting to your classmates and to the instructors. If you must respond to a phone call, email, or text, please leave the classroom to do so.
 
-**Please confer with your instructor immediately if you questions or uncertainty
-arise regarding issues of academic ethics.**
+### COVID-19 Statement for Summer 2024
+
+The indoor mask mandate has been lifted on campus for all faculty, staff, students, and visitors, with a notable exception like patient settings. Faculty may continue to require masks for individual classes. In those classes where a face mask is required, students will be directed to leave the classroom if a face mask is not worn properly to cover the nose and mouth. Any student who refuses or fails to comply with a specific classroom requirement to wear a face mask, and any other measures the University advances for the safety and protection of the Howard Community, will constitute a violation of the University's Student Code of Conduct and could result in sanctions up to and including expulsion from the University.
+
+### Statement on Sex and Gender-Based Discrimination, Harassment and Violence
+
+Howard University's Policy Prohibiting Sex and Gender-Based Discrimination, Sexual Misconduct and Retaliation (aka, the Title IX Policy) prohibits discrimination, harassment, and violence based on sex, gender, gender expression, gender identity, sexual orientation, pregnancy, or marital status. With the exception of certain employees designated as confidential, note that all Howard University employees – including all faculty members – are required to report any information they receive regarding known or suspected prohibited conduct under the Title IX Policy to the Title IX Office (TitleIX@howard.edu or 202-806-2550), regardless of how they learn of it. For confidential support and assistance, you may contact the Interpersonal Violence Prevention Program (202-836-1401) or the University Counseling Service (202-806-7540). To learn more about your rights, resources, and options for reporting and/or seeking confidential support services (including additional confidential resources, both on and off campus), visit titleix.howard.edu.
