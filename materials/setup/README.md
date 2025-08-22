@@ -15,6 +15,8 @@ Students will work with their instructor, TA, and external support to:
 
 Students will also complete their first reading for this course and conduct their first discussion with the instructor.
 - [ ] read [Dennett, D. C. (2023, May 31). The problem with counterfeit people. The Atlantic. https://www.theatlantic.com/technology/archive/2023/05/problem-counterfeit-people/674075/](https://www.theatlantic.com/technology/archive/2023/05/problem-counterfeit-people/674075/)
+- [ ] [Dennett_TheProblemWithCounterfeitPeople.pdf](https://github.com/user-attachments/files/21942293/Dennett_TheProblemWithCounterfeitPeople.pdf)
+
 - [ ] draft a summary of the Dennett paper, using ChatGPT to make deliberate, targetted improvements
 
 ### Agenda
