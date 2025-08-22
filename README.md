@@ -1,6 +1,6 @@
-# Syllabus: AS.180.369 “Tools for Writing a Research Paper in Economics” (Fall 2024)
+# Syllabus: AS.180.369 “Tools for Writing a Research Paper in Economics” (Fall 2025)
 
-**This repository contains all of the course materials for AS.180.369 “Tools for Writing a Research Paper in Economics.” (Fall 2024)**
+**This repository contains all of the course materials for AS.180.369 “Tools for Writing a Research Paper in Economics.” (Fall 2025)**
 
 **NOTE**: This syllabus is a live document. It will be periodically updated as the course progresses!
 
@@ -11,7 +11,7 @@
 * [Instructor—Chris Carroll](#instructorchris-carroll)
   * [Office Hours](#office-hours)
 * [Teaching Assistant—Adrian Monninger](#teaching-assistantadrian-monninger)
-* [Teaching Assistant—Ethan Murinson](#teaching-assistantethan-murinson)
+* [Teaching Assistant—Jane Zeltner](#teaching-assistantjane-zeltner)
 * [Course Materials](#course-materials)
 * [Course Description](#course-description)
 * [Course Requirements](#course-requirements)
@@ -36,8 +36,8 @@ This is an in-person course, held on the Johns Hopkins Homewood Campus:
 |:-------- | ----------------------------------------------------------------------------------------------------- |
 | Title    | [AS.180.369 “Tools for Writing a Research Paper in Economics”](#)                                     |
 | Hours    | Monday 3:00 PM US/Eastern ~ 5:30 PM US/Eastern                                                        |
-| Dates    | Aug 26, 2024 ~ Dec 6, 2024 (See [below](#schedule) for schedule.)                                             |
-| Location | [Hodson 311 (Homewood Campus)](https://www.google.com/maps/dir/Current+Location/39.327538,-76.622306) |
+| Dates    | Aug 25, 2025 ~ Dec 5, 2025 (See [below](#schedule) for schedule.)                                             |
+| Location | [Krieger 308 (Homewood Campus)](https://www.google.com/maps/dir/Current+Location/39.327538,-76.622306) |
 |Office Hours| Students are welcome to schedule office hours with TA's on an ad-hoc basis                          |
 
 This course will be conducted by your instructor a graduate teaching assistant, supported by an undergraduate teaching assistant:
@@ -45,7 +45,7 @@ This course will be conducted by your instructor a graduate teaching assistant, 
 - Instructor: [Chris Carroll <ccarroll@jhu.edu>](https://econ.jhu.edu/directory/christopher-carroll/)
 
 - Graduate Teaching Assistant: [Adrian Monninger <amonnin1@jhu.edu>]
-- Undergraduate Teaching Assistant: [Ethan Murinson <emurins1@jhu.edu>]
+- Undergraduate Teaching Assistant: [Jane Zeltner <jzeltne1@jhu.edu>]
 
 ## Useful Resources
 - Duke Writing in Economics: Economics Research Paper Writing Guide: [Here](https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/econ.original.pdf)
@@ -116,20 +116,19 @@ My Github handle is [AMonninger](https://github.com/AMonninger).
 > heterogeneous agent. For this, I am using and developing [Econ-ARK](https://econ-ark.org/).
 
 
-## Undergraduate TA—Ethan Murinson
+## Undergraduate TA—Jane Zeltner
 
 ### Contact
 
 If you have any issues or questions with assignments in this course, ask me by @-tagging me on Github in a Github Issue.
-My Github handle is [emurinson](https://github.com/emurinson).If you have any questions you'd like addressed by email, please contact me at: [emurins1@jhu.edu](mailto:emurins1@jhu.edu).
+My Github handle is [jzeltne1](https://github.com/emurinson).If you have any questions you'd like addressed by email, please contact me at: [jzeltne1@jhu.edu](mailto:emurins1@jhu.edu).
 
 (Also, see [below](#communications) for the communications policy for this course.)
 
 ### Bio
 
-> I'm excited to be your TA for this course. I am a senior studying Math and Economics at Johns Hopkins
-> University. I took this course last semester and loved it, so I'm excited to be a part of it again! 
-
+> I'm excited to be your TA for this course. I am a senior studying Economics and Environmental Studies at Johns Hopkins
+> University.
 
 
 ## Course Materials
@@ -163,19 +162,19 @@ languages (though having taken a formal course in such a language is not require
 
 | #  | Date                                 | Phase               |                 Due                             |
 |:--:|--------------------------------------|---------------------|:-----------------------------------------------:|
-| 1  | [Mon Aug 26](materials/setup)        | 0. the setup        |               see this class' agenda            |
-| 2  | [Mon Sep 9](materials/pitch)         | 1. the pitch        |     Dennett Summary; signup for NASA workshop   |
-| 3  | [Mon Sep 16](materials/pitch)        | 1. the pitch        |                   see this class' agenda        |
-| 4  | [Mon Sep 23](materials/pitch)        | 1. the pitch        |  2×3-min Research Pitches (presented in-class)  |
-| 5  | [Mon Sep 30](materials/draft)        | 2. the draft        |      Watch 2nd NASA Workshop                    |
-| 6  | [Mon Oct 7](materials/draft)         | 2. the draft        |                  see this class' agenda         |
-| 7  | [Mon Oct 14](materials/draft)        | 2. the draft        |                 see this class' agenda          |
-| 8  | [Mon Oct 21](materials/draft)        | 2. the draft        |            see this class' agenda               |
-| 9  | [Mon Oct 28](materials/draft)        | 2. the draft        |                  see this class' agenda         |
-| 10 | [Mon Nov 4](materials/draft)         | 2. the draft        |      First Draft of Paper (submitted online)    |
-| 11 | [Mon Nov 11](materials/submission)   | 3. the submission   |             see this class' agenda              |
-| 12 | [Mon Nov 18](materials/presentation) | 4. the presentation |     Final Draft of Paper (submitted online)     |
-| 13 | [Mon Dec 2](materials/presentation)  | 4. the presentation | Final (15-min) Presentation (presented in-class)|
+| 1  | [Mon Aug 25](materials/setup)        | 0. the setup        |               see this class' agenda            |
+| 2  | [Mon Sep 8](materials/pitch)         | 1. the pitch        |     Dennett Summary; signup for NASA workshop   |
+| 3  | [Mon Sep 15](materials/pitch)        | 1. the pitch        |                   see this class' agenda        |
+| 4  | [Mon Sep 22](materials/pitch)        | 1. the pitch        |  2×3-min Research Pitches (presented in-class)  |
+| 5  | [Mon Sep 29](materials/draft)        | 2. the draft        |      Watch 2nd NASA Workshop                    |
+| 6  | [Mon Oct 6](materials/draft)         | 2. the draft        |                  see this class' agenda         |
+| 7  | [Mon Oct 13](materials/draft)        | 2. the draft        |                 see this class' agenda          |
+| 8  | [Mon Oct 20](materials/draft)        | 2. the draft        |            see this class' agenda               |
+| 9  | [Mon Oct 27](materials/draft)        | 2. the draft        |                  see this class' agenda         |
+| 10 | [Mon Nov 3](materials/draft)         | 2. the draft        |      First Draft of Paper (submitted online)    |
+| 11 | [Mon Nov 10](materials/submission)   | 3. the submission   |             see this class' agenda              |
+| 12 | [Mon Nov 17](materials/presentation) | 4. the presentation |     Final Draft of Paper (submitted online)     |
+| 13 | [Mon Dec 1](materials/presentation)  | 4. the presentation | Final (15-min) Presentation (presented in-class)|
 
 This course is split into five main phases:
 - the setup: students will get set up with all of the tools necessary
@@ -198,9 +197,9 @@ Note that the schedule above may shift as we progress through the course. Update
 Your grade in this course will consist of four components:
 - Research pitch (10%—due Mon Sep 23)
 - Term paper:
-    - Draft submission (25%—due Mon. Nov 4th)
-    - Final submission (25%—due Mon. Nov. 18thst)
-- Research presentation (10%—due Mon Dec 2)
+    - Draft submission (25%—due Mon. Nov 3rd)
+    - Final submission (25%—due Mon. Nov. 17th)
+- Research presentation (10%—due Mon Dec 1st)
 - Course participation (30%—assessed overall)
 
 The last component (“course participation”) will be assessed by your instructor and TA based on the following factors:
