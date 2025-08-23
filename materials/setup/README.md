@@ -31,7 +31,7 @@ Students will also complete their first reading for this course and conduct thei
   Students will sign up for the services above, with direction and guidance from instructor, coïnstructor, and technical support.
   - [ ] Create a Github account.
   - [ ] Fork this repository on Github.
-  - [ ] Invite [llorracc](https://github.com/llorracc/) and [emurinson](https://github.com/emurinson) and [Amonninger](https://github.com/Amonninger) to the repository as collaborators.
+  - [ ] Invite [llorracc](https://github.com/llorracc/) and [jzeltne1](https://github.com/jzeltne1) and [Amonninger](https://github.com/Amonninger) to the repository as collaborators.
   - [ ] In contrib folder, create new folder with your Github ID
   - [ ] Create a OpenAI ChatGPT Account.
 - Independent Reading (15 min.)
@@ -44,7 +44,6 @@ Students will also complete their first reading for this course and conduct thei
 
 ### Assignments
 
-- [ ] Sign up for NASA Open Science Skills Training Workshop on: September 17th and 24th, 1pm ET - 4pm ET at: https://us02web.zoom.us/webinar/register/WN_iNYg3dZcQBixAWZdEwspMA
 - [ ] Completed Dennett summary (due Class 02; submit online via Github.)
   - Before our next class session, students will submit their final draft of the Dennett paper summary in their fork of this repository in the folder `/contrib/YOUR-GITHUB-ID/` in a file titled `class01-dennett-summary.md`. Your submission will be graded on the following criteria:
     - Make at least five commits demonstrating incremental improvements using ChatGPT.
