@@ -12,7 +12,7 @@ In this class, we will complete initial setup for all of the tools and services 
 Students will work with their instructor, TA, and external support to:
 - [ ] sign up for [Github](http://github.com)
 - [ ] sign up for [OpenAI ChatGPT](https://openai.com/)
-- [ ] Paperpile Setup: Go to https://paperpile.com in Google Chrome
+- [ ] Paperpile Setup: Go to https://paperpile.com in Google Chrome and sign up for free trial 
 
 Students will also complete their first reading for this course and conduct their first discussion with the instructor.
 - [ ] read [Dennett, D. C. (2023, May 31). The problem with counterfeit people. The Atlantic. https://www.theatlantic.com/technology/archive/2023/05/problem-counterfeit-people/674075/](https://www.theatlantic.com/technology/archive/2023/05/problem-counterfeit-people/674075/)
