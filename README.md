@@ -10,7 +10,6 @@
 * [Useful Resources](#Useful-Resources)
 * [Instructor—Chris Carroll](#instructorchris-carroll)
   * [Office Hours](#office-hours)
-* [Teaching Assistant—Adrian Monninger](#teaching-assistantadrian-monninger)
 * [Teaching Assistant—Jane Zeltner](#teaching-assistantjane-zeltner)
 * [Course Materials](#course-materials)
 * [Course Description](#course-description)
@@ -93,28 +92,6 @@ If you need to meet with me outside of these times, please e-mail me.
 > Economics and Statistics,(ReStat) the Journal of Business and Economic
 > Statistics, (JBES) and the Berkeley Electronic Journal of
 > Macroeconomics (BEJM).
-
-
-## Teaching Assistant—Adrian Monninger
-
-
-<img src="media/adrian-monninger.jpg?raw=true" alt="Adrian Monninger" width="300"/>
-
-
-### Contact
-
-Please contact me about this course at my e-mail address: [amonnin1@jhu.edu](mailto:amonnin1@jhu.edu).
-For assignments in this course, course attendees are also encouraged to communicate by @-tagging me on Github.
-My Github handle is [AMonninger](https://github.com/AMonninger).
-
-(Also, see [below](#communications) for the communications policy for this course.)
-
-### Bio
-
-> I am a Ph.D. candidate in the Economics Department at Johns Hopkins
-> University.  My research focuses on macroeconomics with emphasis on
-> heterogeneous agent. For this, I am using and developing [Econ-ARK](https://econ-ark.org/).
-
 
 ## Undergraduate TA—Jane Zeltner
 
