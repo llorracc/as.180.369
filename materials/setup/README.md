@@ -39,7 +39,7 @@ Students will also complete their first reading for this course and conduct thei
 - *Short Break (5 min.)*
 - **CC, TA's***: Independent Writing with Instructor-Led ChatGPT Demonstration (55 min.)
   - [ ] Students will write a brief (250 words) summary of the Dennett paper.
-    - [ ] The writing should be done in Github as a new file in the `/contrib/YOUR-GITHUB-ID/` folder titled `class00-dennett-summary.md`.
+    - [ ] The writing should be done in Github as a new file in your dennett repository. 
   - [ ] Instructor will demonstrate how to use ChatGPT to make guided improvements to writing.
 
 ### Assignments
