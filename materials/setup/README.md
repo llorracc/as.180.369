@@ -12,9 +12,13 @@ In this class, we will complete initial setup for all of the tools and services 
 Students will work with their instructor, TA, and external support to:
 - [ ] sign up for [Github](http://github.com)
 - [ ] sign up for [OpenAI ChatGPT](https://openai.com/)
+- [ ] Paperpile Setup: Go to https://paperpile.com in Google Chrome and sign up for free trial
+- [ ] Litmaps Setup: Go to https://litmaps.com and sign up for the free trial 
 
 Students will also complete their first reading for this course and conduct their first discussion with the instructor.
 - [ ] read [Dennett, D. C. (2023, May 31). The problem with counterfeit people. The Atlantic. https://www.theatlantic.com/technology/archive/2023/05/problem-counterfeit-people/674075/](https://www.theatlantic.com/technology/archive/2023/05/problem-counterfeit-people/674075/)
+- [ ] [Dennett_TheProblemWithCounterfeitPeople.pdf](https://github.com/user-attachments/files/21942293/Dennett_TheProblemWithCounterfeitPeople.pdf)
+
 - [ ] draft a summary of the Dennett paper, using ChatGPT to make deliberate, targetted improvements
 
 ### Agenda
@@ -28,23 +32,20 @@ Students will also complete their first reading for this course and conduct thei
 - **CC, TA's***: Service Signups (30 min.)
   Students will sign up for the services above, with direction and guidance from instructor, coïnstructor, and technical support.
   - [ ] Create a Github account.
-  - [ ] Fork this repository on Github.
-  - [ ] Invite [llorracc](https://github.com/llorracc/) and [emurinson](https://github.com/emurinson) and [Amonninger](https://github.com/Amonninger) to the repository as collaborators.
-  - [ ] In contrib folder, create new folder with your Github ID
-  - [ ] Create a OpenAI ChatGPT Account.
+  - [ ] Create a new repository for the Dennett summary assignment. 
+  - [ ] Invite [llorracc](https://github.com/llorracc/) and [jzeltne1](https://github.com/jzeltne1) to the repository as collaborators.
 - Independent Reading (15 min.)
   Students will read the Dennett paper.
 - *Short Break (5 min.)*
 - **CC, TA's***: Independent Writing with Instructor-Led ChatGPT Demonstration (55 min.)
   - [ ] Students will write a brief (250 words) summary of the Dennett paper.
-    - [ ] The writing should be done in Github as a new file in the `/contrib/YOUR-GITHUB-ID/` folder titled `class00-dennett-summary.md`.
+    - [ ] The writing should be done in Github as a new file in your dennett repository. 
   - [ ] Instructor will demonstrate how to use ChatGPT to make guided improvements to writing.
 
 ### Assignments
 
-- [ ] Sign up for NASA Open Science Skills Training Workshop on: September 17th and 24th, 1pm ET - 4pm ET at: https://us02web.zoom.us/webinar/register/WN_iNYg3dZcQBixAWZdEwspMA
 - [ ] Completed Dennett summary (due Class 02; submit online via Github.)
-  - Before our next class session, students will submit their final draft of the Dennett paper summary in their fork of this repository in the folder `/contrib/YOUR-GITHUB-ID/` in a file titled `class01-dennett-summary.md`. Your submission will be graded on the following criteria:
+  - Before our next class session, students will submit their final draft of the Dennett paper summary in their temporary Dennett repository `class01-dennett-summary.md`. Your submission will be graded on the following criteria:
     - Make at least five commits demonstrating incremental improvements using ChatGPT.
     - Commits should be spread out over three days and appear at least one hour apart.
     - Include one or two thoughts of your own.
