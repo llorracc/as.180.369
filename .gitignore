@@ -1,1 +1,7 @@
 .ipynb_checkpoints
+
+# Cursor IDE files
+.cursor*
+
+# Spec story files
+.specstory/
