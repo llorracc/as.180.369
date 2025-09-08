@@ -38,7 +38,7 @@ research paper.
 3. **CC, TA's** overview of term paper & process (15 mins): What is the overall goal of the term paper? What process will we follow? What do we want to accomplish through the pitch process?
 
 **Homework**
-- Choose your a topic for your pitch
+- Choose a topic for your pitch
 - Prepare a markdown file in your contrib folder with your thoughts on the topic and what your initial hypothesis for the relationship is. Write two paragraphs. 
 - You are welcome to use resources like ChatGPT for this assignment.
 
