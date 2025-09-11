@@ -22,9 +22,9 @@ _I am a student in as.180.369_
 
 ## math - uses latex
 
-\[
+$
 e=mc^2
-\]
+$
 
 ## imbeded image
 
