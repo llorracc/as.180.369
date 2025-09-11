@@ -39,6 +39,9 @@ research paper.
 
 **Homework**
 - Choose a topic for your pitch
+- Please view the JEP shared library (Journal of Economic Perspectives, 2022-Q2 through 2024-Q3). [JEP](https://paperpile.com/shared/JEP-Master-fXGs~p9Z6QT2ibDfuw3nruw)
+    - You should be able to see the entire set of issues through that shared library. These papers will help guide you towards picking a topic, but you are welcome to use other sources in addition to this. 
+- To get started on building your own Paperpile library, I’ve assigned you a specific issue of JEP. Please make sure to save all of the papers from this issue into your personal Paperpile library. To do this, you can drag the subfolder from the "Shared with me" section on the left side of the screen up to the "My library" section. 
 - Prepare a markdown file in your contrib folder with your thoughts on the topic and what your initial hypothesis for the relationship is. Write two paragraphs. 
 - You are welcome to use resources like ChatGPT for this assignment.
 
