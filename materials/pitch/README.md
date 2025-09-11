@@ -45,23 +45,25 @@ research paper.
 ## Class 3 Tools—BibTeX & PaperPile
 
 **Agenda**
-1. **TA** Example Python code analyzing the rate of return vs Presidential party. (15 min.)
 2. **CC, TA's** [BibTeX](https://www.bibtex.com) (30 min.)
     - [What is BibTeX?](https://www.bibtex.com/g/bibtex-format/#what-is-bibtex)
     - [BibTeX format explained](https://www.bibtex.com/g/bibtex-format/#bibtex-format-explained)
     - Discussion of BibTeX issues
 3. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
-4. **CC, TA's** [Litmaps](https://www.litmaps.com/) (45 min.)
-    - [Synchronous Litmaps demonstration](https://www.youtube.com/watch?v=TJ_wkVDQBrs)
-        - Finding literature via Litmaps
-5. **CC, TA's** [Paperpile](https://paperpile.com/) (45 min.)
+4. **CC, TA's** [Paperpile](https://paperpile.com/) (30 min.)
     - Create a free trial Paperpile account
     - Connect your account to the jhu library for help in finding papers
     - Sharing vs exporting bibliographies
     - How do you organize your Paperpile folders?
     - [Synchronous Paperpile demonstration](https://www.youtube.com/watch?v=0p2QbrmePKk)
-6. **CC, TA's** Sharing BibTeX files between Paperpile & Litmaps (15 min)
-7. 2. **CC, TA's** check your understanding (30 mins)
+5. **CC, TA** JupyterHub (30 mins)
+    - Create a Globus account with your hopkins login [Globus.org](https://www.globus.org/)
+    - Log in to SciServer using your Globus login [SciServer](https://apps.sciserver.org/dashboard/)
+    - Once on the Dashboard, press Compute, then create a new container with the course name. Make sure the Compute Image is econ-ark
+    - Open a terminal page and clone the GitHub repo by typing git clone https://github.com/llorracc/as.180.369.git 
+    - Once created, click on the storage folder, then your jhed, then persistent. You should find the course repo here.  
+    - Provide demo on how to use terminal, notebook, and other features.
+6. **CC, TA's** check your understanding (30 mins)
     - [Github.com](http://github.com) Check (5 mins): Resync your ‘fork’ against [‘origin’](http://github.com/llorracc/as.180.369).
     - [Jupyterhub](http://jhu.econ-ark.org) Check (5 mins): Log in.
         - Under your `contrib/` folder, open your Dennett summary and copy the contents into a new notebook.
@@ -74,14 +76,9 @@ research paper.
         - `git commit -m …` the changes you `git add`ed.
         - `git push origin` to synchronize the changes from your Jupyterhub to Github.
     - **You should NEVER EVER edit ANYTHING on the Github website again** All changes should be made in Jupyterhub and then `git push`ed up.
-  - [Jupyterhub](https://jhu.econ-ark.org) Demo (10 mins)
-        - How do I get logged in?
-            - Start by navigating to https://jhu.econ-ark.org, click on the button that says "Sign in with GitHub". From there enter your github username and password. You will then be taken to your Jupyterhub homepage.
-        - How do I create new documents?
-        - How do I use the terminal?
 **Homework**
 - Use Litmaps to conduct two literature searches
-    - 1 search for each of the topics you have selected to pitch.
+    - 1 search for the topic you have selected to pitch.
 - Prepare yourself to discuss, in the next class, what you found in your literature searches.
     - Review this [additional Paperpile resource](https://www.youtube.com/watch?v=y7vDPfSr-k0)
     - You will need to explain why you picked some papers and did not include all of them.
