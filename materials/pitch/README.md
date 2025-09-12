@@ -48,25 +48,26 @@ research paper.
 ## Class 3 Tools—BibTeX & PaperPile
 
 **Agenda**
-2. **CC, TA's** [BibTeX](https://www.bibtex.com) (30 min.)
+1. **CC, TA's** [BibTeX](https://www.bibtex.com) (10 min.)
     - [What is BibTeX?](https://www.bibtex.com/g/bibtex-format/#what-is-bibtex)
     - [BibTeX format explained](https://www.bibtex.com/g/bibtex-format/#bibtex-format-explained)
     - Discussion of BibTeX issues
-3. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
-4. **CC, TA's** [Paperpile](https://paperpile.com/) (30 min.)
-    - Create a free trial Paperpile account
-    - Connect your account to the jhu library for help in finding papers
+2. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
+3. **CC, TA's** [Paperpile](https://paperpile.com/) (20 min.)
+    - Verify you have connected your account to the jhu library for help in finding papers
     - Sharing vs exporting bibliographies
     - How do you organize your Paperpile folders?
-    - [Synchronous Paperpile demonstration](https://www.youtube.com/watch?v=0p2QbrmePKk)
-5. **CC, TA** JupyterHub (30 mins)
+4. **CC, TA** (10 min.)
+    - Exhibit workflow for creating and sharing a new folder in PaperPile.  
+6. **CC, TA** JupyterHub (30 mins)
     - Create a Globus account with your hopkins login [Globus.org](https://www.globus.org/)
     - Log in to SciServer using your Globus login [SciServer](https://apps.sciserver.org/dashboard/)
     - Once on the Dashboard, press Compute, then create a new container with the course name. Make sure the Compute Image is econ-ark
-    - Open a terminal page and clone the GitHub repo by typing git clone https://github.com/llorracc/as.180.369.git 
+    - Open a terminal page and clone the GitHub repo by typing:
+        - `git clone https://github.com/llorracc/as.180.369.git`
     - Once created, click on the storage folder, then your jhed, then persistent. You should find the course repo here.  
     - Provide demo on how to use terminal, notebook, and other features.
-6. **CC, TA's** check your understanding (30 mins)
+7. **CC, TA's** check your understanding (30 mins)
     - [Github.com](http://github.com) Check (5 mins): Resync your ‘fork’ against [‘origin’](http://github.com/llorracc/as.180.369).
     - [Jupyterhub](http://jhu.econ-ark.org) Check (5 mins): Log in.
         - Under your `contrib/` folder, open your Dennett summary and copy the contents into a new notebook.
