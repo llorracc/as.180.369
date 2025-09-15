@@ -20,7 +20,7 @@ per-pupil federal and state revenues than those mapped to HOLC A, B, and C secur
     - most of these schools qualify for Title I funding which explains why their federal funding is so high
 
 
-* \it can be hard to separate effects of redlining from ppl just being poor. if can find proof then good, but otherwise maybe find something more clear cut\
+* it can be hard to separate effects of redlining from ppl just being poor. if can find proof then good, but otherwise maybe find something more clear cut
 
 ## References
 
