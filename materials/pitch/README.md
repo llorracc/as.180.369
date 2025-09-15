@@ -12,12 +12,14 @@ research paper.
 [Zoom recording. Requires JHU login.]()
 
 **Agenda**
-1. **CC, TA's** tool micro-demos (50 mins)
-    - [Github.com](https://github.com) Demo (10 mins)
+1. **CC, TA's** tool micro-demos 
+    - [Github.com](https://github.com) Demo (60 mins)
         - What is a fork?
         - How do I sync my copy of the repository with the original?
         - How do I open and comment on issues?
         - What is a Pull Request?
+     - Full tour of GitHub
+     - Download GitHub desktop and use to clone repository 
     - Markdown Demo (10 mins)
         - What is Markdown, and how do I use it to format my documents?
         - How do I create headings?
@@ -27,18 +29,45 @@ research paper.
         - How do I embed mathematical equations using LaTeX?
         - How do I embed images?
         - References: [Get Started with Markdown on Github](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) & [Writing math in Markdown on Github](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
-    - [Jupyterhub](https://jhu.econ-ark.org) Demo (10 mins)
-        - How do I get logged in?
-            - Start by navigating to https://jhu.econ-ark.org, click on the button that says "Sign in with GitHub". From there enter your github username and password. You will then be taken to your Jupyterhub homepage.
-        - How do I create new documents?
-        - How do I use the terminal?
     - [`git`](https://docs.github.com/en/get-started/quickstart/hello-world) and [`gh`](https://cli.github.com/manual/examples) Demo (20 mins)
         - How do I `git clone`?
         - How do I `git push`?
         - How do I `git pull`?
         - How do I `git add` and `git commit`?
         - How do I use `gh`?
-2. **CC, TA's** check your understanding (30 mins)
+3. **CC, TA's** overview of term paper & process (15 mins): What is the overall goal of the term paper? What process will we follow? What do we want to accomplish through the pitch process?
+
+**Homework**
+- Choose a topic for your pitch
+- Please view the JEP shared library (Journal of Economic Perspectives, 2022-Q2 through 2024-Q3). [JEP](https://paperpile.com/shared/JEP-Master-fXGs~p9Z6QT2ibDfuw3nruw)
+    - You should be able to see the entire set of issues through that shared library. These papers will help guide you towards picking a topic, but you are welcome to use other sources in addition to this. 
+- To get started on building your own Paperpile library, I’ve assigned you a specific issue of JEP. Please make sure to save all of the papers from this issue into your personal Paperpile library. To do this, you can drag the subfolder from the "Shared with me" section on the left side of the screen up to the "My library" section. 
+- Prepare a markdown file in your contrib folder with your thoughts on the topic and what your initial hypothesis for the relationship is. Write two paragraphs. 
+- You are welcome to use resources like ChatGPT for this assignment.
+
+## Class 3 Tools—BibTeX & PaperPile
+
+**Agenda**
+1. **CC, TA's** [BibTeX](https://www.bibtex.com) (10 min.)
+    - [What is BibTeX?](https://www.bibtex.com/g/bibtex-format/#what-is-bibtex)
+    - [BibTeX format explained](https://www.bibtex.com/g/bibtex-format/#bibtex-format-explained)
+    - Discussion of BibTeX issues
+2. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
+3. **CC, TA's** [Paperpile](https://paperpile.com/) (20 min.)
+    - Verify you have connected your account to the jhu library for help in finding papers
+    - Sharing vs exporting bibliographies
+    - How do you organize your Paperpile folders?
+4. **CC, TA** (10 min.)
+    - Exhibit workflow for creating and sharing a new folder in PaperPile.  
+6. **CC, TA** JupyterHub (30 mins)
+    - Create a Globus account with your hopkins login [Globus.org](https://www.globus.org/)
+    - Log in to SciServer using your Globus login [SciServer](https://apps.sciserver.org/dashboard/)
+    - Once on the Dashboard, press Compute, then create a new container with the course name. Make sure the Compute Image is econ-ark
+    - Open a terminal page and clone the GitHub repo by typing:
+        - `git clone https://github.com/llorracc/as.180.369.git`
+    - Once created, click on the storage folder, then your jhed, then persistent. You should find the course repo here.  
+    - Provide demo on how to use terminal, notebook, and other features.
+7. **CC, TA's** check your understanding (30 mins)
     - [Github.com](http://github.com) Check (5 mins): Resync your ‘fork’ against [‘origin’](http://github.com/llorracc/as.180.369).
     - [Jupyterhub](http://jhu.econ-ark.org) Check (5 mins): Log in.
         - Under your `contrib/` folder, open your Dennett summary and copy the contents into a new notebook.
@@ -51,37 +80,10 @@ research paper.
         - `git commit -m …` the changes you `git add`ed.
         - `git push origin` to synchronize the changes from your Jupyterhub to Github.
     - **You should NEVER EVER edit ANYTHING on the Github website again** All changes should be made in Jupyterhub and then `git push`ed up.
-3. **CC, TA's** overview of term paper & process (15 mins): What is the overall goal of the term paper? What process will we follow? What do we want to accomplish through the pitch process?
-4. [Sign up for 2 of the starting topics](https://github.com/llorracc/as.180.369/issues/1).
-
+      
 **Homework**
-- Choose your 2 topics on Github
-- Prepare a markdown file in your contrib folder with your thoughts on the topic and what your initial hypothesis for the relationship is.
-- You are welcome to use resources like ChatGPT for this assignment.
-
-## Class 3 Tools—BibTeX & PaperPile
-
-**Agenda**
-1. **TA** Example Python code analyzing the rate of return vs Presidential party. (15 min.)
-2. **CC, TA's** [BibTeX](https://www.bibtex.com) (30 min.)
-    - [What is BibTeX?](https://www.bibtex.com/g/bibtex-format/#what-is-bibtex)
-    - [BibTeX format explained](https://www.bibtex.com/g/bibtex-format/#bibtex-format-explained)
-    - Discussion of BibTeX issues
-3. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
-4. **CC, TA's** [Litmaps](https://www.litmaps.com/) (45 min.)
-    - [Synchronous Litmaps demonstration](https://www.youtube.com/watch?v=TJ_wkVDQBrs)
-        - Finding literature via Litmaps
-5. **CC, TA's** [Paperpile](https://paperpile.com/) (45 min.)
-    - Create a free trial Paperpile account
-    - Connect your account to the jhu library for help in finding papers
-    - Sharing vs exporting bibliographies
-    - How do you organize your Paperpile folders?
-    - [Synchronous Paperpile demonstration](https://www.youtube.com/watch?v=0p2QbrmePKk)
-6. **CC, TA's** Sharing BibTeX files between Paperpile & Litmaps (15 min)
-
-**Homework**
-- Use Litmaps to conduct two literature searches
-    - 1 search for each of the topics you have selected to pitch.
+- Use Litmaps to conduct at least two literature searches.
+    - 1 search for the topic you have selected to pitch.
 - Prepare yourself to discuss, in the next class, what you found in your literature searches.
     - Review this [additional Paperpile resource](https://www.youtube.com/watch?v=y7vDPfSr-k0)
     - You will need to explain why you picked some papers and did not include all of them.
