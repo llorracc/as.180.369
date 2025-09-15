@@ -80,6 +80,7 @@ research paper.
         - `git commit -m …` the changes you `git add`ed.
         - `git push origin` to synchronize the changes from your Jupyterhub to Github.
     - **You should NEVER EVER edit ANYTHING on the Github website again** All changes should be made in Jupyterhub and then `git push`ed up.
+
 **Homework**
 - Use Litmaps to conduct two literature searches
     - 1 search for the topic you have selected to pitch.
