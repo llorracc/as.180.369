@@ -72,15 +72,12 @@ research paper.
         - `git clone https://github.com/llorracc/as.180.369.git`
     - Once created, click on the storage folder, then your jhed, then persistent. You should find the course repo here.  
     - Provide demo on how to use terminal, notebook, and other features.
-4. **CC, TA's** check your understanding (30 mins)
-    - [Github.com](http://github.com) Check (5 mins): Resync your ‘fork’ against [‘origin’](http://github.com/llorracc/as.180.369).
-    - [Jupyterhub](http://jhu.econ-ark.org) Check (5 mins): Log in.
-        - Under your `contrib/` folder, open your Dennett summary and copy the contents into a new notebook.
-        - Incorporate Markdown formatting into the Dennett summary **notebook** in your `contrib/` directory.
-        - Save and close the notebook.
+4. **CC** Beyond the Streetlight (10 mins)
+    - Copy the Beyond the Streetlight file into their directory
+    - `mv Beyond_the_Streetlight.ipynb`
     - [`git`](https://docs.github.com/en/get-started/quickstart/hello-world) and [`gh`](https://cli.github.com/manual/examples) Check: From Jupyrerhub, clone your fork, make a commit, and push back to Github. (10 mins)
         - `git status` to see if there is any uncommitted work.
-        - `git add` your Dennett Summary **notebook**
+        - `git add` Beyond the Streetlight **notebook**
         - `git status` to check what is in your staging area (to inspect what has been `git add`ed)
         - `git commit -m …` the changes you `git add`ed.
         - `git push origin` to synchronize the changes from your Jupyterhub to Github.
