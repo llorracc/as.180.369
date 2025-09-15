@@ -18,7 +18,9 @@ The long-run consequences of such disparities are visible in educational outcome
 - present-day districts located in D neighborhoods have less district-level per-pupil total revenues but higher
 per-pupil federal and state revenues than those mapped to HOLC A, B, and C security ratings. However, the differences in per-pupil federal and state revenues are not large enough to overcome the sizeable gaps in per-pupil local funding that favor those districts mapped to higher HOLC security rating
     - most of these schools qualify for Title I funding which explains why their federal funding is so high
-- 
+
+
+* it can be hard to separate effects of redlining from ppl just being poor. if can find proof then good, but otherwise maybe find something more clear cut
 
 ## References
 
