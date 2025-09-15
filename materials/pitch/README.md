@@ -35,7 +35,16 @@ research paper.
         - How do I `git pull`?
         - How do I `git add` and `git commit`?
         - How do I use `gh`?
-3. **CC, TA's** overview of term paper & process (15 mins): What is the overall goal of the term paper? What process will we follow? What do we want to accomplish through the pitch process?
+2. **CC, TA's** [BibTeX](https://www.bibtex.com) (10 min.)
+    - [What is BibTeX?](https://www.bibtex.com/g/bibtex-format/#what-is-bibtex)
+    - [BibTeX format explained](https://www.bibtex.com/g/bibtex-format/#bibtex-format-explained)
+    - Discussion of BibTeX issues
+3. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
+4. **CC, TA's** [Paperpile](https://paperpile.com/) (20 min.)
+    - Verify you have connected your account to the jhu library for help in finding papers
+    - Sharing vs exporting bibliographies
+    - How do you organize your Paperpile folders?
+5. **CC, TA's** overview of term paper & process (15 mins): What is the overall goal of the term paper? What process will we follow? What do we want to accomplish through the pitch process?
 
 **Homework**
 - Choose a topic for your pitch
@@ -45,29 +54,25 @@ research paper.
 - Prepare a markdown file in your contrib folder with your thoughts on the topic and what your initial hypothesis for the relationship is. Write two paragraphs. 
 - You are welcome to use resources like ChatGPT for this assignment.
 
-## Class 3 Tools—BibTeX & PaperPile
+## Class 3 Tools—Pitch and JupyterLab
 
 **Agenda**
-1. **CC, TA's** [BibTeX](https://www.bibtex.com) (10 min.)
-    - [What is BibTeX?](https://www.bibtex.com/g/bibtex-format/#what-is-bibtex)
-    - [BibTeX format explained](https://www.bibtex.com/g/bibtex-format/#bibtex-format-explained)
-    - Discussion of BibTeX issues
-2. **CC, TA's** [JHU Economics Libary Guide](https://guides.library.jhu.edu/economics) (5 min.)
-3. **CC, TA's** [Paperpile](https://paperpile.com/) (20 min.)
-    - Verify you have connected your account to the jhu library for help in finding papers
-    - Sharing vs exporting bibliographies
-    - How do you organize your Paperpile folders?
-4. **CC, TA** (10 min.)
-    - Exhibit workflow for creating and sharing a new folder in PaperPile.  
-6. **CC, TA** JupyterHub (30 mins)
+1. **CC, TA** (10 min.)
+    - Exhibit workflow for creating and sharing a new folder in PaperPile.
+2. **CC** (60 min.)
+    - Have each student present their paragraph from HW and describe their proposed topic.
+    - CC will provide live feedback to students on their proposed topics.  
+3. **CC, TA** JupyterHub (30 mins)
     - Create a Globus account with your hopkins login [Globus.org](https://www.globus.org/)
     - Log in to SciServer using your Globus login [SciServer](https://apps.sciserver.org/dashboard/)
     - Once on the Dashboard, press Compute, then create a new container with the course name. Make sure the Compute Image is econ-ark
-    - Open a terminal page and clone the GitHub repo by typing:
+    - Open a terminal page and change directory with: `cd ~/workspace/Storage/ID/persistent`
+    - NOTE: ID should be the students SciServer username
+    - clone the GitHub repo by typing:
         - `git clone https://github.com/llorracc/as.180.369.git`
     - Once created, click on the storage folder, then your jhed, then persistent. You should find the course repo here.  
     - Provide demo on how to use terminal, notebook, and other features.
-7. **CC, TA's** check your understanding (30 mins)
+4. **CC, TA's** check your understanding (30 mins)
     - [Github.com](http://github.com) Check (5 mins): Resync your ‘fork’ against [‘origin’](http://github.com/llorracc/as.180.369).
     - [Jupyterhub](http://jhu.econ-ark.org) Check (5 mins): Log in.
         - Under your `contrib/` folder, open your Dennett summary and copy the contents into a new notebook.
