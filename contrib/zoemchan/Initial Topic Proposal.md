@@ -21,6 +21,7 @@ per-pupil federal and state revenues than those mapped to HOLC A, B, and C secur
 
 
 * it can be hard to separate effects of redlining from ppl just being poor. if can find proof then good, but otherwise maybe find something more clear cut
+* two or three paragraphs on what ive learned form lit search w maybe a graphic
 
 ## References
 
