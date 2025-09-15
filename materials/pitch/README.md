@@ -82,7 +82,7 @@ research paper.
     - **You should NEVER EVER edit ANYTHING on the Github website again** All changes should be made in Jupyterhub and then `git push`ed up.
       
 **Homework**
-- Use Litmaps to conduct two literature searches
+- Use Litmaps to conduct at least two literature searches.
     - 1 search for the topic you have selected to pitch.
 - Prepare yourself to discuss, in the next class, what you found in your literature searches.
     - Review this [additional Paperpile resource](https://www.youtube.com/watch?v=y7vDPfSr-k0)
