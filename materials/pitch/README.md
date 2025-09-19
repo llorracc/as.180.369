@@ -97,24 +97,32 @@ research paper.
 
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2%5Fjh%5Fedu%2FDocuments%2FFall%202023%20AS%2E160%2E369%20Class%20Recordings%2F2023%2E09%2E25%20Class%204%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1)
 
-You will create a pitch, consisting of any visual aid of your choice. The pitch
-should be no longer than 5 minutes in duration and should convey the following
-items:
+1. **CC, TA** Create a Jupyter Notebook (20 min)
+   - Create a new Notebook that contains your Litmaps and any associated text.
+   - Push to course Github in your contrib folder.
+  
+2. **CC, TA** Use AI to improve Jupyter Notebook (20 min)
+   - Research any methods for this that do not involve copy and pasting into ChatGPT.
+  
+3. **TA** Sign up for course groupchat and send introduction (15 min)
+   - [GroupMe link](https://groupme.com/join_group/110309543/gWmJH3OW)
+   - Send a quick introduction for other students to read.
 
-- Exhibit understanding of existing literature around your topics (30%)
+4. **CC, TA** Pitch (70 min)
+   - You will share a pitch, no longer than 5 minutes in duration, that should convey the following items:
+
+- Exhibit understanding of existing literature around your topics 
     - You will share your screen showing LitMaps results.
-- Clear research question (25%)
+- Clear research question 
     - Do you understand the topic you selected?
     - Were you able to articulate it as a research question?
-- Preview/outline of what you plan to do to answer that question. (25%)
-- Fit & finish (20%)
+- Preview/outline of what you plan to do to answer that question.
+- Fit & finish
     - Visual aides should be clear, concise, and not too wordy.
-    - Speaking style should slow and understandable.
-    - All ideas conveyed within the time limit.
+    - Speaking style should be slow and understandable.
 
 **Additional Guidelines**
-- Optionally submit 1 or 2 visuals (e.g., slides, images, bullet points) to [CR](mailto:cameron@dutc.io) prior to Fri Sep 22.
-- 10 minutes per student + 5 min Q&A + 5 min allocation (×7 students = 140 min)
+- 5 minutes per student + 5 min Q&A (×7 students = 70 min)
 
 **Homework**
 - Choose two topics* from the JEP folder I shared (*or 1 topic from there and 1 topic of your own that you’re interested in) and 1 of the topics you chose on the list of topics on the Github issue (i.e. GDP Growth and political party in the US, or Inflation change and political party in the US)
