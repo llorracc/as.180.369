@@ -1,11 +1,18 @@
 # Literature Review Strategy
 
-## 1. Organizing by Policy Type
-To structure my review, I divided the search into two streams of performance-linked value-based care policies:
-- **Hospital Readmissions Reduction Program (HRRP):** a penalty-based policy targeting 30-day readmissions.
-- **Hospital Value-Based Purchasing (HVBP):** a redistribution policy tying payments to multiple quality domains.
+## 1. Overview of Policy Types
 
-This separation ensured that I could both track policy-specific outcomes and compare how different incentive designs shaped provider behavior.
+### Hospital Readmissions Reduction Program (HRRP)
+- **Type:** *Disincentive / Penalty Model*  
+- **Mechanism:** Reduces Medicare payments to hospitals with “excess” 30-day readmissions for targeted conditions (heart failure, AMI, pneumonia, later COPD and hip/knee arthroplasty).  
+- **Goal:** Encourage hospitals to improve discharge planning, coordination, and follow-up to prevent unnecessary readmissions.  
+- **Critique:** By focusing narrowly on inpatient readmissions, HRRP incentivized hospitals to substitute with **observation stays** or delay admissions, sometimes at the expense of patient welfare.
+
+### Hospital Value-Based Purchasing (HVBP)
+- **Type:** *Incentive / Redistribution Model*  
+- **Mechanism:** Withholds a portion of Medicare payments from hospitals and redistributes them based on performance in four domains: clinical quality, patient safety, patient experience (HCAHPS), and efficiency.  
+- **Goal:** Reward high-quality, cost-effective care and patient-centered outcomes.  
+- **Critique:** Incentives are relatively modest; effects may concentrate in already well-resourced hospitals, potentially widening disparities without clear overall quality gains.
 
 ---
 
