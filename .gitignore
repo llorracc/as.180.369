@@ -5,5 +5,5 @@
 
 # Spec story files
 .specstory/
-
 .DS_Store
+.Thumbs
