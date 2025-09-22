@@ -1,0 +1,78 @@
+Buy Now Pay Later?
+ Tech Darling or Hidden Credit Risk?
+Bruce Mao
+
+Imagine you’re buying sneakers online at 2am. The price is $120 — but at checkout, a little button says: ‘Pay in 4 installments, zero interest.’ Suddenly, $120 becomes $30 today, and your brain says: that feels lighter. You click. That’s Buy Now, Pay Later.
+
+Introduction
+“But here’s the twist: what feels like a harmless $30 choice at checkout has scaled into tens of billions in loans. Investors cheer BNPL firms like Affirm as if they’re the next PayPal. Regulators, meanwhile, worry they’re just subprime credit in a prettier interface. That paradox is my research question.”
+
+
+Are BNPL firms systematically mispriced because the market sees tech growth — while ignoring the credit risk showing up in consumer complaints and defaults?
+01
+
+Why BNPL Matters
+BNPL originations in U.S. grew nearly 10× (2019–2021), loan volume rising from $2B to $24.2B.
+By FY’24, Affirm processed $26.6B GMV, reaching 18.7M active users
+CFPB (Jan 2025): “BNPL use is no longer niche; it is mainstream, rivaling credit cards for younger consumers” .10–15% of BNPL users incur late fees, and charge-off rates hover around 3–4%. 
+Liquidity-constrained households show disproportionate adoption and spending, consistent with the “liquidity flypaper effect” ￼.
+
+
+BNPL boosts merchant sales by ~20% on average
+But merchants’ gains come from stimulated consumer borrowing, not from real increases in disposable income.
+
+Markets price BNPL firms like tech disruptors — high revenue multiples, growth narrative.
+Yet structurally, BNPL resembles unsecured consumer lending with subprime exposure.
+
+This disconnect suggests systematic mispricing or “fair-weather premium” — valuations hold only while credit markets stay benign.
+
+
+Merchant Incentives & Overconsumption
+The Paradox of Valuation
+Here’s the scale of the issue. In just three years, BNPL originations exploded nearly tenfold — from $2 billion to $24 billion. Affirm alone processed $26.6 billion in transactions last year. Regulators now say BNPL is mainstream, especially among Gen Z and Millennials.
+But growth is not the full story. Behind it lies fragility. Roughly 1 in 10 BNPL users get hit with late fees, and charge-off rates approach 4%. And the most intensive users are those least able to absorb shocks — liquidity-constrained households, renters, and those already juggling overdraft fees.
+Merchants love BNPL because it reliably boosts conversion rates and order sizes — by as much as 20%. But that ‘success’ is really fueled by consumer overextension, not by real income gains.
+And this is where the paradox sharpens: Public markets price Affirm and its peers like high-growth tech firms. Yet their core mechanics look a lot closer to subprime installment lending. That’s the gap I want to explore: is BNPL systematically mispriced by equity markets, inflated by growth narratives while ignoring consumer credit risk?
+
+
+Case in Point: Affirm
+Why Affirm
+Publicly listed → transparent financials (10-Ks, annual reports) ￼.
+BNPL pure-play → business model not diluted across other payments.
+Major player → $26.6B GMV FY’24, 18.7M active users.
+Valuation Narrative
+Market treats Affirm as tech growth story → high revenue multiples.
+Yet fundamentals resemble consumer lender with subprime exposure.
+The Research Opportunity
+Compare Affirm’s valuation metrics (P/E, P/S, DCF) vs. Traditional lenders (e.g., Capital One, Discover).
+Consumer risk signals (complaints, charge-offs, delinquency).
+
+Research Design & Methodology
+
+DCF over last 3–5 years of financials.
+Revenue growth vs. loan performance (GMV, active users, take rate).
+Key balance sheet items: funding mix (securitizations vs. warehouse credit), net interest margin, delinquency rates.
+Intrinsic Valuation (Affirm)
+“But here’s the twist: what feels like a harmless $30 choice at checkout has scaled into tens of billions in loans. Investors cheer BNPL firms like Affirm as if they’re the next PayPal. Regulators, meanwhile, worry they’re just subprime credit in a prettier interface. That paradox is my research question.”
+
+
+Klarna IPO metrics (P/S, EV/Revenue).
+Traditional lenders: Capital One, Discover (P/E, EV/EBITDA).
+Cross-check BNPL multiples vs. lender compression during high complaints.
+
+Comparable Pricing (Peers)
+“But here’s the twist: what feels like a harmless $30 choice at checkout has scaled into tens of billions in loans. Investors cheer BNPL firms like Affirm as if they’re the next PayPal. Regulators, meanwhile, worry they’re just subprime credit in a prettier interface. That paradox is my research question.”
+
+
+CFPB BNPL complaints (2022–2025).
+Test: Higher complaints → valuation compression (for banks), but not (for BNPL).
+
+
+Consumer Risk Link
+
+Execution & Analytical Strategy
+
+Regression:
+StockVol_t = a0 + b1*Complaints_t + b2*Controls_t + u_t
+Valuation multiple vs complaints (single firm or cross-section)
+Correlation Tests: plot complaints vs valuation multiples (BNPL vs banks).
