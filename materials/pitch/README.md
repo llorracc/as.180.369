@@ -126,9 +126,10 @@ research paper.
 - 5 minutes per student + 5 min Q&A (×7 students = 70 min)
 
 **Homework**
-- Choose two topics* from the JEP folder I shared (*or 1 topic from there and 1 topic of your own that you’re interested in) and 1 of the topics you chose on the list of topics on the Github issue (i.e. GDP Growth and political party in the US, or Inflation change and political party in the US)
-- Make a Litmap for each topic (3 litmaps) so that you can get a sense of the literature that exists in the space (be thoughtful with which articles you add to the litmap)
-  - Send me a screenshot of all 3 litmaps by class on Monday
-- Once you have more of a grasp on each topic, write a paragraph about each of them and what potential research might look like for each of them
-- Make at least 1 improvement to each paragraph using ChatGPT and commit the change so that I can see it in your history (with your ChatGPT prompt as the commit message).
-- Be ready to present the two topics you’re most interested in to class on Monday
+- Continue to upload your Litmaps and upload into PaperPile account. 
+- Pick some of your papers from your Litmap and read them. 
+- Write a summary paragraph for each paper. This will help with the Literature Review down the line.
+- Refine the ideas presented in your pitch. 
+- We are looking for deeper knowledge of literature and refined ideas.
+- Also, find some information about your data options and include a pitch on what type of data you plan to use. 
+- Make an update to your fork and then make pull request to the main course repo. This is how will turn in assignments from now on. 
