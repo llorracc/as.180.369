@@ -30,3 +30,80 @@ Although substitution into observation stays is well documented, **few studies h
 
 ## Conceptual Flow
 
+HRRP penalties (2013)  
+        ↓  
+Hospitals pressured to reduce readmissions  
+        ↓  
+Substitution into observation stays ↑  
+        ↓  
+Damages to patients:  
+- Higher OOP costs (Medicare Part B billing)  
+- Lost SNF eligibility (3-day inpatient rule)  
+- Potential adverse outcomes (mortality, ED churn)  
+
+---
+
+## Hypothesis
+1. **Observation Substitution:** Hospitals with higher OSI values will show greater post-HRRP increases in OOP spending for patients.  
+2. **SNF Access:** High-OSI hospitals will see a larger decline in the probability of covered SNF admissions.  
+3. **Mortality:** Patients discharged from high-OSI hospitals may have elevated 30-/90-day mortality rates compared to those at low-OSI hospitals.  
+
+---
+
+## Methodology
+
+### Observation Substitution Index (OSI)
+\[
+OSI_h = \frac{\Delta Observation_{h}}{|\Delta Readmission_{h}|}
+\]
+
+- Calculated for each hospital as the ratio of the change in observation stays to the change in readmissions (per 100 discharges), pre- vs. post-HRRP.
+- Interpreted as the intensity of substitution:
+  - **OSI ≈ 0:** True reductions in readmissions (little substitution).
+  - **OSI ≈ 1:** Nearly one-for-one substitution.
+  - **OSI > 1:** Observation growth exceeds readmission decline.
+
+### Empirical Strategy
+- **Descriptive:** Plot pre/post trends in readmissions, observation, OOP, SNF access, and mortality by OSI quartile.  
+- **Regression Framework:**
+
+\[
+Y_{iht} = \alpha + \beta (Post_t \times HighOSI_h) + \gamma X_{iht} + \mu_h + \lambda_t + \epsilon_{iht}
+\]
+
+Where:
+- \(Y_{iht}\): patient outcomes (OOP spending, SNF access, mortality).  
+- \(HighOSI_h\): indicator for hospital in top quartile of substitution.  
+- \(Post_t\): post-HRRP period indicator.  
+- \(X_{iht}\): patient-level controls (age, sex, comorbidities, dual-eligibility).  
+- \(\mu_h\): hospital fixed effects.  
+- \(\lambda_t\): year fixed effects.  
+
+- **Event Study:** Estimate year-specific effects for high- vs. low-OSI hospitals to validate pre-trends and trace dynamics.
+
+---
+
+## Data Preparation
+
+### Data Sources
+- **Medicare Claims (2008–2020):**
+  - MedPAR (inpatient stays, readmissions).
+  - Outpatient (observation stays, ED visits).
+  - Carrier/Part B (OOP liabilities).
+  - SNF claims (admissions and coverage status).
+  - Master Beneficiary Summary File (MBSF: demographics, comorbidities, dual-eligibility).  
+- **Hospital Characteristics:** AHA Annual Survey, CMS HRRP penalty files.  
+- **Geographic Controls:** Area Deprivation Index (ADI), ZIP-level median income.
+
+### Key Variables
+- **Exposure:** Observation Substitution Index (OSI).  
+- **Outcomes:**  
+  - OOP spending (30 days post-discharge).  
+  - SNF access and coverage.  
+  - Mortality (30-/90-day).  
+- **Controls:** Age, sex, comorbidities, dual-eligible status, hospital size, teaching status, safety-net indicator.
+
+---
+
+## Expected Contribution
+By centering observation stays in the evaluation of HRRP, this study will produce the first national estimate of the **financial and access harms borne by patients** due to substitution. Results will directly inform CMS reforms such as including observation in readmission metrics and revising the 3-day SNF eligibility rule.
