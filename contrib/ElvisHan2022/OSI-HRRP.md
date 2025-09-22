@@ -67,17 +67,20 @@ $$
 - **Descriptive:** Plot pre/post trends in readmissions, observation, OOP, SNF access, and mortality by OSI quartile.  
 - **Regression Framework:**
 
-\[
-Y_{iht} = \alpha + \beta (Post_t \times HighOSI_h) + \gamma X_{iht} + \mu_h + \lambda_t + \epsilon_{iht}
-\]
+$$
+Y_{iht} = \alpha + \beta \,(Post_t \times HighOSI_h) + \gamma X_{iht} + \mu_h + \lambda_t + \epsilon_{iht}
+$$
 
 Where:
-- \(Y_{iht}\): patient outcomes (OOP spending, SNF access, mortality).  
-- \(HighOSI_h\): indicator for hospital in top quartile of substitution.  
-- \(Post_t\): post-HRRP period indicator.  
-- \(X_{iht}\): patient-level controls (age, sex, comorbidities, dual-eligibility).  
-- \(\mu_h\): hospital fixed effects.  
-- \(\lambda_t\): year fixed effects.  
+
+- $Y_{iht}$: patient outcomes (e.g., OOP spending, SNF access, mortality).  
+- $Post_t$: post-HRRP period indicator.  
+- $HighOSI_h$: indicator for hospital in top quartile of the Observation Substitution Index.  
+- $X_{iht}$: patient-level controls (age, sex, comorbidities, dual-eligibility).  
+- $\mu_h$: hospital fixed effects.  
+- $\lambda_t$: year fixed effects.  
+- $\epsilon_{iht}$: error term.
+
 
 - **Event Study:** Estimate year-specific effects for high- vs. low-OSI hospitals to validate pre-trends and trace dynamics.
 
