@@ -6,9 +6,3 @@
 # Spec story files
 .specstory/
 
-.DS_Store
-*.pem
-*.key
-*.pub
-id_rsa*
-id_ed25519*
