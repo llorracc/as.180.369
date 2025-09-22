@@ -53,9 +53,9 @@ Damages to patients:
 ## Methodology
 
 ### Observation Substitution Index (OSI)
-\[
-OSI_h = \frac{\Delta Observation_{h}}{|\Delta Readmission_{h}|}
-\]
+$$
+OSI_h = \frac{\Delta \text{Observation}_h}{\lvert \Delta \text{Readmission}_h \rvert}
+$$
 
 - Calculated for each hospital as the ratio of the change in observation stays to the change in readmissions (per 100 discharges), pre- vs. post-HRRP.
 - Interpreted as the intensity of substitution:
