@@ -18,10 +18,13 @@
     - Login to FRED account and go to "API Key" to find key
 3. Use code-demo to show students how to write a program (80 min)
    - Will analyze FRED data on stock market returns based on presidential term
+4.  Discuss best practices for the visual communication of quantitative information (30 min)
+    - show video from previous semesters
 
 **Homework**
 - Students will pick another variable instead of stock returns from the FRED database to analyze.
 - Make a pull request upstream with the code and sentence or two with conclusion.
+- Take information from data visualization presentation to improve the visuals of your program. 
 
 ## Class 6 — Making Progress
 
