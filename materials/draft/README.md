@@ -13,13 +13,15 @@
 1. **CC, TA** Markdown links (20 min)
    - Teach students how to copy a header link in a markdown file and attach to other text
    - Have each student update the weekly course agenda links to better line up with the syllabus
-- *TA* Discuss best practices for the visual communication of quantitative information.
-    - How to create Pull Request with our improvements.
-2. **TA** Get and use your own FredAPI Key! (20 min)
-    - 
+2. Get and use your own FredAPI Key! (20 min)
+    - Register a FRED account
+    - Login to FRED account and go to "API Key" to find key
+3. Use code-demo to show students how to write a program (80 min)
+   - Will analyze FRED data on stock market returns based on presidential term
 
 **Homework**
-
+- Students will pick another variable instead of stock returns from the FRED database to analyze.
+- Make a pull request upstream with the code and sentence or two with conclusion.
 
 ## Class 6 — Making Progress
 
@@ -37,6 +39,9 @@
         - What are `pip install` and `conda install`?
         - How to recognize when packages are missing?
         - How to find and document missing packages?
+     
+- *TA* Discuss best practices for the visual communication of quantitative information.
+    - How to create Pull Request with our improvements.
 
 ### Homework
 - Complete NASA course and quiz so you get certificate
