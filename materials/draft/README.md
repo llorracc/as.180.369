@@ -10,9 +10,13 @@
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2%5Fjh%5Fedu%2FDocuments%2FFall%202023%20AS%2E160%2E369%20Class%20Recordings%2F2023%2E10%2E02%20Class%205%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1)
 
 **Agenda**
+1. **CC, TA** Markdown links (20 min)
+   - Teach students how to copy a header link in a markdown file and attach to other text
+   - Have each student update the weekly course agenda links to better line up with the syllabus
 - *TA* Discuss best practices for the visual communication of quantitative information.
     - How to create Pull Request with our improvements.
-- *TA* Get and use your own FredAPI Key!
+2. **TA** Get and use your own FredAPI Key! (20 min)
+    - 
 
 **Homework**
 
