@@ -13,13 +13,19 @@
 1. **CC, TA** Markdown links (20 min)
    - Teach students how to copy a header link in a markdown file and attach to other text
    - Have each student update the weekly course agenda links to better line up with the syllabus
-- *TA* Discuss best practices for the visual communication of quantitative information.
-    - How to create Pull Request with our improvements.
-2. **TA** Get and use your own FredAPI Key! (20 min)
-    - 
+2. Get and use your own FredAPI Key! (20 min)
+    - Register a FRED account
+    - Login to FRED account and go to "API Key" to find key
+3. Use code-demo to show students how to write a program (80 min)
+   - Will analyze FRED data on stock market returns based on presidential term
+4.  Discuss best practices for the visual communication of quantitative information (30 min)
+    - show video from previous semesters
+    - [Visualization Lecture](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2_jh_edu%2FDocuments%2FFall+2023+AS.160.369+Class+Recordings%2F2023.10.02+Class+5.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.e8ad06dc-b25b-4b6e-bf9b-876ddbaa1b3b)
 
 **Homework**
-
+- Students will pick another variable instead of stock returns from the FRED database to analyze.
+- Make a pull request upstream with the code and sentence or two with conclusion.
+- Take information from data visualization presentation to improve the visuals of your program. 
 
 ## Class 6 — Making Progress
 
@@ -37,6 +43,9 @@
         - What are `pip install` and `conda install`?
         - How to recognize when packages are missing?
         - How to find and document missing packages?
+     
+- *TA* Discuss best practices for the visual communication of quantitative information.
+    - How to create Pull Request with our improvements.
 
 ### Homework
 - Complete NASA course and quiz so you get certificate
