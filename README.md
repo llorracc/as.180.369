@@ -35,7 +35,8 @@ This is an in-person course, held on the Johns Hopkins Homewood Campus:
 |:-------- | ----------------------------------------------------------------------------------------------------- |
 | Title    | [AS.180.369 “Tools for Writing a Research Paper in Economics”](#)                                     |
 | Hours    | Monday 3:00 PM US/Eastern ~ 5:30 PM US/Eastern                                                        |
-| Dates    | Aug 25, 2025 ~ Dec 5, 2025 (See [below](#schedule) for schedule.)                                             |
+| Dates    | Aug 25, 2025 ~ Dec 5, 2025 (See [below](#schedule) for schedule.)  
+| Zoom     | [Zoom Link](https://zoom.us/j/94375507370)                                                            |
 | Location | [Krieger 308 (Homewood Campus)](https://www.google.com/maps/dir/Current+Location/39.327538,-76.622306) |
 |Office Hours| Students are welcome to schedule office hours with TA's on an ad-hoc basis                          |
 
@@ -147,7 +148,7 @@ languages (though having taken a formal course in such a language is not require
 | 6  | [Mon Oct 6](materials/draft)         | 2. the draft        |                  see this class' agenda         |
 | 7  | [Mon Oct 13](materials/draft)        | 2. the draft        |                 see this class' agenda          |
 | 8  | [Mon Oct 20](materials/draft)        | 2. the draft        |            see this class' agenda               |
-| 9  | [Mon Oct 27](materials/draft)        | 2. the draft        |                  see this class' agenda         |
+| 9  | [Mon Oct 27](materials/draft#class-9)        | 2. the draft        |                  see this class' agenda         |
 | 10 | [Mon Nov 3](materials/draft)         | 2. the draft        |      First Draft of Paper (submitted online)    |
 | 11 | [Mon Nov 10](materials/submission)   | 3. the submission   |             see this class' agenda              |
 | 12 | [Mon Nov 17](materials/presentation) | 4. the presentation |     Final Draft of Paper (submitted online)     |
