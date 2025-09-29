@@ -52,10 +52,9 @@ Perhaps most concerning is what both studies term the *invisible risk*. The Aust
 
 Together, these studies paint a comprehensive picture of BNPL as a financial product that systematically attracts and potentially harms the most vulnerable consumers, while serving as a gateway to broader consumer debt adoption, all while operating in a regulatory environment that fails to provide traditional consumer credit protections.
 
+---
 
 # Comprehensive Formula Framework for BNPL Analysis
-
----
 
 ## I. Core Valuation (DCF)
 
