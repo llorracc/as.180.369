@@ -147,6 +147,8 @@ languages (though having taken a formal course in such a language is not require
 | 5  | [Mon Sep 29](materials/draft)        | 2. the draft        |                      see this class' agenda
 | 6  | [Mon Oct 6](materials/draft#class-6--making-progress)         | 2. the draft        |                  see this class' agenda         |
 | 7  | [Mon Oct 13](materials/draft)        | 2. the draft        |                 see this class' agenda          |
+| 8  | [Mon Oct 20](materials/draft#class-8)        | 2. the draft        |            see this class' agenda               |
+| 9  | [Mon Oct 27](materials/draft)        | 2. the draft        |                  see this class' agenda         |
 | 8  | [Mon Oct 20](materials/draft)        | 2. the draft        |            see this class' agenda               |
 | 9  | [Mon Oct 27](materials/draft#class-9)        | 2. the draft        |                  see this class' agenda         |
 | 10 | [Mon Nov 3](materials/draft)         | 2. the draft        |      First Draft of Paper (submitted online)    |
