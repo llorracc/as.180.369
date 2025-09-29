@@ -20,6 +20,7 @@
    - Will analyze FRED data on stock market returns based on presidential term
 4.  Discuss best practices for the visual communication of quantitative information (30 min)
     - show video from previous semesters
+    - [Visualization Lecture](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2_jh_edu%2FDocuments%2FFall+2023+AS.160.369+Class+Recordings%2F2023.10.02+Class+5.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.e8ad06dc-b25b-4b6e-bf9b-876ddbaa1b3b)
 
 **Homework**
 - Students will pick another variable instead of stock returns from the FRED database to analyze.
