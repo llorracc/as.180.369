@@ -143,7 +143,7 @@ languages (though having taken a formal course in such a language is not require
 | 1  | [Mon Aug 25](materials/setup)        | 0. the setup        |               see this class' agenda            |
 | 2  | [Mon Sep 8](materials/pitch#class-2-demos--topics)         | 1. the pitch        |     Dennett Summary
 | 3  | [Mon Sep 15](materials/pitch)        | 1. the pitch        |                   see this class' agenda        |
-| 4  | [Mon Sep 22](materials/pitch)        | 1. the pitch        |  2×3-min Research Pitches (presented in-class)  |
+| 4  | [Mon Sep 22](materials/pitch#class-4-research-pitches)        | 1. the pitch        |  2×3-min Research Pitches (presented in-class)  |
 | 5  | [Mon Sep 29](materials/draft)        | 2. the draft        |                      see this class' agenda
 | 6  | [Mon Oct 6](materials/draft#class-6--making-progress)         | 2. the draft        |                  see this class' agenda         |
 | 7  | [Mon Oct 13](materials/draft)        | 2. the draft        |                 see this class' agenda          |
