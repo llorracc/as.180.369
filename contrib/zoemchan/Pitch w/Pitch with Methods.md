@@ -53,3 +53,25 @@ Y=α+βREDLINE+Xγ+δ+η+ε
 - [acs 5 year estimates](https://data.census.gov/)
 - Mortgage Lending / Property Values — HMDA (Home Mortgage Disclosure Act) datasets or Zillow property data for modern property value controls
 - [historical 1940 census variables](https://www2.census.gov/ces/wp/2022/CES-WP-22-56.pdf?utm_source=chatgpt.com): to help control for pre HOLC variations
+
+## Methods and Data Pitch
+Aaronson et al. (2021, 2022) provide some of the most rigorous causal evidence on the long-run effects of redlining by using a boundary discontinuity design: they compared neighborhoods just inside versus just outside HOLC map boundaries. This approach is powerful because it isolates the effect of HOLC grades from pre-existing differences across cities or neighborhoods, making the estimated impact of redlining more credible. Mimicking this methodology for a study of STEM outcomes would not only extend an influential framework into a new domain—education and workforce pipelines—but also position your research as a direct contribution to a well-established literature in economics. By following Aaronson’s identification strategy, I can credibly test whether redlining has had enduring effects on STEM opportunities, connecting neighborhood disinvestment to one of the most pressing areas of workforce inequity today.
+
+The datasets available today make this extension feasible and rigorous:
+
+- Mapping Inequality (HOLC Maps)
+    -Provides digitized historical redlining boundaries from the 1930s.
+    -Allows you to identify which modern schools or neighborhoods overlap with HOLC grades.
+    -Essential for constructing treatment variables (e.g., “C”/“D” vs. “A”/“B” areas) and implementing a boundary discontinuity design.
+-Civil Rights Data Collection (CRDC)
+    -School-level national data on whether advanced STEM courses (calculus, physics, computer science, AP STEM) are offered.
+    -Direct measure of STEM opportunity at the K–12 level, which is critical to evaluating how redlining may have influenced access to rigorous coursework.
+-NCES Common Core of Data (CCD) – School Finance
+    -District-level spending and revenue data.
+    -Captures the funding mechanism (property-tax reliance) that links redlining to unequal school resources, and can serve as a mediating variable in your models.
+-American Community Survey (ACS) / IPUMS
+    -Provides tract- or PUMA-level data on educational attainment and field-of-degree (including STEM majors).
+    -Allows you to test whether historically redlined neighborhoods today produce fewer STEM degree holders, linking early schooling disadvantages to long-run outcomes.
+-Integrated Postsecondary Education Data System (IPEDS) (optional extension)
+    -Degree completions by field and race at the institutional level.
+    -Useful for connecting neighborhood-of-origin measures (via ZIP code) to higher education STEM outcomes, adding another layer of analysis.
