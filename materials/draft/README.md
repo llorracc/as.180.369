@@ -33,8 +33,8 @@
 - Discuss best practices for the visual communication of quantitative information (60 min)
     - show video from previous semesters
     - [Visualization Lecture](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2_jh_edu%2FDocuments%2FFall+2023+AS.160.369+Class+Recordings%2F2023.10.02+Class+5.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.e8ad06dc-b25b-4b6e-bf9b-876ddbaa1b3b)
-- Go over template for final paper and what is expected
-   - sample paper
+- Go over template for final paper and what is expected (60 min)
+   - [sample paper](materials/draft/emurinson-paper.ipynb)
 
 **Helpful notes**
 - Abstract:
