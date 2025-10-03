@@ -50,7 +50,8 @@
 
 
 ### Homework
-- Watch tutorial on GitHub practices 
+- Watch tutorial on GitHub practices [Link to video](https://www.youtube.com/watch?v=RGOj5yH7evk)
+  - Note: Use Jupyter Notebook instead of VS code 
 - Continue working on the Literature Review and Abstract for final papers.
 - Make a start on the introduction
 
