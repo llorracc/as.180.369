@@ -18,9 +18,7 @@
     - Login to FRED account and go to "API Key" to find key
 3. Use code-demo to show students how to write a program (80 min)
    - Will analyze FRED data on stock market returns based on presidential term
-4.  Discuss best practices for the visual communication of quantitative information (30 min)
-    - show video from previous semesters
-    - [Visualization Lecture](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2_jh_edu%2FDocuments%2FFall+2023+AS.160.369+Class+Recordings%2F2023.10.02+Class+5.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.e8ad06dc-b25b-4b6e-bf9b-876ddbaa1b3b)
+
 
 **Homework**
 - Students will pick another variable instead of stock returns from the FRED database to analyze.
@@ -32,25 +30,12 @@
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/:v:/g/personal/mzahn2_jh_edu/EQdZHFe5L8pJu5vCz0mMYIYBtB5NVxPLGpiDp8IxA43Nsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=uE33s1)
 
 ### Agenda
-- *Grad TA* Coping with `git` and https://github.com (30 min.)
-    - Getting your bearing at the command line
-    - Getting your bearing with `git`
-    - Debugging common issues with `git` and [github](https://github.com)
-    - `git` cheatsheet
-
-- *Grad TA* Coping with Jupyter Notebooks (30 min.)
-    - Missing packages and environments
-        - What are `pip install` and `conda install`?
-        - How to recognize when packages are missing?
-        - How to find and document missing packages?
-     
-- *TA* Discuss best practices for the visual communication of quantitative information.
-    - How to create Pull Request with our improvements.
-
-### Homework
-- Complete NASA course and quiz so you get certificate
-- Continue working on the Literature Review and Abstract for final papers.
-- Make a start on the introduction
+- Alan Lujan discussion on MyST
+- Discuss best practices for the visual communication of quantitative information (60 min)
+    - show video from previous semesters
+    - [Visualization Lecture](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2_jh_edu%2FDocuments%2FFall+2023+AS.160.369+Class+Recordings%2F2023.10.02+Class+5.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.e8ad06dc-b25b-4b6e-bf9b-876ddbaa1b3b)
+- Go over template for final paper and what is expected (60 min)
+   - [sample paper](materials/draft/emurinson-paper.ipynb)
 
 **Helpful notes**
 - Abstract:
@@ -63,6 +48,13 @@
     - Motivate why you are studying this topic and why it is important. Big pictire, what is the point of your paper.
     - Aim for about a page or a page and a half (~500 to 750 words).
     - Focus on writing well. The content is less important than the process and demonstration of using the tools to improve the content you generate.
+
+
+### Homework
+- Watch tutorial on GitHub practices [Link to video](https://www.youtube.com/watch?v=RGOj5yH7evk)
+  - Note: Use Jupyter Notebook instead of VS code 
+- Continue working on the Literature Review and Abstract for final papers.
+- Make a start on the introduction
 
 
 ## Class 7
