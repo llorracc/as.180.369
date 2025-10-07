@@ -53,7 +53,8 @@
 ### Homework
 - Watch tutorial on GitHub practices [Link to video](https://www.youtube.com/watch?v=RGOj5yH7evk)
   - Note: Use Jupyter Notebook instead of VS code 
-- Continue working on the Literature Review and Abstract for final papers.
+- Continue working on the Literature Review and Abstract for final papers. Add what you have so far to MyST on Terminal.
+- Include data visualization techniques reviewed in class to your analysis from last week. 
 - Make a start on the introduction
 
 
@@ -62,6 +63,8 @@
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/:v:/g/personal/mzahn2_jh_edu/EZZescblGOBEpvWgNGqhJ6YB3dSjrDGW49exKc_EnpGmSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=6m0VKz)
 
 ### Agenda
+- Go over template for final paper and what is expected (60 min)
+   - [sample paper](materials/draft/emurinson-paper.ipynb)
 - Show us your new Introduction & **improved** Abstract!
     - Share you experience in crafting Chat GPT prompts to give you feedback.
     - What advice did you accept? What advice did you reject?
