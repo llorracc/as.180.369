@@ -10,34 +10,32 @@
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2%5Fjh%5Fedu%2FDocuments%2FFall%202023%20AS%2E160%2E369%20Class%20Recordings%2F2023%2E10%2E02%20Class%205%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&ga=1)
 
 **Agenda**
-- *TA* Discuss best practices for the visual communication of quantitative information.
-    - How to create Pull Request with our improvements.
-- *TA* Get and use your own FredAPI Key!
+1. **CC, TA** Markdown links (20 min)
+   - Teach students how to copy a header link in a markdown file and attach to other text
+   - Have each student update the weekly course agenda links to better line up with the syllabus
+2. Get and use your own FredAPI Key! (20 min)
+    - Register a FRED account
+    - Login to FRED account and go to "API Key" to find key
+3. Use code-demo to show students how to write a program (80 min)
+   - Will analyze FRED data on stock market returns based on presidential term
+
 
 **Homework**
-
+- Students will pick another variable instead of stock returns from the FRED database to analyze.
+- Make a pull request upstream with the code and sentence or two with conclusion.
+- Take information from data visualization presentation to improve the visuals of your program. 
 
 ## Class 6 — Making Progress
 
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/:v:/g/personal/mzahn2_jh_edu/EQdZHFe5L8pJu5vCz0mMYIYBtB5NVxPLGpiDp8IxA43Nsg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=uE33s1)
 
 ### Agenda
-- *Grad TA* Coping with `git` and https://github.com (30 min.)
-    - Getting your bearing at the command line
-    - Getting your bearing with `git`
-    - Debugging common issues with `git` and [github](https://github.com)
-    - `git` cheatsheet
-
-- *Grad TA* Coping with Jupyter Notebooks (30 min.)
-    - Missing packages and environments
-        - What are `pip install` and `conda install`?
-        - How to recognize when packages are missing?
-        - How to find and document missing packages?
-
-### Homework
-- Complete NASA course and quiz so you get certificate
-- Continue working on the Literature Review and Abstract for final papers.
-- Make a start on the introduction
+- Alan Lujan discussion on MyST
+- Discuss best practices for the visual communication of quantitative information (60 min)
+    - show video from previous semesters
+    - [Visualization Lecture](https://livejohnshopkins-my.sharepoint.com/personal/mzahn2_jh_edu/_layouts/15/stream.aspx?id=%2Fpersonal%2Fmzahn2_jh_edu%2FDocuments%2FFall+2023+AS.160.369+Class+Recordings%2F2023.10.02+Class+5.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.e8ad06dc-b25b-4b6e-bf9b-876ddbaa1b3b)
+- Go over template for final paper and what is expected (60 min)
+   - [sample paper](materials/draft/emurinson-paper.ipynb)
 
 **Helpful notes**
 - Abstract:
@@ -52,31 +50,42 @@
     - Focus on writing well. The content is less important than the process and demonstration of using the tools to improve the content you generate.
 
 
+### Homework
+- Watch tutorial on GitHub practices [Link to video](https://www.youtube.com/watch?v=RGOj5yH7evk)
+  - Note: Use Jupyter Notebook instead of VS code 
+- Continue working on the Literature Review and Abstract for final papers. Add what you have so far to MyST on Terminal.
+- Include data visualization techniques reviewed in class to your analysis from last week. 
+- Make a start on the introduction
+
+
 ## Class 7
 
 [Zoom recording. Requires JHU login.](https://livejohnshopkins-my.sharepoint.com/:v:/g/personal/mzahn2_jh_edu/EZZescblGOBEpvWgNGqhJ6YB3dSjrDGW49exKc_EnpGmSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0RpcmVjdCJ9fQ&e=6m0VKz)
 
 ### Agenda
-- Show us your new Introduction & **improved** Abstract!
-    - Share you experience in crafting Chat GPT prompts to give you feedback.
-    - What advice did you accept? What advice did you reject?
+- Show us your data analysis with the FRED variables
+    - Which variable did you choose and why?
+    - What were the results? Were you suprised?
+      
+- Show us your current Introduction & **improved** Abstract!
 
 - Discuss next steps for your paper.
     - Literature you plan to use (show latest Litmaps/paperpile).
     - What is the question that you will address with data?
     - What kind of data exist that you can use to answer your question?
- 
-- *Grad TA* Demonstration of citation tools.
-    - Bibtex files generated by Paperpile.
-    - Syntax for citing a paper using its Bibtex cite key.
-
-- *Grad TA* Working with Data in your Jupyter Notebook
+      
+- Go over template for final paper and what is expected
+   - [sample paper](as.180.369materials/draft/emurinson-paper.ipynb)
+     
+- Working with Data in your Jupyter Notebook
     - What is tabular data? What is a pandas DataFrame?
     - How do I select columns from a DataFrame, how do I filter rows?
     - How do I perform aggregations/compute summary statistics?
+         - TA will walk through ChatGPT prompts for data analysis. Consider how this will be used for your paper. 
     - How do I perform econometrics?
     - How do I create a new `pandas` DataFrame from some other data source?
         - How read a `.csv`, how to read an excel file (`.xls`, `.xlsx`)
+     
 
 **Homework**
 - Read the [Korinek](https://www.aeaweb.org/articles?id=10.1257/jel.20231736) paper
@@ -91,7 +100,7 @@
     - **Spread out commit messages over at least three days.**
 - Prepare for 10 minute discussion where you are in the next class.
 - **Once you're finished this, make sure to push all your work from your Sciserver into your Github Repo**
-  - Once you try this, if you find you're having difficulty with this, ask AI. If you're still struggling, reach out to Ethan or Adrian.
+  - Once you try this, if you find you're having difficulty with this, ask AI. If you're still struggling, reach out to Jane. 
 
 ## Class 8
 
