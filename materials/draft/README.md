@@ -75,7 +75,7 @@
     - What kind of data exist that you can use to answer your question?
       
 - Go over template for final paper and what is expected
-   - [sample paper](materials/draft/emurinson-paper.ipynb)
+   - [sample paper](emurinson-paper.ipynb)
      
 - Working with Data in your Jupyter Notebook
     - What is tabular data? What is a pandas DataFrame?
