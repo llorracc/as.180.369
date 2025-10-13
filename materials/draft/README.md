@@ -102,7 +102,8 @@
     - **Spread out commit messages over at least three days.**
 - Prepare for 10 minute discussion where you are in the next class.
 - **Once you're finished this, make sure to push all your work from your Sciserver into your Github Repo**
-  - Once you try this, if you find you're having difficulty with this, ask AI. If you're still struggling, reach out to Jane. 
+  - Once you try this, if you find you're having difficulty with this, ask AI. If you're still struggling, reach out to Jane.
+  - Take everything written in Jupyter and add to MyST. Input into Alan's file from last class so formatting is correct. Use AI to figure this out if you are struggling. 
 
 ## Class 8
 
