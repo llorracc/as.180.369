@@ -1,36 +1,11 @@
-# My name is
-## Zoe Chan
-_I am a student in as.180.369_
+# Introduction
 
-## Below is an ordered list:
+The legacy of redlining—the racially discriminatory lending and zoning practices institutionalized in the 1930s via Home Owners’ Loan Corporation (HOLC) security maps—remains a persistent force shaping spatial inequality in the United States. HOLC maps assigned neighborhoods grades A (“best”) through D (“hazardous”) based in part on demographic and racial composition; neighborhoods with Black, immigrant, Jewish, or other marginalized populations were disproportionately assigned the lowest “D” ratings. Those D-rated areas were systematically excluded from favorable mortgage access, investment, and development, catalyzing decades of disinvestment, depressed property values, and social stratification (Aaronson, Hartley & Mazumder 2021; Aaronson, Hartley & Mazumder 2023). Because these designations drew a de facto color line across urban geographies, redlining entrenched residential segregation and curtailed generational wealth accumulation for communities of color (e.g. Aaronson et al. 2021; Nardone et al. 2021). 
 
-3. this is actually the first entry
-2. this is the second
-1. this is the first
-0. can call all of them this and will be renumbered
+While the economic, health, and housing consequences of redlining have been widely documented, a less explored—but critical—dimension is its enduring influence on educational opportunity, particularly in science, technology, engineering, and mathematics (STEM) pathways. Because U.S. public school funding is heavily tied to local property taxes, neighborhoods burdened by historically depressed real estate values frequently support underfunded schools (Lukes & Cleveland 2021). Lukes and Cleveland’s national spatial analysis of 144 metropolitan areas finds that schools in historically redlined (HOLC D) neighborhoods still receive lower district-level per-pupil revenues, enroll larger shares of Black and non-White students, and underperform on standardized measures of math and reading — even after controlling for metropolitan-level factors.These patterns signal structural constraints on educational resources and point toward an inequitable environment for cultivating rigorous STEM preparation in historically disinvested communities.
 
-## here is an unordered list
+In practice, restricted school funding presumably constrains critical STEM-enabling resources: well-equipped science laboratories, sustained professional development for math and science teachers, advanced course offerings (e.g. physics, calculus, computer science), and extracurricular STEM programming. In turn, students from historically redlined neighborhoods may face lower likelihoods of completing high-level STEM courses, undermining readiness for technical undergraduate programs. Over time, this dynamic compounds into measurable disparities in STEM degree attainment and workforce representation. Indeed, national data reveal stark underrepresentation of Black and Hispanic students in engineering and physical science fields: for instance, Black students earn roughly 9% of all bachelor’s degrees but only ~5% of engineering degrees; Hispanic students earn ~15% of bachelor’s degrees but ~11% in engineering (NSF Diversity & STEM Report, 2023). In the U.S. labor force, underrepresented minorities hold disproportionately fewer STEM jobs relative to their share of the population. These patterns are symptomatic of uneven K–12 opportunity: the U.S. Department of Education’s Office for Civil Rights reports that only 57% of Black students have access to the full suite of math and science courses in high school, compared to 81% for White students.
 
-- there will be no numbers next to these list items
-- and you can easily move them around if you like
+In this study, I propose to examine whether the historical imprint of redlining continues to shape STEM opportunity today. Specifically, I hypothesize that schools located on the historically lower-graded side of HOLC boundaries still display reduced access to advanced STEM coursework and lower production of STEM degree completers, even after accounting for contemporary socioeconomic and funding differences. To test this, I will merge geocoded HOLC map data with modern educational datasets such as the Civil Rights Data Collection (CRDC) and NCES school finance data, and apply a boundary discontinuity (regression discontinuity) design akin to Aaronson et al. (2021, 2023). By comparing schools or neighborhoods just across the HOLC borders (i.e. “treatment” vs. “control” sides), I aim to isolate the legacy effect of redlining from contemporaneous covariates. Robustness checks will include restricted bandwidths, matched pseudo-borders, placebo tests, and sensitivity to alternative controls such as modern income, racial composition, and school funding variables.
 
-## creating tables
-
-|github id|real name|
-| ---: | :--- |
-|zoemchan|zoe chan|
-
-## math - uses latex
-
-$e=mc^2$
-
-## imbeded image
-
-![Chris Carroll](https://github.com/llorracc/as.180.369/blob/main/media/chris-carroll.jpg?raw=true)
-
-two paragraphs on each topic w updates from ai
-
-
-
-
-
+This analysis offers two contributions. First, it advances an educational and STEM-specific extension of the redlining literature, situating redlining not only as a determinant of wealth and health but as a structural barrier in human capital formation. Second, by quantifying how much present-day disparities in STEM access can be traced to deep-rooted institutional policies, it strengthens policy arguments for targeted interventions—such as resource reallocation, course equity audits, and compensatory funding—to close gaps in STEM opportunity. In doing so, this paper seeks to illuminate the lingering shadow of redlining in shaping who gets to become a scientist, engineer, or technologist in the twenty-first century.
