@@ -1,26 +1,26 @@
-#Introduction
-##Background
+# Introduction
+## Background
 
 In the 1930s, the Home Owners’ Loan Corporation (HOLC) created residential security maps that institutionalized racial segregation through mortgage risk assessments based on neighborhood demographics. These maps graded neighborhoods from “A” (best) to “D” (hazardous), with areas home to Black, immigrant, and Jewish residents disproportionately labeled as high-risk and systematically denied access to credit and homeownership opportunities. This practice, known as redlining, set in motion a long-term cycle of disinvestment that has shaped economic, social, and educational inequalities across generations. While the economic and housing consequences of redlining are well established, less is known about how these policies have affected educational opportunity in science, technology, engineering, and mathematics (STEM)—fields critical to modern economic mobility and innovation. This paper asks whether neighborhoods historically subjected to redlining continue to experience lower access to STEM education and attainment today. Understanding this connection is important because it links a historic system of racialized disinvestment to one of the most persistent contemporary disparities in education and the workforce.
 
-##Literature Review
+## Literature Review
 
 A growing body of research documents the long-term consequences of redlining on neighborhood outcomes. Aaronson, Hartley, and Mazumder (2021) find that neighborhoods graded “C” and “D” on HOLC maps experienced substantial declines in homeownership, property values, and credit access relative to adjacent higher-graded areas. Their follow-up study (Aaronson et al., 2022) extends these findings to intergenerational outcomes, showing that children raised in redlined neighborhoods attained lower levels of education and income as adults. Complementary work by Lynch et al. (2021) demonstrates that the effects of redlining persist in the form of ongoing mortgage discrimination, higher poverty, and reduced educational attainment, reflecting a durable pattern of spatial and racial inequality.
 
 In the education domain, Lukes and Cleveland (2021) show that schools located in historically redlined neighborhoods continue to receive less per-pupil funding, enroll larger shares of minority students, and perform worse on standardized math and reading assessments. Because U.S. public schools rely heavily on local property taxes, these funding disparities perpetuate the consequences of historical disinvestment. The National Science Foundation (2023) further highlights that underrepresented minorities make up 37% of the college-age population but earn only 26% of science and engineering bachelor’s degrees, with particularly sharp underrepresentation in engineering. Together, this literature suggests that redlining’s effects extend beyond housing and wealth to influence access to the foundational STEM opportunities that determine long-run economic trajectories.
 
-##Research Question
+## Research Question
 
 The purpose of this paper is to examine whether the legacy of redlining continues to shape disparities in STEM education access and attainment in the United States. Specifically, it tests whether schools and neighborhoods located within historically redlined areas exhibit lower access to advanced STEM coursework and lower rates of STEM degree attainment than comparable areas that were not redlined. This study seeks to identify whether structural inequities rooted in past housing discrimination persist in limiting STEM participation and representation today.
 
-##Methodology
+## Methodology
 
 To evaluate this question, I employ a boundary discontinuity design similar to that used by Aaronson et al. (2021, 2022), which compares outcomes for neighborhoods immediately on either side of historical HOLC map boundaries. This design isolates the causal impact of redlining by leveraging the fact that adjacent neighborhoods were similar before the maps were drawn but diverged afterward due to their assigned grades. Using digitized HOLC maps from the Mapping Inequality Project, I merge these spatial boundaries with modern datasets, including the Civil Rights Data Collection (CRDC) for school-level STEM course access, the NCES Common Core of Data (CCD) for district-level spending, and the American Community Survey (ACS) for tract-level STEM degree attainment. The main outcome measures include the availability of advanced math and science courses (e.g., calculus, physics, computer science) and the share of adults holding STEM degrees.
 
-##Contributions
+## Contributions
 
 This study contributes to the literature in several key ways. First, it extends the causal framework of Aaronson et al. (2021, 2022) beyond traditional economic outcomes to the domain of education and workforce development, linking redlining to modern disparities in STEM readiness. Second, it integrates multiple data sources to trace the pathway from historical neighborhood disinvestment to contemporary educational outcomes, offering a structural explanation for racial and geographic gaps in STEM participation. Third, by focusing on course access and degree attainment, the study highlights specific mechanisms—such as resource inequality and curricular limitations—through which redlining’s effects persist. Ultimately, this work reframes STEM underrepresentation as a legacy of structural racism embedded in spatial and fiscal inequalities rather than individual choice or ability.
 
-##Outline
+## Outline
 
 The next section presents the empirical strategy and describes how boundary discontinuity designs can identify the long-term effects of redlining on educational opportunity. Section 3 details the data sources and variable construction, including the merging of historical HOLC boundaries with modern educational and demographic datasets. Section 4 presents the main results, documenting disparities in advanced STEM course offerings and degree attainment across historically redlined and non-redlined areas. Section 5 discusses potential mechanisms and robustness checks, including controls for modern income, school funding, and demographic composition. Finally, Section 6 concludes with implications for policy and future research on educational equity and spatial inequality.
