@@ -75,9 +75,10 @@
     - What kind of data exist that you can use to answer your question?
       
 - Go over template for final paper and what is expected
-   - [sample paper](as.180.369materials/draft/emurinson-paper.ipynb)
+   - [sample paper](emurinson-paper.ipynb)
      
 - Working with Data in your Jupyter Notebook
+    - [Instructions](pandas-basics.ipynb)
     - What is tabular data? What is a pandas DataFrame?
     - How do I select columns from a DataFrame, how do I filter rows?
     - How do I perform aggregations/compute summary statistics?
@@ -85,6 +86,7 @@
     - How do I perform econometrics?
     - How do I create a new `pandas` DataFrame from some other data source?
         - How read a `.csv`, how to read an excel file (`.xls`, `.xlsx`)
+
      
 
 **Homework**
