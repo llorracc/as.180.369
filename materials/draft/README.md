@@ -78,7 +78,7 @@
    - [sample paper](emurinson-paper.ipynb)
      
 - Working with Data in your Jupyter Notebook
-    - [Instructions](contrib/camriddell/pandas-basics.ipynb)
+    - [Instructions](pandas-basics.ipynb)
     - What is tabular data? What is a pandas DataFrame?
     - How do I select columns from a DataFrame, how do I filter rows?
     - How do I perform aggregations/compute summary statistics?
