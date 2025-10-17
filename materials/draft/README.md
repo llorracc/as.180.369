@@ -112,6 +112,7 @@
 - You should write a paragraph on the tools/ideas you would consider using from the Korinek paper. (10 min.)
 - CC will run through `git merge` conflicts and how to deal with them. (15 min.)
 - Make sure all copies of repo are synchronized. We will fix any merge conflicts in class. Compile your MyST Markdown on your local computer. (15 min.)
+- Make a subfolder in your contrib folder. Name it "paper." You will now start saving sections of your paper to this folder. 
 - Make sure that all parts of paper are in separate Jupyter notebooks. Names should be standardized like:
 ```
   - abstract.md
