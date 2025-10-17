@@ -97,7 +97,7 @@
 - Obtain and explore some data that are relevant to your topic.
     - Conduct an exploration/preliminary analysis of your obtained data set(s).
 - Be prepared to present to the class on your preliminary analysis of the data.
-- Make sure you are working on your Jupterhub
+- Make sure you are working on your SciServer account.
     - and are `git add`ing and `git commit`ing   your work regularly.
     - **Spread out commit messages over at least three days.**
 - Prepare for 10 minute discussion where you are in the next class.
@@ -108,13 +108,15 @@
 ## Class 8
 
 ### Agenda
-- HW Review
-  
-- Write a paragraph on the tools/ideas you would consider using from the Korinek paper.
+- HW Review (70 min.)
+- You should write a paragraph on the tools/ideas you would consider using from the Korinek paper. (10 min.)
+- CC will run through `git merge` conflicts and how to deal with them. (15 min.)
+- Make sure all copies of repo are synchronized. We will fix any merge conflicts in class. Compile your MyST Markdown on your local computer. (15 min.)
 
-  <!-- [myst](https://mystmd.org) to create a webpage with bibliography.-->
-- Writing your jupyterbook with multiple markdowns
-- 
+
+<!-- [myst](https://mystmd.org) to create a webpage with bibliography.-->
+- Writing your jupyterbook with multiple markdowns 
+  
 ```sh
 # copy jupyterbook folder contrib/cam/jupyterbook to your own contrib folder
 # navigate to the new copy of /jupyterbook your contrib folder
@@ -133,9 +135,12 @@ build-jb .
 - Revise and improve your Literature Review
   - utilize ChatGPT/Claude and commit improvements over 3 days
 - Begin your data empirical work (regressions, etc.)
-  - Write the first draft of your methodology section in conjunction with your regressions, etc. 
+  - Write the first draft of your methodology section in conjunction with your regressions, etc.
+- After you have completed the methodology draft, ask an AI to resolve any inconsistencies with the introduction and literature review. 
 - The above 2 sections of your paper should be in *separate* markdown files.
     - For a reference, use [Alan Lujan's REMARK](https://github.com/alanlujan91/SequentialEGM/blob/main/content/public/SequentialEGMn.pdf).
+    - [Embed reference](https://github.com/alanlujan91/SequentialEGM/blob/main/content/paper/egmn.md)
+    - [Other reference](https://mystmd.org/guide/embed#docs-include)
 
 ## Class 9
 
