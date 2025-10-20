@@ -1,7 +1,6 @@
 # Notes
 
-- need to expand literature review
-- narrow down research scope to a certain city or region. or examine a few cities to make comparisons across.
-- begin selecting data sets 
-- pull datasets into jupyter
-- check data availability. look into aaronson data
+- replicate aaronson data and delve deeper into his methodology
+- figure out how to pull in the rest of the data
+- figure out how to link schools to their neighborhood
+- run prelim regression (if possible)
