@@ -1,0 +1,1 @@
+Using AI in economics research felt like double-sided sword. It enables faster and machine learning but at teh same time in a way eliminate one's critical thinking skills.
