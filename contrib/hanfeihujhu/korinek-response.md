@@ -1,0 +1,1 @@
+Ai can potentially help me brainstorm ideas, and evaluate the pros and cons of its usage. AI can also be used to iterate my ideas, functioning as a sort of colleague with which to discuss and check the feasability of ideas. It can also be used for grammar help.
