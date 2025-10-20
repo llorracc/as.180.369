@@ -1,2 +1,0 @@
-# Reaction to Dennett Article
-
