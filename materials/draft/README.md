@@ -157,22 +157,27 @@ build-jb .
 
 ### Agenda
 
-- HW Review: prompts people found useful for the Korinek reflection and lit review improvements (10 minutes)
+- HW Review: prompts people found useful for the Korinek reflection and lit review improvements (20 minutes)
 
-- Instructional on best practices aiding your literature search (20 minutes)
+- Instructional on best practices aiding your literature search (15 minutes)
   - Beyond Litmaps & Paperpile
+       - Using AI
+       - [NotebookLM](https://notebooklm.google/?utm_source=chatgpt.com) - understanding papers in your literature review
+       - Note: Literature review papers are particularly helpful for getting your bearings
+         
+- Using AI to generate ideas for data analysis (10 min)
+   - [Julius AI](https://julius.ai/chat)
 
 - Updates on your paper progress (80 minutes)
   - roadblocks and problems you've encountered
   - methodology and lit review section updates
-
     
-- *TA* Git refresher and Cleanup
+- Have each student go through their local machine or SciServer and make sure everything is sync'ed. (10 min)
 
-- Debugging empirical work + How to use AI to help
+- Review Myst files (on local machines) and fix any errors (15 min)
+
 
 **Homework**
-- Please email your NASA certificate to emurins1@jh.edu
 - Write the first draft of the results section. ([Here's](https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/econ.original.pdf) a great resource from Duke on writing this and other sections.)
     - You should break your text into a number of smaller markdown cells.
         - This makes it easier to use ChatGPT for editing.
