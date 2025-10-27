@@ -1,1 +1,5 @@
-Using AI in economics research felt like double-sided sword. It enables faster and machine learning but at teh same time in a way eliminate one's critical thinking skills.
+Using AI in economics research felt like double-sided sword. It enables faster and machine learning but at the same time in a way eliminates one's critical thinking skills.
+
+First Draft Without AI:
+
+The paper touched on lots of things and highlighted a wide range of benefits from using AI in economic research. As you write, you can use it to synthesize text from bullet points and edit paragraphs for improvements in grammar, style, and clarity, ensuring the overall writing maintains a proficient level. I think one thing i noticed that was different than other writings i have read was the rating system the writer proposed. Essentially, there are 3 categories, ○ (empty circle) is experimental capabilities requiring significant oversight; ◐ (half-full) means it is useful but needs careful oversight; then ● (full circle) means it is highly useful and reliable. There are many different LLMs in the market such as Claude, Chatgpt, Deepseek, Grok etc. Most writing and data manipulation tasks rate as highly useful (●), while mathematical derivations remain experimental (○).
