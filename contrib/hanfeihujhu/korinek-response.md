@@ -45,3 +45,33 @@ Building on Korinek’s argument, I use generative AI to make my paper on centra
 
 Revision 2:
 Building on Korinek’s argument, I use generative AI to make my paper on central bank communication more efficient, creative, and rigorous. By automating small tasks like summarizing research on the risk-taking channel or refining my methodology draft, I can focus on deeper conceptual work—modeling how forward guidance shapes market volatility and interpreting my empirical results. AI also serves as an ideation partner, helping me test assumptions about how markets interpret “Fedspeak,” explore alternative framings, and polish my argument’s clarity. This aligns with Korinek’s idea of comparative advantage: the AI accelerates technical and drafting tasks while I concentrate on analysis, coherence, and originality, producing a paper that is both sharper and more innovative.
+
+GPT Revision 3:
+
+Prompt:
+~~~
+Prompt: in 5 concise lines, how can i expand on this argument?
+
+GPT:
+	•	Explain how AI supports each research stage: idea generation, data work, interpretation.
+	•	Link AI use to shifts in how economists produce and validate knowledge.
+	•	Acknowledge risks like overreliance or loss of originality; propose safeguards.
+	•	Expand Korinek’s comparative advantage analogy to show human–AI co-production.
+	•	Add brief personal reflection on how AI improved your workflow and thinking.
+
+Prompt: rank each of these on a 1-100 scale of impact on the paragraph
+
+GPT:
+	1.	Explain how AI supports each research stage — 90
+	2.	Link AI use to shifts in knowledge production — 80
+	3.	Acknowledge risks and propose safeguards — 75
+	4.	Expand Korinek’s comparative advantage analogy — 70
+	5.	Add personal reflection on workflow improvement — 60
+
+Prompt: Help me integrate the first two into my paragarph
+
+GPT:Building on Korinek’s argument, I use generative AI to make my paper on central bank communication more efficient, creative, and rigorous. By automating small tasks like summarizing research on the risk-taking channel or refining my methodology draft, I can focus on deeper conceptual work—modeling how forward guidance shapes market volatility and interpreting my empirical results. Across each stage of research, AI supports idea formation by revealing gaps in existing studies, streamlines data analysis through automated text parsing and code generation, and sharpens interpretation by highlighting alternative readings of market behavior. More broadly, integrating AI into my process reflects a shift in how economists produce knowledge—combining computational insight with human judgment to extend analytical reach. AI serves as an ideation partner that helps me test assumptions about how markets interpret “Fedspeak” and refine my argument’s clarity. This aligns with Korinek’s idea of comparative advantage: the AI accelerates technical and drafting tasks while I focus on analysis, coherence, and originality, producing a paper that is both sharper and more innovative.
+~~~
+Final Revision: 
+
+Building on Korinek’s argument, I use generative AI to make my paper on central bank communication more efficient, creative, and rigorous. By automating small tasks like summarizing research on the risk-taking channel or refining my methodology draft, I can focus on deeper conceptual work—modeling how forward guidance shapes market volatility and interpreting my empirical results. Across each stage of research, AI supports idea formation by revealing gaps in existing studies, streamlines data analysis through automated text parsing and code generation, and sharpens interpretation by highlighting alternative readings of market behavior. More broadly, integrating AI into my process reflects a shift in how economists produce knowledge—combining computational insight with human judgment to extend analytical reach. AI serves as an ideation partner that helps me test assumptions about how markets interpret “Fedspeak” and refine my argument’s clarity. This aligns with Korinek’s idea of comparative advantage: the AI accelerates technical and drafting tasks while I focus on analysis, coherence, and originality, producing a paper that is both sharper and more innovative.
