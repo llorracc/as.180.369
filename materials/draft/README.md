@@ -75,9 +75,10 @@
     - What kind of data exist that you can use to answer your question?
       
 - Go over template for final paper and what is expected
-   - [sample paper](as.180.369materials/draft/emurinson-paper.ipynb)
+   - [sample paper](emurinson-paper.ipynb)
      
 - Working with Data in your Jupyter Notebook
+    - [Instructions](pandas-basics.ipynb)
     - What is tabular data? What is a pandas DataFrame?
     - How do I select columns from a DataFrame, how do I filter rows?
     - How do I perform aggregations/compute summary statistics?
@@ -85,6 +86,7 @@
     - How do I perform econometrics?
     - How do I create a new `pandas` DataFrame from some other data source?
         - How read a `.csv`, how to read an excel file (`.xls`, `.xlsx`)
+
      
 
 **Homework**
@@ -95,23 +97,37 @@
 - Obtain and explore some data that are relevant to your topic.
     - Conduct an exploration/preliminary analysis of your obtained data set(s).
 - Be prepared to present to the class on your preliminary analysis of the data.
-- Make sure you are working on your Jupterhub
+- Make sure you are working on your SciServer account.
     - and are `git add`ing and `git commit`ing   your work regularly.
     - **Spread out commit messages over at least three days.**
 - Prepare for 10 minute discussion where you are in the next class.
 - **Once you're finished this, make sure to push all your work from your Sciserver into your Github Repo**
-  - Once you try this, if you find you're having difficulty with this, ask AI. If you're still struggling, reach out to Jane. 
+  - Once you try this, if you find you're having difficulty with this, ask AI. If you're still struggling, reach out to Jane.
+  - Take everything written in Jupyter and add to MyST. Input into Alan's file from last class so formatting is correct. Use AI to figure this out if you are struggling. 
 
 ## Class 8
 
 ### Agenda
-- HW Review
-  
-- Write a paragraph on the tools/ideas you would consider using from the Korinek paper.
+- HW Review (70 min.)
+- You should write a paragraph on the tools/ideas you would consider using from the Korinek paper. (10 min.)
+- CC will run through `git merge` conflicts and how to deal with them. (15 min.)
+- Make sure all copies of repo are synchronized. We will fix any merge conflicts in class. Compile your MyST Markdown on your local computer. (15 min.)
+- Make a subfolder in your contrib folder. Name it "paper." You will now start saving sections of your paper to this folder. 
+- Make sure that all parts of paper are in separate Jupyter notebooks. Names should be standardized like:
+```
+  - abstract.md
+  - introduction.md
+  - literature-review.md
+  - methodology.md
+  - results.md
+  - discussion.md
+  - conclusion.md
+```
 
-  <!-- [myst](https://mystmd.org) to create a webpage with bibliography.-->
-- Writing your jupyterbook with multiple markdowns
-- 
+
+<!-- [myst](https://mystmd.org) to create a webpage with bibliography.-->
+- Writing your jupyterbook with multiple markdowns 
+  
 ```sh
 # copy jupyterbook folder contrib/cam/jupyterbook to your own contrib folder
 # navigate to the new copy of /jupyterbook your contrib folder
@@ -130,30 +146,38 @@ build-jb .
 - Revise and improve your Literature Review
   - utilize ChatGPT/Claude and commit improvements over 3 days
 - Begin your data empirical work (regressions, etc.)
-  - Write the first draft of your methodology section in conjunction with your regressions, etc. 
+  - Write the first draft of your methodology section in conjunction with your regressions, etc.
+- After you have completed the methodology draft, ask an AI to resolve any inconsistencies with the introduction and literature review. 
 - The above 2 sections of your paper should be in *separate* markdown files.
     - For a reference, use [Alan Lujan's REMARK](https://github.com/alanlujan91/SequentialEGM/blob/main/content/public/SequentialEGMn.pdf).
+    - [Embed reference](https://github.com/alanlujan91/SequentialEGM/blob/main/content/paper/egmn.md)
+    - [Other reference](https://mystmd.org/guide/embed#docs-include)
 
 ## Class 9
 
 ### Agenda
 
-- HW Review: prompts people found useful for the Korinek reflection and lit review improvements (10 minutes)
+- HW Review: prompts people found useful for the Korinek reflection and lit review improvements (20 minutes)
 
-- Instructional on best practices aiding your literature search (20 minutes)
+- Instructional on best practices aiding your literature search (15 minutes)
   - Beyond Litmaps & Paperpile
+       - Using AI
+       - [NotebookLM](https://notebooklm.google/?utm_source=chatgpt.com) - understanding papers in your literature review
+       - Note: Literature review papers are particularly helpful for getting your bearings
+         
+- Using AI to generate ideas for data analysis (10 min)
+   - [Julius AI](https://julius.ai/chat)
 
 - Updates on your paper progress (80 minutes)
   - roadblocks and problems you've encountered
   - methodology and lit review section updates
-
     
-- *TA* Git refresher and Cleanup
+- Have each student go through their local machine or SciServer and make sure everything is sync'ed. (10 min)
 
-- Debugging empirical work + How to use AI to help
+- Review Myst files (on local machines) and fix any errors (15 min)
+
 
 **Homework**
-- Please email your NASA certificate to emurins1@jh.edu
 - Write the first draft of the results section. ([Here's](https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/econ.original.pdf) a great resource from Duke on writing this and other sections.)
     - You should break your text into a number of smaller markdown cells.
         - This makes it easier to use ChatGPT for editing.
