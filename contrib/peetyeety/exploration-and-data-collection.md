@@ -1,4 +1,4 @@
-# Film Tax Credits and Motion Picture Employment: A Contemporary Analysis of California's Program Expansions
+# Abstract and Literature Review: Film Tax Credits and California Employment Effects
 
 ## Abstract
 
@@ -8,7 +8,7 @@ Recognizing that QCEW data has important limitations—particularly the risk of 
 
 ## Literature Review
 
-The academic literature on film tax credits reveals a consistent pattern: while these programs are politically popular and widely adopted, empirical evidence for their economic effectiveness is weak. Four recent papers establish the foundation for my research, covering national panel studies (Thom 2018), methodological approaches (Rickman & Wang 2020), aggregate economic impacts (Bradbury 2020), and political incentives (Owens & Rennhoff 2024). Together, these studies highlight both a temporal gap—most data end before 2015—and a methodological challenge—distinguishing genuine job creation from statistical artifacts. My research addresses both gaps.
+The academic literature on film tax credits reveals a persistent puzzle: despite weak empirical evidence of economic benefits, these programs remain politically popular and continue to expand. This review examines four foundational papers that establish what we know about effects (Thom 2018), how to measure them rigorously (Rickman & Wang 2020), why industry-level analysis matters despite aggregate nulls (Bradbury 2020), and why ineffective programs persist (Owens & Rennhoff 2024). Together, these studies reveal two critical gaps: a **temporal gap** (most data end before California's major 2015 expansion) and a **methodological gap** (distinguishing genuine job creation from statistical artifacts). My research addresses both.
 
 ### 1. Lights, Camera, but No Action? Tax and Economic Development Lessons from State Motion Picture Incentive Programs (Michael Thom, 2018)
 
@@ -26,59 +26,55 @@ Thom provides the most comprehensive national evaluation of motion picture incen
 
 3. **Testing whether Thom's null findings persist**: Thom found limited employment effects and no wage effects for transferable credits during 1998-2013. California's aggressive post-2013 expansions provide a natural experiment to test whether larger, more generous programs can overcome the limitations Thom documented.
 
-**Addressing the "What Happens Next?" Question**: Thom's study leaves open the question of whether his findings represent fundamental limitations of film tax credits or whether they reflect the specific programs and time period he analyzed. By examining California's substantially larger and more recent program expansions, I can distinguish between these interpretations and assess whether policy design improvements addressed earlier program shortcomings.
+**Addressing the "What Happens Next?" Question**: Thom's study leaves open whether his findings represent fundamental limitations of film tax credits or artifacts of his specific time period. By examining California's substantially larger post-2013 expansions, I test whether bigger programs overcome earlier limitations or whether Thom's modest findings persist even with tripled funding and streaming-era industry dynamics.
 
-### 2. Political Behavior and Voting for Tax Incentives (Owens & Rennhoff, 2024)
-
-#### Summary
-
-Owens and Rennhoff provide micro-level evidence that political incentives—rather than economic rationale—drive legislative support for film tax credits. Analyzing roll-call votes, they find that party affiliation, gubernatorial alignment, electoral margins, and inter-state competition significantly predict legislator voting patterns, while local film industry presence and direct industry donations do not. Their findings suggest that film tax credits persist due to electoral calculations and political visibility rather than demonstrated economic effectiveness.
-
-#### Connection to My Research
-
-While my primary focus is the employment impact analysis (Research Question 2), Owens and Rennhoff's political economy framework motivates an important supplementary descriptive analysis. If film tax credits are adopted and expanded for political reasons rather than economic evidence, this could explain why programs persist despite mixed empirical results (as documented by Thom 2018 and Bradbury 2020). 
-
-I incorporate their insights by conducting descriptive analysis of California's 2015 and 2020 expansion timing relative to gubernatorial election cycles. This political context helps interpret my employment findings: if I detect positive employment effects, are they economically meaningful or politically timed? If I find null effects, do programs persist anyway due to electoral incentives? This descriptive component enriches my analysis without requiring a full political economy model, positioning my work as primarily an employment study with political awareness.
-
-### 3. The Economics of State Film Incentives (Rickman & Wang, 2020)
+### 2. The Economics of State Film Incentives (Rickman & Wang, 2020)
 
 #### Summary
 
 Rickman and Wang provide critical methodological guidance for evaluating film incentives, systematically applying synthetic control methods (SCM) to multiple states using Bureau of Labor Statistics QCEW data for the motion picture industry (NAICS 512110). They find that while film incentives often increase sector employment and wages in early-adopter states, the effects vary substantially by state context and program design. Importantly, they critique earlier industry-sponsored impact studies that overstated benefits by assuming all production was caused by incentives, establishing the need for rigorous counterfactual methods.
 
-#### Methodological Justification and Data Limitations
+#### How This Informs My Methodology
 
-**Why I Use QCEW Data (Following Rickman & Wang)**: Rickman and Wang establish QCEW as the standard administrative data source for film industry employment analysis, providing comprehensive, quarterly coverage of employment and wages by industry and state. This justifies my use of the same data source (NAICS 512110) for consistency with the established literature and to ensure comparability with prior findings.
+Rickman and Wang establish QCEW (NAICS 512110) as the standard data source for film industry employment analysis, which I adopt for consistency and comparability. Their synthetic control methodology provides a crucial robustness check for my difference-in-differences estimates, addressing concerns about parallel trends and control group selection.
 
-**Critical Limitation—The Reclassification Problem**: However, QCEW data has a fundamental limitation that Rickman and Wang do not fully address: **employment increases may reflect strategic firm reclassification rather than genuine job creation**. Specifically:
+**The Reclassification Problem**: However, Rickman and Wang leave unresolved a critical data limitation: **QCEW employment increases may reflect strategic firm behavior rather than genuine job creation**. Three mechanisms could produce spurious employment gains:
 
 1. **Cross-state reclassification**: Multi-state production companies could reclassify employees from Texas or other locations to California for reporting purposes to maximize tax credit eligibility, showing increased California QCEW employment without actual worker migration or new hires.
 
 2. **NAICS code gaming**: Firms might reclassify workers from related industries (advertising, post-production, digital media) into NAICS 512110 to demonstrate program participation, creating statistical employment gains without real industry growth.
 
-3. **Temporary vs. permanent effects**: QCEW captures project-based employment that may disappear immediately after credit eligibility periods end, making it difficult to distinguish between sustained industry growth and temporary statistical artifacts.
+3. **Temporary project-based employment**: Credits may simply shift production timing within California, creating temporary employment spikes without sustained industry growth.
 
-**My Solution—American Community Survey Validation**: To address this critical gap, I supplement QCEW analysis with American Community Survey (ACS) migration data examining whether individuals actually moved to California for motion picture occupations during the post-2015 and post-2020 expansion periods. ACS migration data tracks actual residential moves and occupation codes, providing a validity check on QCEW employment trends. If QCEW shows employment increases but ACS shows no corresponding in-migration of film workers, this suggests reclassification rather than genuine job creation. This dual-data approach strengthens causal inference beyond what Rickman and Wang accomplished.
+**My Methodological Innovation**: I address this gap through dual-data validation—supplementing QCEW analysis with American Community Survey (ACS) migration data that tracks actual residential moves by occupation. If QCEW shows employment gains but ACS shows no corresponding in-migration of film workers, this reveals reclassification rather than genuine job creation. This approach provides stronger causal inference than existing studies relying solely on administrative employment data.
 
-**Synthetic Control Method for Robustness**: Following Rickman and Wang's methodological innovation, I implement synthetic control methods as a robustness check on my difference-in-differences estimates. This addresses concerns about control group selection and parallel trends assumptions that could bias standard DiD results.
-
-### 4. Do State Movie Production Incentives Promote Economic Development? (Bradbury, 2020)
+### 3. Do State Movie Production Incentives Promote Economic Development? (Bradbury, 2020)
 
 #### Summary
 
 Bradbury addresses the fundamental policy question: do film tax credits generate broader economic development benefits beyond the motion picture industry itself? Using instrumental variable methods and panel data from 2000-2015, he examines whether film incentives increase state per capita income and gross state product. His findings are decisively negative—film tax credits show no measurable impact on aggregate state economic outcomes. Even when industry-level employment gains exist, they do not translate into broader prosperity or spillover effects.
 
-#### Why Industry-Level Analysis Still Matters
+#### Why Industry-Level Analysis Matters Despite Aggregate Nulls
 
-Bradbury's null macro findings might suggest that studying California's employment effects is pointless if they don't improve overall state welfare. However, my research addresses three critical questions that Bradbury's aggregate analysis cannot answer:
+Bradbury establishes that film tax credits fail the ultimate policy test—they don't improve aggregate state welfare. This might suggest studying California's employment effects is pointless. However, his aggregate null findings make my industry-level analysis more important, not less, for three reasons:
 
-1. **Do modern, large-scale programs work differently?** Bradbury's period ends in 2015, missing California's tripled program cap and the streaming era transformation. If even California's massive post-2015 expansions show limited industry employment effects, this strengthens the case against film incentives. Conversely, if they do show effects, we need to understand why they don't translate to aggregate gains (zero-sum competition? displacement of other sectors? pure redistribution?).
+**First, testing modern program design**: Bradbury's data end in 2015, missing California's tripled program cap. If even this massive expansion shows limited industry effects, it strengthens the case against film credits. If it does show industry gains that don't translate to aggregate benefits, we need to understand why—zero-sum competition, sectoral displacement, or pure redistribution?
 
-2. **Distinguishing real vs. statistical effects**: My ACS migration analysis addresses whether observed employment changes represent genuine economic activity or statistical artifacts (reclassification, gaming). Bradbury's aggregate nulls could reflect either ineffective programs or poor measurement—my micro-level analysis helps distinguish these interpretations.
+**Second, distinguishing measurement from reality**: Bradbury's nulls could reflect either genuinely ineffective programs or measurement problems in administrative data. My ACS migration validation helps distinguish these interpretations by testing whether observed QCEW employment gains represent real economic activity or statistical artifacts.
 
-3. **Political economy puzzle**: If film tax credits don't work at either industry or aggregate levels, why do they persist and expand? Understanding whether programs produce even industry-level gains (and whether these are real or illusory) is essential for explaining the political economy documented by Owens and Rennhoff (2024). My findings contribute to this puzzle regardless of whether they're positive or null.
+**Third, explaining political persistence**: Bradbury's findings create a puzzle—if these programs don't work, why do they persist and expand? Understanding whether they produce even narrow industry gains (real or illusory) is essential for explaining their continued political support, which the next paper addresses.
 
-In essence, Bradbury motivates my research by showing that the "final answer" on welfare effects is negative, making it crucial to understand the micro-mechanisms and political incentives that sustain these programs despite their documented ineffectiveness.
+### 4. Political Behavior and Voting for Tax Incentives (Owens & Rennhoff, 2024)
+
+#### Summary
+
+Owens and Rennhoff solve the persistence puzzle by showing that film tax credits are driven by political incentives rather than economic evidence. Analyzing legislative roll-call votes, they find that party affiliation, gubernatorial alignment, electoral margins, and inter-state competition predict legislator support—while local film industry presence and industry donations do not. Film tax credits persist because they offer visible political wins and electoral advantages, not because they deliver demonstrated economic benefits.
+
+#### How This Contextualizes My Research
+
+This political economy finding reframes how we should interpret employment effects. Even if California's expansions show positive QCEW employment gains, we must ask: are these economically meaningful or politically timed? Even if I find null employment effects, Owens and Rennhoff explain why programs expand anyway—electoral incentives override empirical evidence.
+
+I incorporate this insight through supplementary descriptive analysis of California's 2015 and 2020 expansion timing relative to gubernatorial elections. This positions my research correctly: I'm primarily testing employment effects (extending Thom 2018), but with awareness that political logic may dominate economic logic in program design and persistence.
 
 ## Data Collection and Methodology
 
