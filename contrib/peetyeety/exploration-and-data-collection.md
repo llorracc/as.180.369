@@ -1,288 +1,261 @@
-# Film Tax Credits as Location-Based Subsidies: An Analysis of Georgia and California Programs
+# Film Tax Credits and Motion Picture Employment: A Contemporary Analysis of California's Program Expansions
 
 ## Abstract
 
-In this paper, I evaluate film tax credits as location-based subsidies by examining two contrasting state programs: Georgia and California. My analysis addresses three questions: (1) How efficient are film tax credits compared to people-based subsidies when measured in cost per job, using Georgia as a case study? (2) Do film tax credits generate sustained employment or wage gains in the motion-picture industry, tested through a difference-in-differences framework in California following major program expansions in 2015 and 2020? (3) To what extent are credit expansions driven by political incentives, particularly their alignment with gubernatorial election cycles, rather than solely by economic goals? 
+In this paper, I evaluate the employment and wage effects of California's film tax credit expansions in 2015 and 2020 using contemporary data that extends beyond previous studies. Building directly on Thom's (2018) national analysis which ended in 2013, I examine whether more recent program expansions generated sustained employment or wage gains in the motion picture industry. I construct a panel of motion picture employment and wage data from 2009-2022 using Bureau of Labor Statistics Quarterly Census of Employment and Wages (QCEW) data and estimate policy impacts through difference-in-differences models with appropriate control states, supplemented by synthetic control methods for robustness.
 
-To answer these questions, I use Georgia audit reports to calculate cost-per-job and benchmark efficiency against alternative subsidies such as state EITC supplements and job training programs. For California, I build a panel of motion-picture employment and wage data from 2009–2022 and estimate policy impacts using difference-in-differences models with appropriate control states, supplemented by synthetic control methods to ensure robustness to alternative control group construction. Finally, I map the timing of program changes in both states against electoral calendars to assess political motivations. My preliminary findings suggest that while film tax credits deliver short-term production spikes and visible political wins, they are less efficient than people-based subsidies, generate limited long-term industry gains, and reflect political as much as economic logic.
+Recognizing that QCEW data has important limitations—particularly the risk of capturing employee reclassification across state lines rather than genuine job creation—I supplement my analysis with American Community Survey (ACS) migration data to distinguish between actual worker relocation to California and potential strategic firm reporting. Additionally, I provide descriptive analysis of the political timing of these expansions relative to gubernatorial election cycles, exploring whether policy changes align with electoral incentives as suggested by recent political economy research. My approach addresses a critical gap in the literature: understanding whether film tax credits continue to show employment effects in the post-2013 period, and whether these effects represent genuine economic gains or statistical artifacts of firm behavior.
 
 ## Literature Review
+
+The academic literature on film tax credits reveals a consistent pattern: while these programs are politically popular and widely adopted, empirical evidence for their economic effectiveness is weak. Four recent papers establish the foundation for my research, covering national panel studies (Thom 2018), methodological approaches (Rickman & Wang 2020), aggregate economic impacts (Bradbury 2020), and political incentives (Owens & Rennhoff 2024). Together, these studies highlight both a temporal gap—most data end before 2015—and a methodological challenge—distinguishing genuine job creation from statistical artifacts. My research addresses both gaps.
 
 ### 1. Lights, Camera, but No Action? Tax and Economic Development Lessons from State Motion Picture Incentive Programs (Michael Thom, 2018)
 
 #### Summary
 
-Thom provides a national, longitudinal evaluation (1998–2013) of motion picture incentive (MPI) programs across U.S. states. Using state-level panel data, the paper examines employment, wages, gross state product (GSP), and industry concentration. Results show that most incentives—like sales and lodging tax waivers—had no measurable effect. Transferable tax credits modestly increased employment over time but had no impact on wages, while refundable credits temporarily boosted wages but not jobs. Neither type of credit influenced GSP or industry concentration. The study highlights program inefficiencies, risks of rent-seeking, and poor oversight (including fraud cases), and argues that incentives largely benefitted existing workers and producers rather than generating sustained state-level growth.
+Thom provides the most comprehensive national evaluation of motion picture incentive (MPI) programs to date, analyzing state-level panel data from 1998–2013. Using difference-in-differences estimation, he examines the effects of various incentive types on employment, wages, gross state product (GSP), and industry concentration across all U.S. states. His key findings reveal mixed and modest results: transferable tax credits modestly increased employment over time but had no measurable impact on wages, while refundable credits temporarily boosted wages without affecting employment levels. Critically, neither credit type influenced GSP or industry concentration, suggesting that job gains did not translate into broader economic development. Thom attributes these limited effects to program inefficiencies, rent-seeking behavior by existing industry participants, and weak oversight mechanisms.
 
-#### Connection to Your Paper
+#### How My Research Extends Thom (2018)
 
-This study provides a broad, empirical baseline against which I can contextualize my Georgia and California case studies. Thom's findings—that MPI programs yield short-term, limited labor market gains and no long-term structural benefits—mirror my preliminary claim that credits are less efficient than people-based subsidies. Importantly, Thom does not deeply explore cost-per-job efficiency relative to alternative subsidies, nor does he examine the political timing of expansions. I can thus build on his evidence by:
+**Temporal Extension Beyond 2013**: My research directly continues Thom's work by analyzing the period from 2014-2022, a critical gap in the literature. This nine-year extension is particularly important because:
 
-- Extending the efficiency analysis (Georgia audits vs. EITC/job training benchmarks)
-- Testing for sustained employment/wage effects in a more recent time frame (California post-2015/2020 expansions)
-- Investigating the political cycle dimension that Thom only alludes to
+1. **California's major program expansions occurred after Thom's study period**: The 2015 Film and Television Tax Credit Program (AB 1839) tripled the annual cap from $100 million to $330 million, and the 2020 expansion (AB 2021) extended the program through 2025 with expanded eligibility. Thom's analysis could not capture these substantial policy changes.
 
-In other words, I can frame my study as both a deep dive into state-level mechanisms and a bridge between efficiency and political economy analyses.
+2. **The film production landscape changed dramatically post-2013**: The rise of streaming platforms (Netflix, Amazon Prime, Apple TV+, Disney+) fundamentally altered production economics and location decisions. My analysis captures these structural industry changes that Thom's period could not address.
+
+3. **Testing whether Thom's null findings persist**: Thom found limited employment effects and no wage effects for transferable credits during 1998-2013. California's aggressive post-2013 expansions provide a natural experiment to test whether larger, more generous programs can overcome the limitations Thom documented.
+
+**Addressing the "What Happens Next?" Question**: Thom's study leaves open the question of whether his findings represent fundamental limitations of film tax credits or whether they reflect the specific programs and time period he analyzed. By examining California's substantially larger and more recent program expansions, I can distinguish between these interpretations and assess whether policy design improvements addressed earlier program shortcomings.
 
 ### 2. Political Behavior and Voting for Tax Incentives (Owens & Rennhoff, 2024)
 
 #### Summary
 
-Owens and Rennhoff analyze the determinants of state legislators' votes on movie production tax incentives. Using roll-call data, election results, district characteristics, and political donations, they find that political affiliation (Republicans being less supportive), governor's party alignment and donations, margin of electoral victory, unemployment rates, and neighboring states' policies significantly shape support. Interestingly, local film activity or industry donations to individual legislators were not strong predictors. Districts that voted in favor did see more production afterwards, suggesting some payoff to legislators. Their results also align with the median voter theorem: legislators' votes reflect the ideological leanings of their districts. Overall, the paper highlights that politics and electoral incentives—rather than purely economic logic—are central in sustaining film tax credits.
+Owens and Rennhoff provide micro-level evidence that political incentives—rather than economic rationale—drive legislative support for film tax credits. Analyzing roll-call votes, they find that party affiliation, gubernatorial alignment, electoral margins, and inter-state competition significantly predict legislator voting patterns, while local film industry presence and direct industry donations do not. Their findings suggest that film tax credits persist due to electoral calculations and political visibility rather than demonstrated economic effectiveness.
 
-#### Connection to Your Paper
+#### Connection to My Research
 
-This study directly complements my third research question on whether credit expansions are politically motivated. Owens and Rennhoff provide micro-level evidence that votes follow political incentives (party alignment, electoral security, inter-state competition, voter ideology). I can build on this by:
+While my primary focus is the employment impact analysis (Research Question 2), Owens and Rennhoff's political economy framework motivates an important supplementary descriptive analysis. If film tax credits are adopted and expanded for political reasons rather than economic evidence, this could explain why programs persist despite mixed empirical results (as documented by Thom 2018 and Bradbury 2020). 
 
-- Moving from vote-level analysis to policy-cycle analysis, linking expansions in Georgia and California to gubernatorial election calendars
-- Testing whether the timing of expansions (e.g., clustered around elections) aligns with the behaviors documented by Owens & Rennhoff
-- Bridging legislative behavior with policy outcomes: their study shows why legislators vote for incentives, while mine examines whether those incentives actually improve efficiency or deliver sustained economic benefits
-
-In short, their paper supplies the political mechanism, while mine evaluates policy efficiency and outcomes, letting me position my work as an integrative extension.
+I incorporate their insights by conducting descriptive analysis of California's 2015 and 2020 expansion timing relative to gubernatorial election cycles. This political context helps interpret my employment findings: if I detect positive employment effects, are they economically meaningful or politically timed? If I find null effects, do programs persist anyway due to electoral incentives? This descriptive component enriches my analysis without requiring a full political economy model, positioning my work as primarily an employment study with political awareness.
 
 ### 3. The Economics of State Film Incentives (Rickman & Wang, 2020)
 
 #### Summary
 
-Rickman and Wang review the academic literature on U.S. state film incentives and highlight the weaknesses of many economic impact studies. They note that most early analyses assumed all production was caused by incentives, overstating benefits. Their key contribution is applying the synthetic control method (SCM) to evaluate both the adoption and elimination of incentives across states. Using QCEW data (employment and wages in NAICS 51211), they find that incentives often raise sector employment and wages in early-adopter states like Louisiana and New Mexico. However, incentives rarely "pay for themselves," with ROI usually below 1, though sometimes more favorable than general business tax incentives. They also show that repealing or capping incentives tends to reduce industry activity. Ultimately, they argue outcomes depend on program size, design, and state context.
+Rickman and Wang provide critical methodological guidance for evaluating film incentives, systematically applying synthetic control methods (SCM) to multiple states using Bureau of Labor Statistics QCEW data for the motion picture industry (NAICS 512110). They find that while film incentives often increase sector employment and wages in early-adopter states, the effects vary substantially by state context and program design. Importantly, they critique earlier industry-sponsored impact studies that overstated benefits by assuming all production was caused by incentives, establishing the need for rigorous counterfactual methods.
 
-#### Connection to Your Paper
+#### Methodological Justification and Data Limitations
 
-Rickman is directly relevant because it builds on the same methodological debates I've been considering (DiD vs. SCM). Their application of SCM makes a strong case for supplementing standard DiD estimates with case-study counterfactuals, aligning with my idea of running DiD first and then SCM for robustness. Moreover, Rickman highlights the distinction between short-term production effects (more measurable) and broader economic spillovers (harder to detect), which dovetails with my concern about identifying causal impacts of incentives. Their discussion of eliminations and caps is also a useful contrast to Thom (who focuses more on adoption), allowing me to position my work in that middle ground—using both methodologies while acknowledging limits.
+**Why I Use QCEW Data (Following Rickman & Wang)**: Rickman and Wang establish QCEW as the standard administrative data source for film industry employment analysis, providing comprehensive, quarterly coverage of employment and wages by industry and state. This justifies my use of the same data source (NAICS 512110) for consistency with the established literature and to ensure comparability with prior findings.
+
+**Critical Limitation—The Reclassification Problem**: However, QCEW data has a fundamental limitation that Rickman and Wang do not fully address: **employment increases may reflect strategic firm reclassification rather than genuine job creation**. Specifically:
+
+1. **Cross-state reclassification**: Multi-state production companies could reclassify employees from Texas or other locations to California for reporting purposes to maximize tax credit eligibility, showing increased California QCEW employment without actual worker migration or new hires.
+
+2. **NAICS code gaming**: Firms might reclassify workers from related industries (advertising, post-production, digital media) into NAICS 512110 to demonstrate program participation, creating statistical employment gains without real industry growth.
+
+3. **Temporary vs. permanent effects**: QCEW captures project-based employment that may disappear immediately after credit eligibility periods end, making it difficult to distinguish between sustained industry growth and temporary statistical artifacts.
+
+**My Solution—American Community Survey Validation**: To address this critical gap, I supplement QCEW analysis with American Community Survey (ACS) migration data examining whether individuals actually moved to California for motion picture occupations during the post-2015 and post-2020 expansion periods. ACS migration data tracks actual residential moves and occupation codes, providing a validity check on QCEW employment trends. If QCEW shows employment increases but ACS shows no corresponding in-migration of film workers, this suggests reclassification rather than genuine job creation. This dual-data approach strengthens causal inference beyond what Rickman and Wang accomplished.
+
+**Synthetic Control Method for Robustness**: Following Rickman and Wang's methodological innovation, I implement synthetic control methods as a robustness check on my difference-in-differences estimates. This addresses concerns about control group selection and parallel trends assumptions that could bias standard DiD results.
 
 ### 4. Do State Movie Production Incentives Promote Economic Development? (Bradbury, 2020)
 
 #### Summary
 
-Bradbury evaluates whether state movie production incentives (MPIs) stimulate overall state economic development, rather than just film industry activity. Using panel data from 2000–2015 and an instrumental variable fixed-effects strategy, he exploits the staggered adoption, suspension, and repeal of MPIs across 44 states. Instruments include the age of a state's film commission and adoption by neighboring states. The outcome variables are broad macroeconomic indicators: per capita income and per capita gross state product. Bradbury finds no statistically significant evidence that MPIs increase state economic growth or income levels. At best, some estimates suggest limited boosts to the film industry itself, but these gains do not spill over into the wider economy. In many cases, effects are negative or negligible, echoing state agency audits that show low or negative returns on investment. His conclusion: MPIs represent a costly and ineffective economic development strategy.
+Bradbury addresses the fundamental policy question: do film tax credits generate broader economic development benefits beyond the motion picture industry itself? Using instrumental variable methods and panel data from 2000-2015, he examines whether film incentives increase state per capita income and gross state product. His findings are decisively negative—film tax credits show no measurable impact on aggregate state economic outcomes. Even when industry-level employment gains exist, they do not translate into broader prosperity or spillover effects.
 
-#### Connection to My Paper
+#### Why Industry-Level Analysis Still Matters
 
-Bradbury provides the macro-level counterpart to my more targeted efficiency and employment analysis. While my paper benchmarks cost-per-job (Georgia) and industry wage/employment effects (California), Bradbury tests the "so what?" question: do those sectoral gains translate into overall state economic growth? His null findings suggest they do not, which allows me to frame my paper as filling the middle ground—measuring the narrow efficiency and political economy mechanisms that likely explain why aggregate effects never appear. Methodologically, his IV approach (using diffusion instruments like neighboring states' adoption) can serve as inspiration if I want to address endogeneity in my own DiD setup. Substantively, citing Bradbury lets me argue that even if I find California's 2015/2020 expansions produced measurable industry job gains, those are unlikely to have improved statewide prosperity—reinforcing my efficiency critique and highlighting the political logic of sustaining these credits.
+Bradbury's null macro findings might suggest that studying California's employment effects is pointless if they don't improve overall state welfare. However, my research addresses three critical questions that Bradbury's aggregate analysis cannot answer:
+
+1. **Do modern, large-scale programs work differently?** Bradbury's period ends in 2015, missing California's tripled program cap and the streaming era transformation. If even California's massive post-2015 expansions show limited industry employment effects, this strengthens the case against film incentives. Conversely, if they do show effects, we need to understand why they don't translate to aggregate gains (zero-sum competition? displacement of other sectors? pure redistribution?).
+
+2. **Distinguishing real vs. statistical effects**: My ACS migration analysis addresses whether observed employment changes represent genuine economic activity or statistical artifacts (reclassification, gaming). Bradbury's aggregate nulls could reflect either ineffective programs or poor measurement—my micro-level analysis helps distinguish these interpretations.
+
+3. **Political economy puzzle**: If film tax credits don't work at either industry or aggregate levels, why do they persist and expand? Understanding whether programs produce even industry-level gains (and whether these are real or illusory) is essential for explaining the political economy documented by Owens and Rennhoff (2024). My findings contribute to this puzzle regardless of whether they're positive or null.
+
+In essence, Bradbury motivates my research by showing that the "final answer" on welfare effects is negative, making it crucial to understand the micro-mechanisms and political incentives that sustain these programs despite their documented ineffectiveness.
 
 ## Data Collection and Methodology
 
-### Research Question 1: Cost-Per-Job Efficiency Analysis (Georgia)
+### Primary Research Question: Employment and Wage Impact Analysis (California)
 
 #### Data Sources
-- **Primary**: Georgia Department of Audits and Accounts annual reports on entertainment industry investment incentives (2010-2022)
-- **Secondary**: 
-  - Bureau of Labor Statistics Quarterly Census of Employment and Wages (QCEW) for Georgia motion picture industry (NAICS 512110)
-  - Georgia Department of Community Affairs workforce development program reports
-  - Tax Foundation state EITC program data
-  - National Association of State Workforce Agencies (NASWA) job training expenditure reports
-  - U.S. Census Bureau's Annual Survey of State Government Finances
+
+**Primary Employment Data:**
+- Bureau of Labor Statistics Quarterly Census of Employment and Wages (QCEW) for motion picture and video industries (NAICS 512110, 2009-2022)
+- Following Rickman & Wang (2020) data standard for literature comparability
+
+**Migration Validation Data:**
+- American Community Survey (ACS) 1-Year Estimates: State-to-state migration flows by occupation
+- ACS occupation codes for motion picture occupations (SOC codes 27-2012, 27-4031, 27-4032, and related)
+- Annual migration data for California in-migration from other states (2010-2022)
+- This addresses the critical reclassification concern by tracking actual worker residential moves
+
+**Control State Selection:**
+- National Conference of State Legislatures film incentive database to identify states without major policy changes during treatment period
+- Bureau of Economic Analysis state-level economic controls (GDP, unemployment)
+- U.S. Census Bureau demographic data for matching
+
+**Political Timing Data (Descriptive Supplement):**
+- California Secretary of State gubernatorial election dates and results
+- California Legislative Analyst's Office budget documents
+- LexisNexis State Capital for policy timeline
 
 #### Methodology
-*Building on Thom's (2018) efficiency concerns and Bradbury's (2020) cost-effectiveness framework*
 
-1. **Cost-Per-Job Calculation**: I will extract total tax credit amounts and reported job creation figures from Georgia audit reports, following the job counting methodology used in official state evaluations
-2. **Benchmark Comparison**: I will calculate cost-per-job for alternative programs:
-   - State EITC supplements (using IRS Statistics of Income data on participation rates and average credit amounts)
-   - Workforce Investment and Opportunity Act (WIOA) programs (using program budgets and documented job placements)
-   - Georgia Quick Start job training program (using state budget allocations and placement rates)
-3. **Efficiency Metrics**: I will develop comparative cost-per-job ratios with bootstrapped confidence intervals, accounting for different job duration assumptions (temporary vs. permanent positions)
-4. **Sensitivity Analysis**: Following Rickman & Wang's (2020) approach, I will test robustness using:
-   - Different job counting methodologies (full-time equivalent vs. total positions vs. person-years)
-   - Alternative time horizons for job persistence (1-year, 3-year, 5-year)
-   - Inclusion/exclusion of indirect job creation claims
+**1. Difference-in-Differences Framework** *(Following Thom 2018, extending to 2022)*
 
-### Research Question 2: Employment and Wage Impact Analysis (California)
+I construct a quarterly panel of employment and wages for California and control states (2009-2022), estimating:
 
-#### Data Sources
-- **Primary**: Bureau of Labor Statistics Quarterly Census of Employment and Wages (QCEW) for motion picture and video industries (NAICS 512110, following Rickman & Wang 2020)
-- **Secondary**:
-  - California Employment Development Department Labor Market Information Division quarterly data
-  - U.S. Census Bureau County Business Patterns for industry establishment counts
-  - California Film Commission annual reports and production data
-  - National Conference of State Legislatures film incentive database for control state selection
+```
+Y_st = α + β₁(CA × Post2015) + β₂(CA × Post2020) + γ_s + δ_t + X_st + ε_st
+```
 
-#### Methodology
-*Combining Thom's (2018) panel approach with Rickman & Wang's (2020) synthetic control validation*
+Where:
+- Y_st = log employment or log average wages in motion picture industry
+- CA = California indicator
+- Post2015 = indicator for quarters after Q2 2015 (AB 1839 expansion)
+- Post2020 = indicator for quarters after Q3 2020 (AB 2021 expansion)
+- γ_s = state fixed effects
+- δ_t = time fixed effects
+- X_st = economic controls (state GDP growth, unemployment rate)
 
-1. **Panel Construction**: I will build a quarterly panel of employment and wage data (2009-2022) for California and potential control states, using the same NAICS classification (512110) as Rickman & Wang for comparability
-2. **Control Group Selection**: Following Bradbury's (2020) approach to identifying comparable states, I will use:
-   - Pre-treatment motion picture industry employment levels and growth trends (2009-2014)
-   - Economic and demographic similarities (GDP per capita, population, urbanization rates)
-   - Absence of major film incentive adoptions, expansions, or eliminations during 2015-2022 treatment periods
-   - Geographic and climate considerations relevant to film production
-3. **Difference-in-Differences Specification**:
-   ```
-   Y_st = α + β₁(CA × Post2015) + β₂(CA × Post2020) + γ_s + δ_t + X_st + ε_st
-   ```
-   Where Y_st is log employment/wages, CA is California indicator, Post periods capture expansions, X_st includes economic controls
-4. **Robustness Checks**:
-   - Event study plots around expansion dates to test parallel trends assumption
-   - Synthetic control method as alternative estimation (following Rickman & Wang's SCM approach)
-   - Placebo tests with non-expansion dates and non-treated states
-   - Addressing potential endogeneity using Bradbury's instrumental variable approach (neighboring state adoption patterns)
+**Control states** will be selected based on: (1) parallel pre-treatment trends in motion picture employment (2009-2014), (2) absence of major film incentive changes during 2015-2022, (3) similar pre-treatment industry size, and (4) economic similarity. Likely candidates include Texas, Florida, Illinois, and Pennsylvania.
 
-### Research Question 3: Political Timing Analysis (Georgia and California)
+**Event study specification** to test parallel trends assumption:
+```
+Y_st = α + Σ βk(CA × Quarterk) + γ_s + δ_t + X_st + ε_st
+```
+Where Quarterk indicates periods relative to policy expansion dates.
 
-#### Data Sources
-*Building on Owens & Rennhoff's (2024) political economy framework*
+**2. American Community Survey Migration Analysis** *(Novel contribution addressing reclassification concern)*
 
-- **Electoral Data**: 
-  - Georgia Secretary of State and California Secretary of State websites for gubernatorial election dates, results, and candidate information
-  - Federal Election Commission and state campaign finance databases for film industry contributions
-  - Ballotpedia for comprehensive electoral timeline data
-- **Policy Timeline Data**:
-  - State legislative databases (Georgia General Assembly and California Legislature) for bill tracking
-  - LexisNexis State Capital for comprehensive policy change documentation
-  - National Conference of State Legislatures film incentive program database
-  - State budget documents and appropriations bills for program funding changes
-- **Economic Control Data**:
-  - Bureau of Economic Analysis for state GDP and unemployment rates
-  - Tax Foundation for neighboring state policy changes
+To distinguish genuine job creation from statistical reclassification, I analyze ACS migration data:
 
-#### Methodology
-*Extending Owens & Rennhoff's (2024) political incentive analysis to policy timing*
+**Analysis 1—In-migration of Film Workers:**
+- Track California in-migration for motion picture occupations before vs. after 2015 and 2020 expansions
+- Compare to in-migration trends for other professional occupations (placebo test)
+- If QCEW shows employment increases but ACS shows no increase in film worker in-migration, this suggests reclassification rather than genuine job creation
 
-1. **Timeline Mapping**: I will create a detailed chronology of:
-   - All major film incentive policy changes (2005-2022) including adoptions, expansions, caps, and eliminations
-   - Gubernatorial election cycles, primary dates, and campaign periods
-   - Key political events, leadership transitions, and budget cycles
-2. **Statistical Testing**:
-   - Chi-square tests for clustering of policy changes around election periods
-   - Logistic regression modeling probability of expansion as function of:
-     - Electoral proximity (months to/from election)
-     - Governor's party affiliation and approval ratings
-     - Legislative control and competitiveness
-     - Economic conditions (unemployment, budget surplus/deficit)
-3. **Event Analysis**: 
-   - I will examine 18-month windows before/after elections for policy activity intensity
-   - Control for economic conditions, neighboring state competition (following Bradbury's diffusion approach), and industry lobbying expenditures
-4. **Comparative Framework**: I will contrast timing patterns between:
-   - Georgia (consistent Republican control, strong incentives) vs. California (Democratic control, variable incentives)
-   - Different gubernatorial administrations within each state
-   - Policy expansions vs. contractions across electoral cycles
+**Analysis 2—Source States:**
+- Identify which states saw increased out-migration of film workers to California post-expansion
+- Test whether high-tax-credit competitor states (e.g., Georgia, Louisiana) lost workers to California
+- If out-migration comes from non-competitor states, this suggests genuine industry attraction rather than zero-sum poaching
 
-## Alternative Simplified Approach (2-Month Timeline)
+**Analysis 3—Occupation-Specific Trends:**
+- Examine whether California gained workers in specific high-skill film occupations (directors, cinematographers) vs. general production workers
+- Different occupation patterns could distinguish between production location shifts (high-skill migration) vs. administrative reclassification (no skilled worker migration)
 
-*For faster execution while maintaining core insights*
+**3. Synthetic Control Method** *(Following Rickman & Wang 2020)*
 
-### Research Question 1: Georgia Cost-Per-Job Analysis (Simplified)
+As a robustness check, I implement synthetic control to construct a "Synthetic California" from weighted donor states:
 
-#### Data Sources
-- **Primary**: Georgia Department of Audits and Accounts annual reports (2015-2022 only)
-- **Benchmarks**: 
-  - Tax Foundation EITC data (readily available online)
-  - Georgia Quick Start program reports (state website)
-  - Bureau of Labor Statistics average cost-per-hire data
+- **Pre-treatment period**: 2009 Q1 - 2015 Q1 (before AB 1839)
+- **Donor pool**: States without major incentive changes 2015-2022
+- **Matching variables**: Quarterly employment, average wages, state GDP, unemployment
+- **Treatment effect**: Difference between actual California and Synthetic California post-2015
 
-#### Simplified Methodology with Examples
+This addresses concerns about parallel trends assumptions and control group selection sensitivity in standard DiD.
 
-1. **Basic Cost Calculation for Film Tax Credits**:
-   - *Example*: From 2020 Georgia audit report: $800 million in film tax credits awarded, 92,000 jobs reported
-   - *Calculation*: $800M ÷ 92,000 jobs = $8,696 per job in film industry
-   - *Repeat for 2018, 2019, 2021 reports to get average*
+**4. Robustness and Specification Checks**
 
-2. **Simple Benchmarking Against Alternative Programs**:
-   - *Example 1 - Georgia EITC*: If Georgia had state EITC supplement of $500 per recipient, and 200,000 recipients = $100M total cost ÷ 200,000 jobs supported = $500 per job
-   - *Example 2 - Georgia Quick Start*: 2020 program budget $25M, trained 15,000 workers = $1,667 per job
-   - *Example 3 - General hiring*: BLS average cost-per-hire in Georgia ≈ $4,000
+- **Placebo tests**: Assign false treatment dates (e.g., 2013, 2017) to test for spurious effects
+- **Alternative control groups**: Test sensitivity to different donor state selections
+- **Clustering**: Standard errors clustered at state level
+- **Different time windows**: Test effects using 1-year, 2-year, and 3-year post-treatment windows
 
-3. **Descriptive Analysis**:
-   - *Comparison*: Film tax credits ($8,696/job) vs. EITC ($500/job) vs. Quick Start ($1,667/job)
-   - *Finding*: Film credits cost 17x more per job than EITC, 5x more than job training
-   - *Present as simple bar chart with confidence intervals*
+### Supplementary Analysis: Political Timing (Descriptive)
 
-### Research Question 2: California Impact Analysis (Simplified)
+*Motivated by Owens & Rennhoff (2024)*
 
-#### Data Sources
-- **Primary**: BLS QCEW data for California motion picture industry (NAICS 512110)
-- **Control**: 3-4 obvious control states (Texas, Florida, New York, Illinois) without major incentive changes
-- **Timeline**: Focus only on 2015 expansion (drop 2020 for simplicity)
+As a descriptive supplement to the employment analysis, I will examine whether California's 2015 and 2020 film tax credit expansions align with gubernatorial election cycles, providing political context for interpreting economic findings.
 
-#### Simplified Methodology with Examples
+#### Approach
 
-1. **Basic DiD Setup**:
-   - *Example*: California film employment 2014: 150,000 jobs → 2016: 180,000 jobs (+20% growth)
-   - *Control states average*: 2014: 50,000 jobs → 2016: 52,000 jobs (+4% growth)
-   - *DiD estimate*: California grew 20% vs. expected 4% = 16 percentage point effect from 2015 expansion
-   - *In jobs*: 16% of 150,000 = 24,000 additional jobs attributable to the policy
+1. **Timeline Documentation**: Map California's policy changes relative to gubernatorial elections:
+   - 2015 expansion (AB 1839): signed by Governor Brown during his final term
+   - 2020 expansion (AB 2021): timing relative to Governor Newsom's term
+   - Compare to pre-election vs. post-election periods
 
-2. **Visual Analysis**:
-   - *Example*: Create line graph showing California vs. control states employment 2012-2018
-   - *Look for*: Parallel trends 2012-2014, then divergence after 2015
-   - *Event study*: Plot quarterly employment differences around Q2 2015 expansion date
+2. **Simple Descriptive Statistics**:
+   - Calculate months between policy enactments and nearest elections
+   - Note whether expansions occur in election years vs. off-years
+   - Document stated political rationales from legislative records and news coverage
 
-3. **Synthetic Control (Using Cursor for Easy Implementation)**:
-   - *Setup*: Use Python's `synthdid` or R's `Synth` package to create "Synthetic California"
-   - *Donor pool*: Texas, Florida, New York, Illinois, Pennsylvania, Michigan (states without major incentive changes)
-   - *Pre-treatment fit*: Weight donor states to match California's 2012-2014 employment trends
-   - *Example*: Synthetic CA = 0.4×Texas + 0.3×Florida + 0.2×New York + 0.1×Illinois
-   - *Validation*: Check that Synthetic CA closely tracks actual CA before 2015
+3. **Interpretation**: This descriptive analysis helps contextualize employment findings—if expansions align with electoral incentives (as Owens & Rennhoff document for legislative votes), this suggests political rather than economic motivations may drive program design, regardless of whether employment effects materialize.
 
-4. **Zero-Sum Check (National Totals)**:
-   - *Data*: Total U.S. film employment from BLS (sum of all states)
-   - *Test*: Did national film employment increase after CA's 2015 expansion?
-   - *Interpretation*: 
-     - If national total unchanged → CA just stole jobs from other states
-     - If national total increased → CA created new jobs for the industry
-   - *Example*: US film jobs 2014: 500K → 2016: 520K (+4%) suggests some job creation, not pure zero-sum
+## Simplified Implementation Plan
 
-### Research Question 3: Political Timing (Simplified)
+*Streamlined approach for feasible completion while maintaining methodological rigor*
 
-#### Data Sources
-- **Electoral**: Ballotpedia for election dates (Georgia and California)
-- **Policy**: NCSL film incentive database for major changes
-- **Simple Timeline**: Wikipedia and news sources for basic chronology
+**Week 1-2: Data Collection**
+- Download BLS QCEW quarterly data for California and control states (Texas, Florida, Illinois, New York)
+- Extract motion picture employment and wages (NAICS 512110) for 2009-2022
+- Collect state-level economic controls (unemployment, GDP growth)
 
-#### Simplified Methodology with Examples
+**Week 3-4: Analysis**
+- Basic difference-in-differences estimation focusing on 2015 expansion
+- Event study plots to visualize parallel trends and treatment effects
+- Simple synthetic control as robustness check
 
-1. **Descriptive Timeline Creation**:
-   - *Example*: Georgia timeline showing:
-     - 2010: Governor Deal elected → 2012: Film tax credit expansion
-     - 2014: Deal re-election campaign → 2015: Credit cap increase
-     - 2018: Governor Kemp elected → 2019: Program renewal
-   - *Visual*: Create timeline chart with election dates (red) and policy changes (blue)
+### Phase 2: ACS Migration Validation (Weeks 5-6)
 
-2. **Basic Statistical Pattern**:
-   - *Example calculation*: Out of 8 major Georgia policy changes (2008-2022), how many occurred within 12 months of gubernatorial elections?
-   - *Simple test*: If 6 out of 8 changes happened near elections vs. 2 out of 8 expected by chance
-   - *Finding*: "75% of major expansions occurred within election cycles vs. 25% expected"
+**Week 5: ACS Data**
+- Download American Community Survey state-to-state migration flows
+- Focus on motion picture occupation codes (SOC 27-XXXX series)
+- Extract California in-migration data 2010-2022
 
-3. **Case Study Examples**:
-   - *Case 1*: Georgia 2012 expansion during Deal's first term (campaign promise fulfillment)
-   - *Case 2*: California 2015 expansion during Brown's final term (legacy building)
-   - *Analysis*: Compare timing, political context, and stated rationales for each case
+**Week 6: Migration Analysis**
+- Compare pre/post-2015 trends in film worker migration to California
+- Test whether QCEW employment gains correspond to actual worker migration
+- Placebo test: compare to other professional occupation migration trends
 
-### Simplified Timeline (8 Weeks)
+### Phase 3: Writing and Descriptive Political Analysis (Weeks 7-8)
 
-- **Weeks 1-2**: Data collection (focus on readily available sources)
-- **Weeks 3-4**: Georgia efficiency analysis (basic calculations)
-- **Weeks 5-6**: California DiD analysis (simple specification)
-- **Week 7**: Political timing descriptive analysis
-- **Week 8**: Writing and final analysis
+**Week 7: Political Timing**
+- Simple timeline of California's 2015 and 2020 expansions relative to elections
+- Document political context from legislative records
+- Descriptive statistics on timing patterns
 
-### Trade-offs of Simplified Approach
-
-**Advantages:**
-- **Feasible timeline**: Realistic for 2-month completion
-- **Clear findings**: Simpler analysis often produces clearer results
-- **Accessible data**: All sources are publicly available online
-- **Core insights preserved**: Still addresses all three research questions
-
-**Limitations:**
-- **Less methodological sophistication**: No synthetic control, limited robustness checks
-- **Narrower scope**: Fewer years, fewer control states, simpler political analysis
-- **Reduced academic rigor**: Less comprehensive literature engagement
+**Week 8: Writing and Integration**
+- Synthesize QCEW and ACS findings
+- Interpret results in context of Thom (2018) and literature
+- Discuss implications for policy effectiveness
 
 ## Expected Contributions
 
-My research will contribute to the literature by:
+My research makes four key contributions to the film tax credit literature:
 
-1. **Methodological Innovation**: This will be the first study to systematically compare film tax credit efficiency with people-based alternatives using state audit data, building on the efficiency concerns raised by Thom (2018) and Bradbury (2020)
-2. **Temporal Extension**: I will update Thom's (2018) findings with more recent data (through 2022) and longer-term outcome measures, incorporating Rickman & Wang's (2020) synthetic control methodology
-3. **Political Economy Integration**: I will bridge the gap between Owens & Rennhoff's (2024) legislative behavior analysis and policy outcome evaluation, extending their political incentive framework to policy timing
-4. **Multi-Level Analysis**: I will connect micro-level efficiency analysis (Georgia) with meso-level industry impacts (California) and macro-level political timing, addressing the gap between Bradbury's aggregate null findings and sector-specific effects
-5. **Policy Implications**: I will provide concrete efficiency benchmarks and political cycle insights for policymakers considering film incentive programs, informed by the comprehensive literature on program effectiveness
+### 1. Temporal Extension of Thom (2018)
 
-## Preliminary Timeline
+I directly continue Thom's seminal work by analyzing California's post-2013 period, specifically the major 2015 and 2020 expansions that tripled program funding. This addresses a critical gap—testing whether Thom's modest findings persist in the modern streaming era and with substantially larger programs.
 
-- **Months 1-2**: Data collection and cleaning
-- **Months 3-4**: Georgia efficiency analysis and benchmarking
-- **Months 5-6**: California difference-in-differences estimation
-- **Months 7-8**: Political timing analysis and robustness checks
-- **Months 9-10**: Writing and revision
+### 2. Methodological Innovation: Dual-Data Validation
+
+**Novel contribution:** I am the first to use American Community Survey migration data to validate QCEW employment findings in film tax credit research. This addresses the fundamental "reclassification problem"—distinguishing whether QCEW employment gains reflect:
+- Genuine job creation (workers moving to California)
+- Statistical artifacts (firms reclassifying existing employees across state lines)
+- Administrative gaming (NAICS code manipulation)
+
+This dual-data approach provides stronger causal inference than existing studies that rely solely on administrative employment data.
+
+### 3. Bridging Micro and Macro Findings
+
+I connect Bradbury's (2020) aggregate null findings with industry-level mechanisms. By examining whether California's expansions produce even sector-specific employment gains—and whether these are real or illusory—I help explain why film tax credits show no aggregate economic benefits despite their political persistence.
+
+### 4. Political Economy Context
+
+Following Owens & Rennhoff (2024), I provide descriptive evidence on whether expansion timing aligns with electoral cycles. This political context helps interpret economic findings: programs may persist due to electoral incentives regardless of effectiveness, explaining the puzzle of continued investment despite mixed empirical evidence.
+
+## Research Timeline (8 Weeks)
+
+- **Weeks 1-2**: QCEW data collection and panel construction
+- **Weeks 3-4**: Difference-in-differences and synthetic control estimation
+- **Weeks 5-6**: ACS migration data analysis and validation
+- **Weeks 7**: Political timing descriptive analysis
+- **Week 8**: Writing and synthesis
