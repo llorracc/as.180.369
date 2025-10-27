@@ -1,6 +1,5 @@
 Article: Buy now, pay later credit: User characteristics and effects on spending patterns∗
-by Marco Di Maggio † Justin Katz ‡ Emily Williams יתים
-
+by Marco Di Maggio † Justin Katz ‡ Emily Williams 
 [Download PDF](https://www.nber.org/system/files/working_papers/w30508/w30508.pdf) | [NBER Paper](https://www.nber.org/papers/w30508) | [SSRN Link](https://ssrn.com/abstract=4198320)
 
 First Draft without AI:
