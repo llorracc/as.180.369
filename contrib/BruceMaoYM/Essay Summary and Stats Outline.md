@@ -119,13 +119,13 @@ This method lets you directly eyeball whether BNPL firms (like Affirm) trade at 
 
 ---
 
-## Part 2. Regression Framework (Optional, Advanced)
+## Part 2. Regression Framework
 
 If you want to formalize the comparison, you can set up a regression.  
 This requires a broader sample of firms (BNPL and traditional fintech lenders).
 
 **Specification:**
-PE_Ratioi = β0 + β1(BNPL_Dummy) + β2(Complaints_per_User) + β3(Credit_Loss_Rate) + εi
+PE_Ratioi = β0 + β1(BNPL_Dummy) + β2(Complaints_per_User)*(BNPL_Dummy) + β3(Credit_Loss_Rate)(BNPL_Dummy) + εi
 
 Where:  
 - **PE_Ratioᵢ** = Firm i’s Price/Earnings ratio (or EV/Revenue if negative earnings).  
@@ -143,6 +143,7 @@ Where:
 
 ⚠️ **Caution:** With very few public BNPL firms, regression results may be unstable. Treat this more as an **academic extension** than a core empirical test.
 
+interaction effects(Use AI to reinforce) to look for each variable one by one interaction effects
 ---
 
 ## Part 3. Practical Recommendation
