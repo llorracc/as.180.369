@@ -60,17 +60,23 @@ Proper control group selection requires balancing two competing concerns: policy
 
 The baseline specification follows Thom's (2018) framework, extended through 2022 and with two treatment onsets:
 
-\[Y_{st} = \alpha + \beta_{2015}(CA_s \times Post2015_t) + \beta_{2020}(CA_s \times Post2020_t) + \gamma_s + \delta_t + X_{st} + \varepsilon_{st}\]
+$$Y_{st} = \alpha + \beta_{2015}(CA_s \times Post2015_t) + \beta_{2020}(CA_s \times Post2020_t) + \gamma_s + \delta_t + X_{st} + \varepsilon_{st}$$
 
 Where:
 
-- \(Y_{st}\) = log of employment or average wages in NAICS 512110 for state s and quarter t
-- \(CA_s\) = 1 for California, 0 otherwise
-- \(Post2015_t\) = 1 for quarters after 2015 Q2 (Program 2.0 start)
-- \(Post2020_t\) = 1 for quarters after 2020 Q3 (Program 3.0 start)
-- \(\gamma_s\) = state fixed effects
-- \(\delta_t\) = quarter fixed effects
-- \(X_{st}\) = state-level controls (GDP growth, unemployment)
+- $Y_{st}$ = log of employment or average wages in NAICS 512110 for state $s$ in quarter $t$
+- $\alpha$ = constant term (intercept)
+- $\beta_{2015}$ = **treatment effect of Program 2.0** (the primary coefficient of interest)
+- $\beta_{2020}$ = **treatment effect of Program 3.0** (the secondary coefficient of interest)
+- $CA_s$ = indicator variable equal to 1 for California, 0 for control states
+- $Post2015_t$ = indicator variable equal to 1 for quarters after 2015 Q2, 0 otherwise
+- $Post2020_t$ = indicator variable equal to 1 for quarters after 2020 Q3, 0 otherwise
+- $\gamma_s$ = **state fixed effects** (a set of state-specific dummy variables controlling for time-invariant differences across states, such as CA's historically larger industry scale)
+- $\delta_t$ = **quarter fixed effects** (a set of quarter-specific dummy variables controlling for national time trends and seasonal patterns affecting all states equally, such as COVID-19 or holiday production cycles)
+- $X_{st}$ = time-varying state-level controls (GDP growth rate, unemployment rate)
+- $\varepsilon_{st}$ = error term, clustered at the state level to account for within-state correlation
+
+The coefficients $\beta_{2015}$ and $\beta_{2020}$ represent the DiD estimates—the difference in employment or wage growth between California and control states after each policy implementation, net of pre-existing trends and state-specific characteristics. Fixed effects are not separate datasets but rather dummy variables constructed directly from the panel structure during regression estimation.
 
 Event-study versions of this model will estimate coefficients for each quarter relative to treatment to test parallel pre-trends and visualize dynamic effects. Standard errors are clustered at the state level. I also implement wild bootstrap standard errors as robustness for the single-treated-state case.
 
