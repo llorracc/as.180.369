@@ -218,8 +218,10 @@ build-jb .
     myst start
     ```
   - Open the given link (might take a few minutes)
-  - Copy Alan's paper into your contrib folder so you can use his Myst template. 
- 
+  - Copy Alan's paper into your contrib folder so you can use his Myst template. This is now available in the draft materials. To copy onto your local computer:
+```
+     git clone depth 1 
+ ```
 
 **Homework**
 - Create a conclusion section
