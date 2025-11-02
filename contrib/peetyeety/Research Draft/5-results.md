@@ -61,6 +61,12 @@ Where $Y_{st}$ is log employment or log average wages for state $s$ in quarter $
 - **P-value:** 0.153
 - **Interpretation:** No statistically significant effect on wages, though the negative point estimate suggests wage declines relative to control states following the 2020 expansion.
 
+**Figure 1: Raw Employment and Wage Trends (2010-2025)**
+
+![Raw Trends](../Data%20Exploration/DiD/did_raw_trends.png)
+
+*Panel A shows quarterly employment levels for California (blue), New York (orange), and Georgia (green) over the full sample period. Panel B shows average weekly wages. Vertical dashed lines indicate Program 2.0 (2015 Q2) and Program 3.0 (2020 Q3) implementation dates. Note Georgia's rapid growth trajectory relative to California and New York.*
+
 ### Limitations of DiD Estimates
 
 **Parallel Trends Violation:**
@@ -69,6 +75,12 @@ Visual inspection of pre-treatment trends (2010-2015 Q1) reveals substantial div
 - California vs. Georgia: 0.153 log points/year difference (**substantial violation**)
 
 This differential trend violates the fundamental parallel trends assumption underlying DiD identification, suggesting that Georgia's rapid growth during the pre-treatment period may confound causal inference.
+
+**Figure 2: Pre-Treatment Parallel Trends Assessment**
+
+![Parallel Trends](../Data%20Exploration/DiD/did_parallel_trends.png)
+
+*Panel A shows log employment trends during the pre-treatment period (2010-2015 Q1) for California, New York, and Georgia. Panel B shows log wage trends. California and New York exhibit relatively parallel trends, but Georgia's rapid growth creates substantial divergence, violating the parallel trends assumption required for DiD identification.*
 
 **Placebo Test Failure:**
 A placebo test assigning a false treatment date (2013 Q2) yields:
@@ -112,6 +124,18 @@ The synthetic control tracks California's employment trends closely in the pre-t
 
 The pre-treatment gap between actual and synthetic California is stable (approximately 0.90 log points), reflecting California's larger industry size relative to New York. This level difference is expected and does not invalidate the analysis; rather, the treatment effect is identified from **changes in this gap** following policy implementation.
 
+**Figure 3a: Synthetic Control Results - Program 2.0 (2015)**
+
+![Synthetic Control 2015](../Data%20Exploration/SCM/scm_results_2015_employment.png)
+
+*Panel A shows actual California employment (solid line) versus synthetic California (dashed line). The synthetic control runs parallel to actual California in the pre-treatment period but at a lower level (~0.90 log points), reflecting California's larger industry size. Panel B shows the treatment effect as the gap between actual and synthetic California over time. The gap is stable pre-treatment (~0.90 log points) and increases post-treatment (~0.93 log points), representing a +3.5% employment effect.*
+
+**Figure 3b: Synthetic Control Results - Program 3.0 (2020)**
+
+![Synthetic Control 2020](../Data%20Exploration/SCM/scm_results_2020_employment.png)
+
+*Similar to Figure 3a, Panel A shows actual versus synthetic California employment, while Panel B shows the gap over time. The 2020 treatment shows a similar pattern with a +4.3% employment effect (gap increases from 0.91 to 0.95 log points post-treatment).*
+
 ### Employment Effects
 
 **Program 2.0 (2015 Q2):**
@@ -135,6 +159,18 @@ In-space placebo tests assign the same synthetic control method to donor states 
 - **2020 treatment:** California ranks **1st out of 7** states in post-treatment RMSPE deviation (most extreme effect)
 
 The permutation-based p-values (0.29 for 2015, 0.14 for 2020) indicate that California's employment effects are among the most extreme in the placebo distribution, suggesting potentially meaningful policy impacts that approach marginal statistical significance. While neither effect achieves conventional significance thresholds (p < 0.10), the 2020 effect particularly approaches borderline significance.
+
+**Figure 4a: Placebo Tests - Program 2.0 (2015)**
+
+![Placebo Tests 2015](../Data%20Exploration/SCM/scm_placebo_tests_2015.png)
+
+*Placebo tests assign the same synthetic control method to donor states (gray lines) and compare California's post-treatment deviation (red line) to the placebo distribution. California ranks 2nd out of 7 states in post-treatment RMSPE deviation (p = 0.29), indicating the effect is among the most extreme but not statistically significant at conventional thresholds.*
+
+**Figure 4b: Placebo Tests - Program 3.0 (2020)**
+
+![Placebo Tests 2020](../Data%20Exploration/SCM/scm_placebo_tests_2020.png)
+
+*Similar to Figure 4a, California's post-treatment deviation (red line) is compared to placebo states (gray lines). California ranks 1st out of 7 states in post-treatment RMSPE deviation (p = 0.14), approaching marginal statistical significance.*
 
 ### Interpretation
 
@@ -241,13 +277,17 @@ Future analysis should:
 
 **Table 3:** Synthetic Control Method Results (Employment Effects)
 
-**Figure 1:** Raw Employment Trends (California, New York, Georgia)
+**Figure 1:** Raw Employment and Wage Trends (California, New York, Georgia) - **Included above**
 
-**Figure 2:** DiD Parallel Trends Assessment (Pre-Treatment Period)
+**Figure 2:** DiD Parallel Trends Assessment (Pre-Treatment Period) - **Included above**
 
-**Figure 3:** Synthetic Control Time Series (Actual vs. Synthetic California)
+**Figure 3a:** Synthetic Control Results - Program 2.0 (2015) - **Included above**
 
-**Figure 4:** Placebo Test Distribution (In-Space Permutation Tests)
+**Figure 3b:** Synthetic Control Results - Program 3.0 (2020) - **Included above**
+
+**Figure 4a:** Placebo Test Distribution - Program 2.0 (2015) - **Included above**
+
+**Figure 4b:** Placebo Test Distribution - Program 3.0 (2020) - **Included above**
 
 ---
 
