@@ -208,17 +208,17 @@ build-jb .
       - on top right corner click on the presentation symbol [Render the current notebook as Reveal Slideshow (Alt + R)] 
       - on the RHS of jupyter-lab go to **property inspector (two screws)** --> **common tools**
 - Working with myst:
-  - Create new econ-ark container
   - Restructure your paper as in contrib/AMonninger/Paper_Restructured
-  - On Sciserver we can now use `myst`. Although the usual `myst start` does not work. Instead do the following
+  - We will now use `myst` on your local computer. Although the usual `myst start` does not work. Instead do the following
     ```
     pip install mystmd
 
     myst init
 
-    myst-start
+    myst start
     ```
   - Open the given link (might take a few minutes)
+  - Copy Alan's paper into your contrib folder so you can use his Myst template. 
  
 
 **Homework**
