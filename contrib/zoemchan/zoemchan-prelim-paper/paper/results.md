@@ -34,7 +34,7 @@ Logistic regression - any advanced STEM offered (A as reference)
 
 Extending the analysis nationwide, Table 2 presents regression results pooling schools across all cities with digitized HOLC maps. As in the Chicago analysis, the logistic regression shows that schools in neighborhoods graded “B,” “C,” or “D” have systematically lower odds of offering any advanced STEM course compared to those in “A” neighborhoods. The odds ratios for Grades “C” and “D” hover around **0.78–0.81**, implying a roughly **20% reduction in the likelihood** of offering advanced STEM coursework. Although the coefficients fall slightly short of conventional significance thresholds, the consistent directional pattern across models suggests a robust, negative association between historical redlining and STEM access.
 
-![Predicted Probability of Any Advanced Stem](Documents/Predicted Prob of Any Stem.png)
+[Predicted Probability of Any Advanced Stem](Documents/Predicted Prob of Any Stem.png)
 
 Figure 4 visualizes this relationship nationally, revealing a steady, monotonic decline in STEM course offerings as historical HOLC grades worsen. Schools in “A” neighborhoods show the highest rates of calculus, physics, and computer science offerings, while those in “D” areas lag markedly behind. The visual underscores that redlining’s imprint is not confined to one city but extends across metropolitan regions nationwide.
 
