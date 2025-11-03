@@ -1,7 +1,7 @@
 ### Chicago Analysis
 
 
-![Map of Chicago Schools Offering Various STEM Courses](Documents/chicago stem class map)
+[Map of Chicago Schools Offering Various STEM Courses](Documents/chicago stem class map)
 
 Figure 1 displays the geographic overlay of Chicago’s public schools and historical HOLC grades. The visual highlights a stark spatial pattern: schools located in neighborhoods graded “C” (“Definitely Declining”) or “D” (“Hazardous”) are heavily concentrated in the South and West Sides—areas long associated with disinvestment, lower home values, and predominantly Black or Hispanic populations. In contrast, “A” (“Best”) and “B” (“Still Desirable”) neighborhoods, concentrated in the North and Northwest, host schools with more abundant academic and material resources. This pattern visually previews the central finding that historical redlining continues to shape present-day educational opportunity.
 
