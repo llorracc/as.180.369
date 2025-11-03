@@ -403,15 +403,32 @@ else:
     ax1.legend(fontsize=11)
     ax1.grid(True, alpha=0.3)
 
-    # Panel B: Gap
-    ax2.plot(post_treatment['year_qtr'], post_treatment['gap'], 
-             'o-', linewidth=2.5, markersize=6, color='#F18F01')
-    ax2.axhline(y=0, color='black', linestyle='-', linewidth=1.5, alpha=0.5)
-    ax2.fill_between(post_treatment['year_qtr'], 0, post_treatment['gap'], alpha=0.3, color='#F18F01')
+    # Panel B: Gap (Full Time Series - Pre + Post)
+    # Show full gap time series
+    ax2.plot(sc_2015_emp['year_qtr'], sc_2015_emp['gap'], 
+             'o-', linewidth=2.5, markersize=4, color='#2E86AB', label='Gap (Actual - Synthetic)')
+    
+    # Add vertical line at treatment
+    ax2.axvline(x=2015.25, color='red', linestyle='--', linewidth=2, alpha=0.7, label='Treatment (2015 Q2)')
+    
+    # Highlight pre-treatment period
+    ax2.axvspan(pre_start_2015, pre_end_2015, alpha=0.1, color='gray')
+    
+    # Add reference line at pre-treatment mean gap
+    pre_gap_mean = pre_treatment['gap'].mean()
+    ax2.axhline(y=pre_gap_mean, color='orange', linestyle=':', linewidth=2, alpha=0.7, 
+                label=f'Pre-treatment mean gap ({pre_gap_mean:.3f})')
+    
+    # Fill area showing increase above pre-treatment mean (treatment effect)
+    post_treatment_gaps = sc_2015_emp[sc_2015_emp['year_qtr'] >= 2015.25]['gap']
+    post_treatment_periods = sc_2015_emp[sc_2015_emp['year_qtr'] >= 2015.25]['year_qtr']
+    ax2.fill_between(post_treatment_periods, pre_gap_mean, post_treatment_gaps, 
+                     alpha=0.3, color='#F18F01', label='Treatment effect (increase above pre-mean)')
 
     ax2.set_xlabel('Year', fontsize=12, fontweight='bold')
-    ax2.set_ylabel('Treatment Effect (Log Points)', fontsize=12, fontweight='bold')
-    ax2.set_title('Panel B: Treatment Effect (Actual - Synthetic)', fontsize=14, fontweight='bold')
+    ax2.set_ylabel('Gap (Log Points)', fontsize=12, fontweight='bold')
+    ax2.set_title('Panel B: Gap Over Time (Treatment Effect = Change in Gap)', fontsize=14, fontweight='bold')
+    ax2.legend(fontsize=10, loc='best')
     ax2.grid(True, alpha=0.3)
 
     plt.tight_layout()
@@ -596,16 +613,32 @@ else:
     ax1.legend(fontsize=11)
     ax1.grid(True, alpha=0.3)
 
-    # Panel B: Gap
-    ax2.plot(post_treatment_2020['year_qtr'], post_treatment_2020['gap'], 
-             'o-', linewidth=2.5, markersize=6, color='#F18F01')
-    ax2.axhline(y=0, color='black', linestyle='-', linewidth=1.5, alpha=0.5)
-    ax2.fill_between(post_treatment_2020['year_qtr'], 0, post_treatment_2020['gap'], 
-                     alpha=0.3, color='#F18F01')
+    # Panel B: Gap (Full Time Series - Pre + Post)
+    # Show full gap time series
+    ax2.plot(sc_2020_emp['year_qtr'], sc_2020_emp['gap'], 
+             'o-', linewidth=2.5, markersize=4, color='#2E86AB', label='Gap (Actual - Synthetic)')
+    
+    # Add vertical line at treatment
+    ax2.axvline(x=treatment_2020, color='red', linestyle='--', linewidth=2, alpha=0.7, label='Treatment (2020 Q3)')
+    
+    # Highlight pre-treatment period
+    ax2.axvspan(pre_start_2020, pre_end_2020, alpha=0.1, color='gray')
+    
+    # Add reference line at pre-treatment mean gap
+    pre_gap_mean_2020 = pre_treatment_2020['gap'].mean()
+    ax2.axhline(y=pre_gap_mean_2020, color='orange', linestyle=':', linewidth=2, alpha=0.7, 
+                label=f'Pre-treatment mean gap ({pre_gap_mean_2020:.3f})')
+    
+    # Fill area showing increase above pre-treatment mean (treatment effect)
+    post_treatment_gaps_2020 = sc_2020_emp[sc_2020_emp['year_qtr'] > treatment_2020]['gap']
+    post_treatment_periods_2020 = sc_2020_emp[sc_2020_emp['year_qtr'] > treatment_2020]['year_qtr']
+    ax2.fill_between(post_treatment_periods_2020, pre_gap_mean_2020, post_treatment_gaps_2020, 
+                     alpha=0.3, color='#F18F01', label='Treatment effect (increase above pre-mean)')
 
     ax2.set_xlabel('Year', fontsize=12, fontweight='bold')
-    ax2.set_ylabel('Treatment Effect (Log Points)', fontsize=12, fontweight='bold')
-    ax2.set_title('Panel B: Treatment Effect (Actual - Synthetic)', fontsize=14, fontweight='bold')
+    ax2.set_ylabel('Gap (Log Points)', fontsize=12, fontweight='bold')
+    ax2.set_title('Panel B: Gap Over Time (Treatment Effect = Change in Gap)', fontsize=14, fontweight='bold')
+    ax2.legend(fontsize=10, loc='best')
     ax2.grid(True, alpha=0.3)
 
     plt.tight_layout()

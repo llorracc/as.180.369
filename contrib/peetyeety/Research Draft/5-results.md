@@ -128,13 +128,13 @@ The pre-treatment gap between actual and synthetic California is stable (approxi
 
 ![Synthetic Control 2015](../Data%20Exploration/SCM/scm_results_2015_employment.png)
 
-*Panel A shows actual California employment (solid line) versus synthetic California (dashed line). The synthetic control runs parallel to actual California in the pre-treatment period but at a lower level (~0.90 log points), reflecting California's larger industry size. Panel B shows the treatment effect as the gap between actual and synthetic California over time. The gap is stable pre-treatment (~0.90 log points) and increases post-treatment (~0.93 log points), representing a +3.5% employment effect.*
+*Panel A shows actual California employment (solid line) versus synthetic California (dashed line). The synthetic control runs parallel to actual California in the pre-treatment period but at a lower level (~0.90 log points), reflecting California's larger industry size. Panel B shows the full gap time series between actual and synthetic California over time, with a reference line for the pre-treatment mean gap and shaded area representing the treatment effect (increase above pre-treatment mean). The gap is stable pre-treatment (~0.90 log points) and increases post-treatment, representing a +3.5% employment effect (change in gap from pre- to post-treatment).*
 
 **Figure 3b: Synthetic Control Results - Program 3.0 (2020)**
 
 ![Synthetic Control 2020](../Data%20Exploration/SCM/scm_results_2020_employment.png)
 
-*Similar to Figure 3a, Panel A shows actual versus synthetic California employment, while Panel B shows the gap over time. The 2020 treatment shows a similar pattern with a +4.3% employment effect (gap increases from 0.91 to 0.95 log points post-treatment).*
+*Similar to Figure 3a, Panel A shows actual versus synthetic California employment, while Panel B shows the full gap time series with a reference line for the pre-treatment mean gap and shaded area representing the treatment effect (increase above pre-treatment mean). The 2020 treatment shows a similar pattern with a +4.3% employment effect (change in gap from pre- to post-treatment).*
 
 ### Employment Effects
 
