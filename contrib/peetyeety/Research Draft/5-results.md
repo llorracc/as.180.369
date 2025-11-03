@@ -21,6 +21,26 @@ Across the full sample period (2010-2025):
 
 Pre-treatment employment growth patterns reveal substantial heterogeneity: California and New York exhibited relatively stable trends, while Georgia experienced rapid growth following its tax credit program initiation in 2008.
 
+**Table 1: Summary Statistics by State (2010-2025)**
+
+| State | Employment (Mean) | Employment (Std) | Avg Weekly Wage (Mean) | Avg Weekly Wage (Std) | GDP Growth (Mean %) | Unemployment Rate (Mean %) | Population Growth (Mean %) |
+|-------|-------------------|------------------|------------------------|-----------------------|---------------------|---------------------------|---------------------------|
+| California | 109,656 | 15,236 | $2,338 | $546 | 3.12 | 7.16 | 0.76 |
+| New York | 43,307 | 5,098 | $2,094 | $393 | 1.86 | 6.12 | 0.37 |
+| Georgia | 10,158 | 5,982 | $1,323 | $311 | 2.85 | 5.90 | 1.31 |
+
+*Note: Employment is quarterly average employment; wages are average weekly wages; GDP growth, unemployment rate, and population growth are quarterly averages. Standard deviations shown in parentheses.*
+
+**Table 2: California Pre- vs. Post-Treatment Comparison**
+
+| Variable | Pre-2015 | Post-2015 (Pre-2020) | Post-2020 |
+|----------|---------|----------------------|-----------|
+| Employment | 108,890 | 113,359 | 106,410 |
+| Avg Weekly Wage | $1,961 | $2,338 | $2,753 |
+| GDP Growth (%) | 3.21 | 3.43 | 2.71 |
+| Unemployment Rate (%) | 10.04 | 5.38 | 5.94 |
+| Population Growth (%) | 1.21 | 0.67 | 0.36 |
+
 ---
 
 ## Difference-in-Differences Results
@@ -32,6 +52,17 @@ The baseline DiD model is specified as:
 $$Y_{st} = \alpha + \beta_{2015}(CA_s \times Post2015_t) + \beta_{2020}(CA_s \times Post2020_t) + \gamma_s + \delta_t + X_{st} + \varepsilon_{st}$$
 
 Where $Y_{st}$ is log employment or log average wages for state $s$ in quarter $t$, $\gamma_s$ represents state fixed effects, $\delta_t$ represents quarter fixed effects, and $X_{st}$ includes time-varying controls (GDP growth, unemployment rate, population growth). Standard errors are clustered at the state level.
+
+**Table 3: Difference-in-Differences Regression Results**
+
+| Outcome Variable | Treatment | Coefficient | Std. Error | P-value | % Change | Significant (p<0.05) |
+|------------------|-----------|-------------|-----------|---------|----------|----------------------|
+| Employment | Program 2.0 (2015) | -0.2015 | 0.1998 | 0.316 | -18.3% | No |
+| Employment | Program 3.0 (2020) | -0.0357 | 0.0561 | 0.526 | -3.5% | No |
+| Wages | Program 2.0 (2015) | 0.0869 | 0.0285 | 0.003 | +9.1% | **Yes*** |
+| Wages | Program 3.0 (2020) | -0.0718 | 0.0498 | 0.153 | -6.9% | No |
+
+*Note: Coefficients are in log points. Standard errors are clustered at the state level. *Significant at p < 0.01. Sample includes 171 state-quarter observations (3 states × 57 quarters). All models include state fixed effects, quarter fixed effects, and time-varying controls (GDP growth, unemployment rate, population growth).*
 
 ### Employment Effects
 
@@ -115,6 +146,15 @@ For both treatments, the optimization algorithm assigns **100% weight to New Yor
 - **Program 3.0 (2020):** New York 99.99%, all other states <0.01%
 
 This weighting reflects New York's superior match across all pre-treatment predictors, confirming that New York provides the most appropriate counterfactual for California's film industry.
+
+**Table 4: Synthetic Control Method Results Summary**
+
+| Treatment | Outcome | Treatment Effect (%) | New York Weight | Georgia Weight | Louisiana Weight | Florida Weight | Illinois Weight | Pennsylvania Weight | Pre-RMSPE | P-value |
+|-----------|---------|---------------------|-----------------|----------------|------------------|---------------|-----------------|---------------------|-----------|---------|
+| 2015 Q2 (Program 2.0) | Employment | +3.48 | 100.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.900 | 0.286 |
+| 2020 Q3 (Program 3.0) | Employment | +4.31 | 100.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.918 | 0.143 |
+
+*Note: Treatment effect is the percentage change in employment from pre- to post-treatment gap. Donor weights sum to 100%. Pre-RMSPE (Root Mean Squared Prediction Error) measures pre-treatment fit quality (lower is better). P-values are from permutation-based placebo tests (California's rank among 7 states in post-treatment RMSPE deviation).*
 
 ### Pre-Treatment Fit
 
@@ -271,11 +311,13 @@ Future analysis should:
 
 ## Tables and Figures Referenced
 
-**Table 1:** Summary Statistics by State and Period (2010-2025)
+**Table 1:** Summary Statistics by State (2010-2025) - **Included above**
 
-**Table 2:** Difference-in-Differences Regression Results (Employment and Wages)
+**Table 2:** California Pre- vs. Post-Treatment Comparison - **Included above**
 
-**Table 3:** Synthetic Control Method Results (Employment Effects)
+**Table 3:** Difference-in-Differences Regression Results (Employment and Wages) - **Included above**
+
+**Table 4:** Synthetic Control Method Results Summary (Employment Effects) - **Included above**
 
 **Figure 1:** Raw Employment and Wage Trends (California, New York, Georgia) - **Included above**
 
