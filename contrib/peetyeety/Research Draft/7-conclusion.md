@@ -36,3 +36,4 @@ These findings contribute to a more comprehensive understanding of whether moder
 
 As states continue to compete for film production through increasingly generous tax incentives, the evidence from California's experience suggests that these programs may be more effective at preventing losses than generating gains, raising important questions about their role in economic development strategy. The challenge for policymakers is to balance the visible benefits to existing workers against the substantial public costs, while recognizing that tax credits alone may be insufficient to fundamentally alter a state's competitive position in an increasingly mobile industry.
 
+

@@ -20,3 +20,4 @@ By uniting administrative employment data, migration evidence, and political tim
 
 The remainder of this paper proceeds as follows. Section 2 reviews the relevant literature on film tax credits, highlighting the temporal and methodological gaps this study addresses. Section 3 describes the data sources, empirical strategy, and identification assumptions. Section 4 presents the main results from difference-in-differences and synthetic control analyses, along with the migration validation evidence. Section 5 discusses the integrated interpretation of these findings and their policy implications. Section 6 concludes with a summary of contributions and directions for future research.
 
+

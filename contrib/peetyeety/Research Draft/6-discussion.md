@@ -40,3 +40,4 @@ Future research should address these gaps by expanding the donor pool if possibl
 
 The evidence from this study suggests that California's film tax credit programs produced modest positive effects on employment and substantial improvements in worker compensation, but these gains primarily reflect improved retention and working conditions for existing workers rather than net in-migration. The policy appears to have partially achieved its goal of retaining production activity within the state, but it did not fundamentally reverse California's competitive decline relative to other production hubs. These findings contribute to a more nuanced understanding of film tax credit effectiveness and highlight the importance of using multiple data sources and identification strategies to evaluate place-based economic development policies.
 
+
