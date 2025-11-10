@@ -272,6 +272,77 @@ The negative wage effect for 2020 may reflect COVID-19 impacts rather than polic
 
 ---
 
+## ACS Migration Analysis
+
+To validate whether the employment effects identified through DiD and SCM reflect genuine worker relocation or alternative mechanisms (e.g., local hiring, increased hours), I analyze migration patterns of film industry professionals using IPUMS American Community Survey (ACS) microdata from 2009-2023.
+
+### Methodology
+
+The analysis uses ACS microdata for workers in NAICS 512110 (Motion Picture and Video Production) and related codes (5121xx). Migration is measured using the MIGPLAC1 variable, which indicates the state of residence one year prior to the survey. Net migration is calculated as the difference between:
+- **Inflows:** Film workers who moved TO California from other states
+- **Outflows:** Film workers who moved FROM California to other states
+
+Positive net migration indicates net inflow (workers moving into California), while negative net migration indicates net outflow (workers leaving California).
+
+### Results
+
+**Table 5: California Film Industry Net Migration (2009-2023)**
+
+| Year | Inflows | Outflows | Net Migration | Total CA Workers | Migration Rate |
+|------|---------|----------|---------------|-----------------|----------------|
+| 2009 | 2,288 | 4,494 | -2,206 | 189,620 | -1.163% |
+| 2010 | 1,351 | 2,723 | -1,372 | 171,742 | -0.799% |
+| 2011 | 1,718 | 2,894 | -1,176 | 181,031 | -0.650% |
+| 2012 | 2,368 | 5,522 | -3,154 | 195,027 | -1.617% |
+| 2013 | 1,751 | 7,247 | -5,496 | 185,221 | -2.967% |
+| 2014 | 2,705 | 3,856 | -1,151 | 194,303 | -0.592% |
+| **2015** | **2,718** | **4,776** | **-2,058** | **190,348** | **-1.081%** |
+| 2016 | 3,515 | 4,813 | -1,298 | 196,992 | -0.659% |
+| 2017 | 2,824 | 4,259 | -1,435 | 208,182 | -0.689% |
+| 2018 | 1,942 | 4,673 | -2,731 | 192,523 | -1.419% |
+| 2019 | 2,380 | 5,922 | -3,542 | 208,106 | -1.702% |
+| **2020** | **3,525** | **5,192** | **-1,667** | **226,296** | **-0.737%** |
+| **2021** | **3,394** | **3,452** | **-58** | **209,775** | **-0.028%** |
+| 2022 | 3,265 | 4,471 | -1,206 | 213,285 | -0.565% |
+| 2023 | 2,888 | 4,766 | -1,878 | 222,690 | -0.843% |
+
+*Note: All values are weighted counts representing population estimates. Net migration is negative (outflow) for all years. Treatment years (2015, 2020) are highlighted in bold.*
+
+**Figure 5: California Film Industry Migration Patterns (2009-2023)**
+
+![Migration Patterns](../Data%20Exploration/Migration/california_film_migration.png)
+
+*Panel A shows annual inflows to California (green line) and outflows from California (orange line) from 2009-2023. Panel B shows net migration (negative values indicate net outflow). Vertical dashed lines indicate Program 2.0 (2015) and Program 3.0 (2020) implementation dates. The figure reveals persistent net outflow throughout the period, with notable improvements in 2016 (following Program 2.0) and particularly in 2021 (following Program 3.0), where net outflow reached its minimum at -58 workers (-0.028%).*
+
+### Key Findings
+
+**Persistent Net Outflow:**
+California experienced net outflow of film industry workers in every year from 2009-2023, with an average annual net outflow of 2,029 workers (1.034% of the film workforce). This pattern persists across both pre-treatment and post-treatment periods, suggesting that the state's film industry has been losing workers to other states throughout the study period.
+
+**Treatment Period Patterns:**
+- **2015 (Program 2.0):** Net outflow of 2,058 workers (-1.081%), similar to pre-treatment years
+- **2020 (Program 3.0):** Net outflow of 1,667 workers (-0.737%), slightly lower than pre-treatment average
+- **2021:** Net outflow of only 58 workers (-0.028%), the smallest outflow in the entire period
+
+The 2021 result is particularly notable, as it represents a substantial reduction in net outflow relative to both pre-treatment years and the 2020 treatment year. However, this improvement was temporary, with net outflow returning to more typical levels in 2022-2023.
+
+**Summary Statistics:**
+- Average annual net outflow: -2,029 workers
+- Largest net outflow: -5,496 workers (2013)
+- Smallest net outflow: -58 workers (2021)
+- Average migration rate: -1.034% of CA film workforce
+- Total net outflow (2009-2023): -30,428 workers
+
+### Limitations
+
+Several limitations should be noted:
+1. **Temporary vs. Permanent Migration:** ACS migration data captures moves between states but may not capture temporary relocations for specific productions, which are common in the film industry.
+2. **Timing:** Migration data reflects moves in the year prior to the survey, so 2015 migration data reflects moves in 2014 (pre-treatment).
+3. **Sample Size:** Film industry workers represent a small fraction of ACS respondents, leading to larger sampling error in migration estimates.
+4. **Definitional Differences:** ACS industry codes may not perfectly align with QCEW NAICS 512110 definitions.
+
+---
+
 ## Summary and Interpretation
 
 ### Main Findings
@@ -297,15 +368,43 @@ However, several caveats apply:
 - Limited statistical power due to small donor pool (n = 6 states)
 - Effects are suggestive rather than conclusive
 - Cost-effectiveness analysis would require program expenditure data
-- Migration validation (ACS) remains pending to confirm whether employment gains reflect real worker relocation
+
+### Integrated Interpretation: Employment Effects and Migration Patterns
+
+The combination of SCM employment estimates, DiD wage effects, and ACS migration data provides a nuanced picture of the policy's impact on California's film industry workforce.
+
+**Reconciling Employment Gains with Migration Outflows:**
+
+The SCM results suggest modest employment increases (3-4%) following both tax credit expansions, yet ACS migration data reveals persistent net outflow of film workers throughout the study period. This apparent contradiction can be reconciled through three mechanisms:
+
+1. **Retention of Existing Workers:** The employment increases likely reflect improved retention of existing California workers rather than net in-migration. The tax credits may have slowed worker departures without generating net inflows, consistent with the 2021 data showing the smallest net outflow (-58 workers) following the 2020 program expansion.
+
+2. **More Work for Existing Workers:** QCEW employment data measures jobs, which could increase through longer hours or more consistent work for existing workers rather than new arrivals. The substantial wage premium (9.1% for 2015) supports this interpretation, suggesting existing workers received more work and higher compensation.
+
+3. **Temporary vs. Permanent Migration:** Film production is project-based, with workers frequently moving temporarily for specific productions. ACS captures permanent state-to-state moves but misses temporary relocations, so employment gains may reflect increased temporary work in California without corresponding permanent migration.
+
+**Implications for Policy Effectiveness:**
+
+The migration evidence suggests that California's film tax credits may have achieved their primary goal of retaining production activity and employment within the state, even if they did not generate net in-migration of workers. The persistent net outflow pattern indicates that California continues to lose film industry workers to competing states, but the tax credits may have slowed this outflow or prevented even larger losses.
+
+The combination of:
+- Modest employment increases (SCM: 3-4%)
+- Substantial wage premiums (DiD: +9.1% for 2015)
+- Persistent but potentially moderated net outflows (ACS)
+
+suggests that the policy may have improved conditions for existing California film workers while partially mitigating the state's competitive disadvantage relative to other production hubs. However, the lack of net in-migration indicates that the tax credits were insufficient to reverse California's long-term trend of losing film industry workers to other states.
+
+**Conclusion:**
+
+The evidence from three complementary analyses—SCM employment effects, DiD wage effects, and ACS migration patterns—paints a consistent picture: California's film tax credit programs appear to have generated modest positive employment effects and substantial wage improvements, but these gains likely reflect improved retention and working conditions for existing workers rather than net in-migration. The persistent net outflow of film workers suggests that while the tax credits may have slowed the state's competitive decline, they did not fundamentally reverse the trend of workers leaving California for other production centers.
 
 ### Next Steps
 
 Future analysis should:
 1. Expand donor pool if possible to improve statistical power
-2. Conduct ACS migration analysis to validate employment gains
-3. Obtain program expenditure data for cost-per-job calculations
-4. Explore heterogeneous effects by occupation or production type
+2. Obtain program expenditure data for cost-per-job calculations
+3. Explore heterogeneous effects by occupation or production type
+4. Analyze temporary vs. permanent migration patterns using alternative data sources
 
 ---
 
@@ -319,6 +418,8 @@ Future analysis should:
 
 **Table 4:** Synthetic Control Method Results Summary (Employment Effects) - **Included above**
 
+**Table 5:** California Film Industry Net Migration (2009-2023) - **Included above**
+
 **Figure 1:** Raw Employment and Wage Trends (California, New York, Georgia) - **Included above**
 
 **Figure 2:** DiD Parallel Trends Assessment (Pre-Treatment Period) - **Included above**
@@ -331,6 +432,8 @@ Future analysis should:
 
 **Figure 4b:** Placebo Test Distribution - Program 3.0 (2020) - **Included above**
 
+**Figure 5:** California Film Industry Migration Patterns (2009-2023) - **Included above**
+
 ---
 
-**Note:** All code and results are reproducible via the notebooks `difference-in-difference-clean.ipynb` and `scm_execution.ipynb` in the Data Exploration folder.
+**Note:** All code and results are reproducible via the notebooks `difference-in-difference-clean.ipynb`, `scm_execution.ipynb`, and `acs.ipynb` in the Data Exploration folder.

@@ -4,31 +4,77 @@
 
 This study evaluates whether California's Film and Television Tax Credit Program 2.0 (FY2015–16 launch) and Program 3.0 (credit allocations from July 1, 2020 onward) produced measurable employment or wage effects in the motion picture and video production industry (NAICS 512110).
 
-Following Thom (2018), I use a difference-in-differences (DiD) design on a state-by-quarter panel (2009–2022), comparing California against a control group of states with stable film incentive policies and similar pre-treatment industry trends. For robustness and improved counterfactual validity, I complement DiD with a Synthetic Control Method (SCM) following Rickman and Wang (2020).
+Following Thom (2018), I use a difference-in-differences (DiD) design on a state-by-quarter panel (2010–2025), comparing California against a control group of states with stable film incentive policies and similar pre-treatment industry trends. For robustness and improved counterfactual validity, I complement DiD with a Synthetic Control Method (SCM) following Rickman and Wang (2020).
 
 ## Data Sources
 
 ### Employment and Wages:
 
-**Source:** Bureau of Labor Statistics QCEW, quarterly data (2009–2022).
+**Source:** Bureau of Labor Statistics QCEW, quarterly data (2010–2025).
 
 **Industry:** Motion Picture and Video Production (NAICS 512110), consistent with Rickman & Wang's specification.
+
+**Variables Extracted from QCEW:**
+- `area_fips`: State FIPS code (filtered for California: 06000, New York: 36000, Georgia: 13000)
+- `agglvl_code`: Aggregation level code (filtered to 58 for state-level totals)
+- `year`: Year (2010-2025)
+- `qtr`: Quarter (1-4)
+- `month1_emplvl`, `month2_emplvl`, `month3_emplvl`: Monthly employment levels for each month in the quarter
+- `avg_wkly_wage`: Average weekly wage
+- `total_qtrly_wages`: Total quarterly wages
+- `qtrly_estabs_count`: Quarterly establishment count
+
+**Derived Variables:**
+- `employment`: Average quarterly employment, calculated as the mean of `month1_emplvl`, `month2_emplvl`, and `month3_emplvl`
+- `avg_weekly_wage`: Directly from `avg_wkly_wage`
+- `log_employment`: Natural logarithm of employment (used in regression models)
+- `log_wage`: Natural logarithm of average weekly wage (used in regression models)
+
+**Data Processing:** The analysis filters for state-level data (agglvl_code = 58) and focuses on the three primary states (California, New York, Georgia). Missing values in employment and wages are excluded from the analysis.
 
 **Alternative specification:** Robustness check using NAICS 5121 (Motion Picture and Sound Recording Industries) to capture post-production spillovers.
 
 ### Migration Validation Data:
 
-**Source:** U.S. Census Bureau American Community Survey (ACS) 1-Year Estimates (2010–2022).
+**Source:** IPUMS (Integrated Public Use Microdata Series) American Community Survey (ACS) microdata, accessed through the IPUMS USA database. The analysis uses annual ACS microdata from 2009-2023.
 
-**Variables:** State-to-state migration flows by occupation (SOC 27-2012, 27-4031, 27-4032).
+**Data Processing:** The analysis processes IPUMS ACS microdata in chunks to handle the large file size, filtering for film industry workers using NAICS industry codes.
 
-**Purpose:** Identify whether post-2015 or post-2020 employment increases in QCEW correspond to actual inflows of film workers into California.
+**Variables Extracted:**
+- `YEAR`: Survey year (2009-2023)
+- `STATEFIP`: State FIPS code (current state of residence)
+- `GQ`: Group quarters indicator (filtered to GQ = 1 for household population only)
+- `PERWT`: Person weight (survey weights for population estimates)
+- `INDNAICS`: Industry code (filtered for NAICS 512110 and codes starting with 5121 to capture Motion Picture and Video Production)
+- `MIGPLAC1`: State of residence one year prior to survey (used to identify interstate movers)
+- `MIGRATE1`: Migration status indicator
 
-**Approach:** Use 3-year moving averages and report margins of error to address ACS sampling noise.
+**Data Cleaning:** The analysis applies several filters:
+- Industry filter: NAICS 512110 or codes starting with 5121
+- Excludes invalid industry codes (0, missing, or empty)
+- Excludes observations with zero or missing person weights
+- Restricts to household population (GQ = 1)
+
+**Purpose:** Identify whether post-2015 or post-2020 employment increases in QCEW correspond to actual inflows of film workers into California. The analysis calculates net migration as the difference between inflows (workers moving TO California from other states) and outflows (workers moving FROM California to other states).
+
+**Approach:** Migration is measured using the `MIGPLAC1` variable, which indicates the state of residence one year prior to the survey. Interstate movers are identified as individuals where `MIGPLAC1` is a valid state code and differs from `STATEFIP`. All counts are weighted using `PERWT` to represent population estimates.
 
 ### Economic Controls:
 
-State GDP growth, unemployment rate, and population from the Bureau of Economic Analysis (BEA).
+**GDP Growth:**
+- **Source:** Bureau of Economic Analysis (BEA) quarterly GDP by state data
+- **Variable:** Year-over-year percentage change in quarterly GDP, calculated as `pct_change(periods=4) * 100` (comparing each quarter to the same quarter in the previous year)
+- **Usage:** Included as a control variable in both DiD and SCM models
+
+**Unemployment Rate:**
+- **Source:** Bureau of Labor Statistics (BLS) state unemployment data (monthly)
+- **Variable:** Quarterly average unemployment rate, calculated as the mean of three monthly unemployment rates per quarter (e.g., Q1 = average of January, February, March)
+- **Usage:** Included as a control variable in both DiD and SCM models
+
+**Population Growth:**
+- **Source:** Bureau of Labor Statistics (BLS) state population data
+- **Variable:** Year-over-year percentage change in quarterly population, calculated as `pct_change(periods=4) * 100`
+- **Usage:** Included as a control variable in DiD models only (not used in SCM)
 
 ### Control Group Selection:
 
@@ -58,53 +104,73 @@ Proper control group selection requires balancing two competing concerns: policy
 
 ### 1. Difference-in-Differences Model
 
-The baseline specification follows Thom's (2018) framework, extended through 2022 and with two treatment onsets:
+The baseline specification follows Thom's (2018) framework, extended through 2025 and with two treatment onsets. I estimate separate models for **employment** and **wages** as outcome variables, with both Program 2.0 (2015 Q2) and Program 3.0 (2020 Q3) as treatment periods.
+
+**Control Group:** California is compared against Georgia and New York, the two states with motion picture industries comparable in scale to California's and with stable incentive policies during the study period.
+
+The baseline specification is:
 
 $$Y_{st} = \alpha + \beta_{2015}(CA_s \times Post2015_t) + \beta_{2020}(CA_s \times Post2020_t) + \gamma_s + \delta_t + X_{st} + \varepsilon_{st}$$
 
 Where:
 
-- $Y_{st}$ = log of employment or average wages in NAICS 512110 for state $s$ in quarter $t$
+- $Y_{st}$ = log of employment or log of average wages in NAICS 512110 for state $s$ in quarter $t$ (estimated separately for each outcome)
 - $\alpha$ = constant term (intercept)
 - $\beta_{2015}$ = **treatment effect of Program 2.0** (the primary coefficient of interest)
 - $\beta_{2020}$ = **treatment effect of Program 3.0** (the secondary coefficient of interest)
-- $CA_s$ = indicator variable equal to 1 for California, 0 for control states
+- $CA_s$ = indicator variable equal to 1 for California, 0 for control states (Georgia and New York)
 - $Post2015_t$ = indicator variable equal to 1 for quarters after 2015 Q2, 0 otherwise
 - $Post2020_t$ = indicator variable equal to 1 for quarters after 2020 Q3, 0 otherwise
 - $\gamma_s$ = **state fixed effects** (a set of state-specific dummy variables controlling for time-invariant differences across states, such as CA's historically larger industry scale)
 - $\delta_t$ = **quarter fixed effects** (a set of quarter-specific dummy variables controlling for national time trends and seasonal patterns affecting all states equally, such as COVID-19 or holiday production cycles)
-- $X_{st}$ = time-varying state-level controls (GDP growth rate, unemployment rate)
+- $X_{st}$ = time-varying state-level controls:
+  - **GDP growth rate**: Year-over-year percentage change in quarterly GDP (calculated as `pct_change(periods=4) * 100`), sourced from Bureau of Economic Analysis (BEA) quarterly GDP by state data
+  - **Unemployment rate**: Quarterly average of monthly unemployment rates (mean of three months per quarter), sourced from Bureau of Labor Statistics (BLS) state unemployment data
+  - **Population growth**: Year-over-year percentage change in quarterly population (calculated as `pct_change(periods=4) * 100`), sourced from BLS state population data
 - $\varepsilon_{st}$ = error term, clustered at the state level to account for within-state correlation
 
-The coefficients $\beta_{2015}$ and $\beta_{2020}$ represent the DiD estimates—the difference in employment or wage growth between California and control states after each policy implementation, net of pre-existing trends and state-specific characteristics. Fixed effects are not separate datasets but rather dummy variables constructed directly from the panel structure during regression estimation.
+The coefficients $\beta_{2015}$ and $\beta_{2020}$ represent the DiD estimates—the difference in employment or wage growth between California and control states (Georgia and New York) after each policy implementation, net of pre-existing trends and state-specific characteristics. Fixed effects are not separate datasets but rather dummy variables constructed directly from the panel structure during regression estimation.
 
-Event-study versions of this model will estimate coefficients for each quarter relative to treatment to test parallel pre-trends and visualize dynamic effects. Standard errors are clustered at the state level. I also implement wild bootstrap standard errors as robustness for the single-treated-state case.
+I estimate this model separately for employment and wages, providing treatment effect estimates for both outcomes and both treatment periods (2015 and 2020). Event-study versions of this model estimate coefficients for each quarter relative to treatment to test parallel pre-trends and visualize dynamic effects. Standard errors are clustered at the state level. I also implement wild bootstrap standard errors as robustness for the single-treated-state case.
 
 ### 2. Synthetic Control Method (SCM)
 
-To corroborate DiD estimates, I construct a Synthetic California from the donor pool of control states identified above, following Rickman & Wang (2020). The SCM algorithm optimally weights donor states based on pre-treatment fit, naturally down-weighting states with divergent trends.
+To corroborate DiD employment estimates, I construct a Synthetic California from a donor pool of control states, following Rickman & Wang (2020). The SCM algorithm optimally weights donor states based on pre-treatment fit, naturally down-weighting states with divergent trends.
 
-**Pre-treatment window:** 2009 Q1–2015 Q1 for the 2015 treatment, and 2012 Q1–2020 Q2 for the 2020 treatment.
+**Outcome Variable:** SCM is applied to **employment** only (not wages), as employment is the primary outcome of interest for evaluating the policy's impact on industry activity.
 
-**Predictor variables:** Quarterly employment, average wages, GDP growth, and unemployment rate.
+**Donor Pool:** The donor pool consists of six states: New York, Georgia, Louisiana, Florida, Illinois, and Pennsylvania. These states provide a diverse set of comparators with varying industry scales and policy environments, allowing the SCM algorithm to construct an optimal synthetic counterfactual.
 
-**Evaluation:** The treatment effect is the post-period difference between actual California and the synthetic counterfactual. I further conduct placebo tests assigning "pseudo-treatments" to donor states to confirm that California's estimated gap is statistically distinct from noise.
+**Pre-treatment windows:**
+- **2015 treatment:** 2010 Q1 to 2015 Q1 (21 quarters)
+- **2020 treatment:** 2012 Q1 to 2020 Q2 (34 quarters)
+
+**Predictor variables:** The SCM algorithm uses the following pre-treatment predictors to construct the synthetic counterfactual:
+- **Log employment**: Natural logarithm of quarterly average employment (from QCEW)
+- **Log wage**: Natural logarithm of average weekly wage (from QCEW)
+- **GDP growth**: Year-over-year percentage change in quarterly GDP (from BEA quarterly GDP by state data)
+- **Unemployment rate**: Quarterly average unemployment rate (from BLS state unemployment data)
+
+These predictors are averaged over the pre-treatment period for each state, and the SCM algorithm finds optimal weights for donor states that minimize the distance between California's predictor values and the weighted combination of donor states' predictor values.
+
+**Evaluation:** The treatment effect is identified from **changes in the gap** between actual California and the synthetic counterfactual following policy implementation, not from the absolute gap itself. I further conduct in-space placebo tests assigning "pseudo-treatments" to donor states to confirm that California's estimated gap is statistically distinct from noise. The placebo tests rank California's post-treatment deviation among all states in the donor pool to assess statistical significance.
 
 ### 3. Migration-Based Validation (ACS)
 
-To determine whether observed QCEW job gains reflect real labor inflows, I analyze ACS migration data across three dimensions:
+To determine whether observed QCEW job gains reflect real labor inflows, I analyze IPUMS ACS migration data for film industry workers (NAICS 512110 and related codes) from 2009-2023.
 
-**Inflow Analysis:**
-- Measure annual in-migration of film workers into California before and after 2015 and 2020.
-- Compare to migration trends for other professional occupations (placebo).
+**Migration Measurement:**
+- **Inflows:** Film workers who moved TO California from other states (identified where `MIGPLAC1` equals California's state code and differs from `STATEFIP`)
+- **Outflows:** Film workers who moved FROM California to other states (identified where `STATEFIP` equals California's state code and `MIGPLAC1` is a valid state code different from California)
+- **Net Migration:** Calculated as inflows minus outflows (positive values indicate net inflow, negative values indicate net outflow)
 
-**Source-State Composition:**
-- Identify whether inflows originate from high-incentive competitor states (e.g., Georgia, Louisiana) or from non-competitor states.
-- A shift away from competitor states supports genuine industry relocation.
+**Analysis:**
+- Calculate annual weighted counts of inflows, outflows, and net migration for each year from 2009-2023
+- Compare migration patterns before and after treatment periods (2015 and 2020)
+- Calculate migration rates as net migration divided by total California film workforce
+- Assess whether employment increases in QCEW correspond to actual worker inflows or reflect alternative mechanisms (e.g., retention of existing workers, increased hours for existing workers)
 
-**Occupation-Specific Effects:**
-- Examine changes in inflow composition between creative/high-skill occupations (e.g., directors, cinematographers) and support staff (e.g., post-production, clerical).
-- Divergent occupation patterns help distinguish real production relocation from administrative headquarter reclassification.
+This analysis directly addresses the "reclassification problem" identified by Rickman and Wang (2020), testing whether apparent employment gains in administrative data correspond to genuine worker relocation.
 
 ### 4. Robustness Checks
 

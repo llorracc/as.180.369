@@ -1,0 +1,42 @@
+# Discussion
+
+## Interpretation in Context of Existing Literature
+
+The findings from this study contribute to a growing body of evidence suggesting that film tax credits produce modest, context-dependent effects that fall short of the transformative impacts often promised by policymakers. The 3-4% employment increases estimated through SCM align with Thom's (2018) finding that transferable credits modestly increase employment over time, though the effects in this study approach but do not achieve conventional statistical significance. This consistency across different time periods and program scales suggests that even California's large-scale, modernized programs—implemented during the streaming content boom—produce effects similar in magnitude to earlier, smaller programs analyzed by Thom.
+
+The substantial wage premium (9.1% for 2015) identified through DiD analysis represents a notable finding that distinguishes California's experience from earlier studies. While Thom found that refundable credits temporarily raise wages, the persistent wage effect observed here suggests that California's transferable credit structure may have generated sustained improvements in worker compensation. However, this finding must be interpreted cautiously given the parallel trends violations in the DiD framework and the lack of a corresponding wage effect for the 2020 expansion.
+
+The migration evidence provides critical validation of Rickman and Wang's (2020) concern about the "reclassification problem." The persistent net outflow of film workers despite apparent employment gains in QCEW data suggests that administrative employment measures may capture increased work for existing workers or temporary project hiring rather than genuine worker relocation. This finding directly addresses the methodological gap identified by Rickman and Wang and demonstrates the value of supplementing administrative data with migration evidence.
+
+## Methodological Contributions and Limitations
+
+The comparison between DiD and SCM results highlights the importance of method selection in policy evaluation. The DiD framework, while standard in the literature, produced estimates that were confounded by pre-existing differential trends between California and Georgia. The parallel trends violation and placebo test failure suggest that DiD estimates may reflect underlying state-specific growth patterns rather than causal policy impacts. The SCM approach, by optimally weighting donor states based on pre-treatment fit, provides a more credible counterfactual and yields positive employment effects that align with theoretical expectations.
+
+However, the SCM analysis faces its own limitations. The small donor pool (n = 6 states) constrains statistical power, making it difficult to achieve conventional significance thresholds. The permutation-based inference approach, while appropriate for the single-treated-unit case, requires California to rank first among all states to achieve p < 0.10, which occurred for the 2020 treatment but not for 2015. The optimal weighting algorithm assigning 100% weight to New York suggests that California's film industry trajectory is most similar to New York's, but this also limits the diversity of the counterfactual.
+
+The ACS migration analysis addresses a key methodological concern but introduces its own measurement challenges. The distinction between temporary and permanent migration is particularly relevant for project-based industries like film production, where workers may relocate temporarily for specific productions without changing their permanent residence. The ACS data captures permanent state-to-state moves but may miss these temporary relocations, potentially understating the policy's impact on production activity while accurately reflecting its limited effect on permanent worker relocation.
+
+## Policy Implications
+
+The integrated findings suggest that California's film tax credits achieved partial success in their stated objectives. The modest employment increases and substantial wage premiums indicate that the policy improved conditions for existing California film workers, potentially slowing the state's competitive decline relative to other production hubs. The 2021 migration data showing the smallest net outflow (-58 workers, -0.028%) following the 2020 expansion provides suggestive evidence that the policy may have temporarily improved retention, though this effect was short-lived.
+
+However, the persistent net outflow pattern throughout the study period indicates that the tax credits were insufficient to fundamentally reverse California's long-term trend of losing film industry workers to competing states. This finding aligns with Bradbury's (2020) conclusion that film incentives show no significant effect on aggregate state economic outcomes, as the sectoral gains observed here likely represent reallocation rather than net job creation.
+
+The policy's apparent success in improving worker compensation and retention, combined with its failure to generate net in-migration, suggests that California's tax credits may have functioned more as a defensive policy—preventing further losses—than as an offensive strategy to attract new production. This interpretation is consistent with Owens and Rennhoff's (2024) finding that film tax credits persist for political rather than economic reasons, as the visible benefits to existing workers may provide sufficient political justification even if the policy fails to achieve its broader economic development goals.
+
+## Comparison with Other States
+
+The findings also provide context for understanding why other states' film tax credit programs have shown varying levels of success. Georgia's rapid growth following its 2008 program initiation, which made it the most successful state-level program outside California, suggests that early-mover advantages and aggressive incentive structures may produce stronger effects than later programs implemented in a more competitive environment. California's entry into the incentive landscape came relatively late, after many competing states had already established their programs, potentially limiting the policy's ability to attract new production.
+
+The persistent net outflow from California to other states, even after the tax credit expansions, suggests that factors beyond tax incentives—such as production infrastructure, talent pools, and cost structures—continue to influence location decisions. The tax credits may have mitigated California's competitive disadvantage but were insufficient to overcome other factors driving production to alternative locations.
+
+## Limitations and Future Research
+
+Several limitations should be acknowledged. First, the statistical power constraints in the SCM analysis limit the ability to draw definitive conclusions about policy effectiveness. Second, the lack of program expenditure data prevents cost-effectiveness analysis, which would be crucial for policy evaluation. Third, the analysis focuses on aggregate industry-level effects and does not explore heterogeneous impacts across different types of productions, occupations, or regions within California.
+
+Future research should address these gaps by expanding the donor pool if possible, obtaining detailed program expenditure data for cost-per-job calculations, and exploring heterogeneous effects by production type or occupation. Additionally, alternative data sources that capture temporary migration patterns could provide a more complete picture of the policy's impact on production activity, distinguishing between permanent worker relocation and temporary project-based employment.
+
+## Conclusion
+
+The evidence from this study suggests that California's film tax credit programs produced modest positive effects on employment and substantial improvements in worker compensation, but these gains primarily reflect improved retention and working conditions for existing workers rather than net in-migration. The policy appears to have partially achieved its goal of retaining production activity within the state, but it did not fundamentally reverse California's competitive decline relative to other production hubs. These findings contribute to a more nuanced understanding of film tax credit effectiveness and highlight the importance of using multiple data sources and identification strategies to evaluate place-based economic development policies.
+
