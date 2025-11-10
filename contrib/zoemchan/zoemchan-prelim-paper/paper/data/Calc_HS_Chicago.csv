@@ -1,169 +1,112 @@
-NCESSCH,NAME,LAT,LON,grade,zone_count,Has_Calc,Num_Calc_Classes
-170000603793,IYC Chicago,41.884126,-87.687997,D,3,No,0
-170002901305,Speed Program for Adaptive Learn,41.511129,-87.663784,C,1,No,0
-170141006254,Horizon Science Acad-McKinley Pk,41.822594,-87.682103,C,2,Yes,2
-170142606424,ACE Amandla Charter School,41.769223,-87.690965,C,1,No,0
-170143606756,Urban Prep Chrtr Sch for Yng Men,41.876384,-87.625564,D,3,No,0
-170993000587,Amundsen High School,41.9752,-87.6801,C,2,No,0
-170993000588,Dunbar Vocational Career Acad HS,41.8396,-87.6187,D,1,No,0
-170993000626,Bogan High School,41.7486,-87.7206,D,1,No,0
-170993000681,Prosser Career Academy HS,41.9194,-87.7618,"C, D",3,No,0
-170993000693,Cook Co Juvenile Det -York Alt HS,41.842679,-87.697088,C,2,No,0
-170993000714,Young Magnet High School,41.8783,-87.6637,D,3,Yes,8
-170993000718,Richards Career Academy HS,41.8028,-87.6621,"C, D",2,No,0
-170993000722,Juarez Community Academy HS,41.852914,-87.66456,D,3,No,0
-170993000758,Simeon Career Academy High School,41.7455,-87.6347,"C, D",3,No,0
-170993000788,Farragut Career Academy HS,41.849562,-87.708282,C,2,No,0
-170993000792,Fenger Academy High School,41.6896,-87.6378,"B, C",5,No,0
-170993000799,Foreman High School,41.9396,-87.7539,"B, C",3,No,0
-170993000809,Gage Park High School,41.791,-87.6894,C,3,No,0
-170993000851,Harlan Community Academy HS,41.7188,-87.6213,"B, C, D",6,No,0
-170993000879,Hirsch Metropolitan High School,41.754,-87.6019,"B, C, D",3,No,0
-170993000889,Hubbard High School,41.7801,-87.7187,C,2,No,0
-170993000893,Hyde Park Academy High School,41.78211,-87.587269,C,4,No,0
-170993000894,Cook Co Juvenile-Jefferson Alt HS,41.8677,-87.6814,D,4,No,0
-170993000895,Julian High School,41.7061,-87.6544,"C, D",5,No,0
-170993000920,Thomas Kelly College Preparatory,41.818178,-87.694838,"C, D",2,Yes,1
-170993000923,Kelvyn Park High School,41.92744,-87.736051,"B, C",4,No,0
-170993000924,Kennedy High School,41.7902,-87.7808,C,1,No,0
-170993000925,Kenwood Academy High School,41.803407,-87.589655,"B, C",3,Yes,1
-170993000931,King College Prep High School,41.8139,-87.6029,"C, D",3,No,0
-170993000941,Lake View High School,41.9555,-87.6686,C,2,Yes,1
-170993000942,Lane Technical High School,41.9454,-87.6906,C,3,Yes,18
-170993000943,Chicago Vocational Career Acad HS,41.7377,-87.5729,"B, C",2,No,0
-170993000972,Marshall Metropolitan High School,41.8789,-87.7072,"C, D",3,No,0
-170993000977,Mather High School,41.9881,-87.7014,B,2,Yes,2
-170993000990,Jones College Prep High School,41.87346,-87.62794,D,3,Yes,11
-170993000999,Northside Learning Center,41.98347,-87.721344,B,2,No,0
-170993001002,Morgan Park High School,41.6922,-87.6657,"B, C, D",6,No,0
-170993001018,Vaughn Occupational High School,41.9602,-87.7644,"B, C",2,No,0
-170993001061,Phillips Academy High School,41.8244,-87.6199,D,1,No,0
-170993001072,Corliss High School,41.706391,-87.60275,"B, D",4,No,0
-170993001076,Graham  R Training Center,41.8495,-87.625,D,4,No,0
-170993001086,Clemente Community Academy HS,41.9026,-87.686,"C, D",4,No,0
-170993001093,Roosevelt High School,41.965,-87.7146,C,2,No,0
-170993001111,Schurz High School,41.9475,-87.7355,C,3,Yes,4
-170993001114,Senn High School,41.9891,-87.6668,C,2,No,0
-170993001125,Manley Career Academy High School,41.8708,-87.7,D,2,No,0
-170993001139,Steinmetz College Prep HS,41.9356,-87.7843,"B, C",4,No,0
-170993001149,Sullivan High School,42.0028,-87.6689,"B, C",3,No,0
-170993001153,Taft High School,41.9847,-87.7914,"B, C",5,Yes,4
-170993001161,Tilden Career Communty Academy HS,41.8075,-87.6425,D,2,No,0
-170993001180,Von Steuben Metro Science HS,41.9732,-87.7131,"B, C",2,Yes,3
-170993001185,Lincoln Park High School,41.9193,-87.6454,D,3,Yes,2
-170993001189,Washington G High School,41.6875,-87.5391,"C, D",2,No,0
-170993001192,Wells Community Academy HS,41.8992,-87.6683,D,1,No,0
-170993001198,Curie Metropolitan High School,41.8019,-87.7222,C,2,No,0
-170993001980,Hancock College Preparatory HS,41.7917,-87.7249,C,4,Yes,3
-170993002031,Brooks College Prep Academy HS,41.694,-87.6159,C,3,Yes,3
-170993002596,Peace and Education Coalition HS,41.80356,-87.667611,"C, D",2,No,0
-170993002618,Marine Leadership Academy - Ames,41.915984,-87.722478,C,4,Yes,1
-170993003481,Northside College Preparatory Hs,41.9814,-87.7079,B,4,Yes,8
-170993003487,Chicago Military Academy HS,41.8304,-87.6189,D,2,No,0
-170993003989,Payton College Preparatory HS,41.9017,-87.6352,D,2,Yes,10
-170993004383,Simpson Acad HS for Young Women,41.8645,-87.6685,D,4,No,0
-170993005061,Chicago Academy High School,41.943,-87.7769,"B, C",3,No,0
-170993005072,Bowen High School,41.734303,-87.557463,D,1,Yes,1
-170993005074,North-Grand High School,41.9125,-87.7353,C,3,No,0
-170993005075,Raby High School,41.8858,-87.7154,D,1,No,0
-170993005076,Clark Acad Prep Magnet High Schl,41.8726,-87.7527,C,2,No,0
-170993005078,Rickover Naval Academy High Schl,41.95737,-87.76991,"B, C",2,No,0
-170993005147,Chicago HS for Agricult Sciences,41.69,-87.7173,D,1,No,0
-170993005305,Southside Occupational Acad HS,41.7597,-87.6763,"C, D",4,No,0
-170993005677,Spry Community Links High School,41.847637,-87.699794,C,2,No,0
-170993005787,Uplift Community High School,41.9659,-87.6522,C,2,No,0
-170993005788,World Language High School,41.835226,-87.735982,C,1,No,0
-170993005789,Douglass Academy High School,41.8902,-87.7671,C,3,No,0
-170993005790,Devry Advantage Academy High Schl,41.969123,-87.677014,C,4,Yes,1
-170993005791,Lindblom Math & Science Acad HS,41.7821,-87.6722,C,2,Yes,3
-170993005792,Bronzeville Scholastic HS,41.8044,-87.6251,D,3,No,0
-170993005793,School of Social Justice HS,41.835226,-87.735982,C,1,No,0
-170993005794,Multicultural Arts High School,41.835226,-87.735982,C,1,No,0
-170993005795,Infinity Math  Science & Tech HS,41.835226,-87.735982,C,1,Yes,1
-170993005884,Urban Prep Chtr Acad Englewood HS,41.782,-87.6344,D,3,No,0
-170993005942,Collins Academy High School,41.864384,-87.701398,D,2,No,0
-170993005983,Orr Academy High School,41.893981,-87.726546,C,4,No,0
-170993005984,Austin College and Career Acad HS,41.885354,-87.762979,C,3,Yes,1
-170993006055,Air Force Acad High School,41.827898,-87.632962,D,3,No,0
-170993006072,Alcott College Prep,41.9355,-87.6804,C,2,Yes,2
-170993006076,Chicago Technology Academy HS,41.8632,-87.6596,D,2,No,0
-170993006083,Westinghouse High School,41.8895,-87.7074,"C, D",3,Yes,2
-170993006088,EPIC Academy High School,41.7449,-87.5498,D,4,No,0
-170993006092,Williams Medical Prep High Sch,41.8048,-87.6247,D,3,No,0
-170993006093,Ogden Int High School,41.8939,-87.6585,D,3,No,0
-170993006103,IHSCA Charter High School,41.84596,-87.685851,"C, D",3,No,0
-170993006132,Urban Prep Chtr  Bronzeville HS,41.830835,-87.613484,D,2,No,0
-170993006138,Solorio Academy High School,41.7952,-87.7115,C,4,Yes,2
-170993006170,South Shore Intl Col Prep HS,41.7584,-87.577,"B, C",4,No,0
-170993006219,Chicago Excel Academy HS,41.691973,-87.653794,D,1,No,0
-170993006223,Goode STEM Academy HS,41.753887,-87.70635,D,2,Yes,1
-170993006238,IJLA Charter High School,41.845642,-87.684224,D,2,No,0
-170993006241,Legal Prep Academy Charter HS,41.881607,-87.73375,C,1,No,0
-170993006243,Catalyst Charter - Maria ES,41.770922,-87.692497,C,1,No,0
-170993006249,Excel Academy - Englewood HS,41.7636,-87.6489,D,1,No,0
-170993006250,Disney II Magnet HS,41.9522,-87.7209,C,2,No,0
-170993006257,Little Black Pearl Arts Acad HS,41.8098,-87.5996,"C, D",4,No,0
-170993006260,Crane Medical Prep HS,41.8769,-87.6832,D,3,Yes,1
-170993006282,Back of The Yards IB HS,41.8082,-87.678,D,3,No,0
-170993006285,Chicago Collegiate Charter School,41.6794,-87.6184,"C, D",2,Yes,2
-170993006293,Intrinsic Charter High School,41.939315,-87.741,"B, C",3,Yes,2
-170993006297,Camelot Safe Academy School,41.7523,-87.5502,"C, D",4,No,0
-170993006331,Horizon Sci Acad - Southwest Chtr,41.795465,-87.681895,C,4,Yes,1
-170993006341,Excel Academy - Southwest HS,41.765097,-87.690953,C,2,No,0
-170993006346,Excel Academy - Woodlawn HS,41.75956,-87.556663,"B, C",3,No,0
-170993006400,Walter Henri Dyett HS for Arts,41.801194,-87.61228,D,1,No,0
-170993006437,Perspectives Chtr - Leadership Ac,41.738955,-87.626912,"B, C",4,Yes,3
-170993006438,CICS - Longwood Campus,41.720926,-87.655886,"B, C, D",3,No,0
-170993006439,Noble St Chtr-Golder College Prep,41.895561,-87.664479,D,2,Yes,2
-170993006440,Noble St Chtr-Chicago Bulls Prep,41.87919,-87.678421,D,2,Yes,4
-170993006441,Perspectives Chtr - HS of Tech,41.738955,-87.626912,"B, C",4,Yes,2
-170993006442,YCCS-West Town Academy Alt HS,41.891013,-87.702761,"C, D",4,No,0
-170993006445,YCCS West,41.902,-87.749181,C,2,No,0
-170993006447,Noble St Chtr-Rowe-Clark MS Acad,41.895247,-87.718067,C,2,Yes,1
-170993006449,YCCS-Latino Youth Alternative HS,41.854682,-87.695319,"C, D",2,No,0
-170993006450,Noble St Chtr-Butler - Crimson,41.70673,-87.602762,"B, D",4,Yes,4
-170993006452,Noble St Chtr-Pritzker Col Prep,41.915012,-87.729725,C,2,Yes,1
-170993006453,Aspira Charter - Bus and Fin,41.935954,-87.717962,C,4,No,0
-170993006454,Noble St Chtr-Hansberry Prep Slvr,41.734499,-87.651357,"B, C, D",5,No,0
-170993006458,YCCS Chtr - Chatham,41.730016,-87.606725,"C, D",2,No,0
-170993006460,YCCS-Sullivan House Alt HS,41.746163,-87.578895,"B, C",3,No,0
-170993006461,CICS - Ralph Ellison Campus,41.748201,-87.669119,"B, C",4,No,0
-170993006463,YCCS-CCA Academy HS,41.8651,-87.7248,C,4,No,0
-170993006464,Noble St Chtr-The Noble Academy,41.907482,-87.645526,D,3,Yes,1
-170993006467,Acero Chtr Netrk -  Major Garcia,41.80831,-87.730711,"C, D",3,No,0
-170993006468,YCCS-Community Youth Dev Inst HS,41.751581,-87.642024,"B, C, D",5,No,0
-170993006470,Noble St Chtr-Noble Campus,41.900113,-87.662875,D,2,Yes,1
-170993006473,ASPIRA Charter - Early College Pr,41.937702,-87.726775,C,4,No,0
-170993006476,North Lawndale Prep Chtr-Collins,41.864384,-87.701398,D,2,No,0
-170993006479,YCCS-McKinley-Lakeside Leadership,41.841589,-87.625464,D,2,No,0
-170993006480,Noble St Chtr-DRW Trading Col,41.86921,-87.709931,"C, D",3,No,0
-170993006483,Acero Chtr Sch Netwrk- Victoria,41.802236,-87.710789,C,2,No,0
-170993006485,Noble St Chtr-ITW Speer Acad,41.917123,-87.759685,C,3,Yes,4
-170993006486,YCCS-Albizu Campos Puerto Rican,41.902732,-87.696021,"C, D",2,No,0
-170993006489,North Lawndale Prep Chtr - Christ,41.858617,-87.708818,"C, D",4,No,0
-170993006490,YCCS-Progressive Leadership Acad,41.773948,-87.615715,"C, D",4,No,0
-170993006491,Noble St Chtr-Baker Campus,41.734303,-87.557463,D,1,No,0
-170993006493,Univ of Chicago Chtr-Woodlawn,41.780302,-87.597473,"C, D",3,Yes,2
-170993006494,Noble St Chtr-Johnson Colg Prep,41.778717,-87.635453,D,2,Yes,3
-170993006496,YCCS-Association House,41.901636,-87.7073,C,2,No,0
-170993006499,Noble St Chtr Rauner College Prep,41.892297,-87.661277,D,3,Yes,3
-170993006500,CICS - Northtown  Campus,41.990909,-87.72797,B,2,Yes,1
-170993006503,Perspectives Chtr - Joslin Campus,41.856362,-87.628274,D,3,Yes,3
-170993006504,YCCS-ASPIRA Pantoja Alt HS,41.937906,-87.7268,C,4,No,0
-170993006508,Acero Chtr  Sor Juana Ines de la,42.016443,-87.684996,"B, C",3,No,0
-170993006513,Noble St Chtr - Mansueto,41.807631,-87.69689,"C, D",3,No,0
-170993006514,Perspectives Chtr -  IIT Campus,41.827929,-87.624433,D,2,Yes,3
-170993006515,Noble St Chtr-UIC College Prep,41.86526,-87.675623,D,4,Yes,3
-170993006518,YCCS-Youth Connection Leadership,41.832363,-87.627374,D,5,No,0
-170993006519,YCCS-Scholastic Achievement HS,41.88015,-87.742271,C,3,No,0
-170993006523,Noble St Chtr-Comer College Prep,41.765251,-87.603988,"C, D",3,Yes,2
-170993006587,Pathways in Education Brighton Pa,41.80837,-87.702351,C,3,Yes,1
-170993006589,Ombudsman Chicago West,41.874713,-87.686576,D,4,No,0
-170993006591,Ombudsman Chicago Northwest,42.017313,-87.806842,B,1,No,0
-170993006599,Pathways in Education Avondale,41.939548,-87.705478,"C, D",4,Yes,1
-170993006602,Ombudsman Chicago South,41.78325,-87.683121,C,3,No,0
-170993006604,Pathways in Education Ashburn,41.736648,-87.705651,D,1,No,0
-170993006725,Englewood STEM High School,41.77004,-87.634064,D,1,No,0
-170993006726,Ombudsman Chicago - Roseland HS,41.695121,-87.642797,"B, C",5,No,0
-170993006734,Pathways in Education - Humboldt,41.9027,-87.687891,"C, D",4,No,0
-170993006770,Art in Motion Charter School,41.759977,-87.58294,C,4,No,0
+NCESSCH,NAME,LAT,LON,grade,Has_Calc,Num_Calc_Classes
+170000603793,IYC Chicago,41.884126,-87.687997,D,No,0
+170142606424,ACE Amandla Charter School,41.769223,-87.690965,C,No,0
+170143606756,Urban Prep Chrtr Sch for Yng Men,41.876384,-87.625564,D,No,0
+170993000588,Dunbar Vocational Career Acad HS,41.8396,-87.6187,D,No,0
+170993000714,Young Magnet High School,41.8783,-87.6637,D,Yes,8
+170993000718,Richards Career Academy HS,41.8028,-87.6621,D,No,0
+170993000722,Juarez Community Academy HS,41.852914,-87.66456,D,No,0
+170993000788,Farragut Career Academy HS,41.849562,-87.708282,C,No,0
+170993000792,Fenger Academy High School,41.6896,-87.6378,B,No,0
+170993000799,Foreman High School,41.9396,-87.7539,C,No,0
+170993000809,Gage Park High School,41.791,-87.6894,C,No,0
+170993000889,Hubbard High School,41.7801,-87.7187,C,No,0
+170993000893,Hyde Park Academy High School,41.78211,-87.587269,C,No,0
+170993000894,Cook Co Juvenile-Jefferson Alt HS,41.8677,-87.6814,D,No,0
+170993000895,Julian High School,41.7061,-87.6544,D,No,0
+170993000920,Thomas Kelly College Preparatory,41.818178,-87.694838,C,Yes,1
+170993000923,Kelvyn Park High School,41.92744,-87.736051,C,No,0
+170993000925,Kenwood Academy High School,41.803407,-87.589655,C,Yes,1
+170993000931,King College Prep High School,41.8139,-87.6029,D,No,0
+170993000941,Lake View High School,41.9555,-87.6686,C,Yes,1
+170993000972,Marshall Metropolitan High School,41.8789,-87.7072,C,No,0
+170993000977,Mather High School,41.9881,-87.7014,B,Yes,2
+170993000990,Jones College Prep High School,41.87346,-87.62794,D,Yes,11
+170993001002,Morgan Park High School,41.6922,-87.6657,D,No,0
+170993001018,Vaughn Occupational High School,41.9602,-87.7644,B,No,0
+170993001061,Phillips Academy High School,41.8244,-87.6199,D,No,0
+170993001072,Corliss High School,41.706391,-87.60275,D,No,0
+170993001076,Graham  R Training Center,41.8495,-87.625,D,No,0
+170993001086,Clemente Community Academy HS,41.9026,-87.686,D,No,0
+170993001093,Roosevelt High School,41.965,-87.7146,C,No,0
+170993001111,Schurz High School,41.9475,-87.7355,C,Yes,4
+170993001114,Senn High School,41.9891,-87.6668,C,No,0
+170993001125,Manley Career Academy High School,41.8708,-87.7,D,No,0
+170993001149,Sullivan High School,42.0028,-87.6689,C,No,0
+170993001161,Tilden Career Communty Academy HS,41.8075,-87.6425,D,No,0
+170993001180,Von Steuben Metro Science HS,41.9732,-87.7131,B,Yes,3
+170993001185,Lincoln Park High School,41.9193,-87.6454,D,Yes,2
+170993001192,Wells Community Academy HS,41.8992,-87.6683,D,No,0
+170993001980,Hancock College Preparatory HS,41.7917,-87.7249,C,Yes,3
+170993002596,Peace and Education Coalition HS,41.80356,-87.667611,D,No,0
+170993003487,Chicago Military Academy HS,41.8304,-87.6189,D,No,0
+170993003989,Payton College Preparatory HS,41.9017,-87.6352,D,Yes,10
+170993004383,Simpson Acad HS for Young Women,41.8645,-87.6685,D,No,0
+170993005061,Chicago Academy High School,41.943,-87.7769,C,No,0
+170993005075,Raby High School,41.8858,-87.7154,D,No,0
+170993005076,Clark Acad Prep Magnet High Schl,41.8726,-87.7527,C,No,0
+170993005677,Spry Community Links High School,41.847637,-87.699794,C,No,0
+170993005787,Uplift Community High School,41.9659,-87.6522,C,No,0
+170993005789,Douglass Academy High School,41.8902,-87.7671,C,No,0
+170993005790,Devry Advantage Academy High Schl,41.969123,-87.677014,C,Yes,1
+170993005791,Lindblom Math & Science Acad HS,41.7821,-87.6722,C,Yes,3
+170993005792,Bronzeville Scholastic HS,41.8044,-87.6251,D,No,0
+170993005884,Urban Prep Chtr Acad Englewood HS,41.782,-87.6344,D,No,0
+170993005984,Austin College and Career Acad HS,41.885354,-87.762979,C,Yes,1
+170993006055,Air Force Acad High School,41.827898,-87.632962,D,No,0
+170993006072,Alcott College Prep,41.9355,-87.6804,C,Yes,2
+170993006076,Chicago Technology Academy HS,41.8632,-87.6596,D,No,0
+170993006083,Westinghouse High School,41.8895,-87.7074,D,Yes,2
+170993006088,EPIC Academy High School,41.7449,-87.5498,D,No,0
+170993006092,Williams Medical Prep High Sch,41.8048,-87.6247,D,No,0
+170993006093,Ogden Int High School,41.8939,-87.6585,D,No,0
+170993006132,Urban Prep Chtr  Bronzeville HS,41.830835,-87.613484,D,No,0
+170993006170,South Shore Intl Col Prep HS,41.7584,-87.577,C,No,0
+170993006219,Chicago Excel Academy HS,41.691973,-87.653794,D,No,0
+170993006238,IJLA Charter High School,41.845642,-87.684224,D,No,0
+170993006241,Legal Prep Academy Charter HS,41.881607,-87.73375,C,No,0
+170993006243,Catalyst Charter - Maria ES,41.770922,-87.692497,C,No,0
+170993006249,Excel Academy - Englewood HS,41.7636,-87.6489,D,No,0
+170993006250,Disney II Magnet HS,41.9522,-87.7209,C,No,0
+170993006257,Little Black Pearl Arts Acad HS,41.8098,-87.5996,C,No,0
+170993006260,Crane Medical Prep HS,41.8769,-87.6832,D,Yes,1
+170993006285,Chicago Collegiate Charter School,41.6794,-87.6184,D,Yes,2
+170993006297,Camelot Safe Academy School,41.7523,-87.5502,C,No,0
+170993006341,Excel Academy - Southwest HS,41.765097,-87.690953,C,No,0
+170993006346,Excel Academy - Woodlawn HS,41.75956,-87.556663,C,No,0
+170993006438,CICS - Longwood Campus,41.720926,-87.655886,C,No,0
+170993006439,Noble St Chtr-Golder College Prep,41.895561,-87.664479,D,Yes,2
+170993006440,Noble St Chtr-Chicago Bulls Prep,41.87919,-87.678421,D,Yes,4
+170993006445,YCCS West,41.902,-87.749181,C,No,0
+170993006447,Noble St Chtr-Rowe-Clark MS Acad,41.895247,-87.718067,C,Yes,1
+170993006449,YCCS-Latino Youth Alternative HS,41.854682,-87.695319,C,No,0
+170993006450,Noble St Chtr-Butler - Crimson,41.70673,-87.602762,D,Yes,4
+170993006452,Noble St Chtr-Pritzker Col Prep,41.915012,-87.729725,C,Yes,1
+170993006453,Aspira Charter - Bus and Fin,41.935954,-87.717962,C,No,0
+170993006454,Noble St Chtr-Hansberry Prep Slvr,41.734499,-87.651357,D,No,0
+170993006458,YCCS Chtr - Chatham,41.730016,-87.606725,C,No,0
+170993006461,CICS - Ralph Ellison Campus,41.748201,-87.669119,C,No,0
+170993006463,YCCS-CCA Academy HS,41.8651,-87.7248,C,No,0
+170993006464,Noble St Chtr-The Noble Academy,41.907482,-87.645526,D,Yes,1
+170993006468,YCCS-Community Youth Dev Inst HS,41.751581,-87.642024,D,No,0
+170993006470,Noble St Chtr-Noble Campus,41.900113,-87.662875,D,Yes,1
+170993006473,ASPIRA Charter - Early College Pr,41.937702,-87.726775,C,No,0
+170993006479,YCCS-McKinley-Lakeside Leadership,41.841589,-87.625464,D,No,0
+170993006480,Noble St Chtr-DRW Trading Col,41.86921,-87.709931,C,No,0
+170993006486,YCCS-Albizu Campos Puerto Rican,41.902732,-87.696021,C,No,0
+170993006489,North Lawndale Prep Chtr - Christ,41.858617,-87.708818,D,No,0
+170993006493,Univ of Chicago Chtr-Woodlawn,41.780302,-87.597473,C,Yes,2
+170993006494,Noble St Chtr-Johnson Colg Prep,41.778717,-87.635453,D,Yes,3
+170993006496,YCCS-Association House,41.901636,-87.7073,C,No,0
+170993006499,Noble St Chtr Rauner College Prep,41.892297,-87.661277,D,Yes,3
+170993006500,CICS - Northtown  Campus,41.990909,-87.72797,B,Yes,1
+170993006503,Perspectives Chtr - Joslin Campus,41.856362,-87.628274,D,Yes,3
+170993006504,YCCS-ASPIRA Pantoja Alt HS,41.937906,-87.7268,C,No,0
+170993006514,Perspectives Chtr -  IIT Campus,41.827929,-87.624433,D,Yes,3
+170993006515,Noble St Chtr-UIC College Prep,41.86526,-87.675623,D,Yes,3
+170993006519,YCCS-Scholastic Achievement HS,41.88015,-87.742271,C,No,0
+170993006523,Noble St Chtr-Comer College Prep,41.765251,-87.603988,C,Yes,2
+170993006587,Pathways in Education Brighton Pa,41.80837,-87.702351,C,Yes,1
+170993006589,Ombudsman Chicago West,41.874713,-87.686576,D,No,0
+170993006599,Pathways in Education Avondale,41.939548,-87.705478,D,Yes,1
+170993006734,Pathways in Education - Humboldt,41.9027,-87.687891,C,No,0
