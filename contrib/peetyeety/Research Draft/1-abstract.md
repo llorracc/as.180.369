@@ -1,0 +1,10 @@
+# Abstract
+
+This paper examines whether California's Film and Television Tax Credit Program 2.0 (effective FY2015–16) and its Program 3.0 expansion (credit allocations beginning July 1, 2020) generated sustained employment or wage gains in the state's motion picture industry. Building on Thom's (2018) national analysis of motion picture incentives (1998–2013), which found limited and short-lived effects, I extend the temporal scope to 2009–2022 to capture California's more recent and significantly larger credit programs.
+
+Using Bureau of Labor Statistics Quarterly Census of Employment and Wages (QCEW) data for the motion picture and video production industry (NAICS 512110), I estimate difference-in-differences (DiD) models with two treatment onsets (2015 and 2020) comparing California against states with stable incentive policies and similar pre-trends. To address identification concerns raised in Rickman and Wang (2020)—particularly the potential for administrative reclassification of employees rather than genuine job creation—I supplement QCEW-based results with American Community Survey (ACS) data on occupation-specific migration flows to test whether observed employment increases correspond to real worker inflows into California's film sector.
+
+I further implement Synthetic Control Methods (SCM) to validate DiD estimates, following Rickman and Wang's recommendation for more credible counterfactual construction. Finally, motivated by Owens and Rennhoff (2024), I provide descriptive analysis of the political timing of California's program expansions relative to gubernatorial election cycles, assessing whether these policies align more closely with electoral incentives than economic outcomes.
+
+By uniting administrative employment data, migration evidence, and political timing, this study contributes to a more comprehensive understanding of whether modern film tax credits in the streaming era produce genuine economic benefits or primarily serve political objectives.
+

@@ -208,7 +208,6 @@ build-jb .
       - on top right corner click on the presentation symbol [Render the current notebook as Reveal Slideshow (Alt + R)] 
       - on the RHS of jupyter-lab go to **property inspector (two screws)** --> **common tools**
 - Working with myst:
-  - Restructure your paper as in contrib/AMonninger/Paper_Restructured
   - We will now use `myst` on your local computer. Although the usual `myst start` does not work. Instead do the following
     ```
     pip install mystmd
@@ -217,14 +216,14 @@ build-jb .
 
     myst start
     ```
-  - Open the given link (might take a few minutes)
-  - Copy Alan's paper into your contrib folder so you can use his Myst template. This is now available in the draft materials. To copy onto your local computer:
+  - Open the given port link (might take a few minutes)
+  - Copy Alan's paper into your contrib folder so you can use his Myst template. This is now available in the draft materials. To copy the most recent version onto your local computer:
 ```
      git clone depth 1 
  ```
+- Explaining the difference between Myst MD and Jupyter Notebook
 
 **Homework**
 - Create a conclusion section
-- Break down your paper in multiple (at least 2) parts.
 - Make a draft of the presentation of your paper.
 
