@@ -1,7 +1,5 @@
 # Notes
 
-- format methodology into proper form & come up with a regression
-- make summary tables for each city and national? maybe better to give more specific analysis for international 
 - work on graphs for making data more readable and meaningful 
     - clarify what HOLC grades mean
 - migrate stuff to myst
