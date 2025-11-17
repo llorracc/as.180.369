@@ -15,14 +15,13 @@ project:
   exports:
   - format: pdf
     template: arxiv_nips
-    output: Paper_Restructured.pdf
-    latex_preamble: |
-      \setcounter{secnumdepth}{-1}
-      % Improve spacing and line breaking
-      \sloppy
-      \tolerance=1000
-      \emergencystretch=3em
-      \hyphenpenalty=50
-      \exhyphenpenalty=50
-      % Better spacing around punctuation
-      \frenchspacing
+    output: Paper_YM.pdf
+    render:
+    - 01_abstract.md
+    - 02_introduction.md
+    - 03_literature.md
+    - 04_dataanalysis.ipynb
+    - 05_conclusion.md
+    - 06_bibliography.ipynb
+    - 07_appendix.ipynb
+    - 08_limitations.md
