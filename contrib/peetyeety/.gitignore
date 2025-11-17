@@ -1,0 +1,19 @@
+# Large dataset CSV files
+Data Exploration/*.q1-q4*.csv
+Data Exploration/ipums_acs_extract.csv
+Data Exploration/unemployment-all-state-numeric.csv
+Data Exploration/ststdsadata.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Build outputs
+_build/
+*.pdf
+

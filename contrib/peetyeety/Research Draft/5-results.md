@@ -10,14 +10,14 @@ This section presents empirical findings from two complementary identification s
 
 ### Sample Structure
 
-The panel dataset consists of quarterly observations for three states (California, New York, Georgia) over 64 quarters (2010 Q1 to 2025 Q1), totaling 192 state-quarter observations. California is the treated unit, while New York and Georgia serve as primary control states based on industry scale and policy stability during the study period.
+The panel dataset consists of quarterly observations for three states (California, New York, Georgia) over 64 quarters (2010 Q1 to 2025 Q1), totaling 192 state-quarter observations. California is the treated unit, while New York and Georgia serve as primary control states based on industry scale and policy stability during the study period. The effective regression sample is 57 quarters (171 state-quarter observations) due to missing early GDP growth data for some quarters.
 
 ### Summary Statistics
 
 Across the full sample period (2010-2025):
-- **California:** Average quarterly employment of approximately 115,000 workers in motion picture production, with average weekly wages around $2,400
-- **New York:** Average quarterly employment of approximately 25,000 workers, with average weekly wages around $1,900
-- **Georgia:** Average quarterly employment of approximately 8,000 workers, with average weekly wages around $1,500
+- **California:** Average quarterly employment of approximately 110,000 workers in motion picture production, with average weekly wages around $2,300
+- **New York:** Average quarterly employment of approximately 43,000 workers, with average weekly wages around $2,100
+- **Georgia:** Average quarterly employment of approximately 10,000 workers, with average weekly wages around $1,300
 
 Pre-treatment employment growth patterns reveal substantial heterogeneity: California and New York exhibited relatively stable trends, while Georgia experienced rapid growth following its tax credit program initiation in 2008.
 
@@ -154,7 +154,7 @@ This weighting reflects New York's superior match across all pre-treatment predi
 | 2015 Q2 (Program 2.0) | Employment | +3.48 | 100.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.900 | 0.286 |
 | 2020 Q3 (Program 3.0) | Employment | +4.31 | 100.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.0% | 0.918 | 0.143 |
 
-*Note: Treatment effect is the percentage change in employment from pre- to post-treatment gap. Donor weights sum to 100%. Pre-RMSPE (Root Mean Squared Prediction Error) measures pre-treatment fit quality (lower is better). P-values are from permutation-based placebo tests (California's rank among 7 states in post-treatment RMSPE deviation).*
+*Note: Treatment effect is the percentage change in employment from pre- to post-treatment gap. Donor weights sum to 100%. Pre-RMSPE (Root Mean Squared Prediction Error) measures pre-treatment fit quality (lower is better). P-values are from permutation-based placebo tests (California's rank among 7 states—California plus 6 donor states—in post-treatment RMSPE deviation).*
 
 ### Pre-Treatment Fit
 
@@ -198,7 +198,7 @@ In-space placebo tests assign the same synthetic control method to donor states 
 - **2015 treatment:** California ranks **2nd out of 7** states in post-treatment RMSPE deviation
 - **2020 treatment:** California ranks **1st out of 7** states in post-treatment RMSPE deviation (most extreme effect)
 
-The permutation-based p-values (0.29 for 2015, 0.14 for 2020) indicate that California's employment effects are among the most extreme in the placebo distribution, suggesting potentially meaningful policy impacts that approach marginal statistical significance. While neither effect achieves conventional significance thresholds (p < 0.10), the 2020 effect particularly approaches borderline significance.
+The permutation-based p-values (0.29 for 2015, 0.14 for 2020) indicate that California's employment effects are among the most extreme in the placebo distribution, but **neither effect achieves statistical significance (both p > 0.05)**. This means we cannot confidently conclude that the tax credits increased employment. While the 2020 effect (p = 0.14) is closer to conventional significance thresholds than the 2015 effect, it still does not meet the standard threshold for statistical significance, and we cannot rule out that the observed changes reflect noise rather than genuine policy impacts.
 
 **Figure 4a: Placebo Tests - Program 2.0 (2015)**
 
@@ -214,17 +214,15 @@ The permutation-based p-values (0.29 for 2015, 0.14 for 2020) indicate that Cali
 
 ### Interpretation
 
-The SCM results provide more credible evidence of positive employment effects than DiD estimates:
+The SCM results provide more credible evidence than DiD estimates, but **neither employment effect achieves statistical significance** (p = 0.29 for 2015, p = 0.14 for 2020, both > 0.05). This means we cannot confidently conclude that the tax credit programs generated employment growth.
 
-1. **Consistent positive effects:** Both treatments show 3-4% employment increases, suggesting persistent policy impacts across both expansions.
+1. **Positive point estimates, but not statistically significant:** Both treatments show 3-4% employment increases in point estimates, but with p-values of 0.29 and 0.14, we cannot reject the null hypothesis of no effect. The effects are suggestive but not conclusive.
 
-2. **Approaching significance:** The 2020 effect (p = 0.14) approaches marginal statistical significance, ranking first among all placebo states.
+2. **Limited statistical power:** Statistical inference is constrained by the limited donor pool (n = 6 states). Neither effect achieves conventional significance thresholds (p < 0.05 or even p < 0.10), meaning we cannot rule out that the observed changes reflect noise rather than genuine policy impacts.
 
-3. **Robust methodology:** Unlike DiD, SCM does not require parallel trends and naturally down-weights states with divergent pre-treatment patterns, addressing the fundamental limitations identified in the DiD analysis.
+3. **Robust methodology, but null results:** Unlike DiD, SCM does not require parallel trends and naturally down-weights states with divergent pre-treatment patterns, addressing the fundamental limitations identified in the DiD analysis. However, even with this more appropriate method, we cannot detect statistically significant employment effects.
 
-4. **Realistic magnitudes:** The 3-4% employment effects are economically meaningful and consistent with magnitudes reported in film tax credit literature (Thom, 2018; Rickman & Wang, 2020).
-
-However, statistical inference remains constrained by the limited donor pool (n = 6 states). Achieving conventional significance (p < 0.10) would require California to rank first out of seven states, which occurs for 2020 but not for 2015.
+4. **Implications:** The lack of statistical significance means we cannot confidently say the tax credits increased employment. While the positive point estimates are consistent with modest employment gains reported in some film tax credit literature (Thom, 2018; Rickman & Wang, 2020), the evidence is insufficient to conclude that California's programs meaningfully expanded employment.
 
 ---
 
@@ -252,7 +250,7 @@ The stark contrast between DiD (negative effects) and SCM (positive effects) ref
 
 ### Preferred Estimates
 
-Given the parallel trends violation and placebo test failure in DiD, **SCM estimates are preferred** for causal inference. The SCM results suggest modest but meaningful positive employment effects (3-4%) that approach statistical significance, particularly for the 2020 expansion.
+Given the parallel trends violation and placebo test failure in DiD, **SCM estimates are preferred** for causal inference. However, **the SCM results do not show statistically significant employment effects** (p = 0.29 for 2015, p = 0.14 for 2020, both > 0.05). While the point estimates suggest modest positive effects (3-4%), we cannot confidently conclude that the tax credits increased employment, as we cannot reject the null hypothesis of no effect.
 
 ---
 
@@ -290,48 +288,48 @@ Positive net migration indicates net inflow (workers moving into California), wh
 
 | Year | Inflows | Outflows | Net Migration | Total CA Workers | Migration Rate |
 |------|---------|----------|---------------|-----------------|----------------|
-| 2009 | 2,288 | 4,494 | -2,206 | 189,620 | -1.163% |
-| 2010 | 1,351 | 2,723 | -1,372 | 171,742 | -0.799% |
-| 2011 | 1,718 | 2,894 | -1,176 | 181,031 | -0.650% |
-| 2012 | 2,368 | 5,522 | -3,154 | 195,027 | -1.617% |
-| 2013 | 1,751 | 7,247 | -5,496 | 185,221 | -2.967% |
-| 2014 | 2,705 | 3,856 | -1,151 | 194,303 | -0.592% |
-| **2015** | **2,718** | **4,776** | **-2,058** | **190,348** | **-1.081%** |
-| 2016 | 3,515 | 4,813 | -1,298 | 196,992 | -0.659% |
-| 2017 | 2,824 | 4,259 | -1,435 | 208,182 | -0.689% |
-| 2018 | 1,942 | 4,673 | -2,731 | 192,523 | -1.419% |
-| 2019 | 2,380 | 5,922 | -3,542 | 208,106 | -1.702% |
-| **2020** | **3,525** | **5,192** | **-1,667** | **226,296** | **-0.737%** |
-| **2021** | **3,394** | **3,452** | **-58** | **209,775** | **-0.028%** |
-| 2022 | 3,265 | 4,471 | -1,206 | 213,285 | -0.565% |
-| 2023 | 2,888 | 4,766 | -1,878 | 222,690 | -0.843% |
+| 2009 | 4,494 | 2,288 | +2,206 | 189,620 | +1.163% |
+| 2010 | 2,723 | 1,351 | +1,372 | 171,742 | +0.799% |
+| 2011 | 2,894 | 1,718 | +1,176 | 181,031 | +0.650% |
+| 2012 | 5,522 | 2,368 | +3,154 | 195,027 | +1.617% |
+| 2013 | 7,247 | 1,751 | +5,496 | 185,221 | +2.967% |
+| 2014 | 3,856 | 2,705 | +1,151 | 194,303 | +0.592% |
+| **2015** | **4,776** | **2,718** | **+2,058** | **190,348** | **+1.081%** |
+| 2016 | 4,813 | 3,515 | +1,298 | 196,992 | +0.659% |
+| 2017 | 4,259 | 2,824 | +1,435 | 208,182 | +0.689% |
+| 2018 | 4,673 | 1,942 | +2,731 | 192,523 | +1.419% |
+| 2019 | 5,922 | 2,380 | +3,542 | 208,106 | +1.702% |
+| **2020** | **5,192** | **3,525** | **+1,667** | **226,296** | **+0.737%** |
+| **2021** | **3,452** | **3,394** | **+58** | **209,775** | **+0.028%** |
+| 2022 | 4,471 | 3,265 | +1,206 | 213,285 | +0.565% |
+| 2023 | 4,766 | 2,888 | +1,878 | 222,690 | +0.843% |
 
-*Note: All values are weighted counts representing population estimates. Net migration is negative (outflow) for all years. Treatment years (2015, 2020) are highlighted in bold.*
+*Note: All values are weighted counts representing population estimates. Net migration is positive (inflow) for all years. Treatment years (2015, 2020) are highlighted in bold.*
 
 **Figure 5: California Film Industry Migration Patterns (2009-2023)**
 
 ![Migration Patterns](../Data%20Exploration/Migration/california_film_migration.png)
 
-*Panel A shows annual inflows to California (green line) and outflows from California (orange line) from 2009-2023. Panel B shows net migration (negative values indicate net outflow). Vertical dashed lines indicate Program 2.0 (2015) and Program 3.0 (2020) implementation dates. The figure reveals persistent net outflow throughout the period, with notable improvements in 2016 (following Program 2.0) and particularly in 2021 (following Program 3.0), where net outflow reached its minimum at -58 workers (-0.028%).*
+*Panel A shows annual inflows to California (green line) and outflows from California (orange line) from 2009-2023. Panel B shows net migration (positive values indicate net inflow). Vertical dashed lines indicate Program 2.0 (2015) and Program 3.0 (2020) implementation dates. The figure reveals persistent net inflow throughout the period, with the largest inflows occurring in 2013 (+5,496 workers, +2.967%) and 2019 (+3,542 workers, +1.702%). The smallest net inflow occurred in 2021 (+58 workers, +0.028%) following Program 3.0.*
 
 ### Key Findings
 
-**Persistent Net Outflow:**
-California experienced net outflow of film industry workers in every year from 2009-2023, with an average annual net outflow of 2,029 workers (1.034% of the film workforce). This pattern persists across both pre-treatment and post-treatment periods, suggesting that the state's film industry has been losing workers to other states throughout the study period.
+**Persistent Net Inflow:**
+California experienced net inflow of film industry workers in every year from 2009-2023, with an average annual net inflow of 2,029 workers (1.034% of the film workforce). This pattern persists across both pre-treatment and post-treatment periods, indicating that the state's film industry has been consistently gaining workers from other states throughout the study period.
 
 **Treatment Period Patterns:**
-- **2015 (Program 2.0):** Net outflow of 2,058 workers (-1.081%), similar to pre-treatment years
-- **2020 (Program 3.0):** Net outflow of 1,667 workers (-0.737%), slightly lower than pre-treatment average
-- **2021:** Net outflow of only 58 workers (-0.028%), the smallest outflow in the entire period
+- **2015 (Program 2.0):** Net inflow of 2,058 workers (+1.081%), consistent with pre-treatment patterns
+- **2020 (Program 3.0):** Net inflow of 1,667 workers (+0.737%), slightly lower than pre-treatment average
+- **2021:** Net inflow of 58 workers (+0.028%), the smallest inflow in the entire period
 
-The 2021 result is particularly notable, as it represents a substantial reduction in net outflow relative to both pre-treatment years and the 2020 treatment year. However, this improvement was temporary, with net outflow returning to more typical levels in 2022-2023.
+The 2021 result is particularly notable, as it represents a substantial reduction in net inflow relative to both pre-treatment years and the 2020 treatment year. However, net inflow returned to more typical levels in 2022-2023.
 
 **Summary Statistics:**
-- Average annual net outflow: -2,029 workers
-- Largest net outflow: -5,496 workers (2013)
-- Smallest net outflow: -58 workers (2021)
-- Average migration rate: -1.034% of CA film workforce
-- Total net outflow (2009-2023): -30,428 workers
+- Average annual net inflow: +2,029 workers
+- Largest net inflow: +5,496 workers (2013, +2.967%)
+- Smallest net inflow: +58 workers (2021, +0.028%)
+- Average migration rate: +1.034% of CA film workforce
+- Total net inflow (2009-2023): +30,428 workers
 
 ### Limitations
 
@@ -343,60 +341,68 @@ Several limitations should be noted:
 
 ---
 
+## Political Timing: Election Cycles and Film Tax Credit Expansions
+
+To contextualize the economic results, I examine whether California's major film tax credit expansions were timed around gubernatorial elections. I focus on gubernatorial (rather than legislative) cycles because governors must sign any tax credit legislation, routinely campaign on "jobs" and economic development, and are the focal actors in highly visible statewide contests. The gubernatorial calendar is also clean and regular (every four years), which makes it a natural benchmark for studying election-cycle timing.
+
+**Table 6: Political Timing of California Film Tax Credit Expansions**
+
+| Program | Key bill(s) / vehicle | Enactment date | Gubernatorial election | Months before election (approx.) | Election year? | Governor on ballot? |
+|---------|----------------------|----------------|------------------------|----------------------------------|----------------|---------------------|
+| Program 2.0 | AB 1839 (California Film & Television Job Retention and Promotion Act) | 18 Sep 2014 | 4 Nov 2014 (Brown vs. Kashkari) | ≈ 1.5 months | Yes | Yes |
+| Program 3.0 | SB 871 (extension/expansion via budget trailer) | 27 Jun 2018 | 6 Nov 2018 (Newsom vs. Cox) | ≈ 4.5 months | Yes | No (Brown term-limited) |
+
+Table 6 summarizes the timing of the two expansions studied in this paper. Program 2.0 was authorized by AB 1839, which Governor Jerry Brown signed on September 18, 2014, less than two months before the November 4, 2014 gubernatorial election. Program 3.0 was adopted through 2018 budget trailer legislation (including SB 871 and related bills) and signed on June 27, 2018, roughly four and a half months before the November 6, 2018 gubernatorial election. In both cases, the legislature and governor finalized substantial expansions of the film tax credit within a narrow pre-election window.
+
+A simple back-of-the-envelope calculation highlights how concentrated this timing is. California elects its governor every four years, so a six-month pre-election window represents only 12.5% of the cycle. If the timing of major program expansions were unrelated to elections, the probability that both independent expansions would fall inside a six-month pre-election window is roughly 0.125² ≈ 1.6%. With only two observations, this is not a formal statistical test, and institutional constraints—such as sunset dates and the budget cycle—also restrict when tax credit legislation can move. Nevertheless, the fact that both expansions were enacted in gubernatorial election years and within a few months of Election Day is unlikely to be purely accidental.
+
+The 2014 expansion fits a standard re-election story: Brown was actively campaigning for a fourth term and could prominently advertise AB 1839 as a "job creator" and an effort to fight "runaway production" and protect middle-class union jobs. The 2018 expansion illustrates a broader party-level electoral logic. Although Brown was term-limited and not on the ballot, his administration and legislative allies still had incentives to deliver visible employment-oriented policy victories ahead of an open-seat gubernatorial contest and to shore up relationships with studios and entertainment unions that are central to the state's governing coalition. Taken together, the timing evidence suggests that California's film tax credits function not only as economic-development tools but also as politically salient instruments that tend to be expanded in the run-up to high-salience statewide elections, which helps explain why the modest employment and wage effects documented above may still be electorally attractive.
+
+---
+
 ## Summary and Interpretation
 
 ### Main Findings
 
 1. **Employment Effects (SCM - Preferred Method):**
-   - Program 2.0 (2015): +3.5% employment increase (p = 0.29)
-   - Program 3.0 (2020): +4.3% employment increase (p = 0.14)
-   - Both effects are positive and approach marginal significance, with the 2020 effect ranking first among placebo states.
+   - Program 2.0 (2015): +3.5% employment increase (p = 0.29, **not statistically significant**)
+   - Program 3.0 (2020): +4.3% employment increase (p = 0.14, **not statistically significant**)
+   - **Neither effect achieves statistical significance (p > 0.05), meaning we cannot confidently conclude there was employment growth.** The positive point estimates are suggestive but not conclusive.
 
 2. **Wage Effects (DiD):**
    - Program 2.0 (2015): +9.1% wage increase (**p = 0.003, significant**)
    - Program 3.0 (2020): -6.9% wage decrease (p = 0.15)
 
-3. **Methodological Validity:**
-   - DiD suffers from parallel trends violations and placebo test failures, suggesting estimates are biased by pre-existing trends.
-   - SCM provides more credible causal inference, with California ranking among the top 2 states in placebo tests.
+3. **Migration Patterns (ACS):**
+   - Persistent net inflow of film workers throughout 2009-2023 (average +2,029 workers annually)
+   - Consistent net in-migration across both pre-treatment and post-treatment periods
+   - 2021 showed smallest net inflow (+58 workers) following Program 3.0, but returned to typical levels in 2022-2023
 
-### Policy Implications
+4. **Political Timing (Electoral Cycle):**
+   - Both major expansions enacted in gubernatorial election years
+   - Program 2.0: Signed 1.5 months before November 2014 election (Brown re-election)
+   - Program 3.0: Signed 4.5 months before November 2018 election (Newsom elected, Brown term-limited)
+   - Probability of both expansions falling in 6-month pre-election window by chance: ~1.6%
 
-The SCM results suggest that California's film tax credit programs modestly increased employment (3-4%), though effects do not achieve conventional statistical significance. The substantial wage premium from DiD (9.1% for 2015) suggests the policy may have improved worker compensation even if employment gains were modest.
+5. **Methodological Validity:**
+   - DiD suffers from parallel trends violations and placebo test failures, suggesting estimates are biased by pre-existing trends
+   - SCM provides more credible causal inference, with California ranking among the top 2 states in placebo tests
 
-However, several caveats apply:
-- Limited statistical power due to small donor pool (n = 6 states)
-- Effects are suggestive rather than conclusive
-- Cost-effectiveness analysis would require program expenditure data
+### Integrated Interpretation
 
-### Integrated Interpretation: Employment Effects and Migration Patterns
+The evidence from four complementary analyses—SCM employment effects, DiD wage effects, ACS migration patterns, and political timing—paints a nuanced picture of California's film tax credit programs.
 
-The combination of SCM employment estimates, DiD wage effects, and ACS migration data provides a nuanced picture of the policy's impact on California's film industry workforce.
+**Employment Effects and Migration Patterns:**
 
-**Reconciling Employment Gains with Migration Outflows:**
+The SCM results show positive point estimates for employment (3-4% increases), but **neither effect is statistically significant (p = 0.29 and p = 0.14), meaning we cannot confidently conclude there was employment growth.** The ACS migration data reveals persistent net inflow of film workers throughout the study period, with California consistently gaining workers from other states. This pattern suggests that California has been attracting film industry workers throughout the study period, which could be consistent with the positive (though not statistically significant) employment point estimates. However, the migration inflows were not meaningfully larger following the tax credit expansions—net inflow actually decreased in 2020-2021 relative to pre-treatment years—suggesting the tax credits did not substantially enhance California's ability to attract workers. The substantial wage premium (9.1% for 2015, p = 0.003) is the only statistically significant finding, suggesting that existing workers may have received higher compensation even in the absence of detectable employment growth.
 
-The SCM results suggest modest employment increases (3-4%) following both tax credit expansions, yet ACS migration data reveals persistent net outflow of film workers throughout the study period. This apparent contradiction can be reconciled through three mechanisms:
+**Political Context for Null Employment Effects:**
 
-1. **Retention of Existing Workers:** The employment increases likely reflect improved retention of existing California workers rather than net in-migration. The tax credits may have slowed worker departures without generating net inflows, consistent with the 2021 data showing the smallest net outflow (-58 workers) following the 2020 program expansion.
+The political timing analysis provides crucial context for interpreting the lack of statistically significant employment effects. Both major expansions were enacted in gubernatorial election years and within months of Election Day, suggesting that electoral incentives may drive program expansion even in the absence of demonstrable economic performance. The 2014 expansion fits a standard re-election story (Brown campaigning), while the 2018 expansion illustrates broader party-level electoral logic (Brown term-limited but party delivering visible policy victories). The fact that programs with no statistically significant employment effects can still be electorally attractive when timed around high-salience elections helps explain why film tax credits persist despite the lack of evidence for meaningful employment growth.
 
-2. **More Work for Existing Workers:** QCEW employment data measures jobs, which could increase through longer hours or more consistent work for existing workers rather than new arrivals. The substantial wage premium (9.1% for 2015) supports this interpretation, suggesting existing workers received more work and higher compensation.
+**Overall Assessment:**
 
-3. **Temporary vs. Permanent Migration:** Film production is project-based, with workers frequently moving temporarily for specific productions. ACS captures permanent state-to-state moves but misses temporary relocations, so employment gains may reflect increased temporary work in California without corresponding permanent migration.
-
-**Implications for Policy Effectiveness:**
-
-The migration evidence suggests that California's film tax credits may have achieved their primary goal of retaining production activity and employment within the state, even if they did not generate net in-migration of workers. The persistent net outflow pattern indicates that California continues to lose film industry workers to competing states, but the tax credits may have slowed this outflow or prevented even larger losses.
-
-The combination of:
-- Modest employment increases (SCM: 3-4%)
-- Substantial wage premiums (DiD: +9.1% for 2015)
-- Persistent but potentially moderated net outflows (ACS)
-
-suggests that the policy may have improved conditions for existing California film workers while partially mitigating the state's competitive disadvantage relative to other production hubs. However, the lack of net in-migration indicates that the tax credits were insufficient to reverse California's long-term trend of losing film industry workers to other states.
-
-**Conclusion:**
-
-The evidence from three complementary analyses—SCM employment effects, DiD wage effects, and ACS migration patterns—paints a consistent picture: California's film tax credit programs appear to have generated modest positive employment effects and substantial wage improvements, but these gains likely reflect improved retention and working conditions for existing workers rather than net in-migration. The persistent net outflow of film workers suggests that while the tax credits may have slowed the state's competitive decline, they did not fundamentally reverse the trend of workers leaving California for other production centers.
+Taken together, the evidence suggests that **California's film tax credit programs did not generate statistically significant employment growth.** The SCM employment effects (3-4% point estimates) are not statistically significant (p = 0.29 and p = 0.14), meaning we cannot confidently conclude the programs increased employment. The only statistically significant finding is the wage premium (9.1% for 2015, p = 0.003), suggesting existing workers received higher compensation, but this occurred in the absence of detectable employment growth. The ACS migration data shows persistent net inflow of film workers throughout the study period, indicating California has been consistently attracting workers from other states. However, net inflow did not meaningfully increase following the tax credit expansions—in fact, it decreased in 2020-2021 relative to pre-treatment years—suggesting the tax credits did not substantially enhance California's ability to attract workers beyond the baseline inflow pattern. The political timing evidence—both expansions enacted in election years within months of Election Day—suggests these programs function primarily as signaling devices for electoral credit-claiming rather than engines of genuine economic development, which helps explain why programs with no statistically significant employment effects may still be politically sustainable.
 
 ### Next Steps
 
@@ -433,6 +439,8 @@ Future analysis should:
 **Figure 4b:** Placebo Test Distribution - Program 3.0 (2020) - **Included above**
 
 **Figure 5:** California Film Industry Migration Patterns (2009-2023) - **Included above**
+
+**Table 6:** Political Timing of California Film Tax Credit Expansions - **Included above**
 
 ---
 

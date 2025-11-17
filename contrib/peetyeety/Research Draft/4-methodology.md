@@ -92,7 +92,7 @@ Proper control group selection requires balancing two competing concerns: policy
 
 **Secondary controls (robustness):** Florida, Illinois, Pennsylvania, and North Carolina—states with moderate film industries and stable policies during 2015–2022—are included as alternative controls in sensitivity analyses to assess whether results depend on the choice of high-intensity comparators.
 
-**Excluded states:** Louisiana and New Mexico made substantial policy changes during the study period and lack the industry scale for credible comparison.
+**Excluded from DiD control group:** Louisiana and New Mexico made substantial policy changes during the study period and lack the industry scale for credible comparison in the DiD framework. However, Louisiana is included in the SCM donor pool (along with Florida, Illinois, and Pennsylvania) where the algorithm can optimally down-weight states with divergent pre-treatment patterns.
 
 ### Political Timing Data (Descriptive Supplement):
 
@@ -182,12 +182,25 @@ This analysis directly addresses the "reclassification problem" identified by Ri
 
 ### 5. Political Timing Analysis (Descriptive)
 
-Following Owens and Rennhoff (2024), I descriptively examine the proximity of policy enactments to gubernatorial elections:
+Following Owens and Rennhoff (2024), I descriptively examine the proximity of policy enactments to gubernatorial elections. Rather than estimating a full political-economy model, I focus on the calendar relationship between legislative enactment dates and statewide elections to assess whether program expansions were strategically timed around electoral cycles.
 
-- 2015 expansion (AB 1839) signed September 2014, months before Governor Brown's re-election.
-- 2020 expansion (Program 3.0) approved mid-2020, within Governor Newsom's first term ahead of recall discussions.
+**Data Sources:**
+- California Legislative Information (LegInfo) for bill introduction, passage, and signing dates
+- California Secretary of State election records for gubernatorial election dates
+- Ballotpedia and Wikipedia entries for election results and candidate information
+- California Film Commission and Franchise Tax Board documentation for program implementation dates
 
-By quantifying months between each enactment and the nearest election, I evaluate whether these expansions cluster around politically sensitive periods, contextualizing the persistence of film incentives beyond economic logic.
+**Key Dates Identified:**
+- **Program 2.0:** AB 1839 signed September 18, 2014; November 4, 2014 gubernatorial election (Brown re-election)
+- **Program 3.0:** SB 871 signed June 27, 2018; November 6, 2018 gubernatorial election (Newsom elected, Brown term-limited)
+
+**Analysis Approach:**
+1. Calculate months between each bill enactment date and the nearest gubernatorial election
+2. Identify whether expansions occurred in election years
+3. Determine whether the signing governor was on the ballot
+4. Conduct a simple back-of-the-envelope probability calculation: if policy timing were random over a 4-year cycle, and a 6-month pre-election window represents 12.5% of the cycle, the probability that both independent expansions fall in that window is 0.125² ≈ 1.6%
+
+This descriptive analysis contextualizes the economic findings by examining whether expansions align with electoral incentives rather than demonstrable economic performance, helping explain why film tax credits persist despite modest employment effects.
 
 ## Summary of Methodological Contribution
 
