@@ -2,7 +2,9 @@
 - make bibliography work
 - work on graphs for making data more readable and meaningful 
     - clarify what HOLC grades mean
-- get slides working
-    - meet with jane/cc to figure out 
+    - make sure all visuals are helping to tell story
+- decrease words on slides
+    - no articles needed
+    - no need to include any words describing visuals. just talk abt them
 
 
