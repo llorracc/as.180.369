@@ -16,11 +16,3 @@ project:
   - format: pdf
     template: arxiv_nips
     output: Paper_Restructured.pdf
-  render:
-    - 01_abstract.md
-    - 02_introduction.md
-    - 03_literature.md
-    - 04_dataanalysis.ipynb
-    - 05_conclusion.md
-    - 06_bibliography.ipynb
-    - 07_appendix.ipynb
