@@ -63,6 +63,9 @@
 ## Class 13
 
 **Agenda**
+- Sync between computer and github
+    - Because you should have your documents saved in AT LEAST 3 places
+
 - Presentations
     - Students will present (15 mins.) on their papers.
     - Include polished visuals to help convey your assertions.
