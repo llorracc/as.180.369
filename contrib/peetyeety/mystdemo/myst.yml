@@ -1,17 +1,17 @@
 version: 1
 site:
   template: article-theme
-  title: Adrian Monninger - Research Paper
+  title: An Examination of the Effect on Employment and Wages of the California Film Tax Credit Programs - Peter Li
   subtitle: This is just a template
   short_title: template
   authors:
-    - name: Adrian Monninger
+    - name: Peter Li
 project:
   title: Research Paper
   authors:
-    - name: Adrian Monninger
-  bibliography:
-    - references.bib
+    - name: Peter Li
+  # bibliography:
+  #   - references.bib
   exports:
   - format: pdf
     template: arxiv_nips
@@ -20,7 +20,8 @@ project:
     - 01_abstract.md
     - 02_introduction.md
     - 03_literature.md
-    - 04_dataanalysis.ipynb
-    - 05_conclusion.md
-    - 06_bibliography.ipynb
-    - 07_appendix.ipynb
+    - 04_methodology.md
+    - 05_results.md
+    - 06_discussion.md
+    - 07_conclusion.md
+    - 08_bibliography.md
