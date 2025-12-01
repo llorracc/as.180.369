@@ -1,8 +1,7 @@
 format: jb-book
 root: 00_paper_root
 parts:
-  - caption: Content
-    chapters:
+  - chapters:
       - file: 01_abstract
       - file: 02_introduction
       - file: 03_literature
