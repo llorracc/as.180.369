@@ -11,11 +11,11 @@ project:
   authors:
     - name: Zoe Chan
   bibliography:
-    - references.bib
+    - redlining.bib
   exports:
   - format: pdf
     template: arxiv_nips
-    output: Paper_Restructured.pdf
+    output: Redlining_and_STEM.pdf
   render:
     - 01_abstract.md
     - 02_introduction.md
