@@ -55,7 +55,7 @@
 # Homework
 - If you are a Windows user, install the Windows Subsystem for Linux(WSL)
 - Then, for all(Mac and WSL) install Miniconda from the Miniconda website (if using WSL, install inside WSL)
-- Work on Presentations: Don't just make them a paraphrased version of your paper! (feel free to see the template linked [here](https://github.com/llorracc/as.180.369/blob/main/contrib/Beyond_the_Streetlight.ipynb)
+- Work on Presentations: Don't just make them a paraphrased version of your paper! (feel free to see the template linked [here](contrib/Beyond_the_Streetlight-Copy1.ipynb)
 - # Final Paper deadline moved to Friday December 18 - this is the last day of finals 
   - Make sure to increase the number of papers you're citing to ~15 or more
   - Be sure to run your final paper through ChatGPT/AI multiple times before submitting
@@ -63,6 +63,9 @@
 ## Class 13
 
 **Agenda**
+- Sync between computer and github
+    - Because you should have your documents saved in AT LEAST 3 places
+
 - Presentations
     - Students will present (15 mins.) on their papers.
     - Include polished visuals to help convey your assertions.
