@@ -1,6 +1,6 @@
-# Literature Review
+## Literature Review
 
-## HOLC History
+### HOLC History
 
 The Home Owners’ Loan Corporation was created in 1933 as part of the New Deal’s effort to stabilize housing markets during the Great Depression. One of the agency’s most consequential undertakings was the creation of “residential security maps” that graded neighborhoods based on perceived credit risk. These grades—A (“Best”), B (“Still Desirable”), C (“Definitely Declining”), and D (“Hazardous”)—were based on a combination of housing conditions, socioeconomic characteristics, and, critically, racial composition ({cite}`Jackson2016-vt`; {cite}`Hillier2003-co`). The resulting maps were color-coded, with “redlined” D-graded neighborhoods typically marked by higher concentrations of Black residents, immigrants, and working-class populations.
 
@@ -8,7 +8,7 @@ Although the HOLC’s stated purpose was to assess mortgage risk, its appraisal 
 
 While scholars debate whether the HOLC itself originated redlining or simply reflected existing racial divisions ({cite}`Fishback2022-zr`), there is broad consensus that its maps shaped the geography of opportunity for generations. They provided a federally sanctioned template that justified unequal investment, influencing where banks lent, where infrastructure developed, and where families could accumulate wealth ({cite}`Appel2016-rl`). By codifying racial risk into financial decision-making, the HOLC helped institutionalize the spatial segregation that continues to define American cities today.
 
-## Modern Outcomes of HOLC
+### Modern Outcomes of HOLC
 
 Over the past decade, researchers have connected the geography of redlining to a wide range of contemporary social and economic disparities. Using digitized HOLC maps, scholars have shown that formerly redlined areas continue to exhibit lower home values, lower household incomes, and higher racial segregation ({cite}`Aaronson2021-xr`; {cite}`Appel2016-rl`; {cite}`Krimmel2018-je`). Beyond housing, these areas also show worse environmental and health outcomes—they experience higher exposure to air pollution, urban heat, and chronic disease ({cite}`Hoffman2020-aq`; {cite}`Nardone2021-ft`; {cite}`Namin2020-dk`).
 
@@ -16,7 +16,7 @@ Importantly, redlining’s effects extend into the educational domain. Lukes and
 
 Other scholars echo these patterns. Aaronson et al. ({cite}`Aaronson2021-xr`) find persistent disparities in property values and income across HOLC boundaries, implying that local tax bases—and thus school funding—remain affected. Faber ({cite}`Faber2021-jl`) demonstrates that redlining amplified racial wealth gaps by shaping who benefited from mid-century housing subsidies. Collectively, this literature portrays redlining as a foundational mechanism linking historical racial exclusion to contemporary inequality across multiple domains. Yet despite growing recognition of redlining’s educational consequences, few studies directly examine whether its legacy extends to STEM coursework access, an increasingly important dimension of academic opportunity and future labor market participation.
 
-## The Relationship Between Schools, Neighborhoods, and Student Outcomes
+### The Relationship Between Schools, Neighborhoods, and Student Outcomes
 
 Education systems are deeply intertwined with neighborhood contexts. In the United States, school funding structures rely heavily on local property taxes, meaning that differences in neighborhood wealth directly translate into differences in educational resources ({cite}`Jackson2016-vt`; {cite}`Lafortune2018-dx`). Because redlining constrained homeownership and suppressed property values in Black and immigrant neighborhoods, it indirectly limited the fiscal capacity of their local schools. Decades of research show that school resources matter for long-term outcomes: districts that received funding increases after school-finance reforms saw higher graduation rates and adult earnings among low-income students ({cite}`Jackson2016-vt`).
 
