@@ -1,0 +1,15 @@
+/* Center all images in HTML/PDF outputs */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+

@@ -28,4 +28,8 @@ dependencies:
   - sympy=1.13.3
   - tqdm=4.66.6
   - watchdog=6.0.0
+  - pip
+  - pip:
+    - yfinance>=0.2.0
+    - fredapi>=0.5.0
 prefix: /home/idies/mambaforge/envs/econark

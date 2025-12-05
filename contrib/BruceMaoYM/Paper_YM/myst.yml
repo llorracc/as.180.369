@@ -4,18 +4,38 @@ site:
   title: Buy-Now-Pay-Later Stock Returns and Interest Rate Sensitivity
   subtitle: An Empirical Analysis of Monetary Policy Transmission to Fintech Credit Providers
   short_title: BNPL Interest Rate Sensitivity
+  assets:
+    css:
+      - center-images.css
   authors:
     - name: Yisheng(Bruce) Mao
 project:
   title: Buy-Now-Pay-Later Stock Returns and Interest Rate Sensitivity
   authors:
     - name: Yisheng(Bruce) Mao
+  date: 2025-12-02
   bibliography:
     - references.bib
+  # Hide all code cells in notebooks
+  jupyter:
+    execute:
+      hide_code: true
+    render:
+      hide_code: true
+  # MyST-NB settings to hide code
+  kernelspec:
+    hide_code: all
+  settings:
+    output_stderr: remove
+    code_prompt_show: "Show code"
+    code_prompt_hide: "Hide code"
   exports:
   - format: pdf
     template: arxiv_nips
     output: Paper_YM.pdf
+    # Hide code in PDF export
+    execute:
+      hide_code: true
     render:
     - 01_abstract.md
     - 02_introduction.md
