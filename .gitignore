@@ -14,3 +14,4 @@ _build/
 # Backup folders
 *_backup_*/
 *.backup*
+contrib/BruceMaoYM/Presentation/SPEAKING_GUIDE.md
