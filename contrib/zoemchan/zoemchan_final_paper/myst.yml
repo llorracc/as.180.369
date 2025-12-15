@@ -1,28 +1,25 @@
 version: 1
+
 site:
   template: article-theme
   title: Impact of Redlining on Modern Day STEM Course Offerings
-  subtitle: 
-  short_title: 
   authors:
     - name: Zoe Chan
+
 project:
   title: Impact of Redlining on Modern Day STEM Course Offerings
   authors:
     - name: Zoe Chan
   bibliography:
     - redlining.bib
+
   exports:
-  - format: pdf
-    template: arxiv_nips
-    output: Redlining_and_STEM.pdf
-  render:
-    - 01_abstract.md
-    - 02_introduction.md
-    - 03_literature.md
-    - 04_methods.md
-    - 05_results.ipynb
-    - 06_discussion.md
-    - 07_conclusion.md
-    - 08_bibliography.ipynb
-    - 09_appendix.ipynb
+    - format: pdf
+      template: arxiv_nips
+      output: Redlining_and_STEM.pdf
+      title: Impact of Redlining on Modern Day STEM Course Offerings
+      authors:
+        - name: Zoe Chan
+      articles:
+        - 00_paper_root.md
+
