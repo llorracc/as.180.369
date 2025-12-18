@@ -1,0 +1,10 @@
+| term                              | Coef (SE)      |       p |
+|:----------------------------------|:---------------|--------:|
+| Intercept                         | 0.857 (0.848)  |   0.312 |
+| C(grade_cat, Treatment('A'))[T.B] | 0.187 (0.720)  |   0.795 |
+| C(grade_cat, Treatment('A'))[T.C] | 0.202 (0.709)  |   0.776 |
+| C(grade_cat, Treatment('A'))[T.D] | 0.288 (0.709)  |   0.685 |
+| MAGNET_FLAG                       | 0.000 (0.000)  | nan     |
+| CHARTER_FLAG                      | 0.000 (0.000)  | nan     |
+| PCT_CERTIFIED_FTE                 | -0.004 (0.005) |   0.446 |
+| TITLE1_FLAG                       | 0.000 (0.000)  | nan     |
