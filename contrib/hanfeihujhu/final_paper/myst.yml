@@ -1,0 +1,13 @@
+version: 1
+project:
+  title: The Sentiment Channel of Monetary Policy
+  authors:
+    - name: Hanfei Hu
+  bibliography:
+    - references.bib
+  # This fixes the "missing required key: abstract" error
+  parts:
+    abstract: 01_abstract.md
+  exports:
+    - format: pdf
+      output: Paper.pdf
