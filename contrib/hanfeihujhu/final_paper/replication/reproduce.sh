@@ -3,12 +3,14 @@
 
 BEFORE RUNNING
 
-Download newraw and oldraw from 
+Download newraw and oldraw from https://livejohnshopkins-my.sharepoint.com/:f:/g/personal/hhu40_jh_edu/IgCSrAmiQLAmSY2x0xqHvkt8AccZWGMFYDt3Z71haXBTrj8?e=uoIu9j
 
-Place the unzipped folders into replication/bank code.
+Unzip and place the folders into replication/bank code.
 
-place (new_bank_data.py) into replication/bank code/newraw
-place (old_bank_data.py) into replication/bank code/oldraw
+Place (new_bank_data.py) into replication/bank code/newraw
+Place (old_bank_data.py) into replication/bank code/oldraw
+
+To make the paper regenerate, make sure the original paper is deleted first.
 
 '''
 
