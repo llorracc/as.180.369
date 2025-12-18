@@ -113,13 +113,13 @@
 - CC will run through `git merge` conflicts and how to deal with them. (15 min.)
 - Make sure all copies of repo are synchronized. We will fix any merge conflicts in class. Compile your MyST Markdown on your local computer. (15 min.)
 - Make a subfolder in your contrib folder. Name it "paper." You will now start saving sections of your paper to this folder. 
-- Make sure that all parts of paper are in separate Jupyter notebooks. Names should be standardized like:
+- Make sure that all parts of paper are in separate Jupyter notebooks or markdown files. Review Adrian's restructured paper /contrib/AMonniger/Paper_Restructured. Names should be standardized like:
 ```
   - abstract.md
   - introduction.md
   - literature-review.md
   - methodology.md
-  - results.md
+  - results.ipynb
   - discussion.md
   - conclusion.md
 ```
@@ -157,27 +157,43 @@ build-jb .
 
 ### Agenda
 
-- HW Review: prompts people found useful for the Korinek reflection and lit review improvements (10 minutes)
+- HW Review: prompts people found useful for the Korinek reflection and lit review improvements (20 minutes)
 
-- Instructional on best practices aiding your literature search (20 minutes)
+- Instructional on best practices aiding your literature search (15 minutes)
   - Beyond Litmaps & Paperpile
+       - Using AI
+       - [NotebookLM](https://notebooklm.google/?utm_source=chatgpt.com) - understanding papers in your literature review
+       - Note: Literature review papers are particularly helpful for getting your bearings
+         
+- Using AI to generate ideas for data analysis (10 min)
+   - [Julius AI](https://julius.ai/chat)
 
 - Updates on your paper progress (80 minutes)
   - roadblocks and problems you've encountered
   - methodology and lit review section updates
-
     
-- *TA* Git refresher and Cleanup
+- Have each student go through their local machine or SciServer and make sure everything is sync'ed. (10 min)
 
-- Debugging empirical work + How to use AI to help
+- Review Myst files (on local machines) and fix any errors (15 min)
+
 
 **Homework**
-- Please email your NASA certificate to emurins1@jh.edu
+- Comment on a classmate's advice from the Korinek paper. 
 - Write the first draft of the results section. ([Here's](https://twp.duke.edu/sites/twp.duke.edu/files/file-attachments/econ.original.pdf) a great resource from Duke on writing this and other sections.)
     - You should break your text into a number of smaller markdown cells.
         - This makes it easier to use ChatGPT for editing.
     - Be sure to get ChatGPT feedback on your writing.
     - In the commits you write, please include the prompts you used in ChatGPT.
+ - Make sure that all parts of paper are in separate Jupyter notebooks. Names should be standardized like:
+```
+  - abstract.md
+  - introduction.md
+  - literature-review.md
+  - methodology.md
+  - results.md
+  - discussion.md
+  - conclusion.md
+```
 
 ## Class 10
 
@@ -192,22 +208,22 @@ build-jb .
       - on top right corner click on the presentation symbol [Render the current notebook as Reveal Slideshow (Alt + R)] 
       - on the RHS of jupyter-lab go to **property inspector (two screws)** --> **common tools**
 - Working with myst:
-  - Create new econ-ark container
-  - Restructure your paper as in contrib/AMonninger/Paper_Restructured
-  - On Sciserver we can now use `myst`. Although the usual `myst start` does not work. Instead do the following
+  - We will now use `myst` on your local computer. Although the usual `myst start` does not work. Instead do the following
     ```
     pip install mystmd
 
     myst init
 
-    myst-start
+    myst start
     ```
-  - Open the given link (might take a few minutes)
- 
+  - Open the given port link (might take a few minutes)
+  - Copy Alan's paper into your contrib folder so you can use his Myst template. This is now available in the draft materials. To copy the most recent version onto your local computer:
+```
+     git clone depth 1 
+ ```
+- Explaining the difference between Myst MD and Jupyter Notebook
 
 **Homework**
 - Create a conclusion section
-- Break down your paper in multiple (at least 2) parts.
 - Make a draft of the presentation of your paper.
-
 

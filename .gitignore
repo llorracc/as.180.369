@@ -7,3 +7,10 @@
 .specstory/
 .DS_Store
 .Thumbs
+
+# Jupyter Book build artifacts
+_build/
+
+# Backup folders
+*_backup_*/
+*.backup*

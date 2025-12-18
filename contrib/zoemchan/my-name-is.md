@@ -30,6 +30,10 @@ $e=mc^2$
 
 two paragraphs on each topic w updates from ai
 
+merge conflics pt 2
+
+merge conflicts
+
 
 
 
