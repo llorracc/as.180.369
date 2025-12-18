@@ -1,27 +1,24 @@
 version: 1
 site:
   template: article-theme
-  title: An Examination of the Effect on Employment and Wages of the California Film Tax Credit Programs - Peter Li
-  subtitle: This is just a template
-  short_title: template
+  title: An Examination of the Effect on Employment and Wages of the California Film Tax Credit Programs
+  short_title: CA Film Tax Credits
   authors:
     - name: Peter Li
 project:
-  title: Research Paper
+  title: An Examination of the Effect on Employment and Wages of the California Film Tax Credit Programs
   authors:
     - name: Peter Li
-  # bibliography:
-  #   - references.bib
+  bibliography:
+    - references.bib
+  toc:
+    - file: 00_paper_root.md
   exports:
-  - format: pdf
-    template: arxiv_nips
-    output: Paper_Restructured.pdf
-  render:
-    - 01_abstract.md
-    - 02_introduction.md
-    - 03_literature.md
-    - 04_methodology.md
-    - 05_results.md
-    - 06_discussion.md
-    - 07_conclusion.md
-    - 08_bibliography.md
+    - format: pdf
+      template: arxiv_nips
+      output: California_Film_Tax_Credits_Peter_Li.pdf
+      articles:
+        - 00_paper_root.md
+      parts:
+        abstract: |
+          This paper examines whether California's Film and Television Tax Credit Program 2.0 (effective FY2015–16) and its Program 3.0 expansion (credit allocations beginning July 1, 2020) generated sustained employment or wage gains in the state's motion picture industry. Using QCEW data for 2010–2025 and ACS migration microdata for 2009–2023, I estimate difference-in-differences models and implement Synthetic Control Methods to validate results. The findings show SCM detects no statistically significant employment effects, though DiD identifies a significant 9.1% wage premium following Program 2.0. This study contributes to understanding whether modern film tax credits produce genuine economic benefits or primarily serve political objectives.
