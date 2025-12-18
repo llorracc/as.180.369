@@ -1,6 +1,6 @@
 # Literature Review
 
-![Literature Map](../litmaps.png)
+![Literature Map](images/litmaps.png)
 
 The academic literature on state film tax incentives has expanded rapidly over the past decade and reaches a surprisingly consistent conclusion: despite large fiscal costs, these programs generate at best modest and often transitory gains in measured film activity, with limited evidence of broader economic development. My study builds on three strands of this literature—early creative-economy critiques, national and state-level quasi-experimental evaluations, and emerging work on industry aggregation and political incentives—while also incorporating recent advances in empirical methods and research tools.
 
