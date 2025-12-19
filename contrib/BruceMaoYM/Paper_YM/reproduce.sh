@@ -312,8 +312,10 @@ def fix_bibliography(content, filename):
     2. Add bibliography command to Paper_YM-bibliography.tex to use references.bib
     This ensures references.bib is the single source of truth and only rendered once.
     """
-    # Check if this is the bibliography section file
-    if 'bibliography' in filename.lower() and filename.endswith('.tex'):
+    # Check if this is the bibliography section file (must have 'bibliography' in name)
+    is_bibliography_file = 'bibliography' in filename.lower()
+    
+    if is_bibliography_file:
         # This is the bibliography section - ensure it has the bibliography command
         if '\\bibliography' not in content and '\\section{References}' in content:
             # Add bibliography command after the section header
@@ -321,21 +323,16 @@ def fix_bibliography(content, filename):
                 '\\section{References}',
                 '\\section{References}\n\\bibliographystyle{plainnat}\n\\bibliography{references}'
             )
-    elif filename == 'Paper_YM.tex' or 'Paper_YM.tex' in filename:
-        # This is the main file - remove ALL auto-generated bibliography commands
+    else:
+        # This is NOT the bibliography file (main file or other files) - remove ALL bibliography commands
         # Remove any \bibliography or \bibliographystyle commands that myst auto-added
-        # Make sure we remove them even if they're at the end of the file
         content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\n', '', content)
         content = re.sub(r'\\bibliography\{[^}]+\}\s*\n', '', content)
-        # Also remove any trailing bibliography commands before \end{document}
+        # Also handle cases where they might be on the same line or before \end{document}
         content = re.sub(r'\n\\bibliographystyle\{[^}]+\}\s*\n\\bibliography\{[^}]+\}\s*\n\\end\{document\}', 
                         r'\n\\end{document}', content)
         content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\\bibliography\{[^}]+\}\s*\\end\{document\}', 
                         r'\\end{document}', content)
-    else:
-        # Other files - also remove bibliography commands just in case
-        content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\n', '', content)
-        content = re.sub(r'\\bibliography\{[^}]+\}\s*\n', '', content)
     
     return content
 
