@@ -1,6 +1,8 @@
 # Notes
+- make bibliography work
+- work on graphs for making data more readable and meaningful 
+    - clarify what HOLC grades mean
+- get slides working
+    - meet with jane/cc to figure out 
 
-- replicate aaronson data and delve deeper into his methodology
-- figure out how to pull in the rest of the data
-- figure out how to link schools to their neighborhood
-- run prelim regression (if possible)
+

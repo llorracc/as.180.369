@@ -1,0 +1,12 @@
+format: jb-book
+root: 00_paper_root
+parts:
+  - chapters:
+      - file: 01_abstract
+      - file: 02_introduction
+      - file: 03_literature
+      - file: 04_dataanalysis
+      - file: 05_results
+      - file: 06_conclusion
+      - file: 07_bibliography
+      - file: 08_appendix
