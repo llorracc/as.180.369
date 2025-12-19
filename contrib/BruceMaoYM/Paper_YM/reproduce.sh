@@ -202,6 +202,17 @@ else
     echo "  ⚠️  No chart images found. Run notebooks first."
 fi
 
+# Step 6a-2: Copy references.bib to build directory
+if [ -f "references.bib" ]; then
+    echo "  Copying references.bib..."
+    cp references.bib "$BUILD_DIR/" 2>/dev/null || {
+        echo "  ⚠️  Warning: Failed to copy references.bib"
+    }
+    echo "  ✓ Copied references.bib"
+else
+    echo "  ⚠️  Warning: references.bib not found"
+fi
+
 # Change to build directory for LaTeX processing
 cd "$BUILD_DIR" || {
     echo "⚠️  Failed to change to build directory: $BUILD_DIR"
@@ -281,6 +292,53 @@ def fix_centering_in_tables(content):
     
     return '\n'.join(new_lines)
 
+def fix_missing_figure_labels(content):
+    """Fix missing figure labels that are referenced but not defined."""
+    # Fix fig_volatility label - check if referenced but not labeled
+    if '\\ref{fig_volatility}' in content and '\\label{fig_volatility}' not in content:
+        # Pattern to find figure with chart_l_volatility that doesn't have the label
+        # Look for the specific pattern: \includegraphics with chart_l_volatility followed by \end{figure} without a label in between
+        pattern = r'(\\includegraphics\[[^\]]*\]\{[^}]*chart_l_volatility[^}]*\})\s*(\\end\{figure\})'
+        replacement = r'\1\n\\caption[]{Volatility Comparison}\n\\label{fig_volatility}\n\2'
+        content = re.sub(pattern, replacement, content)
+    
+    return content
+
+def fix_bibliography(content, filename):
+    """Fix bibliography to use references.bib and ensure it only appears once.
+    
+    Strategy:
+    1. Remove auto-generated bibliography commands from main Paper_YM.tex file
+    2. Add bibliography command to Paper_YM-bibliography.tex to use references.bib
+    This ensures references.bib is the single source of truth and only rendered once.
+    """
+    # Check if this is the bibliography section file
+    if 'bibliography' in filename.lower() and filename.endswith('.tex'):
+        # This is the bibliography section - ensure it has the bibliography command
+        if '\\bibliography' not in content and '\\section{References}' in content:
+            # Add bibliography command after the section header
+            content = content.replace(
+                '\\section{References}',
+                '\\section{References}\n\\bibliographystyle{plainnat}\n\\bibliography{references}'
+            )
+    elif filename == 'Paper_YM.tex' or 'Paper_YM.tex' in filename:
+        # This is the main file - remove ALL auto-generated bibliography commands
+        # Remove any \bibliography or \bibliographystyle commands that myst auto-added
+        # Make sure we remove them even if they're at the end of the file
+        content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\n', '', content)
+        content = re.sub(r'\\bibliography\{[^}]+\}\s*\n', '', content)
+        # Also remove any trailing bibliography commands before \end{document}
+        content = re.sub(r'\n\\bibliographystyle\{[^}]+\}\s*\n\\bibliography\{[^}]+\}\s*\n\\end\{document\}', 
+                        r'\n\\end{document}', content)
+        content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\\bibliography\{[^}]+\}\s*\\end\{document\}', 
+                        r'\\end{document}', content)
+    else:
+        # Other files - also remove bibliography commands just in case
+        content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\n', '', content)
+        content = re.sub(r'\\bibliography\{[^}]+\}\s*\n', '', content)
+    
+    return content
+
 # Process all .tex files
 for tex_file in glob.glob('Paper_YM*.tex'):
     try:
@@ -290,6 +348,8 @@ for tex_file in glob.glob('Paper_YM*.tex'):
         # Apply fixes
         content = fix_latex_issues(content)
         content = fix_centering_in_tables(content)
+        content = fix_missing_figure_labels(content)
+        content = fix_bibliography(content, tex_file)
         
         with open(tex_file, 'w', encoding='utf-8') as f:
             f.write(content)
