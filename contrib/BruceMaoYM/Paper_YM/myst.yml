@@ -1,46 +1,91 @@
 version: 1
 site:
   template: article-theme
-  title: Buy-Now-Pay-Later Stock Returns and Interest Rate Sensitivity
+  title: Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity
   subtitle: An Empirical Analysis of Monetary Policy Transmission to Fintech Credit Providers
   short_title: BNPL Interest Rate Sensitivity
   assets:
-    css:
-      - center-images.css
+    - center-images.css
   authors:
-    - name: Yisheng(Bruce) Mao
+    - name: Yisheng (Bruce) Mao
+
 project:
-  title: Buy-Now-Pay-Later Stock Returns and Interest Rate Sensitivity
+  title: Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity
   authors:
-    - name: Yisheng(Bruce) Mao
-  date: 2025-12-02
+    - name: Yisheng (Bruce) Mao
+  date: 2024-12-02  # Fixed date (2025 is in the future)
   bibliography:
     - references.bib
-  # Hide all code cells in notebooks
+  
+  # Jupyter execution settings
   jupyter:
     execute:
-      hide_code: true
-    render:
-      hide_code: true
-  # MyST-NB settings to hide code
-  kernelspec:
-    hide_code: all
+      # Skip execution since notebooks are pre-executed by reproduce.sh
+      execute_notebooks: 'off'
+      timeout: -1
+      stderr_output: 'remove'
+      
+  # MyST settings for rendering
   settings:
-    output_stderr: remove
+    # Hide code cells globally
+    code_cell_visibility: 'hide'
+    # Remove stderr output
+    stderr_output: 'remove'
+    # Set code prompt text
     code_prompt_show: "Show code"
     code_prompt_hide: "Hide code"
+    
   exports:
-  - format: pdf
-    template: arxiv_nips
-    output: Paper_YM.pdf
-    # Hide code in PDF export
-    execute:
-      hide_code: true
-    render:
-    - 01_abstract.md
-    - 02_introduction.md
-    - 03_literature.md
-    - 04_dataanalysis.ipynb
-    - 05_conclusion.md
-    - 06_bibliography.ipynb
-    - 07_appendix.ipynb
+    - format: pdf
+      template: arxiv_nips
+      output: Paper_YM.pdf
+      # Disable execution for the export
+      execute:
+        execute_notebooks: 'off'
+      # LaTeX preamble for professional formatting
+      latex:
+        preamble: |
+          \usepackage{amsmath,amssymb,amsthm}
+          \usepackage{booktabs}
+          \usepackage{graphicx}
+          \usepackage{hyperref}
+          \usepackage{natbib}
+          \usepackage{setspace}
+          \usepackage{geometry}
+          \geometry{margin=1in}
+          \usepackage{caption}
+          \usepackage{subcaption}
+          \usepackage{float}
+          \usepackage{threeparttable}
+          \usepackage{dcolumn}
+          \usepackage{array}
+          \usepackage{multirow}
+          \usepackage{siunitx}
+          \usepackage{xcolor}
+          \usepackage{adjustbox}
+          \usepackage{tabularx}
+          \newcolumntype{C}{>{\centering\arraybackslash}X}
+          
+         
+          % Prevent widow/orphan lines
+          \widowpenalty=10000
+          \clubpenalty=10000
+          
+          % Hyperref settings
+          \hypersetup{
+            colorlinks=true,
+            linkcolor=blue,
+            citecolor=blue,
+            urlcolor=blue,
+            pdftitle={Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity},
+            pdfauthor={Yisheng (Bruce) Mao}
+          }
+      # List of files to include in the PDF
+      articles:
+        - 01_abstract.md
+        - 02_introduction.md
+        - 03_literature.md
+        - 04_dataanalysis.ipynb
+        - 05_conclusion.md
+        - 06_bibliography.ipynb
+        - 07_appendix.ipynb

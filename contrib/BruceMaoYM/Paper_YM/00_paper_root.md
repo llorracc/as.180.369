@@ -1,5 +1,5 @@
 ---
-title: "Buy-Now-Pay-Later Stock Returns and Interest Rate Sensitivity"
+title: "Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity"
 ---
 
 This root file is intentionally minimal. All chapters are already defined in `_toc.yml`:
