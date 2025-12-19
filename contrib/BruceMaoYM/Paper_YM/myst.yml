@@ -14,8 +14,9 @@ project:
   authors:
     - name: Yisheng (Bruce) Mao
   date: 2024-12-02  # Fixed date (2025 is in the future)
-  bibliography:
-    - references.bib
+  # bibliography removed - handled manually in 06_bibliography.ipynb to ensure single bibliography
+  # bibliography:
+  #   - references.bib
   
   # Jupyter execution settings
   jupyter:

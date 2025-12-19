@@ -202,15 +202,9 @@ else
     echo "  ⚠️  No chart images found. Run notebooks first."
 fi
 
-# Step 6a-2: Copy references.bib to build directory
+# Copy references.bib for bibliography
 if [ -f "references.bib" ]; then
-    echo "  Copying references.bib..."
-    cp references.bib "$BUILD_DIR/" 2>/dev/null || {
-        echo "  ⚠️  Warning: Failed to copy references.bib"
-    }
-    echo "  ✓ Copied references.bib"
-else
-    echo "  ⚠️  Warning: references.bib not found"
+    cp references.bib "$BUILD_DIR/" 2>/dev/null && echo "  ✓ Copied references.bib"
 fi
 
 # Change to build directory for LaTeX processing
@@ -304,35 +298,20 @@ def fix_missing_figure_labels(content):
     
     return content
 
-def fix_bibliography(content, filename):
-    """Fix bibliography to use references.bib and ensure it only appears once.
-    
-    Strategy:
-    1. Remove auto-generated bibliography commands from main Paper_YM.tex file
-    2. Add bibliography command to Paper_YM-bibliography.tex to use references.bib
-    This ensures references.bib is the single source of truth and only rendered once.
-    """
-    # Check if this is the bibliography section file (must have 'bibliography' in name)
-    is_bibliography_file = 'bibliography' in filename.lower()
-    
-    if is_bibliography_file:
-        # This is the bibliography section - ensure it has the bibliography command
+def ensure_single_bibliography(content, filename):
+    """Ensure only one bibliography appears."""
+    # For the bibliography section file: add bibliography command if missing
+    if 'bibliography.tex' in filename:
         if '\\bibliography' not in content and '\\section{References}' in content:
-            # Add bibliography command after the section header
             content = content.replace(
                 '\\section{References}',
                 '\\section{References}\n\\bibliographystyle{plainnat}\n\\bibliography{references}'
             )
-    else:
-        # This is NOT the bibliography file (main file or other files) - remove ALL bibliography commands
-        # Remove any \bibliography or \bibliographystyle commands that myst auto-added
+    # For the main Paper_YM.tex file: remove auto-generated bibliography commands
+    elif filename == 'Paper_YM.tex':
+        # Remove auto-generated \bibliography and \bibliographystyle commands
         content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\n', '', content)
         content = re.sub(r'\\bibliography\{[^}]+\}\s*\n', '', content)
-        # Also handle cases where they might be on the same line or before \end{document}
-        content = re.sub(r'\n\\bibliographystyle\{[^}]+\}\s*\n\\bibliography\{[^}]+\}\s*\n\\end\{document\}', 
-                        r'\n\\end{document}', content)
-        content = re.sub(r'\\bibliographystyle\{[^}]+\}\s*\\bibliography\{[^}]+\}\s*\\end\{document\}', 
-                        r'\\end{document}', content)
     
     return content
 
@@ -346,7 +325,7 @@ for tex_file in glob.glob('Paper_YM*.tex'):
         content = fix_latex_issues(content)
         content = fix_centering_in_tables(content)
         content = fix_missing_figure_labels(content)
-        content = fix_bibliography(content, tex_file)
+        content = ensure_single_bibliography(content, tex_file)
         
         with open(tex_file, 'w', encoding='utf-8') as f:
             f.write(content)
