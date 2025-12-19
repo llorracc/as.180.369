@@ -1,0 +1,57 @@
+# References
+
+## Academic Literature
+
+Bertrand, M., Duflo, E., & Mullainathan, S. (2004). How much should we trust differences-in-differences estimates? *Quarterly Journal of Economics*, 119(1), 249–275. [doi:10.1162/003355304772839588](https://doi.org/10.1162/003355304772839588)
+
+Adkisson, R. V. (2013). Policy convergence, state film-production incentives, and employment: A brief case study. *Journal of Economic Issues*. [doi:10.2753/jei0021-3624460218](https://doi.org/10.2753/jei0021-3624460218)
+
+Bradbury, J. C. (2020). Do movie production incentives generate economic development. *Contemporary Economic Policy*. [doi:10.1111/coep.12443](https://doi.org/10.1111/coep.12443)
+
+Button, P. (2019). Do tax incentives affect business location and economic development? Evidence from state film incentives. *Regional Science and Urban Economics*. [doi:10.1016/j.regsciurbeco.2019.06.002](https://doi.org/10.1016/j.regsciurbeco.2019.06.002)
+
+Button, P. (2021). Can tax incentives create a local film industry? Evidence from Louisiana and New Mexico. *Journal of Urban Affairs*. [doi:10.1080/07352166.2018.1530570](https://doi.org/10.1080/07352166.2018.1530570)
+
+Christopherson, S., & Rightor, N. (2010). The creative economy as "big business": Evaluating state strategies to lure filmmakers. *Journal of Planning Education and Research*. [doi:10.1177/0739456x09354381](https://doi.org/10.1177/0739456x09354381)
+
+Korinek, A. (2023). Generative AI for economic research: Use cases and implications for economists. *Journal of Economic Literature*. [doi:10.1257/jel.20231736](https://doi.org/10.1257/jel.20231736)
+
+Owens, M. F., & Rennhoff, A. D. (2018). Motion picture production incentives and filming location decisions: A discrete choice approach. *Journal of Economic Geography*. [doi:10.1093/jeg/lby054](https://doi.org/10.1093/jeg/lby054)
+
+Owens, M. F., & Rennhoff, A. D. (2023). Political behavior and voting for tax incentives. *Applied Economics*. [doi:10.1080/00036846.2023.2277697](https://doi.org/10.1080/00036846.2023.2277697)
+
+Rickman, D. S., & Wang, H. (2020). Lights, camera, what action? The nascent literature on the economics of US state film incentives. *MPRA Paper*.
+
+Rickman, D. S., & Wang, H. (2022). Industry aggregation and assessment of state economic development from motion picture and television production incentives. *Journal of Regional Analysis and Policy*. [doi:10.22004/ag.econ.339968](https://doi.org/10.22004/ag.econ.339968)
+
+Swenson, C. W. (2017). Preliminary evidence on film production and state incentives. *Economic Development Quarterly*. [doi:10.1177/0891242416674807](https://doi.org/10.1177/0891242416674807)
+
+Thom, M. (2018a). Lights, camera, but no action? Tax and economic development lessons from state motion picture incentive programs. *American Review of Public Administration*. [doi:10.1177/0275074016651958](https://doi.org/10.1177/0275074016651958)
+
+Thom, M. (2018b). Time to yell "Cut?" An evaluation of the California film and production tax credit for the motion picture industry. *California Journal of Politics and Policy*. [doi:10.5070/p2cjpp10138993](https://doi.org/10.5070/p2cjpp10138993)
+
+Thom, M. (2019). Do state corporate tax incentives create jobs? Quasi-experimental evidence from the entertainment industry. *State and Local Government Review*. [doi:10.1177/0160323x19877232](https://doi.org/10.1177/0160323x19877232)
+
+Workman, A. (2021). Ready for a close-up: The effect of tax incentives on film production in California. *Economic Development Quarterly*. [doi:10.1177/08912424211000127](https://doi.org/10.1177/08912424211000127)
+
+## Policy and Government Sources
+
+California Legislative Analyst's Office. (2009). California's Film and Television Tax Credit. <https://lao.ca.gov/2009/tax/revenues_0209/revenues_020609.aspx>
+
+California Governor's Office of Business and Economic Development. (2016). California's Film & TV Tax Credit Program 2.0 Wraps Second Year. <https://business.ca.gov/californias-film-tv-tax-credit-program-2-0-wraps-second-year-by-adding-four-relocating-tv-series/>
+
+California Film Commission. (2020). Film & Television Tax Credit Program 3.0. <https://film.ca.gov/tax-credit/>
+
+California Film Commission. (2023). California's Film and TV Tax Credit Program Generates 21.9 Billion in Economic Output. <https://film.ca.gov/californias-film-and-tv-tax-credit-program-generates/>
+
+National Conference of State Legislatures. (2022). State Film Production Incentives. <https://www.ncsl.org/research/fiscal-policy/state-film-production-incentives.aspx>
+
+Tax Foundation. (2023). State Film Incentives: Do They Work? <https://taxfoundation.org/research/all/state/california-lao-finds-1-every-3-film-incentives-go-projects-would-have-happened-anyway/>
+
+## Legislative Sources
+
+California Legislative Information. AB-1839 Motion picture credit. <https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201320140AB1839>
+
+California Legislative Information. SB-871 Motion picture credit. <https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB871>
+
+California Secretary of State. Statewide Election Results. <https://www.sos.ca.gov/elections/prior-elections/statewide-election-results>

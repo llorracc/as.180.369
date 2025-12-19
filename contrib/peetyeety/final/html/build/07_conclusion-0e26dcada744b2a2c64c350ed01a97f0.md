@@ -1,0 +1,59 @@
+# Conclusion
+
+This study examined whether California's Film and Television Tax Credit Program 2.0 (effective FY2015–16) and Program 3.0 (credit allocations beginning July 1, 2020) generated sustained employment or wage gains in the motion picture industry, extending Thom's (2018) temporal scope and addressing methodological concerns raised by Rickman and Wang (2020).
+
+## Key Findings
+
+**No statistically significant employment effects were detected.** SCM estimates show positive point estimates (3-4%) but p-values of 0.286 and 0.143 exceed conventional significance thresholds. We cannot conclude the programs increased employment.
+
+**A significant wage premium was identified.** DiD analysis found a 9.1% wage increase following Program 2.0 (p = 0.003), indicating improved compensation for existing workers.
+
+**Migration patterns did not respond to policy.** ACS data shows persistent net inflow of film workers (average +2,029/year), but this baseline pattern did not strengthen after tax credit expansions—net inflow actually declined in 2020-2021.
+
+**Political timing suggests electoral motivations.** Both expansions were enacted in gubernatorial election years within months of Election Day—a pattern unlikely to be coincidental (~1.6% probability if random).
+
+## Contributions
+
+1. **Temporal extension:** First analysis of California's large-scale Program 2.0 (effective FY2015–16) and Program 3.0 (credit allocations beginning July 1, 2020)
+2. **Methodological rigor:** SCM addresses DiD parallel trends violations; ACS migration data addresses the "reclassification problem"
+3. **Political economy context:** Links null employment effects to electoral incentive structures
+
+## Policy Implications
+
+California's film tax credits appear to function as defensive policy—maintaining wages for existing workers and slowing competitive decline—rather than generating net job creation. The 1.55 billion dollars authorized for Program 3.0 did not detectably expand employment or enhance the state's ability to attract workers beyond baseline patterns.
+
+The persistence of these programs despite null employment effects is consistent with Owens and Rennhoff's (2024) finding that film tax credits serve political rather than purely economic objectives.
+
+## Final Assessment
+
+The evidence paints a clear picture: California's film tax credits did not produce statistically significant employment growth. They improved wages for existing workers but failed to fundamentally alter the state's competitive position. As states continue competing through increasingly generous incentives, California's experience suggests these programs may be more effective at preventing losses than generating gains—raising important questions about their role in economic development strategy.
+
+---
+
+## Additional Sources for Factual Claims
+
+The following sources document factual claims about California's film tax credit programs and industry context that are not part of the core academic literature review:
+
+### California Film Tax Credit Program History
+
+- **2009 Program (100 million dollars annually):** California Legislative Analyst's Office. (2009). *California's Film and Television Tax Credit.* Retrieved from https://lao.ca.gov/2009/tax/revenues_0209/revenues_020609.aspx
+
+- **2014 AB 1839 / Program 2.0 (330 million dollars annually):** California Governor's Office of Business and Economic Development. (2016). *California's Film & TV Tax Credit Program 2.0 Wraps Second Year.* Retrieved from https://business.ca.gov/californias-film-tv-tax-credit-program-2-0-wraps-second-year-by-adding-four-relocating-tv-series/
+
+- **Program 2.0 Economic Impact:** California Film Commission. (2023). *California's Film and TV Tax Credit Program Generates 21.9 Billion in Economic Output.* Retrieved from https://film.ca.gov/californias-film-and-tv-tax-credit-proogram-generates/
+
+- **Program 3.0 Authorization:** California Film Commission. (2020). *Film & Television Tax Credit Program 3.0.* Retrieved from https://film.ca.gov/tax-credit/
+
+### State Film Incentive Landscape
+
+- **30+ states offering incentives:** Tax Foundation. (2023). *State Film Incentives: Do They Work?* Retrieved from https://taxfoundation.org/research/all/state/california-lao-finds-1-every-3-film-incentives-go-projects-would-have-happened-anyway/
+
+- **Nationwide incentive spending estimates:** National Conference of State Legislatures. (2022). *State Film Production Incentives.* Retrieved from https://www.ncsl.org/research/fiscal-policy/state-film-production-incentives.aspx
+
+### Political Timing Sources
+
+- **AB 1839 signing date (September 18, 2014):** California Legislative Information. *AB-1839 Motion picture credit.* Retrieved from https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201320140AB1839
+
+- **SB 871 signing date (June 27, 2018):** California Legislative Information. *SB-871 Motion picture credit.* Retrieved from https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201720180SB871
+
+- **California gubernatorial election dates:** California Secretary of State. *Statewide Election Results.* Retrieved from https://www.sos.ca.gov/elections/prior-elections/statewide-election-results
