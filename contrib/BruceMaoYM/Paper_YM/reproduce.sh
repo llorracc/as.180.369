@@ -145,6 +145,16 @@ echo "✓ Notebook executed successfully"
 echo ""
 echo "Building PDF..."
 
+# Update date in myst.yml to current date (replace whatever date is there)
+CURRENT_DATE=$(date +%Y-%m-%d)
+if [ -f "myst.yml" ]; then
+    # Replace the date line with current date (works on macOS and Linux)
+    sed -i.bak "s/^  date:.*/  date: $CURRENT_DATE/" myst.yml 2>/dev/null || \
+    sed -i "s/^  date:.*/  date: $CURRENT_DATE/" myst.yml 2>/dev/null
+    rm -f myst.yml.bak 2>/dev/null || true
+    echo "  ✓ Updated date in myst.yml to $CURRENT_DATE"
+fi
+
 # Clean previous builds
 rm -rf _build
 
@@ -301,7 +311,7 @@ def fix_missing_figure_labels(content):
 def ensure_single_bibliography(content, filename):
     """Ensure only one bibliography appears."""
     # For the bibliography section file: add bibliography command if missing
-    if 'bibliography.tex' in filename:
+    if 'bibliography' in filename.lower() and filename.endswith('.tex'):
         if '\\bibliography' not in content and '\\section{References}' in content:
             content = content.replace(
                 '\\section{References}',
