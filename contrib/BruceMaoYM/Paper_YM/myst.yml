@@ -13,7 +13,7 @@ project:
   title: Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity
   authors:
     - name: Yisheng (Bruce) Mao
-  date: CURRENT_DATE  # Will be replaced with current date by reproduce.sh
+  date: 2025-12-19
   # bibliography removed - handled manually in 06_bibliography.ipynb to ensure single bibliography
   # bibliography:
   #   - references.bib
