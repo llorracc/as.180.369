@@ -192,6 +192,10 @@ if ls chart_*.png 1> /dev/null 2>&1; then
     cp chart_*.png "$BUILD_DIR/" 2>/dev/null || {
         echo "  ⚠️  Warning: Failed to copy some images"
     }
+    # Also copy to files/ subdirectory if it exists (myst sometimes uses this)
+    if [ -d "$BUILD_DIR/files" ]; then
+        cp chart_*.png "$BUILD_DIR/files/" 2>/dev/null || true
+    fi
     IMAGE_COUNT=$(ls -1 "$BUILD_DIR"/chart_*.png 2>/dev/null | wc -l | tr -d ' ')
     echo "  ✓ Copied ${IMAGE_COUNT} images"
 else
@@ -309,17 +313,33 @@ if ! command -v pdflatex >/dev/null 2>&1; then
     exit 1
 fi
 
-echo "  Compiling PDF with pdflatex..."
+echo "  Compiling PDF..."
 
-# Run pdflatex twice for references
-for pass in 1 2; do
-    echo "  Running pdflatex (pass $pass)..."
-    if ! pdflatex -interaction=nonstopmode Paper_YM.tex > "/tmp/pdflatex${pass}.log" 2>&1; then
-        echo "  ⚠️  Pass $pass had warnings/errors"
-        # Show only actual errors, not warnings
-        grep -i "error" "/tmp/pdflatex${pass}.log" | head -10 || true
-    fi
-done
+# Try xelatex first (myst uses this), fall back to pdflatex
+if command -v xelatex >/dev/null 2>&1; then
+    echo "  Using xelatex (recommended for myst builds)..."
+    for pass in 1 2; do
+        echo "  Running xelatex (pass $pass)..."
+        if ! xelatex -interaction=nonstopmode Paper_YM.tex > "/tmp/xelatex${pass}.log" 2>&1; then
+            echo "  ⚠️  Pass $pass had warnings/errors"
+            grep -i "error" "/tmp/xelatex${pass}.log" | head -10 || true
+        fi
+    done
+elif command -v pdflatex >/dev/null 2>&1; then
+    echo "  Using pdflatex (fallback)..."
+    for pass in 1 2; do
+        echo "  Running pdflatex (pass $pass)..."
+        if ! pdflatex -interaction=nonstopmode Paper_YM.tex > "/tmp/pdflatex${pass}.log" 2>&1; then
+            echo "  ⚠️  Pass $pass had warnings/errors"
+            grep -i "error" "/tmp/pdflatex${pass}.log" | head -10 || true
+        fi
+    done
+else
+    echo "  ⚠️  ERROR: Neither xelatex nor pdflatex found"
+    echo "  Please install a LaTeX distribution"
+    cd "$INITIAL_DIR"
+    exit 1
+fi
 
 # Check if PDF was created successfully
 if [ -f "Paper_YM.pdf" ]; then
