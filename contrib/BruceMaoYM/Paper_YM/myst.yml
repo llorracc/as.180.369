@@ -54,6 +54,8 @@ project:
           \usepackage{graphicx}
           \usepackage{hyperref}
           \usepackage{natbib}
+          \bibliographystyle{plainnat}
+          \setcitestyle{round,semicolon,aysep={,},yysep={,}}
           \usepackage{setspace}
           \usepackage{geometry}
           \geometry{margin=1in}
