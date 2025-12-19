@@ -34,6 +34,10 @@ project:
     # Set code prompt text
     code_prompt_show: "Show code"
     code_prompt_hide: "Hide code"
+    # Enable cross-references
+    myst_extended_syntax: true
+    myst_figure_options: true
+    myst_number_figures: true
     
   exports:
     - format: pdf
@@ -80,6 +84,11 @@ project:
             pdftitle={Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity},
             pdfauthor={Yisheng (Bruce) Mao}
           }
+          
+          % Enable proper figure numbering and cross-references
+          \usepackage{cleveref}
+          \crefname{figure}{Figure}{Figures}
+          \crefname{table}{Table}{Tables}
       # List of files to include in the PDF
       articles:
         - 01_abstract.md
