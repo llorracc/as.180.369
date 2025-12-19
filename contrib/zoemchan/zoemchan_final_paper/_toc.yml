@@ -10,5 +10,4 @@ parts:
       - file: 05_results
       - file: 06_discussion
       - file: 07_conclusion
-      - file: 08_bibliography
-      - file: 09_appendix
+      - file: 08_appendix

@@ -19,8 +19,5 @@
 :::{include} 07_conclusion.md
 :::
 
-:::{include} 08_bibliography.ipynb
-:::
-
-:::{include} 09_appendix.ipynb
+:::{include} 08_appendix.ipynb
 :::

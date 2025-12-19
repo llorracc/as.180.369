@@ -1,4 +1,0 @@
-+++ {"part": "abstract"}
-This paper examines whether the legacy of historical redlining continues to shape access to advanced STEM coursework in U.S. public high schools. Using digitized HOLC maps linked to contemporary Civil Rights Data Collection and NCES data, I implement a boundary discontinuity design that compares schools located within 0.25 miles of historical redlining boundaries, holding constant broader neighborhood and city characteristics. A national analysis across 113 HOLC-mapped cities shows that schools in historically C- and D-rated neighborhoods are less likely to offer any advanced STEM course and offer substantially fewer calculus, computer science, and physics classes. City-level analyses of Chicago, Detroit, Philadelphia, and Los Angeles reveal similar but context-dependent patterns. These findings indicate that historical housing discrimination continues to shape the depth and distribution of STEM educational opportunity today.
-
-+++
