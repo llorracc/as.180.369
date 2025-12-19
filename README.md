@@ -182,12 +182,14 @@ Your grade in this course will consist of four components:
     - Draft submission (25%—due Mon. Nov 3rd)
     - Final submission (25%—due Mon. Nov. 17th)
 - Research presentation (10%—due Mon Dec 1st)
-- Course participation (30%—assessed overall)
+- Course participation (30%—assessed overall) <!--not just class, also includes regularly committing to Github and making regular progress on paper--> 
 
 The last component (“course participation”) will be assessed by your instructor and TA based on the following factors:
 - course attendance
 - participation in course discussions
-- regular check-ins & incremental deliverables (as directed by your TA)
+- regular check-ins & incremental deliverables (as directed by your TA) <!--regular git commits are a deliverable graded on-->
+
+View the [grading template](https://livejohnshopkins-my.sharepoint.com/:x:/r/personal/ccarrol2_jh_edu/_layouts/15/Doc.aspx?sourcedoc=%7B59AA1BB6-4D1D-4BC7-8C03-8382A9DFF010%7D&file=Grading_Template.xlsx&action=default&mobileredirect=true) 
 
 ## Policies
 

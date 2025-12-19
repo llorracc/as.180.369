@@ -1,0 +1,120 @@
+# Results
+
+## Data Summary
+
+The panel dataset consists of quarterly observations for three states (California, New York, Georgia) over 64 quarters (2010 Q1 to 2025 Q1), totaling 192 state-quarter observations. California is the treated unit; New York and Georgia serve as controls based on industry scale and policy stability.
+
+**Table 1: Summary Statistics by State (2010-2025)**
+
+| State | Employment (Mean) | Avg Weekly Wage (Mean) | GDP Growth (%) | Unemployment (%) |
+|-------|-------------------|------------------------|----------------|------------------|
+| California | 109,656 | 2,338 | 3.12 | 7.16 |
+| New York | 43,307 | 2,094 | 1.86 | 6.12 |
+| Georgia | 10,158 | 1,323 | 2.85 | 5.90 |
+
+---
+
+## Difference-in-Differences Results
+
+**Table 2: DiD Regression Results**
+
+| Outcome | Treatment | Coefficient | P-value | % Change | Significant? |
+|---------|-----------|-------------|---------|----------|--------------|
+| Employment | Program 2.0 (2015) | -0.202 | 0.316 | -18.3% | No |
+| Employment | Program 3.0 (2020) | -0.036 | 0.526 | -3.5% | No |
+| Wages | Program 2.0 (2015) | +0.087 | **0.003** | +9.1% | **Yes** |
+| Wages | Program 3.0 (2020) | -0.072 | 0.153 | -6.9% | No |
+
+**Key Findings:** No statistically significant employment effects were detected for either program. The only significant finding is a 9.1% wage premium following Program 2.0 (p = 0.003).
+
+![Raw Trends](images/did_raw_trends.png)
+
+### DiD Limitations
+
+DiD estimates are unreliable due to parallel trends violations:
+- California vs. Georgia: 0.153 log points/year difference (substantial violation)
+- Placebo test (2013 Q2): coefficient = -0.300, p = 0.005 (spurious effect)
+
+![Parallel Trends](images/did_parallel_trends.png)
+
+**Conclusion:** DiD employment estimates are biased by pre-existing trends and should not be interpreted causally.
+
+---
+
+## Synthetic Control Method Results
+
+Given DiD limitations, SCM provides more credible causal inference by optimally weighting donor states based on pre-treatment fit.
+
+**Optimal Weights:** New York receives 100% weight for both treatments, reflecting its superior match to California's industry trajectory.
+
+**Table 3: SCM Results**
+
+| Treatment | Effect (%) | P-value | CA Rank | Significant? |
+|-----------|-----------|---------|---------|--------------|
+| Program 2.0 (2015) | +3.5% | 0.286 | 2nd/7 | No |
+| Program 3.0 (2020) | +4.3% | 0.143 | 1st/7 | No |
+
+**Key Finding:** No statistically significant employment effects were detected. While point estimates are positive (3-4%), p-values exceed 0.05, meaning we cannot conclude the programs increased employment.
+
+![SCM 2015](images/scm_results_2015_employment.png)
+
+![SCM 2020](images/scm_results_2020_employment.png)
+
+### Placebo Tests
+
+Permutation-based inference shows California ranks among top states in post-treatment deviation, but neither effect achieves statistical significance (p = 0.29 and p = 0.14).
+
+![Placebo 2015](images/scm_placebo_tests_2015.png)
+
+![Placebo 2020](images/scm_placebo_tests_2020.png)
+
+---
+
+## ACS Migration Analysis
+
+To test whether employment patterns reflect genuine worker relocation, I analyze IPUMS ACS migration data (2009-2023) for film industry workers.
+
+**Table 4: California Film Industry Net Migration (Selected Years)**
+
+| Year | Net Migration | Migration Rate | Notes |
+|------|---------------|----------------|-------|
+| 2013 | +5,496 | +2.97% | Largest inflow |
+| **2015** | +2,058 | +1.08% | Program 2.0 |
+| **2020** | +1,667 | +0.74% | Program 3.0 |
+| **2021** | +58 | +0.03% | Smallest inflow |
+| Average | +2,029 | +1.03% | Persistent inflow |
+
+![Migration](images/california_film_migration.png)
+
+**Key Finding:** California experienced persistent net inflow throughout 2009-2023 (average +2,029 workers/year). However, net inflow did not increase following tax credit expansions—it actually declined in 2020-2021. The tax credits did not enhance California's baseline ability to attract workers.
+
+---
+
+## Political Timing Analysis
+
+**Table 5: Political Timing of Expansions**
+
+| Program | Enactment | Election | Months Before | Election Year? |
+|---------|-----------|----------|---------------|----------------|
+| 2.0 | Sep 18, 2014 | Nov 4, 2014 | 1.5 | Yes (Brown re-election) |
+| 3.0 | Jun 27, 2018 | Nov 6, 2018 | 4.5 | Yes (Newsom elected) |
+
+Both expansions were enacted in gubernatorial election years within months of Election Day. If timing were random, probability of both falling in a 6-month pre-election window: ~1.6%.
+
+---
+
+## Summary
+
+| Analysis | Finding | Significant? |
+|----------|---------|--------------|
+| SCM Employment (2015) | +3.5% | No (p = 0.29) |
+| SCM Employment (2020) | +4.3% | No (p = 0.14) |
+| DiD Wages (2015) | +9.1% | **Yes (p = 0.003)** |
+| ACS Migration | No post-policy increase | N/A |
+| Political Timing | Both in election years | N/A |
+
+**Overall:** No statistically significant employment effects were detected. The only significant finding is the 9.1% wage premium (2015). Migration data shows persistent net inflow that did not strengthen after tax credit expansions. Political timing suggests electoral rather than economic motivations.
+
+---
+
+*Code reproducible via notebooks in Data Exploration folder.*

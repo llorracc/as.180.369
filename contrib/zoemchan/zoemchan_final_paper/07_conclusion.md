@@ -1,0 +1,5 @@
+# Conclusion
+
+This paper provides evidence that historical redlining continues to influence access to advanced STEM coursework in U.S. public high schools. Using a boundary discontinuity design, I show that schools in historically lower-rated neighborhoods offer fewer advanced STEM courses than nearby schools in higher-rated areas, with particularly strong effects in cities characterized by persistent segregation. These disparities operate primarily through reductions in curricular depth rather than complete exclusion from STEM instruction.
+
+Future research could build on these findings by examining how advanced STEM course availability translates into downstream outcomes such as STEM college enrollment or labor market trajectories. Further work could also explore the role of district-level policies and school choice mechanisms in mediating the legacy of redlining. More broadly, the results underscore that historical housing discrimination continues to shape educational opportunity in subtle but consequential ways, reinforcing the need for place-based approaches to educational equity.
