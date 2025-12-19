@@ -7,3 +7,15 @@ notebooks/AFRM/
 # IDE/Editor files
 .virtual_documents/
 **/.virtual_documents/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Exported Python scripts from notebooks (keep .ipynb only)
+**/*_dataanalysis.py
+**/*_analysis.py

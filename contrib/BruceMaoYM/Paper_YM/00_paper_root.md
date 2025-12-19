@@ -1,20 +1,13 @@
-:::{include} 01_abstract.md
-:::
+---
+title: "Buy Now, Pay Later Stock Returns and Interest Rate Sensitivity"
+---
 
-:::{include} 02_introduction.md
-:::
+This root file is intentionally minimal. All chapters are already defined in `_toc.yml`:
 
-:::{include} 03_literature.md
-:::
-
-:::{include} 04_dataanalysis.ipynb
-:::
-
-:::{include} 05_conclusion.md
-:::
-
-:::{include} 06_bibliography.ipynb
-:::
-
-:::{include} 07_appendix.ipynb
-:::
+- 01_abstract
+- 02_introduction
+- 03_literature
+- 04_dataanalysis
+- 05_conclusion
+- 06_bibliography
+- 07_appendix
