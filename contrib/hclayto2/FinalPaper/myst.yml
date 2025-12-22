@@ -17,9 +17,10 @@ project: The California Environmental Quality Act (CEQA) and Housing Prices
     template: arxiv_nips
     output: Paper_Restructured.pdf
   render: 
-    - Abstract.ipynb
-    - Introduction.ipynb
-    - Literature-Review.ipynb
-    - Methods.ipynb
-    - Results.ipynb
-    - Conclusion.ipynb
+    - 01_Abstract.ipynb
+    - 02_Introduction.ipynb
+    - 03_Literature-Review.ipynb
+    - 04_Methods.ipynb
+    - 05_Results.ipynb
+    - 06_Conclusion.ipynb
+    - 07_Bibliography.ipynb
