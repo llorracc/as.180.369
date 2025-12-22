@@ -1,22 +1,24 @@
 version: 1
+
 site:
   template: article-theme
   title: The California Environmental Quality Act (CEQA) and Housing Prices
   subtitle: An Empirical Study
-  short_title: CEQA and Housing 
+  short_title: CEQA and Housing
   authors:
     - name: Henry Clayton
-project: The California Environmental Quality Act (CEQA) and Housing Prices
+
+project:
   title: The California Environmental Quality Act (CEQA) and Housing Prices
   authors:
     - name: Henry Clayton
   bibliography:
     - references.bib
   exports:
-  - format: pdf
-    template: arxiv_nips
-    output: Paper_Restructured.pdf
-  render: 
+    - format: pdf
+      template: arxiv_nips
+      output: Paper_Restructured.pdf
+  render:
     - 01_Abstract.ipynb
     - 02_Introduction.ipynb
     - 03_Literature-Review.ipynb
