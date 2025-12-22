@@ -5,7 +5,7 @@ parts:
     chapters:
       - file: 01_Abstract
       - file: 02_Introduction
-      - file: 03_Literature Review
+      - file: 03_Literature-Review
       - file: 04_Methods
       - file: 05_Results
       - file: 06_Conclusion
