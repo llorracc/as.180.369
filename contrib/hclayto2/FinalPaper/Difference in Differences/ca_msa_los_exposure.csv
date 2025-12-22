@@ -1,0 +1,24 @@
+place_id,place_name,los_exposure
+12540,"Bakersfield-Delano, CA",low
+17020,"Chico, CA",low
+20940,"El Centro, CA",low
+23420,"Fresno, CA",low
+25260,"Hanford-Corcoran, CA",low
+32900,"Merced, CA",low
+33700,"Modesto, CA",low
+34900,"Napa, CA",low
+37100,"Oxnard-Thousand Oaks-Ventura, CA",high
+39820,"Redding, CA",low
+40140,"Riverside-San Bernardino-Ontario, CA",
+40900,"Sacramento-Roseville-Folsom, CA",high
+41500,"Salinas, CA",low
+41740,"San Diego-Chula Vista-Carlsbad, CA",high
+41940,"San Jose-Sunnyvale-Santa Clara, CA",high
+42020,"San Luis Obispo-Paso Robles, CA",low
+42100,"Santa Cruz-Watsonville, CA",high
+42200,"Santa Maria-Santa Barbara, CA",high
+42220,"Santa Rosa-Petaluma, CA",high
+44700,"Stockton-Lodi, CA",low
+46700,"Vallejo, CA",high
+47300,"Visalia, CA",low
+49700,"Yuba City, CA",low
