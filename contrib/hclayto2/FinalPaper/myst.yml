@@ -1,0 +1,27 @@
+version: 1
+
+project:
+  title: The California Environmental Quality Act (CEQA) and Housing Prices
+  subtitle: An Empirical Study
+  short_title: CEQA and Housing
+  authors:
+    - name: Henry Clayton
+
+  bibliography:
+    - references.bib
+
+  # Explicitly define the document order
+  toc:
+    - file: 01_Abstract.ipynb
+    - file: 02_Introduction.ipynb
+    - file: 03_Literature-Review.ipynb
+    - file: 04_Methods.ipynb
+    - file: 05_Results.ipynb
+    - file: 06_Conclusion.ipynb
+    - file: 07_Bibliography.ipynb
+
+  exports:
+    - format: pdf
+      output: CEQAPaper.pdf
+      # Use the default PDF template (much more reliable)
+      # You can switch back to arxiv_nips once this works

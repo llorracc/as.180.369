@@ -1,0 +1,12 @@
+format: jb-book
+root: 00_paper_root
+parts:
+  - caption: Content
+    chapters:
+      - file: 01_Abstract
+      - file: 02_Introduction
+      - file: 03_Literature-Review
+      - file: 04_Methods
+      - file: 05_Results
+      - file: 06_Conclusion
+      - file: 07_Bibliography
